@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hebrewcalendar.net/schemas/tanya.schema.json",
+  "title": "Tanya daily schedule",
+  "description": "One entry per day of the Hebrew year for both the leap and non-leap partitions. Sivan 1..5 in a leap year mirror the non-leap schedule; only entries covered by the printed Kehot schedule are included.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["leap", "month", "day", "section", "chapter", "start", "end"],
+    "properties": {
+      "leap":    { "type": "boolean" },
+      "month":   { "type": "integer", "minimum": 1, "maximum": 13, "description": "Hebrew month (1=Nisan). Adar in a non-leap year and Adar II in a leap year are both 13; Adar I in a leap year is 12." },
+      "day":     { "type": "integer", "minimum": 1, "maximum": 30 },
+      "section": {
+        "type": "string",
+        "enum": [
+          "Title Page",
+          "Approbation",
+          "Compiler's Foreword",
+          "Likkutei Amarim",
+          "Chinukh Katan",
+          "Shaar HaYichud VehaEmunah",
+          "Iggeret HaTeshuvah",
+          "Iggeret HaKodesh",
+          "Kuntres Acharon"
+        ]
+      },
+      "chapter": { "type": "integer", "minimum": 0, "description": "Chapter within the section. 0 for front matter (Title Page, Approbation, Compiler's Foreword) that has no chapter numbering." },
+      "start":   { "type": "string", "minLength": 1, "description": "First three words of the day's reading (Hebrew)." },
+      "end":     { "type": "string", "minLength": 1, "description": "Last three words of the day's reading (Hebrew)." }
+    }
+  }
+}

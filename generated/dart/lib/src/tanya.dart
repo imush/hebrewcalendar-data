@@ -1,0 +1,760 @@
+// GENERATED FILE — DO NOT EDIT.
+// Source: hebrewcalendar-data — regenerate with ./generate.sh
+
+part of '../hebrewcalendar_data.dart';
+
+class TanyaPortion {
+  final String sectionEn;
+  final String sectionHe;
+  final int chapter;
+  final String start;
+  final String end;
+  const TanyaPortion(this.sectionEn, this.sectionHe, this.chapter, this.start, this.end);
+}
+
+/// Key: (leap ? 1000 : 0) + month * 40 + day
+int tanyaKey({required bool leap, required int month, required int day}) =>
+    (leap ? 1000 : 0) + month * 40 + day;
+
+const Map<int, TanyaPortion> tanyaSchedule = {
+  41: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'והנה, המשכה והארה', 'שנתבאר לעיל כ״ג]:'),  // N01-01
+  42: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 38, 'והנה , עם', 'נפש כל חי.'),  // N01-02
+  43: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 38, 'ואף שבשניהם אור', 'בבחינת צמצום והתפשטות.'),  // N01-03
+  44: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 38, 'כי בגוף הגשמי,', 'ושכלו בו יתברך.'),  // N01-04
+  45: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 38, 'ולא שדביקות המחשבה', 'שהן: חי ומדבר.'),  // N01-05
+  46: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 38, 'כי, מי שדעתו', 'בנפשותינו, כנזכר לעיל:'),  // N01-06
+  47: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 39, 'ומפני זה גם', 'שכתוב בזהר ויקהל.'),  // N01-07
+  48: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 39, 'אך היינו דווקא', 'היא מצוה עצמה:'),  // N01-08
+  49: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 39, 'ועולם האצילות שהוא', 'כידוע ליודעי חן]:'),  // N01-09
+  50: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 39, 'והנה, ״שכר מצוה', 'ולמיקם קדם ה׳.'),  // N01-10
+  51: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 39, 'והיינו, אפילו אם', 'כמו שיתבאר לקמן.'),  // N01-11
+  52: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 39, 'וכשעוסק שלא לשמה', 'כמו שכתוב בזהר:'),  // N01-12
+  53: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 40, 'אך כל זמן', 'למטה בעולם הזה.'),  // N01-13
+  54: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 40, 'ואף דאורייתא וקודשא־בריך־הוא', 'והדבור הוא גשמי.'),  // N01-14
+  55: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 40, 'אבל בתפלה בכוונה', 'בפרי ﬠץ חיים:'),  // N01-15
+  56: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 40, 'והנה, אף דדחילו', 'במקום אחר באריכות:'),  // N01-16
+  57: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'ברם , צריך', 'לבישת טלית ותפילין.'),  // N01-17
+  58: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'וגם יתבונן, איך', 'עילאה, כידוע ליודעים:'),  // N01-18
+  59: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'והנה, אף מי', 'ולבושיהן, כנזכר לעיל.'),  // N01-19
+  60: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'אך אמנם, אמרו', 'הﬠליון, מקור החסדים:'),  // N01-20
+  61: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'ואף שלהיות כוונה', 'במקום אחר באריכות.'),  // N01-21
+  62: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'אבל יחוד נפשו', 'אתה״, וכהאי גוונא.'),  // N01-22
+  63: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'והנה, בהכנה זו', 'וכו׳, כנזכר לעיל:'),  // N01-23
+  64: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 42, 'והנה , במה', '״והאדם ידע וגו׳״.'),  // N01-24
+  65: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 42, 'וכח זה ומדה', 'ואוזן שומעת כו׳״.'),  // N01-25
+  66: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 42, 'וגם כי אין', 'לעיל פרק כ׳:'),  // N01-26
+  67: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 42, 'והנה, כל אדם', 'כידוע ליודעי חן.]'),  // N01-27
+  68: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 42, 'ועוד זאת יזכור,', 'שנתבאר במקום אחר:'),  // N01-28
+  69: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 43, 'והנה על יראה', 'יראה אין חכמה״.'),  // N01-29
+  70: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 43, 'והנה, באהבה יש', 'כמו שיתבאר לקמן.'),  // N01-30
+  81: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 43, 'והנה, בחינת אהבה', 'כידוע ליודעי חן]:'),  // N02-01
+  82: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 44, 'והנה , כל', 'עד צפרא כו׳״.'),  // N02-02
+  83: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 44, 'ואהבה רבה וגדולה', 'ההרגל נעשה טבע.'),  // N02-03
+  84: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 44, 'ואף אם נדמה', 'הקדוש־ברוך־הוא מצרפה כו׳״:'),  // N02-04
+  85: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 44, 'והנה, ב׳ בחינות', 'בשם ״אהבת עולם״.'),  // N02-05
+  86: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 44, 'רק שאף־על־פי־כן, צריך', 'ליה וכו׳״, וכנודע:'),  // N02-06
+  87: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 45, 'עוד יש דרך', 'אתם בתוך טומאתם״.'),  // N02-07
+  88: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 45, 'וזהו שאמר הכתוב:', 'שנתבאר במקום אחר:'),  // N02-08
+  89: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 46, 'ויש דרך ישר', 'ממש לאהבת המלך:'),  // N02-09
+  90: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 46, 'והנה, ככל הדברים', 'דרועין וגופא וכו׳.'),  // N02-10
+  91: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 46, 'וזהו שאומרים: ״אשר', 'שראו עולמם בחייהם.'),  // N02-11
+  92: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 46, 'וזהו שאמר אסף', '״בהמ״ה״ שלפני האצילות]:'),  // N02-12
+  93: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 47, 'והנה , ״בכל', 'כמו שנתבאר לעיל:'),  // N02-13
+  94: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 48, 'והנה , כאשר', 'ממציאותן ויחזרו למקורן.'),  // N02-14
+  95: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 48, 'והנה, פרטיות הצמצומים,', 'בבחינת גבול ותכלית.'),  // N02-15
+  96: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 48, 'והמשל בזה, הנה', 'הכל בפועל ממש.'),  // N02-16
+  97: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 48, 'למשל, כדור הארץ', 'שנתבאר במקום אחר:'),  // N02-17
+  98: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 49, 'והנה , אף', 'ולא אשה ובנים.'),  // N02-18
+  99: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 49, 'ובזה יובן טוב', 'יתברך, כנזכר לעיל.'),  // N02-19
+  100: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 49, 'והנה, כאשר ישים', 'ומאודו כנזכר לעיל:'),  // N02-20
+  101: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 50, 'והנה , כל', 'כו׳ חס ושלום.'),  // N02-21
+  102: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 50, 'והנה, סדר העבודה', 'חיי החיים ברוך־הוא:'),  // N02-22
+  103: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 51, 'והנה , לתוספת', 'כחות וחיות הללו.'),  // N02-23
+  104: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 51, 'והנה, על המשכת', 'בתולדתו, כנזכר לעיל].'),  // N02-24
+  105: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 51, 'וככה ממש, על', 'במאצילן אין־סוף ברוך־הוא:'),  // N02-25
+  106: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 52, 'וכמו שבנשמת האדם', 'כהתפשטות האור מהשמש.'),  // N02-26
+  107: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 52, 'אבל השכינה עצמה,', 'תרי״ג מצות התורה.'),  // N02-27
+  108: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 52, 'ובירידתה בהשתלשלות מעולם', 'כמו שכתוב בתיקונים.'),  // N02-28
+  109: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 52, 'ובהתלבשות מלכות דאצילות', 'הנקרא בשם ״שכינה״:'),  // N02-29
+  121: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 53, 'והנה , כשהיה', 'כנודע ליודעי חן].'),  // N03-01
+  122: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 53, 'ובבית שני שלא', 'ד״אבא יסד ברתא״.'),  // N03-02
+  123: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 53, 'וזהו שאמר הינוקא:', 'ה׳ יתברך ויתﬠלה'),  // N03-03
+  124: TanyaPortion('Chinukh Katan', 'חינוך קטן', 0, 'לקוטי אמרים חלק', 'שיתבאר במקומה באריכות.'),  // N03-04
+  125: TanyaPortion('Chinukh Katan', 'חינוך קטן', 0, 'והנה, ענין אהבה', 'כמו שיתבאר במקומה.'),  // N03-05
+  126: TanyaPortion('Chinukh Katan', 'חינוך קטן', 0, 'אך הנה ידוע', 'ואחדותו יתברך ויתעלה:'),  // N03-06
+  127: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 1, 'להבין מעט מזער', 'ששת ימי בראשית.'),  // N03-07
+  128: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 1, 'ואף שלא הוזכר', 'הוא כולא חד״:'),  // N03-08
+  129: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 2, 'והנה, מכאן תשובת', 'המתלבשת בעולם הבריאה:'),  // N03-09
+  130: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 3, 'והנה, אחרי הדברים', 'אפס בלעדו באמת.'),  // N03-10
+  131: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 3, 'והמשל לזה הוא,', '– צריך להקדים:'),  // N03-11
+  132: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 4, 'כי הנה כתיב:', 'שטבע הטוב להטיב.'),  // N03-12
+  133: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 4, 'והנה, כמו שמדה', 'הבריאה מאין ליש.'),  // N03-13
+  134: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 4, 'בחינת הצמצום והסתר', 'כידוע ליודעי חן]:'),  // N03-14
+  135: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 5, 'והנה, על זה', 'מ״ד פרק ג׳]:'),  // N03-15
+  136: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 6, 'והנה, שם ״אלהים״,', 'גבורה הכלולה בחסד.'),  // N03-16
+  137: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 6, 'והנה, מהתכללות המדות', 'אור השמש בשמש.'),  // N03-17
+  138: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 6, 'ולכן הוצרך הכתוב', '״ה׳ הוא האלהים״:'),  // N03-18
+  139: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'ובזה יובן מה', '״עולם״ עליו כלל.'),  // N03-19
+  140: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'והנה, גדר ובחינת', 'למטה ולד׳ סטרין.'),  // N03-20
+  141: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'והנה, אף־על־פי שהוא', 'במציאות אפילו לתחתונים.'),  // N03-21
+  142: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'והנה, במה שנתבאר,', 'מהרמ״ק זכרונו לברכה]:'),  // N03-22
+  143: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'והנה , מכאן', 'אף־על־גב דממלא לון.'),  // N03-23
+  144: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'וזהו גם כן', 'בעלי גבול ותכלית.'),  // N03-24
+  145: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'כי מקור החיות', 'ומדריגת האותיות עצמן:'),  // N03-25
+  146: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 8, 'והנה, מה שכתב', 'להשיג ולצייר בשכלם.'),  // N03-26
+  147: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 8, 'כי המעלה ומדרגה', 'ראשית ומקור החיות:'),  // N03-27
+  148: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 9, 'אבל לגבי הקדוש־ברוך־הוא,', 'עד אין קץ.'),  // N03-28
+  149: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 9, 'רק מפני שאין', 'ומה, ידוע למשכילים'),  // N03-29
+  150: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 9, 'הגהה סוד הצמצום', 'שלמעלה מן השכל:'),  // N03-30
+  161: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 10, 'אך מכל מקום,', 'ובהון אתכסיאת כו׳״.'),  // N04-01
+  162: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 10, 'על דרך משל,', 'אינון מדות כלל״:'),  // N04-02
+  163: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 11, 'והנה, גם עשרה', 'צפון וסתום בלבו.'),  // N04-03
+  164: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 11, 'אבל באמת, בחינת', 'שנתבאר במקום אחר:'),  // N04-04
+  165: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 12, 'רק שהברואים מתחלקים', 'הנבראים מהאותיות עצמן.'),  // N04-05
+  166: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 12, 'כי הן דרך', 'ה׳ יתברך ויתעלה'),  // N04-06
+  167: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 1, 'תניא בסוף יומא:', 'כאן לשון הברייתא:'),  // N04-07
+  168: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 1, 'והנה, מצות התשובה', 'כי אם מיראה:'),  // N04-08
+  169: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 2, 'אך כל זה', 'הוא יום רצון:'),  // N04-09
+  170: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 3, 'והנה, חכמי המוסר', 'ג׳ פעמים וכו׳.'),  // N04-10
+  171: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 3, 'אכן, כל זה', 'המגן־אברהם הלכות תענית:'),  // N04-11
+  172: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 3, 'ומכל מקום ,', 'כי לא תמנו״):'),  // N04-12
+  173: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 4, 'ואולם, כל הנזכר', 'ימיהם ושנותיהם בנעימים?'),  // N04-13
+  174: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 4, 'אך הענין יובן,', 'מעלה מבחינת האותיות.'),  // N04-14
+  175: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 4, 'וביאור הענין, כנודע', 'ענין אותיות אלו).'),  // N04-15
+  176: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 4, 'וככה ממש על', 'שם הוי׳ וכו׳:'),  // N04-16
+  177: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 5, 'והנה, המשכת וירידת', 'הזה – כדלקמן):'),  // N04-17
+  178: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 6, 'אמנם, זהו בזמן', 'כנודע ליודעי חן.'),  // N04-18
+  179: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 6, 'והנה, ״יעקב חבל', 'לא נאמר וכו׳״:'),  // N04-19
+  180: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 7, 'ואולם, דרך האמת', 'נשבר ונדכה״ וכו׳.'),  // N04-20
+  181: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 7, 'והאיך נשבר הלב', 'חפיצים בתשובה, כנודע).'),  // N04-21
+  182: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 7, 'ואף מי שלא', 'תורה כנגד כולן:'),  // N04-22
+  183: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 8, 'והנה, אחרי העמקת', 'בגמרא ״מלפפתו וכו׳״.'),  // N04-23
+  184: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 8, 'ומאחר ש״רוח עברה', 'לאתקרבא למלכא וכו׳):'),  // N04-24
+  185: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 9, 'וביאור הענין, כמו', 'קמא דראש השנה:'),  // N04-25
+  186: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 10, 'והנה, תשובה עילאה', 'וב״פסוקי דזמרה״, כנודע.'),  // N04-26
+  187: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 10, 'ומאחר שהתפלה היא', 'אלי״ בתשובה עילאה):'),  // N04-27
+  188: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 11, 'ואמנם, להיות בלבו', 'וכמה לאין קץ.'),  // N04-28
+  189: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 11, 'ומה שמשבחים ומברכים', 'והמחילה היא מיד.'),  // N04-29
+  201: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 11, 'ומה שכתוב ״וחטאתי', 'על כל פשעיו״:'),  // N05-01
+  202: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 12, 'וטעם השמחה ביסורי', 'דבר ימצא טוב:'),  // N05-02
+  203: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 1, 'פותחין בברכה, לברך', 'הזרועות והגוף שבנפש:'),  // N05-03
+  204: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 1, 'אך מי הוא', 'מיצוי הנפש כו׳״:'),  // N05-04
+  205: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 1, 'ועתה הפעם, הנני', 'אלא תורה וכו׳:'),  // N05-05
+  206: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 2, 'אחר ביאתו מפטרבורג', '״כמים הפנים וגו׳״:'),  // N05-06
+  207: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 3, 'וילבש צדקה כשריון,', 'ותכלית וגבול ושלום]:'),  // N05-07
+  208: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 3, 'אך מי הוא', 'לעיל, כנפש תדרשנו:'),  // N05-08
+  209: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 4, 'אין ישראל נגאלין', 'שבכל נפש מישראל.'),  // N05-09
+  210: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 4, 'ומה שאין כל', 'ה׳ אלקיך״ כו׳.'),  // N05-10
+  211: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 4, 'אך מודעת זאת,', 'וזהו ״ושביה בצדקה״.'),  // N05-11
+  212: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 4, 'וזהו ״צדק לפניו', 'כן יהי רצון:'),  // N05-12
+  213: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 5, 'ויעש דוד שם.', 'אף שמבין הכל:'),  // N05-13
+  214: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 5, 'אך האותיות הן', 'הזה נברא בה׳״:'),  // N05-14
+  215: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 5, 'והנה, הגם שהיא', 'וי״ב, עיין שם)]:'),  // N05-15
+  216: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 5, 'אך ביאור הענין,', 'תתאה מקננת בעשיה:'),  // N05-16
+  217: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 5, 'והנה, באדם התחתון', 'ממנה חס ושלום.'),  // N05-17
+  218: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 5, 'ובזה יובן מה', 'אליהם. והמשכילים יבינו:'),  // N05-18
+  219: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 6, 'זורע צדקה שכר', 'מגן ישענו כו׳״.'),  // N05-19
+  220: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 6, 'והנה מודעת זאת,', 'שכתוב: ״בצדקה תכונני״:'),  // N05-20
+  221: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 7, 'אשרינו מה טוב', 'עלה ועלול וכו׳.'),  // N05-21
+  222: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 7, 'והנה, הארה זו,', 'ולא יספר״ מרוב.'),  // N05-22
+  223: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 7, 'והנה, ״שופריה דיעקב', 'שמבואר במקום אחר.'),  // N05-23
+  224: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 7, 'והנה, אף שגילוי', 'בחינת הגורל ממש:'),  // N05-24
+  225: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 8, 'זורע צדקות, מצמיח', 'למקום נמוך כו׳:'),  // N05-25
+  226: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 8, 'והנה, מודעת זאת,', 'זיו והארה וכו׳:'),  // N05-26
+  227: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 8, 'אך הענין הוא,', 'נוקבין״ בכתבי האריז״ל:'),  // N05-27
+  228: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 8, 'וככה ממש על', 'לארץ, ודי למבין:'),  // N05-28
+  229: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 9, 'אהוביי אחיי ורעיי', 'לארץ, ודי למבין.'),  // N05-29
+  230: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 9, 'על כן, אהוביי', 'ה׳ ציון״ כו׳:'),  // N05-30
+  241: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 10, 'אחר דרישת שלומם', '״פרחה נשמתן כו׳״;'),  // N06-01
+  242: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 10, 'והנה, לפי שהמצות', 'לשאר מצות התורה.'),  // N06-02
+  243: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 10, 'אך, היינו דוקא', 'תשובה עומדין וכו׳״.'),  // N06-03
+  244: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 10, 'והנה, עיקר התשובה', 'בעד נפשו״ כתיב.'),  // N06-04
+  245: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 10, 'והנה, מדת חסד', 'דוד בא כו׳״:'),  // N06-05
+  246: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 11, 'להשכילך בינה, כי', 'טוב כל היום.'),  // N06-06
+  247: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 11, 'ועל כן, ראשית', 'ב״טוב״ העליון הגנוז:'),  // N06-07
+  248: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 12, 'והיה מעשה הצדקה', 'מדותיו הקדושות יתברך.'),  // N06-08
+  249: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 12, 'והנה, אתערותא דלעילא,', 'וזהב במצרף וכור.'),  // N06-09
+  250: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 12, 'והנה מודעת זאת,', 'מאה פעמים וכו׳״.'),  // N06-10
+  251: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 12, 'וזהו שכתוב ״והיה', 'ים כל חטאתם״:'),  // N06-11
+  252: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 13, 'מה רב טובך', 'בלי די כו׳:'),  // N06-12
+  253: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 13, 'והנה, כל איש', 'אברהם אבינו עליו־השלום.'),  // N06-13
+  254: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 13, 'וזהו שאמר דוד', 'תצפנם בסוכה וגו׳״:'),  // N06-14
+  255: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 14, 'לעורר את האהבה', 'בכל ראש־השנה וראש־השנה.'),  // N06-15
+  256: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 14, 'וזהו שכתוב ״תמיד', 'תשובה, ודי למבין:'),  // N06-16
+  257: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 15, 'להבין משל ומליצה', 'בנשמתו הכלולה מהן.'),  // N06-17
+  258: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 15, 'אך צריך להקדים,', 'אדם״ במשל ומליצה:'),  // N06-18
+  259: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 15, 'והנה, כללות הי׳', 'הוא שינוי מדותיהם.'),  // N06-19
+  260: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 15, 'והנה, כל זה', 'לאדונו באימה וביראה.'),  // N06-20
+  261: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 15, 'ומקור ושורש כל', 'כמו שיתבאר במקומו:'),  // N06-21
+  262: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 16, 'לאנשי קהלת וכו׳', 'בנדרים דף פ׳.'),  // N06-22
+  263: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 16, 'והנה, זהו על', 'מכל לב ונפש:'),  // N06-23
+  264: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 17, 'נודע, דב״אתערותא דלתתא״,', 'ועיין שם היטב.'),  // N06-24
+  265: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 17, 'וזהו שאמרו רבותינו־זכרונם־לברכה:', 'כו׳״, ודי למבין.'),  // N06-25
+  266: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 17, 'וזהו ״רחבה מצותך', 'להם מנוחה כו׳:'),  // N06-26
+  267: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 18, 'כתיב: ״מה יפית', 'שנתבאר בלקוטי אמרים.'),  // N06-27
+  268: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 18, 'והשנית – היא', '״בכל דרכיך דעהו״:'),  // N06-28
+  269: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 19, 'עוטה אור כשלמה', 'מהחכמה וכתר דאצילות?'),  // N06-29
+  281: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 19, 'אך הענין הוא', 'לבוש כשאר האותיות.'),  // N07-01
+  282: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 19, 'והנה, בחינת חכמת', 'ממש, כנודע מהאריז״ל:'),  // N07-02
+  283: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 19, 'האותיות הנגלות לנו,', 'מוחין וחיות, כנודע:'),  // N07-03
+  284: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'איהו וחיוהי חד,', 'אחר, ועיין שם.'),  // N07-04
+  285: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'ו״יש מאין״ נקרא', '״יש״ מ״אין״ דוקא.'),  // N07-05
+  286: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'והנה, ראשית היש', 'כעלול לגבי עילתו.'),  // N07-06
+  287: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'אך נשמות המלאכים', 'על־ידי התלבשותן בבריאה־יצירה־עשיה.'),  // N07-07
+  288: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'אמנם מודעת זאת,', 'על־ידי העיבור והלידה.'),  // N07-08
+  289: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'ובזה יובן, היות', 'וזה בפנימיות, וכדלקמן.'),  // N07-09
+  290: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'והנה, כמו כן', 'האותיות, כנזכר לעיל.'),  // N07-10
+  291: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'ועוד זאת, יתר', 'שנתבאר במקום אחר.'),  // N07-11
+  292: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'ומזה יובן היטב', 'מכתב ידו הקדושה'),  // N07-12
+  293: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 21, 'אחר דרישת שלומם', 'נידון בכל יום:'),  // N07-13
+  294: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 21, 'אך גם זאת', 'כי יבא שילה״:'),  // N07-14
+  295: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 22, 'אהוביי, אחיי ורעיי!', 'שם בפירוש רש״י:'),  // N07-15
+  296: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 22, 'אך האמת אגיד', 'ואחור, חס ושלום.'),  // N07-16
+  297: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 22, 'ועצה היעוצה לקבל', 'נצח סלה ועד:'),  // N07-17
+  298: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 22, 'אהוביי, אחיי ורעיי!', 'מדה, ודי למבין.'),  // N07-18
+  299: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 22, 'ועוד זאת אדרוש', 'נפשם מלב ונפש:'),  // N07-19
+  300: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 23, 'בגזירת עירין פתגמא', 'מובן למביני מדע,'),  // N07-20
+  301: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 23, 'כי, קביעת שכר', 'מתבטל ממציאותו לגמרי.'),  // N07-21
+  302: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 23, 'ועל כן, רע', 'שכתוב בזוהר הקדוש.'),  // N07-22
+  303: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 23, 'על כן, אהוביי', 'כן יהי רצון:'),  // N07-23
+  304: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 24, 'אהוביי, אחיי, אל', 'לטובים ולישרים בלבותם:'),  // N07-24
+  305: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'להבין אמרי בינה,', 'יאמר לו וגו׳״.'),  // N07-25
+  306: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'וכנודע מה שאמר', 'נפש וחיות רוחניית.'),  // N07-26
+  307: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'והנה, נודע ליודעי', 'אשר מתחת לארץ.'),  // N07-27
+  308: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, '(אלא שבחוץ לארץ', 'לאדום שכינה עמהם״)):'),  // N07-28
+  309: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'והנה, אף כי', 'האר״י זכרונו לברכה:'),  // N07-29
+  310: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'והנה, נפש האדם,', 'בהרהור בלא דבור:'),  // N07-30
+  321: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'והנה, ״זה לעומת', 'עד רום המעלות:'),  // N08-01
+  322: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'ואחר הדברים והאמת', 'וכהאי גונא טובא.'),  // N08-02
+  323: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'וכמדומה לי, שתפיסתם', 'לרצון אמרי פי״:'),  // N08-03
+  324: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'ברעיא מהימנא פרשת', 'של הלכה בלבד״.'),  // N08-04
+  325: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'ועוד יש להפליא,', 'הנסתר בהסתר כו׳:'),  // N08-05
+  326: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'אך באמת, כשתדקדק', '– הכל אחד:'),  // N08-06
+  327: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'ומה שאמר האריז״ל', 'ותלמוד – בבריאה.'),  // N08-07
+  328: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'והנה, כשהמלכות דאצילות', 'שבנוגה], כנודע מהאריז״ל.'),  // N08-08
+  329: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'והמשכיל יבין ענין', 'היא מסטרא דרע.'),  // N08-09
+  330: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'והנה, העליונים אין', 'מבין האומות העולם״.'),  // N08-10
+  331: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'אבל בצאת השכינה', 'מענדל נשמתו עדן.'),  // N08-11
+  332: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 27, 'אהוביי אחיי ורעיי', 'נצח סלה ועד.'),  // N08-12
+  333: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 27, 'וזהו שכתוב בזוהר', 'בחייו קודם לברכה:'),  // N08-13
+  334: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 27, 'ביאור על הנזכר', 'עילה ועלול, כנודע.'),  // N08-14
+  335: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 27, 'והנה, בהיות הצדיק', 'ומצאת – תאמין״.'),  // N08-15
+  336: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 27, 'והנה, יש עוד', 'לששים רבוא כוכבים:'),  // N08-16
+  337: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 28, 'מה שכתב למחותנו,', 'ולמטה מטה מנוגה:'),  // N08-17
+  338: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 28, 'והנה, מודעת זאת,', '״מי חטאת וכו׳״:'),  // N08-18
+  339: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 29, 'אשת חיל עטרת', 'דף ר״י ורכ״ט.'),  // N08-19
+  340: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 29, 'והנה, אור זה', 'וקודשא־בריך־הוא כולא חד:'),  // N08-20
+  341: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 29, 'והנה, רצון העליון', 'וכחות שבנפש־רוח־נשמת האדם.'),  // N08-21
+  342: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 29, 'וזהו שכתוב בזוהר', 'באריכות, עיין שם.'),  // N08-22
+  343: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 29, 'והנה מודעת זאת,', 'ברוך־הוא, כנזכר לעיל:'),  // N08-23
+  344: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 30, 'מודעת זאת מה', 'ומספר, ודי למבין:'),  // N08-24
+  345: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 31, 'נודע בשערים מה', 'כל האברים וכו׳:'),  // N08-25
+  346: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 32, 'ברך ה׳ חילם', 'בלבותם״, כנפש תדרשנו:'),  // N08-26
+  347: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 1, 'קונטרס אחרון על', 'קדם ה׳״ דוקא:'),  // N08-27
+  348: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 2, 'עיין עץ חיים', 'ובנפילת אפים, כנודע:'),  // N08-28
+  349: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 3, 'להבין מה שכתוב', 'כדקא יאות כו׳״.'),  // N08-29
+  350: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 3, 'אך ההפרש בין', 'מלך״ פרשת פקודי).'),  // N08-30
+  361: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 3, 'ומה שכתוב בפרשת', 'תינוקת־של־בית־רבן עד אצילות:'),  // N09-01
+  362: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'להבין מה שכתוב', 'ד״זעיר אנפין״ כו׳.'),  // N09-02
+  363: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'והנה, במקום אחד', 'מעשיות שבבריאה־יצירה־עשיה דוקא.'),  // N09-03
+  364: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'והנה, לקיום מצוה', 'את אחורי כו׳״.'),  // N09-04
+  365: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'מה־שאין־כן מעשה המצות', 'שאינו משיג המהות.'),  // N09-05
+  366: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'מה שאין כן', 'בירורין אשר שם.'),  // N09-06
+  367: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'ועוד זאת, שבאמת', '״ופני לא יראו״.'),  // N09-07
+  368: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'ובר מן כל', 'גשמי של הלכותיהן.'),  // N09-08
+  369: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'אך להבין, איך', 'פיגול וכהאי גונא.'),  // N09-09
+  370: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'אך עוד זאת', '– שהיא אלקות.'),  // N09-10
+  371: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'והטעם, משום דחכמה־בינה־דעת', 'סדרי משנה וגמרא.'),  // N09-11
+  372: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'ומה שכתוב בעץ', 'וכו׳, ודי למבין:'),  // N09-12
+  373: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 5, 'ולהבין פרטי ההלכות', 'דכלים ד״זעיר אנפין״:'),  // N09-13
+  374: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 6, 'דוד, זמירות קרית', 'התורה בעת צרתו.'),  // N09-14
+  375: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 6, 'אך מה שהיה', 'ואחור, עיין שם:'),  // N09-15
+  376: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 7, 'וצדקה כנחל איתן', 'החיים אין־סוף ברוך־הוא:'),  // N09-16
+  377: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 8, 'הנה, לא טובה', 'וכו׳, ודי למבין:'),  // N09-17
+  378: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 9, 'הוכח תוכיח את', 'לעומת זה כו׳:'),  // N09-18
+  379: TanyaPortion('Title Page', 'עמוד הכותרת', 0, 'ספר לקוטי אמרים', 'נשמתו בגנזי מרומים.'),  // N09-19
+  380: TanyaPortion('Compiler\'s Foreword', 'הקדמת המלקט', 0, 'והיא אגרת השלוחה', 'בשערים בעלה וגו׳״:'),  // N09-20
+  381: TanyaPortion('Compiler\'s Foreword', 'הקדמת המלקט', 0, 'אך ביודעיי ומכיריי', 'אמרים הנזכרים לעיל:'),  // N09-21
+  382: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 1, 'תניא פרק ג׳', 'ושבﬠים פנים לתורה:'),  // N09-22
+  383: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 1, 'והא דאמרינן בעלמא,', 'אלא להתייהר כו׳:'),  // N09-23
+  384: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 2, 'ונפש השנית בישראל,', 'מצות פרשת בראשית:'),  // N09-24
+  385: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 3, 'והנה , כל', 'ה׳ ויראתו ופחדו.'),  // N09-25
+  386: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 3, 'כי השכל שבנפש', 'וענפיה ויראה וענפיה:'),  // N09-26
+  387: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 4, 'ועוד יש לכל', 'מצות לא תעשה.'),  // N09-27
+  388: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 4, 'והנה, שלשה לבושים', 'בהן ומתלבשת בהן.'),  // N09-28
+  389: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 4, 'ומאחר שהתורה ומצותיה', 'בחינת חסד ומים:'),  // N09-29
+  390: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 5, 'ולתוספת ביאור, באר', 'מכל צד ופנה.'),  // N09-30
+  401: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 5, 'וזאת מעלה יתרה', 'ב״פרי עץ חיים״]:'),  // N10-01
+  402: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 6, 'והנה , זה', 'שכינתא שריא״ לעולם.'),  // N10-02
+  403: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 6, 'אבל כל מה', 'סוף פרק ה׳:'),  // N10-03
+  404: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 7, 'אך נפש החיונית', 'תחלה ובדחי רבנן.'),  // N10-04
+  405: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 7, 'אך מי שהוא', 'שיבולע המות לנצח.'),  // N10-05
+  406: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 7, 'אך החיות שבטפות', 'בגוף בשר ודם:'),  // N10-06
+  407: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 8, 'ועוד זאת במאכלות', 'ימיו כרבינו הקדוש.'),  // N10-07
+  408: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 8, 'ועל דברים בטלים', 'וסיעתן שעסקו בהן:'),  // N10-08
+  409: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 9, 'והנה , מקום', 'הן מחכמה־בינה־דעת שבמוחין.'),  // N10-09
+  410: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 9, 'אך הנה כתיב:', 'הזונה שבזהר הקדוש:'),  // N10-10
+  411: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 10, 'והנה , כשהאדם', 'צדיק שאינו גמור.'),  // N10-11
+  412: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 10, 'והנה, מדרגה זו', 'שנתבאר במקום אחר]:'),  // N10-12
+  413: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 11, 'וזה לעומת זה,', 'עשרה שכינתא שריא״:'),  // N10-13
+  414: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 12, 'והבינוני , הוא', 'עולם הזה ותענוגיו.'),  // N10-14
+  415: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 12, 'רק מפני שלא', 'התורה, כנזכר לעיל.'),  // N10-15
+  416: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 12, 'ואף־על־פי־כן אינו נקרא', 'ועיון תפלה כו׳״.'),  // N10-16
+  417: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 12, 'רק שלזה מועיל', 'מיוסף עם אחיו:'),  // N10-17
+  418: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 13, 'ובזה יובן לשון', 'ענייני עולם הזה.'),  // N10-18
+  419: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 13, 'ואף מי שבתורת', 'כל היום כולו״.'),  // N10-19
+  420: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 13, 'והנה, מדת אהבה', 'החיות כנגד כולן״]:'),  // N10-20
+  421: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 14, 'והנה , מדת', 'כו׳, עיין שם:'),  // N10-21
+  422: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 14, 'ובזה יובן כפל', 'שמשביעים: ״תהי צדיק״:'),  // N10-22
+  423: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 15, 'ובזה יובן מה', 'ללמוד יותר מרגילותו.'),  // N10-23
+  424: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 15, 'ובזה יובן מה', 'נקראת עבודתו כלל:'),  // N10-24
+  425: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 16, 'וזה כלל גדול', 'גופו יותר בטבעו].'),  // N10-25
+  426: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 16, 'וזה רמזו רבותינו־זכרונם־לברכה', 'שיתבאר לקמן באריכות:'),  // N10-26
+  427: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 17, 'ובזה יובן מה', 'שהם כלי המעשה.'),  // N10-27
+  428: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 17, 'אם לא מי', 'שנתבאר במקום אחר:'),  // N10-28
+  429: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 18, 'ולתוספת ביאור, באר', 'שכתוב בספר גלגולים]:'),  // N10-29
+  441: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 18, 'הנה, החכמה היא', 'והשכל המושג ומובן:'),  // N11-01
+  442: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 19, 'ולתוספת ביאור, צריך', 'שבה אור־אין־סוף ברוך־הוא.'),  // N11-02
+  443: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 19, 'וזהו כלל בכל', 'אדם חוטא כו׳״.'),  // N11-03
+  444: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 19, 'אלא שגלות הזה', 'אמונה בלב כלל:'),  // N11-04
+  445: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 20, 'והנה מודעת זאת', 'יתברך המלובש בהם.'),  // N11-05
+  446: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 20, 'ולמשל, כמו בנפש', 'כל ענייני העולם:'),  // N11-06
+  447: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 21, 'והנה , מדת', 'וחמדה ותשוקה שבלב.'),  // N11-07
+  448: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 21, 'וככה ממש, דרך', 'כלא חשיב ממש:'),  // N11-08
+  449: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 22, 'רק שהתורה דברה', 'דרצון העליון ברוך־הוא.'),  // N11-09
+  450: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 22, 'והנה, רצון העליון', 'מאין ליש תמיד:'),  // N11-10
+  451: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 23, 'ועם כל הנזכר', 'לבדו כל ימיהם:'),  // N11-11
+  452: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 23, 'אך המחשבה וההרהור', 'שאין כן בעליונים].'),  // N11-12
+  453: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 23, 'ובזה יובן למה', 'כמו שיתבאר לקמן:'),  // N11-13
+  454: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 24, 'ו״זה לעומת זה״,', 'גוברים בו וכו׳:'),  // N11-14
+  455: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 24, 'ולכן אמרו רבותינו־זכרונם־לברכה', 'וקליפת עבודה זרה.'),  // N11-15
+  456: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 24, 'ומה שפיקוח נפש', '״קיא צואה״, כנודע:'),  // N11-16
+  457: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 25, 'וזהו שכתוב: ״כי', 'ומושל עליו, כנודע.'),  // N11-17
+  458: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 25, 'והן בבחינת ״ועשה', 'דתו לעולמים כו׳״.'),  // N11-18
+  459: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 25, 'אלא שלמטה, הוא', '– כנזכר לעיל:'),  // N11-19
+  460: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 26, 'ברם , כגון', 'על פסוק זה:'),  // N11-20
+  461: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 26, 'והנה , עצה', 'נראית, ודי למבין:'),  // N11-21
+  462: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 26, 'אך העצבות ממילי', 'העצב, כנזכר לעיל:'),  // N11-22
+  463: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 27, 'ואם העצבות אינה', 'יתיר מכולא וכו׳.'),  // N11-23
+  464: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 27, 'ולכן, אל יפול', 'יקרא דקודשא־בריך־הוא לעילא.'),  // N11-24
+  465: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 27, 'ולא עוד, אלא', 'מלבו מעט מעט:'),  // N11-25
+  466: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 28, 'ואפילו אם נופלים', 'במחשבה זרה שלה.'),  // N11-26
+  467: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 28, 'ולא כטעות העולם,', 'ממש – ״עמו״:'),  // N11-27
+  468: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 29, 'אך עוד אחת', 'האלהית ממש, בצדיקים.'),  // N11-28
+  469: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 29, 'אבל בבינוני, מאחר', '״וחטאתי נגדי תמיד״.'),  // N11-29
+  470: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 29, 'וגם מי שהוא', 'עיין שם באריכות.'),  // N11-30
+  481: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 29, 'והנה, כל מה', 'שרש כל העבודה.'),  // N12-01
+  482: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 29, 'והטעם, לפי שבאמת', 'שכתוב בזהר הקדוש:'),  // N12-02
+  483: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 30, 'עוד זאת ישים', 'שיתבאר לקמן באריכות.'),  // N12-03
+  484: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 30, 'וכל שלא הגיע', 'נעשו להם כשגגות״:'),  // N12-04
+  485: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 31, 'והנה , אף', 'מהעצבות שממילי דעלמא.'),  // N12-05
+  486: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 31, 'ואחר כך יבא', 'ושרשא דכל עלמין.'),  // N12-06
+  487: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 31, 'וזאת תהיה עבודתו', 'לפניכם ה׳ וגו׳״.'),  // N12-07
+  488: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 31, 'ולהיות בחינת תשובה', 'ישרים משמחי לב״:'),  // N12-08
+  489: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 32, 'והנה , על', 'במקום אחר באריכות:'),  // N12-09
+  490: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 32, 'ומה שכתוב בגמרא,', 'פרק ט״ז דשבת]:'),  // N12-10
+  491: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 33, 'עוד זאת תהיה', 'אלי, נאם ה׳״:'),  // N12-11
+  492: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 33, 'ועל זה תיקנו', 'ודירתו אתו עמו.'),  // N12-12
+  493: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 33, 'עוד זאת ישמח', 'יתברך, באמונה זו:'),  // N12-13
+  494: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 34, 'והנה , מודעת', 'הרחיב ה׳ לו:'),  // N12-14
+  495: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 34, 'ואם ירחיב ה׳', 'בלבאי מסטרא דא״:'),  // N12-15
+  496: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 35, 'והנה , לתוספת', 'עד כאן לשונו.'),  // N12-16
+  497: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 35, 'והנה, ביאור משל', 'ממש ביחוד גמור.'),  // N12-17
+  498: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 35, 'והנה, ענין השראת', 'מדרגת החכמה וכו׳:'),  // N12-18
+  499: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 35, 'והנה, כשהאדם עוסק', 'שבלבו וכל הגוף.'),  // N12-19
+  500: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 35, 'ואף שמהותה ועצמותה', 'כו׳, והמשכיל יבין:'),  // N12-20
+  501: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 36, 'והנה , מודעת', 'מהאר״י זכרונו לברכה:'),  // N12-21
+  502: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 36, 'וגם כבר היה', 'תבל ארצך וגו׳״:'),  // N12-22
+  503: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'והנה , תכלית', 'התורה או התפלה:'),  // N12-23
+  504: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'זאת ועוד אחרת,', 'למרכבה כמו האבות.'),  // N12-24
+  505: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'ומאחר שכללות נפש', 'מארבע עולמות אצילות־בריאה־יצירה־עשיה.'),  // N12-25
+  506: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'וכל ניצוץ, לא', 'לברר ניצוצין וכו׳.'),  // N12-26
+  507: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'ובזה יובן מה', 'מצות מעשיות אחרות.'),  // N12-27
+  508: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'ומה שאמרו רבותינו־זכרונם־לברכה', 'כמו שנתבאר לעיל.'),  // N12-28
+  509: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'ואף־על־פי־כן, אמרו רבותינו־זכרונם־לברכה:', 'במקום אחר באריכות:'),  // N12-29
+  1041: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 39, 'אך מי ששרש', 'כידוע ליודעי חן]:'),  // L01-01
+  1042: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 39, 'והנה, ״שכר מצוה', 'ולמיקם קדם ה׳.'),  // L01-02
+  1043: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 39, 'והיינו, אפילו אם', 'כמו שיתבאר לקמן.'),  // L01-03
+  1044: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 39, 'וכשעוסק שלא לשמה', 'כמו שכתוב בזהר:'),  // L01-04
+  1045: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 40, 'אך כל זמן', 'כנכתב לעיל באריכות.'),  // L01-05
+  1046: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 40, 'הגהה ושם מאיר', 'בﬠת רצון זו:'),  // L01-06
+  1047: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 40, 'ובזה יובן היטב,', 'שכתוב ברﬠיא מהימנא:'),  // L01-07
+  1048: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 40, 'כי, כמו שכנפי', 'בפרי ﬠץ חיים:'),  // L01-08
+  1049: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 40, 'והנה, אף דדחילו', 'במקום אחר באריכות:'),  // L01-09
+  1050: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'ברם , צריך', 'מיני עבודת עבד.'),  // L01-10
+  1051: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'והנה ה׳ נצב', 'לבישת טלית ותפילין.'),  // L01-11
+  1052: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'וגם יתבונן, איך', 'הלב והמוח כו׳״;'),  // L01-12
+  1053: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'ובעטיפת ציצית, יכוין', 'העבד לאדונו ומלכו.'),  // L01-13
+  1054: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'מה שאין כן', 'עילאה, כידוע ליודעים:'),  // L01-14
+  1055: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'והנה, אף מי', 'ולבושיהן, כנזכר לעיל.'),  // L01-15
+  1056: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'אך אמנם, אמרו', 'אתה״, וכהאי גוונא.'),  // L01-16
+  1057: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'והנה, בהכנה זו', 'אדנ״י בלילה, כנודע.'),  // L01-17
+  1058: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 41, 'והנה, כל כוונתו', 'וכו׳, כנזכר לעיל:'),  // L01-18
+  1059: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 42, 'והנה , במה', '״והאדם ידע וגו׳״.'),  // L01-19
+  1060: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 42, 'וכח זה ומדה', 'כמו שנתבאר שם.'),  // L01-20
+  1061: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 42, 'והשנית – היא', 'ואוזן שומעת כו׳״.'),  // L01-21
+  1062: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 42, 'וגם כי אין', 'לעיל פרק כ׳:'),  // L01-22
+  1063: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 42, 'והנה, כל אדם', 'כידוע ליודעי חן.]'),  // L01-23
+  1064: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 42, 'ועוד זאת יזכור,', 'המאמן ידיו וכו׳.'),  // L01-24
+  1065: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 42, 'וגם להיות לזכרון', 'שנתבאר במקום אחר:'),  // L01-25
+  1066: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 43, 'והנה על יראה', 'כמו שיתבאר לקמן.'),  // L01-26
+  1067: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 43, 'והנה, בחינת אהבה', 'כידוע ליודעי חן]:'),  // L01-27
+  1068: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 44, 'והנה , כל', 'עד צפרא כו׳״.'),  // L01-28
+  1069: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 44, 'ואהבה רבה וגדולה', 'ההרגל נעשה טבע.'),  // L01-29
+  1070: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 44, 'ואף אם נדמה', 'הקדוש־ברוך־הוא מצרפה כו׳״:'),  // L01-30
+  1081: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 44, 'והנה, ב׳ בחינות', 'בשם ״אהבת עולם״.'),  // L02-01
+  1082: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 44, 'רק שאף־על־פי־כן, צריך', 'ליה וכו׳״, וכנודע:'),  // L02-02
+  1083: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 45, 'עוד יש דרך', 'שנתבאר במקום אחר:'),  // L02-03
+  1084: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 46, 'ויש דרך ישר', 'אהבת חבירו אליו.'),  // L02-04
+  1085: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 46, 'והנה, זהו טבע', 'ממש לאהבת המלך:'),  // L02-05
+  1086: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 46, 'והנה, ככל הדברים', 'כנזכר לעיל באריכות:'),  // L02-06
+  1087: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 46, 'וכולם שואלים: ״איה', '– באור־אין־סוף ברוך־הוא.'),  // L02-07
+  1088: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 46, 'ולכן המשיל שלמה', 'שראו עולמם בחייהם.'),  // L02-08
+  1089: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 46, 'וזהו שאמר אסף', '״בהמ״ה״ שלפני האצילות]:'),  // L02-09
+  1090: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 47, 'והנה , ״בכל', 'כמו שנתבאר לעיל:'),  // L02-10
+  1091: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 48, 'והנה , כאשר', 'ממציאותן ויחזרו למקורן.'),  // L02-11
+  1092: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 48, 'והנה, פרטיות הצמצומים,', 'כלא ממש חשיבי.'),  // L02-12
+  1093: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 48, 'וככה ממש היא', 'בבחינת גבול ותכלית.'),  // L02-13
+  1094: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 48, 'והמשל בזה, הנה', 'מחשבת האדם ודעתו.'),  // L02-14
+  1095: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 48, 'אבל הקדוש־ברוך־הוא דכתיב', 'דומם וצומח בלבד.'),  // L02-15
+  1096: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 48, 'אך ידיעתו יתברך', 'שנתבאר במקום אחר:'),  // L02-16
+  1097: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 49, 'והנה , אף', 'בשביל אהבת ה׳.'),  // L02-17
+  1098: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 49, 'ואיך יבא האדם', 'לבדו מרום וקדוש״.'),  // L02-18
+  1099: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 49, 'ואחר־כך ברכה שניה:', 'יתברך, כנזכר לעיל.'),  // L02-19
+  1100: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 49, 'והנה, כאשר ישים', 'הדבור בדברי תורה,'),  // L02-20
+  1101: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 49, '״כי על מוצא', 'ומאודו כנזכר לעיל:'),  // L02-21
+  1102: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 50, 'והנה , כל', 'כו׳ חס ושלום.'),  // L02-22
+  1103: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 50, 'והנה, סדר העבודה', 'חיי החיים ברוך־הוא:'),  // L02-23
+  1104: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 51, 'והנה , לתוספת', 'בתולדתו, כנזכר לעיל].'),  // L02-24
+  1105: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 51, 'וככה ממש, על', 'נמצא בתחתונים ממש.'),  // L02-25
+  1106: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 51, 'וההבדל שבין עולמות', 'ומאיר להם להחיותם.'),  // L02-26
+  1107: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 51, 'וכל כך עצמו', 'במאצילן אין־סוף ברוך־הוא:'),  // L02-27
+  1108: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 52, 'וכמו שבנשמת האדם', 'כהתפשטות האור מהשמש.'),  // L02-28
+  1109: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 52, 'אבל השכינה עצמה,', 'גוף השמש בלבד.'),  // L02-29
+  1121: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 52, 'ומהו הלבוש שיוכל', 'תרי״ג מצות התורה.'),  // L03-01
+  1122: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 52, 'ובירידתה בהשתלשלות מעולם', 'הנקרא בשם ״שכינה״:'),  // L03-02
+  1123: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 53, 'והנה , כשהיה', 'כנודע ליודעי חן].'),  // L03-03
+  1124: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 53, 'ובבית שני שלא', 'ד״אבא יסד ברתא״.'),  // L03-04
+  1125: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 53, 'וזהו שאמר הינוקא:', 'ה׳ יתברך ויתﬠלה'),  // L03-05
+  1126: TanyaPortion('Chinukh Katan', 'חינוך קטן', 0, 'לקוטי אמרים חלק', 'ואחדותו יתברך ויתעלה:'),  // L03-06
+  1127: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 1, 'להבין מעט מזער', 'הוא כולא חד״:'),  // L03-07
+  1128: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 2, 'והנה, מכאן תשובת', 'המים אינו כן.'),  // L03-08
+  1129: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 2, 'וכל שכן וקל', 'המתלבשת בעולם הבריאה:'),  // L03-09
+  1130: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 3, 'והנה, אחרי הדברים', 'אפס בלעדו באמת.'),  // L03-10
+  1131: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 3, 'והמשל לזה הוא,', 'המאיר, ואפס בלעדו.'),  // L03-11
+  1132: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 3, 'וכדברים האלה ממש,', '– צריך להקדים:'),  // L03-12
+  1133: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 4, 'כי הנה כתיב:', 'שטבע הטוב להטיב.'),  // L03-13
+  1134: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 4, 'והנה, כמו שמדה', 'הבריאה מאין ליש.'),  // L03-14
+  1135: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 4, 'בחינת הצמצום והסתר', 'כידוע ליודעי חן]:'),  // L03-15
+  1136: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 5, 'והנה, על זה', 'מ״ד פרק ג׳]:'),  // L03-16
+  1137: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 6, 'והנה, שם ״אלהים״,', 'גבורה הכלולה בחסד.'),  // L03-17
+  1138: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 6, 'והנה, מהתכללות המדות', 'אור השמש בשמש.'),  // L03-18
+  1139: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 6, 'ולכן הוצרך הכתוב', '״ה׳ הוא האלהים״:'),  // L03-19
+  1140: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'ובזה יובן מה', '״עולם״ עליו כלל.'),  // L03-20
+  1141: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'והנה, גדר ובחינת', 'למטה ולד׳ סטרין.'),  // L03-21
+  1142: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'והנה, אף־על־פי שהוא', 'במציאות אפילו לתחתונים.'),  // L03-22
+  1143: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'והנה, במה שנתבאר,', 'מהרמ״ק זכרונו לברכה]:'),  // L03-23
+  1144: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'והנה , מכאן', 'ודעתו הכל אחד.'),  // L03-24
+  1145: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'וזהו שכתוב בתקונים', 'אף־על־גב דממלא לון.'),  // L03-25
+  1146: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'וזהו גם כן', 'ליש בפועל ממש.'),  // L03-26
+  1147: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'ו״ממלא כל עלמין״', 'בעלי גבול ותכלית.'),  // L03-27
+  1148: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'כי מקור החיות', 'דלבושיה מיניה וביה״).'),  // L03-28
+  1149: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 7, 'אלא שצמצם הקדוש־ברוך־הוא', 'ומדריגת האותיות עצמן:'),  // L03-29
+  1150: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 8, 'והנה, מה שכתב', 'ראשית ומקור החיות:'),  // L03-30
+  1161: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 9, 'אבל לגבי הקדוש־ברוך־הוא,', 'עד אין קץ.'),  // L04-01
+  1162: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 9, 'רק מפני שאין', 'ומה, ידוע למשכילים'),  // L04-02
+  1163: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 9, 'הגהה סוד הצמצום', 'שלמעלה מן השכל:'),  // L04-03
+  1164: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 10, 'אך מכל מקום,', 'גבהו דרכיו מדרכינו.'),  // L04-04
+  1165: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 10, 'ומכל מקום, לשכך', 'ובהון אתכסיאת כו׳״.'),  // L04-05
+  1166: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 10, 'על דרך משל,', 'אינון מדות כלל״:'),  // L04-06
+  1167: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 11, 'והנה, גם עשרה', 'צפון וסתום בלבו.'),  // L04-07
+  1168: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 11, 'אבל באמת, בחינת', 'שנתבאר במקום אחר:'),  // L04-08
+  1169: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 12, 'רק שהברואים מתחלקים', 'הנבראים מהאותיות עצמן.'),  // L04-09
+  1170: TanyaPortion('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה', 12, 'כי הן דרך', 'ה׳ יתברך ויתעלה'),  // L04-10
+  1171: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 1, 'תניא בסוף יומא:', 'כאן לשון הברייתא:'),  // L04-11
+  1172: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 1, 'והנה, מצות התשובה', 'כי אם מיראה:'),  // L04-12
+  1173: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 2, 'אך כל זה', 'הוא יום רצון:'),  // L04-13
+  1174: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 3, 'והנה, חכמי המוסר', 'ג׳ פעמים וכו׳.'),  // L04-14
+  1175: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 3, 'אכן, כל זה', 'המגן־אברהם הלכות תענית:'),  // L04-15
+  1176: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 3, 'ומכל מקום ,', 'נפשו״, וחפץ בהצדקה:'),  // L04-16
+  1177: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 3, 'אכן , מספר', 'כי לא תמנו״):'),  // L04-17
+  1178: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 4, 'ואולם, כל הנזכר', 'ימיהם ושנותיהם בנעימים?'),  // L04-18
+  1179: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 4, 'אך הענין יובן,', 'הנפש החיה וכו׳.'),  // L04-19
+  1180: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 4, 'ככה ממש על', 'מעלה מבחינת האותיות.'),  // L04-20
+  1181: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 4, 'וביאור הענין, כנודע', 'שם הוי׳ וכו׳:'),  // L04-21
+  1182: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 5, 'והנה, המשכת וירידת', 'הזה – כדלקמן):'),  // L04-22
+  1183: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 6, 'אמנם, זהו בזמן', 'כנודע ליודעי חן.'),  // L04-23
+  1184: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 6, 'והנה, ״יעקב חבל', 'לא נאמר וכו׳״:'),  // L04-24
+  1185: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 7, 'ואולם, דרך האמת', 'נשבר ונדכה״ וכו׳.'),  // L04-25
+  1186: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 7, 'והאיך נשבר הלב', 'חפיצים בתשובה, כנודע).'),  // L04-26
+  1187: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 7, 'ואף מי שלא', 'תורה כנגד כולן:'),  // L04-27
+  1188: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 8, 'והנה, אחרי העמקת', 'לאתקרבא למלכא וכו׳):'),  // L04-28
+  1189: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 9, 'וביאור הענין, כמו', 'קמא דראש השנה:'),  // L04-29
+  1201: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 10, 'והנה, תשובה עילאה', 'וב״פסוקי דזמרה״, כנודע.'),  // L05-01
+  1202: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 10, 'ומאחר שהתפלה היא', 'אלי״ בתשובה עילאה):'),  // L05-02
+  1203: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 11, 'ואמנם, להיות בלבו', 'וכמה לאין קץ.'),  // L05-03
+  1204: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 11, 'ומה שמשבחים ומברכים', 'והמחילה היא מיד.'),  // L05-04
+  1205: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 11, 'ומה שכתוב ״וחטאתי', 'על כל פשעיו״:'),  // L05-05
+  1206: TanyaPortion('Iggeret HaTeshuvah', 'אגרת התשובה', 12, 'וטעם השמחה ביסורי', 'דבר ימצא טוב:'),  // L05-06
+  1207: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 1, 'פותחין בברכה, לברך', 'הזרועות והגוף שבנפש:'),  // L05-07
+  1208: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 1, 'אך מי הוא', 'מיצוי הנפש כו׳״:'),  // L05-08
+  1209: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 1, 'ועתה הפעם, הנני', 'אלא תורה וכו׳:'),  // L05-09
+  1210: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 2, 'אחר ביאתו מפטרבורג', '״כמים הפנים וגו׳״:'),  // L05-10
+  1211: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 3, 'וילבש צדקה כשריון,', 'ותכלית וגבול ושלום]:'),  // L05-11
+  1212: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 3, 'אך מי הוא', 'לעיל, כנפש תדרשנו:'),  // L05-12
+  1213: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 4, 'אין ישראל נגאלין', 'וזהו ״ושביה בצדקה״.'),  // L05-13
+  1214: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 4, 'וזהו ״צדק לפניו', 'כן יהי רצון:'),  // L05-14
+  1215: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 5, 'ויעש דוד שם.', 'אף שמבין הכל:'),  // L05-15
+  1216: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 5, 'אך האותיות הן', 'וי״ב, עיין שם)]:'),  // L05-16
+  1217: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 5, 'אך ביאור הענין,', 'עילאה, וכנזכר לעיל.'),  // L05-17
+  1218: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 5, 'אך העולם הזה', 'תתאה מקננת בעשיה:'),  // L05-18
+  1219: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 5, 'והנה, באדם התחתון', '״חסד לאברהם״ כו׳.'),  // L05-19
+  1220: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 5, 'אך אחר בריאת', 'אליהם. והמשכילים יבינו:'),  // L05-20
+  1221: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 6, 'זורע צדקה שכר', 'מגן ישענו כו׳״.'),  // L05-21
+  1222: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 6, 'והנה מודעת זאת,', 'שכתוב: ״בצדקה תכונני״:'),  // L05-22
+  1223: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 7, 'אשרינו מה טוב', 'עלה ועלול וכו׳.'),  // L05-23
+  1224: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 7, 'והנה, הארה זו,', 'ולא יספר״ מרוב.'),  // L05-24
+  1225: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 7, 'והנה, ״שופריה דיעקב', 'שמבואר במקום אחר.'),  // L05-25
+  1226: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 7, 'והנה, אף שגילוי', 'בחינת הגורל ממש:'),  // L05-26
+  1227: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 8, 'זורע צדקות, מצמיח', 'לארץ, ודי למבין:'),  // L05-27
+  1228: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 9, 'אהוביי אחיי ורעיי', 'לארץ, ודי למבין.'),  // L05-28
+  1229: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 9, 'על כן, אהוביי', 'ה׳ ציון״ כו׳:'),  // L05-29
+  1230: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 10, 'אחר דרישת שלומם', '״פרחה נשמתן כו׳״;'),  // L05-30
+  1241: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 10, 'והנה, לפי שהמצות', 'תשובה עומדין וכו׳״.'),  // L06-01
+  1242: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 10, 'והנה, עיקר התשובה', 'בעד נפשו״ כתיב.'),  // L06-02
+  1243: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 10, 'והנה, מדת חסד', 'דוד בא כו׳״:'),  // L06-03
+  1244: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 11, 'להשכילך בינה, כי', 'ב״טוב״ העליון הגנוז:'),  // L06-04
+  1245: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 12, 'והיה מעשה הצדקה', 'בבחינת מדות לבדן.'),  // L06-05
+  1246: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 12, 'אך הקדוש־ברוך־הוא –', 'מדותיו הקדושות יתברך.'),  // L06-06
+  1247: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 12, 'והנה, אתערותא דלעילא,', 'בחינת הטוב המחייהו.'),  // L06-07
+  1248: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 12, 'ובירור זה יהיה', 'וזהב במצרף וכור.'),  // L06-08
+  1249: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 12, 'והנה מודעת זאת,', 'מאה פעמים וכו׳״.'),  // L06-09
+  1250: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 12, 'וזהו שכתוב ״והיה', 'ים כל חטאתם״:'),  // L06-10
+  1251: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 13, 'מה רב טובך', 'תצפנם בסוכה וגו׳״:'),  // L06-11
+  1252: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 14, 'לעורר את האהבה', 'המעלות למעלה מעלה.'),  // L06-12
+  1253: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 14, 'ובכל שנה ושנה', 'תשובה, ודי למבין:'),  // L06-13
+  1254: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 15, 'להבין משל ומליצה', 'בנשמתו הכלולה מהן.'),  // L06-14
+  1255: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 15, 'אך צריך להקדים,', 'אדם״ במשל ומליצה:'),  // L06-15
+  1256: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 15, 'והנה, כללות הי׳', 'גשמי, כמו שיתבאר).'),  // L06-16
+  1257: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 15, 'והנה, מדות אלו', 'הוא שינוי מדותיהם.'),  // L06-17
+  1258: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 15, 'והנה, כל זה', 'כמו שיתבאר במקומו:'),  // L06-18
+  1259: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 16, 'לאנשי קהלת וכו׳', 'בנדרים דף פ׳.'),  // L06-19
+  1260: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 16, 'והנה, זהו על', 'מכל לב ונפש:'),  // L06-20
+  1261: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 17, 'נודע, דב״אתערותא דלתתא״,', 'ועיין שם היטב.'),  // L06-21
+  1262: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 17, 'וזהו שאמרו רבותינו־זכרונם־לברכה:', 'להם מנוחה כו׳:'),  // L06-22
+  1263: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 18, 'כתיב: ״מה יפית', 'שנתבאר בלקוטי אמרים.'),  // L06-23
+  1264: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 18, 'והשנית – היא', '״בכל דרכיך דעהו״:'),  // L06-24
+  1265: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 19, 'עוטה אור כשלמה', 'מהחכמה וכתר דאצילות?'),  // L06-25
+  1266: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 19, 'אך הענין הוא', 'לבוש כשאר האותיות.'),  // L06-26
+  1267: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 19, 'והנה, בחינת חכמת', 'במחשבה ומדות ושכל.'),  // L06-27
+  1268: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 19, 'כן על דרך', 'ממש, כנודע מהאריז״ל:'),  // L06-28
+  1269: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 19, 'האותיות הנגלות לנו,', 'מוחין וחיות, כנודע:'),  // L06-29
+  1281: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'איהו וחיוהי חד,', '״בריאה״ בלשון הקדש.'),  // L07-01
+  1282: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'והגם שהיש הנברא', 'כעלול לגבי עילתו.'),  // L07-02
+  1283: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'אך נשמות המלאכים', 'על־ידי התלבשותן בבריאה־יצירה־עשיה.'),  // L07-03
+  1284: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'אמנם מודעת זאת,', 'על־ידי העיבור והלידה.'),  // L07-04
+  1285: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'ובזה יובן, היות', 'וזה בפנימיות, וכדלקמן.'),  // L07-05
+  1286: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'והנה, כמו כן', 'התפשטות החיות להחיותם.'),  // L07-06
+  1287: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'אמנם, מציאותו ומהותו', 'האותיות, כנזכר לעיל.'),  // L07-07
+  1288: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'ועוד זאת, יתר', 'הכלים דמלכות דאצילות.'),  // L07-08
+  1289: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'ולפי מה שכתוב', 'שנתבאר במקום אחר.'),  // L07-09
+  1290: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 20, 'ומזה יובן היטב', 'מכתב ידו הקדושה'),  // L07-10
+  1291: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 21, 'אחר דרישת שלומם', 'נידון בכל יום:'),  // L07-11
+  1292: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 21, 'אך גם זאת', 'כי יבא שילה״:'),  // L07-12
+  1293: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 22, 'אהוביי, אחיי ורעיי!', 'שם בפירוש רש״י:'),  // L07-13
+  1294: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 22, 'אך האמת אגיד', 'יאהב ה׳ וכו׳״:'),  // L07-14
+  1295: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 22, 'וכמו אב רחמן', 'נצח סלה ועד:'),  // L07-15
+  1296: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 22, 'אהוביי, אחיי ורעיי!', 'נפשם מלב ונפש:'),  // L07-16
+  1297: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 23, 'בגזירת עירין פתגמא', 'ערך אליהם כלל.'),  // L07-17
+  1298: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 23, 'וההפרש שבין השראה', 'בנפש עמלה בה.'),  // L07-18
+  1299: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 23, 'אבל ההשראה –', 'מתבטל ממציאותו לגמרי.'),  // L07-19
+  1300: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 23, 'ועל כן, רע', 'שכתוב בזוהר הקדוש.'),  // L07-20
+  1301: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 23, 'על כן, אהוביי', 'זכרונו לברכה שם.'),  // L07-21
+  1302: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 23, 'ובשבת קדש בעלות', 'כן יהי רצון:'),  // L07-22
+  1303: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 24, 'אהוביי, אחיי, אל', 'הקלון לעין כל.'),  // L07-23
+  1304: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 24, 'ועל כן קבעו', 'לטובים ולישרים בלבותם:'),  // L07-24
+  1305: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'להבין אמרי בינה,', 'יכול לדבר מאומה.'),  // L07-25
+  1306: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, '(וזהו ״כי ה׳', 'נפש וחיות רוחניית.'),  // L07-26
+  1307: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'והנה, נודע ליודעי', 'אשר מתחת לארץ.'),  // L07-27
+  1308: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, '(אלא שבחוץ לארץ', 'לאדום שכינה עמהם״)):'),  // L07-28
+  1309: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'והנה, אף כי', 'האר״י זכרונו לברכה:'),  // L07-29
+  1310: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'והנה, נפש האדם,', 'בהרהור בלא דבור:'),  // L07-30
+  1321: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'והנה, ״זה לעומת', 'עד רום המעלות:'),  // L08-01
+  1322: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'ואחר הדברים והאמת', 'וכהאי גונא טובא.'),  // L08-02
+  1323: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 25, 'וכמדומה לי, שתפיסתם', 'לרצון אמרי פי״:'),  // L08-03
+  1324: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'ברעיא מהימנא פרשת', 'כאן ברעיא מהימנא:'),  // L08-04
+  1325: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'והנה, המובן מהשקפה', 'של הלכה בלבד״.'),  // L08-05
+  1326: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'ועוד יש להפליא,', 'הנסתר בהסתר כו׳:'),  // L08-06
+  1327: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'אך באמת, כשתדקדק', '– הכל אחד:'),  // L08-07
+  1328: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'ומה שאמר האריז״ל', 'ותלמוד – בבריאה.'),  // L08-08
+  1329: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'והנה, כשהמלכות דאצילות', 'מבין האומות העולם״.'),  // L08-09
+  1330: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 26, 'אבל בצאת השכינה', 'מענדל נשמתו עדן.'),  // L08-10
+  1331: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 27, 'אהוביי אחיי ורעיי', 'נצח סלה ועד.'),  // L08-11
+  1332: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 27, 'וזהו שכתוב בזוהר', 'בחייו קודם לברכה:'),  // L08-12
+  1333: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 27, 'ביאור על הנזכר', 'עילה ועלול, כנודע.'),  // L08-13
+  1334: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 27, 'והנה, בהיות הצדיק', 'ומצאת – תאמין״.'),  // L08-14
+  1335: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 27, 'והנה, יש עוד', 'לששים רבוא כוכבים:'),  // L08-15
+  1336: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 28, 'מה שכתב למחותנו,', 'ולמטה מטה מנוגה:'),  // L08-16
+  1337: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 28, 'והנה, מודעת זאת,', '״מי חטאת וכו׳״:'),  // L08-17
+  1338: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 29, 'אשת חיל עטרת', 'דף ר״י ורכ״ט.'),  // L08-18
+  1339: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 29, 'והנה, אור זה', 'וקודשא־בריך־הוא כולא חד:'),  // L08-19
+  1340: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 29, 'והנה, רצון העליון', 'וכחות שבנפש־רוח־נשמת האדם.'),  // L08-20
+  1341: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 29, 'וזהו שכתוב בזוהר', 'באריכות, עיין שם.'),  // L08-21
+  1342: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 29, 'והנה מודעת זאת,', 'ברוך־הוא, כנזכר לעיל:'),  // L08-22
+  1343: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 30, 'מודעת זאת מה', 'ומספר, ודי למבין:'),  // L08-23
+  1344: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 31, 'נודע בשערים מה', 'כל האברים וכו׳:'),  // L08-24
+  1345: TanyaPortion('Iggeret HaKodesh', 'אגרת הקודש', 32, 'ברך ה׳ חילם', 'בלבותם״, כנפש תדרשנו:'),  // L08-25
+  1346: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 1, 'קונטרס אחרון על', 'קדם ה׳״ דוקא:'),  // L08-26
+  1347: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 2, 'עיין עץ חיים', 'ובנפילת אפים, כנודע:'),  // L08-27
+  1348: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 3, 'להבין מה שכתוב', 'מלך״ פרשת פקודי).'),  // L08-28
+  1349: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 3, 'ומה שכתוב בפרשת', 'שם דף ר״י.'),  // L08-29
+  1350: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 3, 'והנה, תפלה פסולה', 'תינוקת־של־בית־רבן עד אצילות:'),  // L08-30
+  1361: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'להבין מה שכתוב', 'ד״זעיר אנפין״ כו׳.'),  // L09-01
+  1362: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'והנה, במקום אחד', 'מעשיות שבבריאה־יצירה־עשיה דוקא.'),  // L09-02
+  1363: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'והנה, לקיום מצוה', 'את אחורי כו׳״.'),  // L09-03
+  1364: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'מה־שאין־כן מעשה המצות', 'שכן הלומד הסוד.'),  // L09-04
+  1365: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'אבל דוקא סודות', 'בירורין אשר שם.'),  // L09-05
+  1366: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'ועוד זאת, שבאמת', '״ופני לא יראו״.'),  // L09-06
+  1367: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'ובר מן כל', 'גשמי של הלכותיהן.'),  // L09-07
+  1368: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'אך להבין, איך', 'פיגול וכהאי גונא.'),  // L09-08
+  1369: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'אך עוד זאת', 'והעלם הבורא מהנברא.'),  // L09-09
+  1370: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'מה־שאין־כן ההלכות, הרי', '– שהיא אלקות.'),  // L09-10
+  1371: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'והטעם, משום דחכמה־בינה־דעת', 'סדרי משנה וגמרא.'),  // L09-11
+  1372: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 4, 'ומה שכתוב בעץ', 'וכו׳, ודי למבין:'),  // L09-12
+  1373: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 5, 'ולהבין פרטי ההלכות', 'דכלים ד״זעיר אנפין״:'),  // L09-13
+  1374: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 6, 'דוד, זמירות קרית', 'התורה בעת צרתו.'),  // L09-14
+  1375: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 6, 'אך מה שהיה', 'ואחור, עיין שם:'),  // L09-15
+  1376: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 7, 'וצדקה כנחל איתן', 'החיים אין־סוף ברוך־הוא:'),  // L09-16
+  1377: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 8, 'הנה, לא טובה', 'וכו׳, ודי למבין:'),  // L09-17
+  1378: TanyaPortion('Kuntres Acharon', 'קונטרס אחרון', 9, 'הוכח תוכיח את', 'לעומת זה כו׳:'),  // L09-18
+  1379: TanyaPortion('Title Page', 'עמוד הכותרת', 0, 'ספר לקוטי אמרים', 'ליב הכהן .'),  // L09-19
+  1380: TanyaPortion('Approbation', 'הסכמות הרבנים', 0, 'הסכמת הרבנים שיחיו', 'נשמתו בגנזי מרומים.'),  // L09-20
+  1381: TanyaPortion('Compiler\'s Foreword', 'הקדמת המלקט', 0, 'והיא אגרת השלוחה', 'בשערים בעלה וגו׳״:'),  // L09-21
+  1382: TanyaPortion('Compiler\'s Foreword', 'הקדמת המלקט', 0, 'אך ביודעיי ומכיריי', 'כן יהי רצון:'),  // L09-22
+  1383: TanyaPortion('Compiler\'s Foreword', 'הקדמת המלקט', 0, 'והנה , אחר', 'אמרים הנזכרים לעיל:'),  // L09-23
+  1384: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 1, 'תניא פרק ג׳', 'ושבﬠים פנים לתורה:'),  // L09-24
+  1385: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 1, 'והא דאמרינן בעלמא,', 'אלא להתייהר כו׳:'),  // L09-25
+  1386: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 2, 'ונפש השנית בישראל,', 'מצות פרשת בראשית:'),  // L09-26
+  1387: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 3, 'והנה , כל', 'ה׳ ויראתו ופחדו.'),  // L09-27
+  1388: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 3, 'כי השכל שבנפש', 'וענפיה ויראה וענפיה:'),  // L09-28
+  1389: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 4, 'ועוד יש לכל', 'בתרי״ג מצות התורה.'),  // L09-29
+  1390: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 4, 'ובפרטות, בחינות חכמה־בינה־דעת', 'מצות לא תעשה.'),  // L09-30
+  1401: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 4, 'והנה, שלשה לבושים', 'בשלשה לבושים אלו.'),  // L10-01
+  1402: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 4, 'ולכן נמשלה התורה', 'המלובשים בתורתו ומצותיה.'),  // L10-02
+  1403: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 4, 'ולכן אמרו: ״יפה', 'בחינת חסד ומים:'),  // L10-03
+  1404: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 5, 'ולתוספת ביאור, באר', 'ב״פרי עץ חיים״]:'),  // L10-04
+  1405: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 6, 'והנה , זה', '״תבירו דרוחא כו׳״,'),  // L10-05
+  1406: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 6, 'וכן כל הדבורים', 'כבתחלה מקודם שנברא.'),  // L10-06
+  1407: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 6, 'ולכן נקרא עולם', 'סוף פרק ה׳:'),  // L10-07
+  1408: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 7, 'אך נפש החיונית', 'תחלה ובדחי רבנן.'),  // L10-08
+  1409: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 7, 'אך מי שהוא', 'שיבולע המות לנצח.'),  // L10-09
+  1410: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 7, 'אך החיות שבטפות', 'בגוף בשר ודם:'),  // L10-10
+  1411: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 8, 'ועוד זאת במאכלות', 'וסיעתן שעסקו בהן:'),  // L10-11
+  1412: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 9, 'והנה , מקום', 'הן מחכמה־בינה־דעת שבמוחין.'),  // L10-12
+  1413: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 9, 'אך הנה כתיב:', 'עזה כרשפי אש,'),  // L10-13
+  1414: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 9, 'והיא הנקראת בכתוב:', 'הזונה שבזהר הקדוש:'),  // L10-14
+  1415: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 10, 'והנה , כשהאדם', 'ממש כמו השנאה.'),  // L10-15
+  1416: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 10, 'וצדיק שאינו גמור,', 'ייתון הכא וכו׳״:'),  // L10-16
+  1417: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 10, 'ועוד נקראים בני', 'שנתבאר במקום אחר]:'),  // L10-17
+  1418: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 11, 'וזה לעומת זה,', 'עשרה שכינתא שריא״:'),  // L10-18
+  1419: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 12, 'והבינוני , הוא', 'אחד כל ימיו.'),  // L10-19
+  1420: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 12, 'אך מהות ועצמות', 'עולם הזה ותענוגיו.'),  // L10-20
+  1421: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 12, 'רק מפני שלא', 'התורה, כנזכר לעיל.'),  // L10-21
+  1422: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 12, 'ואף־על־פי־כן אינו נקרא', 'ועיון תפלה כו׳״.'),  // L10-22
+  1423: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 12, 'רק שלזה מועיל', 'מיוסף עם אחיו:'),  // L10-23
+  1424: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 13, 'ובזה יובן לשון', 'החושך, כנזכר לעיל.'),  // L10-24
+  1425: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 13, 'אך מאחר שהרע', 'החיות כנגד כולן״]:'),  // L10-25
+  1426: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 14, 'והנה , מדת', 'כמוהו לכפור האמת.'),  // L10-26
+  1427: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 14, 'מה שאין כן', 'כו׳, עיין שם:'),  // L10-27
+  1428: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 14, 'ובזה יובן כפל', 'שמשביעים: ״תהי צדיק״:'),  // L10-28
+  1429: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 15, 'ובזה יובן מה', 'ולבו חלל בקרבו.'),  // L10-29
+  1441: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 15, 'ובבינוני יש גם', 'ללמוד יותר מרגילותו.'),  // L11-01
+  1442: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 15, 'ובזה יובן מה', 'נקראת עבודתו כלל:'),  // L11-02
+  1443: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 16, 'וזה כלל גדול', 'שיתבאר לקמן באריכות:'),  // L11-03
+  1444: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 17, 'ובזה יובן מה', 'בקיום מצותיו ותורתו.'),  // L11-04
+  1445: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 17, 'ו״זה כל האדם״,', 'משה זכות שם].'),  // L11-05
+  1446: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 17, 'והיא בחינת תשובה', 'שנתבאר במקום אחר:'),  // L11-06
+  1447: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 18, 'ולתוספת ביאור, באר', 'בה גם דחילו.'),  // L11-07
+  1448: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 18, 'והענין, כי האבות', 'שכתוב בספר גלגולים]:'),  // L11-08
+  1449: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 18, 'הנה, החכמה היא', 'והשכל המושג ומובן:'),  // L11-09
+  1450: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 19, 'ולתוספת ביאור, צריך', 'אמונה בלב כלל:'),  // L11-10
+  1451: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 20, 'והנה מודעת זאת', 'וכאין ואפס ממש.'),  // L11-11
+  1452: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 20, 'כי התהוות כל', 'רוחניות ודקות יותר.'),  // L11-12
+  1453: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 20, 'אבל עשר בחינות', 'כל ענייני העולם:'),  // L11-13
+  1454: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 21, 'והנה , מדת', 'הנביאים במראה נבואתם.'),  // L11-14
+  1455: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 21, 'והרי דבורו ומחשבתו', 'ולא יתבטלו במציאות.'),  // L11-15
+  1456: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 21, 'וכל הצמצומים הם', 'כלא חשיב ממש:'),  // L11-16
+  1457: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 22, 'רק שהתורה דברה', 'מאין ליש תמיד:'),  // L11-17
+  1458: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 23, 'ועם כל הנזכר', 'העליון להתלבש בעולמות.'),  // L11-18
+  1459: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 23, 'ולכן נקראים ״אברי', 'ממש כגוף לנשמה.'),  // L11-19
+  1460: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 23, 'וכן הלבוש החיצון', 'לבדו כל ימיהם:'),  // L11-20
+  1461: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 23, 'אך המחשבה וההרהור', 'דמלכא״ לחוד כפיקודין.'),  // L11-21
+  1462: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 23, 'ומאחר שרצון העליון', 'ומבטל בלאו הכי].'),  // L11-22
+  1463: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 23, 'ומזה יוכל המשכיל', 'כמו שיתבאר לקמן:'),  // L11-23
+  1464: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 24, 'ו״זה לעומת זה״,', '״קיא צואה״, כנודע:'),  // L11-24
+  1465: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 25, 'וזהו שכתוב: ״כי', 'תשובה אחר כך.'),  // L11-25
+  1466: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 25, 'ש״האומר אחטא ואשוב', 'ומושל עליו, כנודע.'),  // L11-26
+  1467: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 25, 'והן בבחינת ״ועשה', 'כמו עבודת הצדקה;'),  // L11-27
+  1468: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 25, 'וכיוצא באלו ממלחמות', 'ברוך־הוא, כנזכר לעיל.'),  // L11-28
+  1469: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 25, 'ויחוד זה למעלה', 'שנתבאר במקום אחר:'),  // L11-29
+  1470: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 25, 'ובזה יובן, למה', '– כנזכר לעיל:'),  // L11-30
+  1481: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 26, 'ברם , כגון', 'העצב, כנזכר לעיל:'),  // L12-01
+  1482: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 27, 'ואם העצבות אינה', 'מצות עשה ממש.'),  // L12-02
+  1483: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 27, 'ואדרבה, העצבות היא', 'ידים, כנזכר לעיל.'),  // L12-03
+  1484: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 27, 'ובכל דחיה ודחיה', 'על ידי צדיקים.'),  // L12-04
+  1485: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 27, 'ושני מיני נחת', 'יקרא דקודשא־בריך־הוא לעילא.'),  // L12-05
+  1486: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 27, 'ולא עוד, אלא', 'וקדושתו לעילא הרבה.'),  // L12-06
+  1487: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 27, 'ומקדושה זו נמשכת', 'מלבו מעט מעט:'),  // L12-07
+  1488: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 28, 'ואפילו אם נופלים', 'ממש – ״עמו״:'),  // L12-08
+  1489: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 29, 'אך עוד אחת', 'על חומריות שבגוף.'),  // L12-09
+  1490: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 29, 'ואף שמבין ומתבונן', '– ״בשר אדם״.'),  // L12-10
+  1491: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 29, 'וכמאמר הלל הזקן', 'האלהית ממש, בצדיקים.'),  // L12-11
+  1492: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 29, 'אבל בבינוני, מאחר', 'סוף פרק י״ג.]'),  // L12-12
+  1493: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 29, 'ובפרט כשיזכור טומאת', '״וחטאתי נגדי תמיד״.'),  // L12-13
+  1494: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 29, 'וגם מי שהוא', 'וכן בדבור ומעשה.'),  // L12-14
+  1495: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 29, 'עוד ישים אל', 'שכתוב בזהר הקדוש:'),  // L12-15
+  1496: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 30, 'עוד זאת ישים', 'שנתבאר במקום אחר.'),  // L12-16
+  1497: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 30, 'והנה, באמת, גם', 'על הלב בתולדתו.'),  // L12-17
+  1498: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 30, 'והנה, באמת, שהיא', 'שיתבאר לקמן באריכות.'),  // L12-18
+  1499: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 30, 'וכל שלא הגיע', 'הצדקה וכהאי גונא.'),  // L12-19
+  1500: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 30, 'ואפילו בבחינת ״סור', 'שעבר ושנה וכו׳.'),  // L12-20
+  1501: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 30, 'אבל באמת, אם', 'נעשו להם כשגגות״:'),  // L12-21
+  1502: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 31, 'והנה , אף', 'ישרים משמחי לב״:'),  // L12-22
+  1503: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 32, 'והנה , על', 'למגדול ועד קטן.'),  // L12-23
+  1504: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 32, 'כי מאחר שגופו', 'התלויה בדבר לבדה.'),  // L12-24
+  1505: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 32, 'וזהו שאמר הלל', 'במקום אחר באריכות:'),  // L12-25
+  1506: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 32, 'ומה שכתוב בגמרא,', 'שכתוב בספר חרדים.'),  // L12-26
+  1507: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 32, 'אבל מי שאינו', 'מצות אהבת ריעים.'),  // L12-27
+  1508: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 32, 'וגם המקורבים אליו', 'פרק ט״ז דשבת]:'),  // L12-28
+  1509: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 33, 'עוד זאת תהיה', 'יתברך, באמונה זו:'),  // L12-29
+  1510: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 34, 'והנה , מודעת', 'כמו שיתבאר לקמן.'),  // L12-30
+  1521: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 34, 'ומשחרב בית המקדש', 'הרחיב ה׳ לו:'),  // L13-01
+  1522: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 34, 'ואם ירחיב ה׳', 'כמו שיתבאר לקמן.'),  // L13-02
+  1523: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 34, 'והנה, בכל פרטי', 'בלבאי מסטרא דא״:'),  // L13-03
+  1524: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 35, 'והנה , לתוספת', 'בתוך תורתם ועבודתם.'),  // L13-04
+  1525: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 35, 'והוא, בהקדים לשון', 'עד כאן לשונו.'),  // L13-05
+  1526: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 35, 'והנה, ביאור משל', 'כו׳, והמשכיל יבין:'),  // L13-06
+  1527: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 36, 'והנה , מודעת', '״אני ואפסי עוד״.'),  // L13-07
+  1528: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 36, 'והנה, תכלית השתלשלות', 'שלא יבטלו במציאות.'),  // L13-08
+  1529: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 36, 'ולזה נתן הקדוש־ברוך־הוא', 'מהאר״י זכרונו לברכה:'),  // L13-09
+  1530: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 36, 'וגם כבר היה', 'תורה מחייהו כו׳״.'),  // L13-10
+  1531: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 36, 'רק שאחר כך', 'תבל ארצך וגו׳״:'),  // L13-11
+  1532: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'והנה , תכלית', 'בﬠבירה חס ושלום:'),  // L13-12
+  1533: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'ומעות הצדקה שאינן', 'התורה או התפלה:'),  // L13-13
+  1534: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'זאת ועוד אחרת,', 'הזה הגשמי והחומרי,'),  // L13-14
+  1535: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'כאשר כל הנשמה', 'למרכבה כמו האבות.'),  // L13-15
+  1536: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'ומאחר שכללות נפש', 'נוגה הממוצעת ביניהן.'),  // L13-16
+  1537: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'ונמצא, כי כל', 'ממנה שס״ה גידיה.'),  // L13-17
+  1538: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'כי כללות ישראל,', 'מארבע עולמות אצילות־בריאה־יצירה־עשיה.'),  // L13-18
+  1539: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'וכל ניצוץ, לא', 'לברר ניצוצין וכו׳.'),  // L13-19
+  1540: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 37, 'ובזה יובן מה', 'שנתבאר לעיל כ״ג]:'),  // L13-20
+  1541: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 38, 'והנה , עם', 'בשאר אברי הגוף:'),  // L13-21
+  1542: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 38, 'אך אף־על־פי־כן, אמרו:', 'נפש כל חי.'),  // L13-22
+  1543: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 38, 'ואף שבשניהם אור', 'בבחינת צמצום והתפשטות.'),  // L13-23
+  1544: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 38, 'כי בגוף הגשמי,', 'ושכלו בו יתברך.'),  // L13-24
+  1545: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 38, 'ולא שדביקות המחשבה', 'שהן: חי ומדבר.'),  // L13-25
+  1546: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 38, 'כי, מי שדעתו', 'בנפשותינו, כנזכר לעיל:'),  // L13-26
+  1547: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 39, 'ומפני זה גם', 'היא מצוה עצמה:'),  // L13-27
+  1548: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 39, 'ועולם האצילות שהוא', 'בחינת אלהות ממש.'),  // L13-28
+  1549: TanyaPortion('Likkutei Amarim', 'לקוטי אמרים', 39, 'והנה, צמצום זה,', 'היתה זאת עבודתם.'),  // L13-29
+};
