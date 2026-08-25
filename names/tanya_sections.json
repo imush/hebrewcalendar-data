@@ -1,11 +1,11 @@
 {
-  "Title Page":                { "he": "עמוד הכותרת" },
-  "Approbation":               { "he": "הסכמות הרבנים" },
-  "Compiler's Foreword":       { "he": "הקדמת המלקט" },
-  "Likkutei Amarim":           { "he": "לקוטי אמרים" },
-  "Chinukh Katan":             { "he": "חינוך קטן" },
-  "Shaar HaYichud VehaEmunah": { "he": "שער היחוד והאמונה" },
-  "Iggeret HaTeshuvah":        { "he": "אגרת התשובה" },
-  "Iggeret HaKodesh":          { "he": "אגרת הקודש" },
-  "Kuntres Acharon":           { "he": "קונטרס אחרון" }
+  "TITLE_PAGE":                { "en": "Title Page",                "he": "עמוד הכותרת" },
+  "APPROBATION":               { "en": "Approbation",               "he": "הסכמות הרבנים" },
+  "COMPILERS_FOREWORD":        { "en": "Compiler's Foreword",       "he": "הקדמת המלקט" },
+  "LIKKUTEI_AMARIM":           { "en": "Likkutei Amarim",           "he": "לקוטי אמרים" },
+  "CHINUKH_KATAN":             { "en": "Chinukh Katan",             "he": "חינוך קטן" },
+  "SHAAR_HAYICHUD_VEHAEMUNAH": { "en": "Shaar HaYichud VehaEmunah", "he": "שער היחוד והאמונה" },
+  "IGGERET_HATESHUVAH":        { "en": "Iggeret HaTeshuvah",        "he": "אגרת התשובה" },
+  "IGGERET_HAKODESH":          { "en": "Iggeret HaKodesh",          "he": "אגרת הקודש" },
+  "KUNTRES_ACHARON":           { "en": "Kuntres Acharon",           "he": "קונטרס אחרון" }
 }

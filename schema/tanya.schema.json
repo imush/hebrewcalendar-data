@@ -14,17 +14,8 @@
       "day":     { "type": "integer", "minimum": 1, "maximum": 30 },
       "section": {
         "type": "string",
-        "enum": [
-          "Title Page",
-          "Approbation",
-          "Compiler's Foreword",
-          "Likkutei Amarim",
-          "Chinukh Katan",
-          "Shaar HaYichud VehaEmunah",
-          "Iggeret HaTeshuvah",
-          "Iggeret HaKodesh",
-          "Kuntres Acharon"
-        ]
+        "description": "Stable SCREAMING_SNAKE_CASE key defined in names/tanya_sections.json. The names file holds the en/he/… translations for each key.",
+        "pattern": "^[A-Z][A-Z0-9_]*$"
       },
       "chapter": { "type": "integer", "minimum": 0, "description": "Chapter within the section. 0 for front matter (Title Page, Approbation, Compiler's Foreword) that has no chapter numbering." },
       "start":   { "type": "string", "minLength": 1, "description": "First three words of the day's reading (Hebrew)." },

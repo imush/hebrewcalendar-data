@@ -32,6 +32,33 @@ repo, so downstream consumers need no Python at build time).
 - `codegen/` — per-language generators (`to_dart.py`, `to_java.py`, ...)
 - `generated/` — committed generator output; consumers depend on these
 
+## Conventions
+
+**Every enum-like value uses a stable SCREAMING_SNAKE_CASE key**, never a
+display string. Translations live in a `names/…json` file keyed by the
+same identifier, with each language as a separate field:
+
+```jsonc
+// names/tanya_sections.json
+{
+  "IGGERET_HAKODESH": { "en": "Iggeret HaKodesh", "he": "אגרת הקודש" }
+}
+
+// schedules/tanya.json — references the key, not the display name
+{ "leap": false, "month": 6, "day": 10,
+  "section": "IGGERET_HAKODESH", "chapter": 12, ... }
+```
+
+Rationale: transliterated display names contain apostrophes, spaces,
+and casing variants that change over time. A stable key decouples data
+identity from presentation. This applies uniformly to every enum-valued
+field — parshiyot, halachot, tractates, holidays, months, zmanim,
+learning modules, everything.
+
+Codegen converts the canonical key to each language's idiomatic form:
+Dart `iggeretHakodesh`, Java `IGGERET_HAKODESH`, Scala `IggeretHakodesh`,
+C `TANYA_SECTION_IGGERET_HAKODESH`.
+
 ## Consuming
 
 Each consumer adds this repo as a git submodule and points its build at

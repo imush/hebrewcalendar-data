@@ -4,7 +4,6 @@
 The output is a self-contained pub package named `hebrewcalendar_data`
 that consumers reference via a `path:` dependency in pubspec.yaml.
 """
-from pathlib import Path
 from common import ROOT, load, tanya_key, BANNER
 
 DART_DIR = ROOT / "generated" / "dart"
@@ -17,41 +16,56 @@ def dart_str(s: str) -> str:
     return "'" + s.replace("\\", "\\\\").replace("'", r"\'") + "'"
 
 
-def emit_tanya() -> str:
-    entries = load("schedules/tanya.json")
-    sections = load("names/tanya_sections.json")
+def to_dart_enum_name(screaming: str) -> str:
+    """`IGGERET_HAKODESH` → `iggeretHakodesh` (Dart enum-constant style)."""
+    parts = screaming.lower().split("_")
+    return parts[0] + "".join(p.capitalize() for p in parts[1:])
 
-    section_he = {en: v["he"] for en, v in sections.items()}
+
+def emit_tanya() -> str:
+    entries  = load("schedules/tanya.json")
+    sections = load("names/tanya_sections.json")
 
     lines = [BANNER]
     lines.append("part of '../hebrewcalendar_data.dart';\n")
+
+    # ── TanyaSection enum ─────────────────────────────────────────
+    lines.append("enum TanyaSection {")
+    keys_sorted = list(sections.keys())  # preserve insertion order
+    for k in keys_sorted:
+        v = sections[k]
+        lines.append(
+            f"  {to_dart_enum_name(k)}({dart_str(v['en'])}, {dart_str(v['he'])}),"
+        )
+    lines.append("  ;")
+    lines.append("  final String en;")
+    lines.append("  final String he;")
+    lines.append("  const TanyaSection(this.en, this.he);")
+    lines.append("}\n")
+
+    # ── TanyaPortion record type ──────────────────────────────────
     lines.append("class TanyaPortion {")
-    lines.append("  final String sectionEn;")
-    lines.append("  final String sectionHe;")
-    lines.append("  final int chapter;")
+    lines.append("  final TanyaSection section;")
+    lines.append("  final int chapter;   // 0 = section has no numbered chapters (front matter)")
     lines.append("  final String start;")
     lines.append("  final String end;")
-    lines.append("  const TanyaPortion(this.sectionEn, this.sectionHe, "
-                 "this.chapter, this.start, this.end);")
+    lines.append("  const TanyaPortion(this.section, this.chapter, this.start, this.end);")
     lines.append("}\n")
 
     lines.append("/// Key: (leap ? 1000 : 0) + month * 40 + day")
     lines.append("int tanyaKey({required bool leap, required int month, required int day}) =>")
     lines.append("    (leap ? 1000 : 0) + month * 40 + day;\n")
 
-    # Sort by key so diffs are stable and readable.
+    # ── Schedule table ────────────────────────────────────────────
     entries.sort(key=lambda e: tanya_key(e["leap"], e["month"], e["day"]))
-
     lines.append("const Map<int, TanyaPortion> tanyaSchedule = {")
     for e in entries:
+        if e["section"] not in sections:
+            raise SystemExit(f"tanya.json references unknown section: {e['section']!r}")
         k = tanya_key(e["leap"], e["month"], e["day"])
-        he = section_he.get(e["section"])
-        if he is None:
-            raise SystemExit(f"tanya_sections.json missing Hebrew for section: {e['section']!r}")
-        # Comment holds the (leap, month, day) triple so search/diff is human-readable.
         tag = f"L{e['month']:02d}-{e['day']:02d}" if e["leap"] else f"N{e['month']:02d}-{e['day']:02d}"
         lines.append(
-            f"  {k}: TanyaPortion({dart_str(e['section'])}, {dart_str(he)}, "
+            f"  {k}: TanyaPortion(TanyaSection.{to_dart_enum_name(e['section'])}, "
             f"{e['chapter']}, {dart_str(e['start'])}, {dart_str(e['end'])}),  // {tag}"
         )
     lines.append("};\n")

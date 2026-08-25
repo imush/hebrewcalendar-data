@@ -2,8 +2,9 @@
 """Validate schedules/tanya.json against its schema and cross-check invariants.
 
 The schema catches type/enum errors; the invariants below catch semantic
-gaps that a schema can't express (missing days, duplicate keys, expected
-row counts per partition).
+gaps that a schema can't express — every section key resolves in
+names/tanya_sections.json, no duplicate (leap, month, day) rows, and
+expected partition sizes.
 """
 import json
 import sys
@@ -17,9 +18,15 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 schema = json.loads((ROOT / "schema" / "tanya.schema.json").read_text())
-data = json.loads((ROOT / "schedules" / "tanya.json").read_text())
+data   = json.loads((ROOT / "schedules" / "tanya.json").read_text())
+names  = json.loads((ROOT / "names" / "tanya_sections.json").read_text())
 
 jsonschema.validate(data, schema)
+
+# Every section key must exist in the names file.
+unknown = {e["section"] for e in data} - set(names)
+if unknown:
+    raise SystemExit(f"schedule references unknown section keys: {sorted(unknown)}")
 
 # Every (leap, month, day) combination must appear exactly once.
 seen = {}
