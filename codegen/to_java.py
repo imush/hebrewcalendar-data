@@ -75,6 +75,44 @@ def emit_special_maftir() -> str:
     )
 
 
+def emit_tanach_book() -> str:
+    """TanachBook enum + forEnglishName lookup.
+
+    Consumers reference books by English name ('II Kings', 'Isaiah', ...);
+    the enum lets us render them in any locale. Keys are SCREAMING_SNAKE
+    with spaces → underscore ('II Kings' → 'II_KINGS')."""
+    data = load("names/tanach_books.json")
+    lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", "",
+             "import java.util.HashMap;",
+             "import java.util.Map;",
+             ""]
+    lines.append("/** Books of the Tanach — 5 Chumash + Prophets — with 4-lang translations. */")
+    lines.append("public enum TanachBook {")
+    items = list(data.items())
+    for i, (key, v) in enumerate(items):
+        term = "," if i < len(items) - 1 else ";"
+        lines.append(
+            f"    {key}("
+            f"{java_str(key)}, {java_str(v['en'])}, "
+            f"{java_str(v['he'])}, {java_str(v['ru'])}, "
+            f"{java_str(v['fr'])}){term}"
+        )
+    lines.append("")
+    lines.append("    public final String key, en, he, ru, fr;")
+    lines.append("")
+    lines.append("    TanachBook(String key, String en, String he, String ru, String fr) {")
+    lines.append("        this.key = key; this.en = en; this.he = he; this.ru = ru; this.fr = fr;")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    private static final Map<String, TanachBook> BY_EN = new HashMap<>();")
+    lines.append("    static { for (TanachBook b : values()) BY_EN.put(b.en, b); }")
+    lines.append("")
+    lines.append("    /** Look up by English name ('II Kings', 'Isaiah', ...); null if unknown. */")
+    lines.append("    public static TanachBook forEnglishName(String en) { return BY_EN.get(en); }")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
 def emit_zman() -> str:
     return emit_translated_enum(
         "Zman", "names/zmanim.json",
@@ -591,6 +629,7 @@ def main():
     (JAVA_DIR / "Tanya.java").write_text(emit_tanya(), encoding="utf-8")
     (JAVA_DIR / "ChumashAliyot.java").write_text(emit_chumash_aliyot(), encoding="utf-8")
     (JAVA_DIR / "SpecialMaftir.java").write_text(emit_special_maftir(), encoding="utf-8")
+    (JAVA_DIR / "TanachBook.java").write_text(emit_tanach_book(), encoding="utf-8")
     (JAVA_DIR / "Zman.java").write_text(emit_zman(), encoding="utf-8")
     (JAVA_DIR / "Custom.java").write_text(emit_custom(), encoding="utf-8")
     (JAVA_DIR / "Haftarot.java").write_text(emit_haftarot(), encoding="utf-8")
