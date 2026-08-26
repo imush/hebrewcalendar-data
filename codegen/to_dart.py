@@ -193,6 +193,66 @@ def emit_hebrew_year_exceptions() -> str:
     return "\n".join(lines)
 
 
+def emit_daf_yomi() -> str:
+    data = load("schedules/daf_yomi.json")
+    tractates = data["tractates"]
+    cycle = data["cycle"]
+    lines = [BANNER]
+    lines.append("part of '../hebrewcalendar_data.dart';\n")
+    lines.append("/// One Bavli tractate in the Daf Yomi cycle.")
+    lines.append("class DafYomiTractate {")
+    lines.append("  final String key;       // stable SCREAMING_SNAKE_CASE")
+    lines.append("  final String en;")
+    lines.append("  final String he;")
+    lines.append("  final int lastDaf;      // last daf in the current cycle")
+    lines.append("  final int oldLastDaf;   // Shekalim pre-cycle-8; = lastDaf otherwise")
+    lines.append("  final int dafOffset;    // first-daf offset for Kinnim/Tamid/Middot")
+    lines.append("  final bool amudAOnly;   // ends on daf A-side only")
+    lines.append("  const DafYomiTractate({")
+    lines.append("    required this.key, required this.en, required this.he,")
+    lines.append("    required this.lastDaf, required this.oldLastDaf,")
+    lines.append("    required this.dafOffset, required this.amudAOnly,")
+    lines.append("  });")
+    lines.append("}\n")
+    lines.append("/// Cycle-boundary constants used to map a Gregorian date to a daf.")
+    lines.append("class DafYomiCycle {")
+    lines.append("  final DateTime oldStart, newStart;")
+    lines.append("  final int oldCycleDays, newCycleDays, firstNewCycle;")
+    lines.append("  const DafYomiCycle._({")
+    lines.append("    required this.oldStart, required this.newStart,")
+    lines.append("    required this.oldCycleDays, required this.newCycleDays,")
+    lines.append("    required this.firstNewCycle,")
+    lines.append("  });")
+    lines.append("}\n")
+
+    def date_to_ctor(s: str) -> str:
+        y, m, d = s.split("-")
+        return f"DateTime.utc({int(y)}, {int(m)}, {int(d)})"
+
+    lines.append("final DafYomiCycle dafYomiCycle = DafYomiCycle._(")
+    lines.append(f"  oldStart:      {date_to_ctor(cycle['oldStart'])},")
+    lines.append(f"  newStart:      {date_to_ctor(cycle['newStart'])},")
+    lines.append(f"  oldCycleDays:  {cycle['oldCycleDays']},")
+    lines.append(f"  newCycleDays:  {cycle['newCycleDays']},")
+    lines.append(f"  firstNewCycle: {cycle['firstNewCycle']},")
+    lines.append(");\n")
+
+    lines.append("/// 40 tractates in daf yomi cycle order.")
+    lines.append("const List<DafYomiTractate> dafYomiTractates = [")
+    for t in tractates:
+        old = t.get("oldLastDaf", t["lastDaf"])
+        off = t.get("dafOffset", 0)
+        amudA = "true" if t.get("amudAOnly", False) else "false"
+        lines.append(
+            f"  DafYomiTractate(key: {dart_str(t['key'])}, "
+            f"en: {dart_str(t['en'])}, he: {dart_str(t['he'])}, "
+            f"lastDaf: {t['lastDaf']}, oldLastDaf: {old}, "
+            f"dafOffset: {off}, amudAOnly: {amudA}),"
+        )
+    lines.append("];\n")
+    return "\n".join(lines)
+
+
 def emit_barrel() -> str:
     return (
         BANNER
@@ -203,6 +263,7 @@ def emit_barrel() -> str:
         + "part 'src/hebrew_months.dart';\n"
         + "part 'src/special_maftirs.dart';\n"
         + "part 'src/hebrew_year_exceptions.dart';\n"
+        + "part 'src/daf_yomi.dart';\n"
     )
 
 
@@ -226,6 +287,7 @@ def main():
     (SRC_DIR / "hebrew_months.dart").write_text(emit_hebrew_months(), encoding="utf-8")
     (SRC_DIR / "special_maftirs.dart").write_text(emit_special_maftirs(), encoding="utf-8")
     (SRC_DIR / "hebrew_year_exceptions.dart").write_text(emit_hebrew_year_exceptions(), encoding="utf-8")
+    (SRC_DIR / "daf_yomi.dart").write_text(emit_daf_yomi(), encoding="utf-8")
     (LIB_DIR / "hebrewcalendar_data.dart").write_text(emit_barrel(), encoding="utf-8")
     (DART_DIR / "pubspec.yaml").write_text(emit_pubspec(), encoding="utf-8")
     print(f"OK  dart  → {DART_DIR.relative_to(ROOT)}")

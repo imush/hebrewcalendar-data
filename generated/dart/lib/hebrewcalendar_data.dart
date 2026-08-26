@@ -8,3 +8,4 @@ part 'src/parshiyot.dart';
 part 'src/hebrew_months.dart';
 part 'src/special_maftirs.dart';
 part 'src/hebrew_year_exceptions.dart';
+part 'src/daf_yomi.dart';

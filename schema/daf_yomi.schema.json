@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hebrewcalendar.net/schemas/daf_yomi.schema.json",
+  "title": "Daf Yomi Bavli cycle metadata",
+  "description": "40 Bavli tractates in daf yomi cycle order, plus cycle-boundary constants used to compute today's daf.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["cycle", "tractates"],
+  "properties": {
+    "cycle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["oldStart", "newStart", "oldCycleDays", "newCycleDays", "firstNewCycle"],
+      "properties": {
+        "oldStart":      { "type": "string", "format": "date", "description": "Cycle 1 start (Gregorian YYYY-MM-DD)." },
+        "newStart":      { "type": "string", "format": "date", "description": "Cycle 8 start, when Shekalim expanded from 13 to 22 daf." },
+        "oldCycleDays":  { "type": "integer", "minimum": 1 },
+        "newCycleDays":  { "type": "integer", "minimum": 1 },
+        "firstNewCycle": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "tractates": {
+      "type": "array",
+      "minItems": 40,
+      "maxItems": 40,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["key", "en", "he", "lastDaf"],
+        "properties": {
+          "key":        { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$" },
+          "en":         { "type": "string", "minLength": 1 },
+          "he":         { "type": "string", "minLength": 1 },
+          "lastDaf":    { "type": "integer", "minimum": 1 },
+          "oldLastDaf": { "type": "integer", "minimum": 1, "description": "Pre-cycle-8 lastDaf (Shekalim only)." },
+          "dafOffset":  { "type": "integer", "minimum": 0, "description": "First-daf offset for tractates whose daf numbering continues from the previous tractate in Kodashim vol 4 (Kinnim/Tamid/Middot)." },
+          "amudAOnly":  { "type": "boolean", "description": "Tractate ends on the A-side of its last daf." }
+        }
+      }
+    }
+  }
+}
