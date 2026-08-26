@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hebrewcalendar.net/schemas/chumash_aliyot.schema.json",
+  "title": "Chumash daily-aliyah boundaries",
+  "description": "One reading per single parsha, doubled parsha, or special (Vezot HaBracha). Each carries the book (1=Genesis..5=Deuteronomy) and seven aliyah ranges in chapter:verse-chapter:verse format.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["readings"],
+  "properties": {
+    "readings": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "parshiyot", "book", "aliyot"],
+        "properties": {
+          "id":        { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$" },
+          "parshiyot": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$" },
+            "maxItems": 2,
+            "description": "Parsha keys covered (empty for specials like Vezot HaBracha)."
+          },
+          "displayEn": { "type": "string", "description": "Display name for specials without a Parsha reference." },
+          "displayHe": { "type": "string" },
+          "book":      { "type": "integer", "minimum": 1, "maximum": 5 },
+          "aliyot": {
+            "type": "array",
+            "minItems": 7, "maxItems": 7,
+            "items": {
+              "type": "string",
+              "pattern": "^\\d+:\\d+-\\d+:\\d+$"
+            }
+          }
+        }
+      }
+    }
+  }
+}

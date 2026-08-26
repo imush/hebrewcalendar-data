@@ -395,6 +395,56 @@ def emit_tanya() -> str:
     return "\n".join(lines) + "\n"
 
 
+def emit_chumash_aliyot() -> str:
+    data = load("schedules/chumash_aliyot.json")
+    lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", ""]
+    lines.append("import java.util.HashMap;")
+    lines.append("import java.util.List;")
+    lines.append("import java.util.Map;")
+    lines.append("")
+    lines.append("/** Chumash daily-aliyah boundaries. Keyed by the reading id")
+    lines.append(" *  (single parsha key, doubled JOINED_KEY, or VEZOT_HABRACHA). */")
+    lines.append("public final class ChumashAliyot {")
+    lines.append("    private ChumashAliyot() {}")
+    lines.append("")
+    lines.append("    public static final String[] BOOKS = {")
+    lines.append("        null, \"Genesis\", \"Exodus\", \"Leviticus\", \"Numbers\", \"Deuteronomy\"")
+    lines.append("    };")
+    lines.append("")
+    lines.append("    public static final class Reading {")
+    lines.append("        public final String id;")
+    lines.append("        public final List<String> parshiyot;   // Parsha keys — may be empty for specials")
+    lines.append("        public final String displayEn;         // null when parshiyot is non-empty")
+    lines.append("        public final String displayHe;")
+    lines.append("        public final int book;                 // 1..5")
+    lines.append("        public final String[] aliyot;          // 7 entries in \"chap:verse-chap:verse\" form")
+    lines.append("        public Reading(String id, List<String> parshiyot, String displayEn, String displayHe, int book, String[] aliyot) {")
+    lines.append("            this.id = id; this.parshiyot = parshiyot;")
+    lines.append("            this.displayEn = displayEn; this.displayHe = displayHe;")
+    lines.append("            this.book = book; this.aliyot = aliyot;")
+    lines.append("        }")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    public static final Map<String, Reading> READINGS;")
+    lines.append("    static {")
+    lines.append("        Map<String, Reading> m = new HashMap<>();")
+    for r in data["readings"]:
+        parshiyot = ", ".join(java_str(p) for p in r["parshiyot"])
+        parshiyot_expr = f"List.of({parshiyot})" if parshiyot else "List.of()"
+        display_en = java_str(r["displayEn"]) if "displayEn" in r else "null"
+        display_he = java_str(r["displayHe"]) if "displayHe" in r else "null"
+        aliyot_str = ", ".join(java_str(a) for a in r["aliyot"])
+        lines.append(
+            f"        m.put({java_str(r['id'])}, new Reading({java_str(r['id'])}, "
+            f"{parshiyot_expr}, {display_en}, {display_he}, {r['book']}, "
+            f"new String[]{{ {aliyot_str} }}));"
+        )
+    lines.append("        READINGS = java.util.Collections.unmodifiableMap(m);")
+    lines.append("    }")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
 def emit_year_cheshvan_kislev_type() -> str:
     """Simple 3-value enum imported by ParshiotYearType. Emitted so that the
     generated package is self-contained. Callers in the Java lib import it
@@ -421,6 +471,7 @@ def main():
     (JAVA_DIR / "RambamHalacha.java").write_text(emit_rambam_mt(), encoding="utf-8")
     (JAVA_DIR / "SeferHaMitzvot.java").write_text(emit_sefer_hamitzvot(), encoding="utf-8")
     (JAVA_DIR / "Tanya.java").write_text(emit_tanya(), encoding="utf-8")
+    (JAVA_DIR / "ChumashAliyot.java").write_text(emit_chumash_aliyot(), encoding="utf-8")
     print(f"OK  java  → {JAVA_DIR.relative_to(ROOT)}")
 
 
