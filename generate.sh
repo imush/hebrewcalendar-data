@@ -7,12 +7,12 @@ cd "$(dirname "$0")"
 python3 tests/validate_tanya.py
 python3 tests/validate_parshiyot.py
 python3 tests/validate_parsha_year_schedules.py
-python3 tests/validate_hebrew_months.py
+python3 tests/validate_jewish_months.py
 python3 tests/validate_special_maftirs.py
 python3 tests/validate_hebrew_year_exceptions.py
 python3 tests/validate_daf_yomi.py
 python3 tests/validate_zmanim.py
-python3 tests/validate_holidays.py
+python3 tests/validate_jewish_special_days.py
 python3 tests/validate_rambam_mt.py
 python3 tests/validate_sefer_hamitzvot.py
 python3 codegen/to_dart.py

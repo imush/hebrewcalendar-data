@@ -112,15 +112,15 @@ def emit_parshiyot() -> str:
     return "\n".join(lines)
 
 
-def emit_hebrew_months() -> str:
-    data = load("names/hebrew_months.json")
+def emit_jewish_months() -> str:
+    data = load("names/jewish_months.json")
     lines = [BANNER]
     lines.append("part of '../hebrewcalendar_data.dart';\n")
     lines.append("/// The 12 Hebrew months plus Adar I / Adar II leap variants.")
     lines.append("/// Callers pick the enum value with [forMonth] using the C library's")
     lines.append("/// month index (1..13, where month 12 in a non-leap year is Adar and")
     lines.append("/// in a leap year is Adar I, and month 13 exists only in leap years).")
-    lines.append("enum HebrewMonth {")
+    lines.append("enum JewishMonth {")
     for k, v in data.items():
         lines.append(
             f"  {to_dart_enum_name(k)}("
@@ -133,20 +133,20 @@ def emit_hebrew_months() -> str:
     lines.append("  final String he;")
     lines.append("  final String ru;")
     lines.append("  final String fr;")
-    lines.append("  const HebrewMonth(this.key, this.en, this.he, this.ru, this.fr);")
+    lines.append("  const JewishMonth(this.key, this.en, this.he, this.ru, this.fr);")
     lines.append("")
     lines.append("  /// Resolve by (month, leap) using the C library's month indexing.")
     lines.append("  /// month must be in 1..13; month 13 requires leap=true.")
-    lines.append("  static HebrewMonth? forMonth(int month, {required bool leap}) {")
+    lines.append("  static JewishMonth? forMonth(int month, {required bool leap}) {")
     lines.append("    const regular = [")
-    lines.append("      HebrewMonth.nisan,   HebrewMonth.iyar,     HebrewMonth.sivan,")
-    lines.append("      HebrewMonth.tamuz,   HebrewMonth.av,       HebrewMonth.elul,")
-    lines.append("      HebrewMonth.tishrei, HebrewMonth.cheshvan, HebrewMonth.kislev,")
-    lines.append("      HebrewMonth.tevet,   HebrewMonth.shvat,")
+    lines.append("      JewishMonth.nisan,   JewishMonth.iyar,     JewishMonth.sivan,")
+    lines.append("      JewishMonth.tamuz,   JewishMonth.av,       JewishMonth.elul,")
+    lines.append("      JewishMonth.tishrei, JewishMonth.cheshvan, JewishMonth.kislev,")
+    lines.append("      JewishMonth.tevet,   JewishMonth.shvat,")
     lines.append("    ];")
     lines.append("    if (month >= 1 && month <= 11) return regular[month - 1];")
-    lines.append("    if (month == 12) return leap ? HebrewMonth.adarI : HebrewMonth.adar;")
-    lines.append("    if (month == 13 && leap) return HebrewMonth.adarIi;")
+    lines.append("    if (month == 12) return leap ? JewishMonth.adarI : JewishMonth.adar;")
+    lines.append("    if (month == 13 && leap) return JewishMonth.adarIi;")
     lines.append("    return null;")
     lines.append("  }")
     lines.append("}\n")
@@ -282,12 +282,12 @@ def emit_zmanim() -> str:
     return "\n".join(lines)
 
 
-def emit_holidays() -> str:
-    """Emit the HolidayKey enum + hcSdToHoliday reverse map keyed by
+def emit_jewish_special_days() -> str:
+    """Emit the JewishSpecialDayKey enum + hcSdToJewishSpecialDay reverse map keyed by
     the integer sd value. Consumers can compare via `.key ==
-    HolidayKey.yomKippur` instead of stringly-typed 'YOM_KIPPUR'.
+    JewishSpecialDayKey.yomKippur` instead of stringly-typed 'YOM_KIPPUR'.
     """
-    holidays = load("names/holidays.json")
+    holidays = load("names/jewish_special_days.json")
     sds_list = load("enums/hc_special_days.json")["sds"]
     sd_to_int = {name: idx for idx, name in enumerate(sds_list)}
 
@@ -296,7 +296,7 @@ def emit_holidays() -> str:
     lines.append("/// Type-safe enum of holiday categories. Each value carries the")
     lines.append("/// canonical SCREAMING_SNAKE_CASE identifier and 4-language display")
     lines.append("/// strings; consumers switch/compare on the enum value.")
-    lines.append("enum HolidayKey {")
+    lines.append("enum JewishSpecialDayKey {")
     for k, v in holidays.items():
         lines.append(
             f"  {to_dart_enum_name(k)}("
@@ -309,16 +309,16 @@ def emit_holidays() -> str:
     lines.append("  final String he;")
     lines.append("  final String ru;")
     lines.append("  final String fr;")
-    lines.append("  const HolidayKey(this.key, this.en, this.he, this.ru, this.fr);")
+    lines.append("  const JewishSpecialDayKey(this.key, this.en, this.he, this.ru, this.fr);")
     lines.append("}\n")
 
-    # Reverse map: int sd -> HolidayKey.
-    lines.append("/// Look up a [HolidayKey] by the integer sd value returned from")
+    # Reverse map: int sd -> JewishSpecialDayKey.
+    lines.append("/// Look up a [JewishSpecialDayKey] by the integer sd value returned from")
     lines.append("/// [hc.getSpecialDays]. Returns null for HC_SD_NONE (0) and any")
     lines.append("/// sd not classified in holidays.json (validator prevents that).")
-    lines.append("const Map<int, HolidayKey> hcSdToHoliday = {")
+    lines.append("const Map<int, JewishSpecialDayKey> hcSdToJewishSpecialDay = {")
     for k, v in holidays.items():
-        enum_var = f"HolidayKey.{to_dart_enum_name(k)}"
+        enum_var = f"JewishSpecialDayKey.{to_dart_enum_name(k)}"
         for sd_name in v["sd"]:
             if sd_name not in sd_to_int:
                 raise SystemExit(f"holidays.json references unknown SD {sd_name!r}")
@@ -394,12 +394,12 @@ def emit_barrel() -> str:
         + "library hebrewcalendar_data;\n\n"
         + "part 'src/tanya.dart';\n"
         + "part 'src/parshiyot.dart';\n"
-        + "part 'src/hebrew_months.dart';\n"
+        + "part 'src/jewish_months.dart';\n"
         + "part 'src/special_maftirs.dart';\n"
         + "part 'src/hebrew_year_exceptions.dart';\n"
         + "part 'src/daf_yomi.dart';\n"
         + "part 'src/zmanim.dart';\n"
-        + "part 'src/holidays.dart';\n"
+        + "part 'src/jewish_special_days.dart';\n"
         + "part 'src/rambam_mt.dart';\n"
         + "part 'src/sefer_hamitzvot.dart';\n"
     )
@@ -422,12 +422,12 @@ def main():
     SRC_DIR.mkdir(parents=True, exist_ok=True)
     (SRC_DIR / "tanya.dart").write_text(emit_tanya(), encoding="utf-8")
     (SRC_DIR / "parshiyot.dart").write_text(emit_parshiyot(), encoding="utf-8")
-    (SRC_DIR / "hebrew_months.dart").write_text(emit_hebrew_months(), encoding="utf-8")
+    (SRC_DIR / "jewish_months.dart").write_text(emit_jewish_months(), encoding="utf-8")
     (SRC_DIR / "special_maftirs.dart").write_text(emit_special_maftirs(), encoding="utf-8")
     (SRC_DIR / "hebrew_year_exceptions.dart").write_text(emit_hebrew_year_exceptions(), encoding="utf-8")
     (SRC_DIR / "daf_yomi.dart").write_text(emit_daf_yomi(), encoding="utf-8")
     (SRC_DIR / "zmanim.dart").write_text(emit_zmanim(), encoding="utf-8")
-    (SRC_DIR / "holidays.dart").write_text(emit_holidays(), encoding="utf-8")
+    (SRC_DIR / "jewish_special_days.dart").write_text(emit_jewish_special_days(), encoding="utf-8")
     (SRC_DIR / "rambam_mt.dart").write_text(emit_rambam_mt(), encoding="utf-8")
     (SRC_DIR / "sefer_hamitzvot.dart").write_text(emit_sefer_hamitzvot(), encoding="utf-8")
     (LIB_DIR / "hebrewcalendar_data.dart").write_text(emit_barrel(), encoding="utf-8")

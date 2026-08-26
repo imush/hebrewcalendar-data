@@ -7,7 +7,7 @@ package net.hebrewcalendar.data;
 
 /** Hebrew months plus Adar I / Adar II leap variants. Use {@link #forMonth}
  *  to resolve from the (month, leap) tuple the calendar layer uses. */
-public enum HebrewMonth {
+public enum JewishMonth {
     NISAN("NISAN", "Nisan", "ניסן", "Нисан", "Nissan"),
     IYAR("IYAR", "Iyar", "אייר", "Ияр", "Iyar"),
     SIVAN("SIVAN", "Sivan", "סיון", "Сиван", "Sivane"),
@@ -29,7 +29,7 @@ public enum HebrewMonth {
     public final String ru;
     public final String fr;
 
-    HebrewMonth(String key, String en, String he, String ru, String fr) {
+    JewishMonth(String key, String en, String he, String ru, String fr) {
         this.key = key;
         this.en = en;
         this.he = he;
@@ -39,7 +39,7 @@ public enum HebrewMonth {
 
     /** Resolve by 1-based month index. Month 12 in a leap year is Adar I;
      *  month 13 exists only in leap years. Returns null for out-of-range. */
-    public static HebrewMonth forMonth(int month, boolean leap) {
+    public static JewishMonth forMonth(int month, boolean leap) {
         switch (month) {
             case 1:  return NISAN;
             case 2:  return IYAR;

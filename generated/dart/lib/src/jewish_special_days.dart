@@ -6,7 +6,7 @@ part of '../hebrewcalendar_data.dart';
 /// Type-safe enum of holiday categories. Each value carries the
 /// canonical SCREAMING_SNAKE_CASE identifier and 4-language display
 /// strings; consumers switch/compare on the enum value.
-enum HolidayKey {
+enum JewishSpecialDayKey {
   nisan11('NISAN_11', '11 Nisan', 'י״א ניסן', '11 нисана', '11 Nissan'),
   erevPesach('EREV_PESACH', 'Erev Pesach', 'ערב פסח', 'Эрев Песах', 'Erev Pessa\'h'),
   pesach('PESACH', 'Pesach', 'פסח', 'Песах', 'Pessa\'h'),
@@ -58,88 +58,88 @@ enum HolidayKey {
   final String he;
   final String ru;
   final String fr;
-  const HolidayKey(this.key, this.en, this.he, this.ru, this.fr);
+  const JewishSpecialDayKey(this.key, this.en, this.he, this.ru, this.fr);
 }
 
-/// Look up a [HolidayKey] by the integer sd value returned from
+/// Look up a [JewishSpecialDayKey] by the integer sd value returned from
 /// [hc.getSpecialDays]. Returns null for HC_SD_NONE (0) and any
 /// sd not classified in holidays.json (validator prevents that).
-const Map<int, HolidayKey> hcSdToHoliday = {
-  1: HolidayKey.nisan11,  // NISAN_11
-  2: HolidayKey.erevPesach,  // EREV_PESACH
-  3: HolidayKey.pesach,  // PESACH_1
-  4: HolidayKey.pesach,  // PESACH_2_C
-  5: HolidayKey.pesach,  // PESACH_7
-  6: HolidayKey.pesach,  // PESACH_LAST_C
-  7: HolidayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_1_I
-  8: HolidayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_2_I
-  9: HolidayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_3_I
-  10: HolidayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_4_I
-  11: HolidayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_5_I
-  12: HolidayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_1_C
-  13: HolidayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_2_C
-  14: HolidayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_3_C
-  15: HolidayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_4_C
-  16: HolidayKey.pesachSheni,  // PESACH_SHENI
-  17: HolidayKey.lagBaomer,  // LAG_BAOMER
-  18: HolidayKey.shavuot,  // SHAVUOT
-  19: HolidayKey.shavuot,  // SHAVUOT_2_C
-  20: HolidayKey.tamuz3,  // TAMUZ_3
-  21: HolidayKey.tamuz12,  // TAMUZ_12
-  22: HolidayKey.tamuz13,  // TAMUZ_13
-  23: HolidayKey.fast17Tamuz,  // FAST_17_TAMUZ
-  24: HolidayKey.fast9Av,  // FAST_9_AV
-  25: HolidayKey.chaiElul,  // CHAI_ELUL
-  26: HolidayKey.roshHashana,  // ROSH_HASHANA_1
-  27: HolidayKey.roshHashana,  // ROSH_HASHANA_2
-  28: HolidayKey.roshChodesh,  // ROSH_CHODESH
-  29: HolidayKey.tzomGedalia,  // TZOM_GEDALIA
-  30: HolidayKey.erevYomKippur,  // EREV_YOM_KIPPUR
-  31: HolidayKey.yomKippur,  // YOM_KIPPUR
-  32: HolidayKey.sukkot,  // SUKKOT_1
-  33: HolidayKey.sukkot,  // SUKKOT_2_C
-  34: HolidayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_1_I
-  35: HolidayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_2_I
-  36: HolidayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_3_I
-  37: HolidayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_4_I
-  38: HolidayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_5_I
-  39: HolidayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_1_C
-  40: HolidayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_2_C
-  41: HolidayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_3_C
-  42: HolidayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_4_C
-  43: HolidayKey.hoshanaRabba,  // HOSHANA_RABBA
-  44: HolidayKey.shminiAtzeret,  // SHMINI_ATZERET_C
-  45: HolidayKey.simchatTorah,  // SIMCHAT_TORAH_C
-  46: HolidayKey.simchatTorah,  // SIMCHAT_TORAH_I
-  47: HolidayKey.nineteenthKislev,  // NINETEENTH_KISLEV
-  48: HolidayKey.chanukah,  // CHANUKAH_1
-  49: HolidayKey.chanukah,  // CHANUKAH_2
-  50: HolidayKey.chanukah,  // CHANUKAH_3
-  51: HolidayKey.chanukah,  // CHANUKAH_4
-  52: HolidayKey.chanukah,  // CHANUKAH_5
-  53: HolidayKey.chanukah,  // CHANUKAH_6
-  54: HolidayKey.chanukah,  // CHANUKAH_7
-  55: HolidayKey.chanukah,  // CHANUKAH_8
-  56: HolidayKey.tenthTevet,  // TENTH_TEVET
-  57: HolidayKey.yudShvat,  // YUD_SHVAT
-  58: HolidayKey.tuBeshvat,  // TU_BESHVAT
-  59: HolidayKey.purimKatan,  // PURIM_KATAN
-  60: HolidayKey.taanitEsther,  // TAANIT_ESTHER
-  61: HolidayKey.purim,  // PURIM
-  62: HolidayKey.shushanPurim,  // SHUSHAN_PURIM
-  63: HolidayKey.shabbatShekalim,  // SHABBAT_SHEKALIM
-  64: HolidayKey.shabbatZachor,  // SHABBAT_ZACHOR
-  65: HolidayKey.shabbatPara,  // SHABBAT_PARA
-  66: HolidayKey.shabbatHachodesh,  // SHABBAT_HACHODESH
-  67: HolidayKey.shabbatHagadol,  // SHABBAT_HAGADOL
-  68: HolidayKey.shabbatChazon,  // SHABBAT_CHAZON
-  69: HolidayKey.shabbatNachamu,  // SHABBAT_NACHAMU
-  70: HolidayKey.shabbatShuvah,  // SHABBAT_SHUVAH
-  71: HolidayKey.shabbatShirah,  // SHABBAT_SHIRAH
-  72: HolidayKey.shabbatMevarchim,  // SHABBAT_MEVARCHIM
-  73: HolidayKey.eruvTavshilin,  // ERUV_TAVSHILIN_I
-  74: HolidayKey.eruvTavshilin,  // ERUV_TAVSHILIN_C
-  75: HolidayKey.talUmatar,  // TAL_UMATAR_I
-  76: HolidayKey.talUmatar,  // TAL_UMATAR_C
-  77: HolidayKey.birkatHachama,  // BIRKAT_HACHAMA
+const Map<int, JewishSpecialDayKey> hcSdToJewishSpecialDay = {
+  1: JewishSpecialDayKey.nisan11,  // NISAN_11
+  2: JewishSpecialDayKey.erevPesach,  // EREV_PESACH
+  3: JewishSpecialDayKey.pesach,  // PESACH_1
+  4: JewishSpecialDayKey.pesach,  // PESACH_2_C
+  5: JewishSpecialDayKey.pesach,  // PESACH_7
+  6: JewishSpecialDayKey.pesach,  // PESACH_LAST_C
+  7: JewishSpecialDayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_1_I
+  8: JewishSpecialDayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_2_I
+  9: JewishSpecialDayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_3_I
+  10: JewishSpecialDayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_4_I
+  11: JewishSpecialDayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_5_I
+  12: JewishSpecialDayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_1_C
+  13: JewishSpecialDayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_2_C
+  14: JewishSpecialDayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_3_C
+  15: JewishSpecialDayKey.cholHamoedPesach,  // CHOL_HAMOED_PESACH_4_C
+  16: JewishSpecialDayKey.pesachSheni,  // PESACH_SHENI
+  17: JewishSpecialDayKey.lagBaomer,  // LAG_BAOMER
+  18: JewishSpecialDayKey.shavuot,  // SHAVUOT
+  19: JewishSpecialDayKey.shavuot,  // SHAVUOT_2_C
+  20: JewishSpecialDayKey.tamuz3,  // TAMUZ_3
+  21: JewishSpecialDayKey.tamuz12,  // TAMUZ_12
+  22: JewishSpecialDayKey.tamuz13,  // TAMUZ_13
+  23: JewishSpecialDayKey.fast17Tamuz,  // FAST_17_TAMUZ
+  24: JewishSpecialDayKey.fast9Av,  // FAST_9_AV
+  25: JewishSpecialDayKey.chaiElul,  // CHAI_ELUL
+  26: JewishSpecialDayKey.roshHashana,  // ROSH_HASHANA_1
+  27: JewishSpecialDayKey.roshHashana,  // ROSH_HASHANA_2
+  28: JewishSpecialDayKey.roshChodesh,  // ROSH_CHODESH
+  29: JewishSpecialDayKey.tzomGedalia,  // TZOM_GEDALIA
+  30: JewishSpecialDayKey.erevYomKippur,  // EREV_YOM_KIPPUR
+  31: JewishSpecialDayKey.yomKippur,  // YOM_KIPPUR
+  32: JewishSpecialDayKey.sukkot,  // SUKKOT_1
+  33: JewishSpecialDayKey.sukkot,  // SUKKOT_2_C
+  34: JewishSpecialDayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_1_I
+  35: JewishSpecialDayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_2_I
+  36: JewishSpecialDayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_3_I
+  37: JewishSpecialDayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_4_I
+  38: JewishSpecialDayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_5_I
+  39: JewishSpecialDayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_1_C
+  40: JewishSpecialDayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_2_C
+  41: JewishSpecialDayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_3_C
+  42: JewishSpecialDayKey.cholHamoedSukkot,  // CHOL_HAMOED_SUKKOT_4_C
+  43: JewishSpecialDayKey.hoshanaRabba,  // HOSHANA_RABBA
+  44: JewishSpecialDayKey.shminiAtzeret,  // SHMINI_ATZERET_C
+  45: JewishSpecialDayKey.simchatTorah,  // SIMCHAT_TORAH_C
+  46: JewishSpecialDayKey.simchatTorah,  // SIMCHAT_TORAH_I
+  47: JewishSpecialDayKey.nineteenthKislev,  // NINETEENTH_KISLEV
+  48: JewishSpecialDayKey.chanukah,  // CHANUKAH_1
+  49: JewishSpecialDayKey.chanukah,  // CHANUKAH_2
+  50: JewishSpecialDayKey.chanukah,  // CHANUKAH_3
+  51: JewishSpecialDayKey.chanukah,  // CHANUKAH_4
+  52: JewishSpecialDayKey.chanukah,  // CHANUKAH_5
+  53: JewishSpecialDayKey.chanukah,  // CHANUKAH_6
+  54: JewishSpecialDayKey.chanukah,  // CHANUKAH_7
+  55: JewishSpecialDayKey.chanukah,  // CHANUKAH_8
+  56: JewishSpecialDayKey.tenthTevet,  // TENTH_TEVET
+  57: JewishSpecialDayKey.yudShvat,  // YUD_SHVAT
+  58: JewishSpecialDayKey.tuBeshvat,  // TU_BESHVAT
+  59: JewishSpecialDayKey.purimKatan,  // PURIM_KATAN
+  60: JewishSpecialDayKey.taanitEsther,  // TAANIT_ESTHER
+  61: JewishSpecialDayKey.purim,  // PURIM
+  62: JewishSpecialDayKey.shushanPurim,  // SHUSHAN_PURIM
+  63: JewishSpecialDayKey.shabbatShekalim,  // SHABBAT_SHEKALIM
+  64: JewishSpecialDayKey.shabbatZachor,  // SHABBAT_ZACHOR
+  65: JewishSpecialDayKey.shabbatPara,  // SHABBAT_PARA
+  66: JewishSpecialDayKey.shabbatHachodesh,  // SHABBAT_HACHODESH
+  67: JewishSpecialDayKey.shabbatHagadol,  // SHABBAT_HAGADOL
+  68: JewishSpecialDayKey.shabbatChazon,  // SHABBAT_CHAZON
+  69: JewishSpecialDayKey.shabbatNachamu,  // SHABBAT_NACHAMU
+  70: JewishSpecialDayKey.shabbatShuvah,  // SHABBAT_SHUVAH
+  71: JewishSpecialDayKey.shabbatShirah,  // SHABBAT_SHIRAH
+  72: JewishSpecialDayKey.shabbatMevarchim,  // SHABBAT_MEVARCHIM
+  73: JewishSpecialDayKey.eruvTavshilin,  // ERUV_TAVSHILIN_I
+  74: JewishSpecialDayKey.eruvTavshilin,  // ERUV_TAVSHILIN_C
+  75: JewishSpecialDayKey.talUmatar,  // TAL_UMATAR_I
+  76: JewishSpecialDayKey.talUmatar,  // TAL_UMATAR_C
+  77: JewishSpecialDayKey.birkatHachama,  // BIRKAT_HACHAMA
 };

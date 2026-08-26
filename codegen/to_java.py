@@ -26,7 +26,7 @@ def java_str(s: str) -> str:
 def emit_translated_enum(class_name: str, source: str, javadoc: str) -> str:
     """Emit a simple 4-lang name enum.
 
-    class_name  : Java enum class name (e.g. Parsha, HebrewMonth)
+    class_name  : Java enum class name (e.g. Parsha, JewishMonth)
     source      : path under the data repo, e.g. 'names/parshiyot.json'
     javadoc     : one-line summary at the top of the class
     """
@@ -68,13 +68,13 @@ def emit_parsha() -> str:
     )
 
 
-def emit_hebrew_month() -> str:
-    """HebrewMonth enum with translations + a helper for (month, leap) lookup."""
-    data = load("names/hebrew_months.json")
+def emit_jewish_month() -> str:
+    """JewishMonth enum with translations + a helper for (month, leap) lookup."""
+    data = load("names/jewish_months.json")
     lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", ""]
     lines.append("/** Hebrew months plus Adar I / Adar II leap variants. Use {@link #forMonth}")
     lines.append(" *  to resolve from the (month, leap) tuple the calendar layer uses. */")
-    lines.append("public enum HebrewMonth {")
+    lines.append("public enum JewishMonth {")
     items = list(data.items())
     for i, (key, v) in enumerate(items):
         term = "," if i < len(items) - 1 else ";"
@@ -91,7 +91,7 @@ def emit_hebrew_month() -> str:
     lines.append("    public final String ru;")
     lines.append("    public final String fr;")
     lines.append("")
-    lines.append("    HebrewMonth(String key, String en, String he, String ru, String fr) {")
+    lines.append("    JewishMonth(String key, String en, String he, String ru, String fr) {")
     lines.append("        this.key = key;")
     lines.append("        this.en = en;")
     lines.append("        this.he = he;")
@@ -101,7 +101,7 @@ def emit_hebrew_month() -> str:
     lines.append("")
     lines.append("    /** Resolve by 1-based month index. Month 12 in a leap year is Adar I;")
     lines.append("     *  month 13 exists only in leap years. Returns null for out-of-range. */")
-    lines.append("    public static HebrewMonth forMonth(int month, boolean leap) {")
+    lines.append("    public static JewishMonth forMonth(int month, boolean leap) {")
     lines.append("        switch (month) {")
     lines.append("            case 1:  return NISAN;")
     lines.append("            case 2:  return IYAR;")
@@ -126,7 +126,7 @@ def emit_hebrew_month() -> str:
 def main():
     JAVA_DIR.mkdir(parents=True, exist_ok=True)
     (JAVA_DIR / "Parsha.java").write_text(emit_parsha(), encoding="utf-8")
-    (JAVA_DIR / "HebrewMonth.java").write_text(emit_hebrew_month(), encoding="utf-8")
+    (JAVA_DIR / "JewishMonth.java").write_text(emit_jewish_month(), encoding="utf-8")
     print(f"OK  java  → {JAVA_DIR.relative_to(ROOT)}")
 
 

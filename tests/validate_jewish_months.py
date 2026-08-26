@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate names/hebrew_months.json against schema + invariants."""
+"""Validate names/jewish_months.json against schema + invariants."""
 import json, sys
 from pathlib import Path
 
@@ -9,8 +9,8 @@ except ImportError:
     print("jsonschema not installed", file=sys.stderr); sys.exit(2)
 
 ROOT   = Path(__file__).resolve().parent.parent
-schema = json.loads((ROOT / "schema" / "hebrew_months.schema.json").read_text())
-data   = json.loads((ROOT / "names"  / "hebrew_months.json").read_text())
+schema = json.loads((ROOT / "schema" / "jewish_months.schema.json").read_text())
+data   = json.loads((ROOT / "names"  / "jewish_months.json").read_text())
 
 jsonschema.validate(data, schema)
 
@@ -29,4 +29,4 @@ for lang in ("en", "he", "ru", "fr"):
     if dupes:
         raise SystemExit(f"duplicate {lang} month translations: {sorted(dupes)}")
 
-print(f"OK  hebrew_months.json  ({len(data)} entries × 4 langs)")
+print(f"OK  jewish_months.json  ({len(data)} entries × 4 langs)")
