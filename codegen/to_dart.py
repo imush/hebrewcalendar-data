@@ -278,10 +278,9 @@ def emit_zmanim() -> str:
 
 
 def emit_holidays() -> str:
-    """Emit the Holiday class + hcSdToHoliday reverse map keyed by the
-    integer sd value. The map is derived from names/holidays.json (which
-    references SD keys) and enums/hc_special_days.json (which supplies
-    the ordering that assigns each SD its integer value).
+    """Emit the HolidayKey enum + hcSdToHoliday reverse map keyed by
+    the integer sd value. Consumers can compare via `.key ==
+    HolidayKey.yomKippur` instead of stringly-typed 'YOM_KIPPUR'.
     """
     holidays = load("names/holidays.json")
     sds_list = load("enums/hc_special_days.json")["sds"]
@@ -289,42 +288,36 @@ def emit_holidays() -> str:
 
     lines = [BANNER]
     lines.append("part of '../hebrewcalendar_data.dart';\n")
-    lines.append("/// A holiday / special-day category with 4-language display strings.")
-    lines.append("/// A single Holiday may correspond to multiple HC_SD_* enum values")
-    lines.append("/// (Chanukah days 1..8, Chol Hamoed days, etc.); use [hcSdToHoliday]")
-    lines.append("/// to look up by the integer sd returned from getSpecialDays().")
-    lines.append("class Holiday {")
-    lines.append("  final String key;   // stable SCREAMING_SNAKE_CASE")
+    lines.append("/// Type-safe enum of holiday categories. Each value carries the")
+    lines.append("/// canonical SCREAMING_SNAKE_CASE identifier and 4-language display")
+    lines.append("/// strings; consumers switch/compare on the enum value.")
+    lines.append("enum HolidayKey {")
+    for k, v in holidays.items():
+        lines.append(
+            f"  {to_dart_enum_name(k)}("
+            f"{dart_str(k)}, {dart_str(v['en'])}, {dart_str(v['he'])}, "
+            f"{dart_str(v['ru'])}, {dart_str(v['fr'])}),"
+        )
+    lines.append("  ;")
+    lines.append("  final String key;   // stable identifier (matches JSON key)")
     lines.append("  final String en;")
     lines.append("  final String he;")
     lines.append("  final String ru;")
     lines.append("  final String fr;")
-    lines.append("  const Holiday(this.key, this.en, this.he, this.ru, this.fr);")
+    lines.append("  const HolidayKey(this.key, this.en, this.he, this.ru, this.fr);")
     lines.append("}\n")
 
-    # Emit const Holiday instances so the reverse-map values are const.
-    lines.append("// Instances (const) for the reverse map below.")
-    lines.append("class _H {")
-    for k, v in holidays.items():
-        var = "_" + to_dart_enum_name(k)
-        lines.append(
-            f"  static const {var} = Holiday("
-            f"{dart_str(k)}, {dart_str(v['en'])}, {dart_str(v['he'])}, "
-            f"{dart_str(v['ru'])}, {dart_str(v['fr'])});"
-        )
-    lines.append("}\n")
-
-    # Reverse map: int sd -> Holiday.
-    lines.append("/// Look up a Holiday by the integer sd value returned from")
+    # Reverse map: int sd -> HolidayKey.
+    lines.append("/// Look up a [HolidayKey] by the integer sd value returned from")
     lines.append("/// [hc.getSpecialDays]. Returns null for HC_SD_NONE (0) and any")
     lines.append("/// sd not classified in holidays.json (validator prevents that).")
-    lines.append("const Map<int, Holiday> hcSdToHoliday = {")
+    lines.append("const Map<int, HolidayKey> hcSdToHoliday = {")
     for k, v in holidays.items():
-        var = f"_H._{to_dart_enum_name(k)}"
+        enum_var = f"HolidayKey.{to_dart_enum_name(k)}"
         for sd_name in v["sd"]:
             if sd_name not in sd_to_int:
                 raise SystemExit(f"holidays.json references unknown SD {sd_name!r}")
-            lines.append(f"  {sd_to_int[sd_name]}: {var},  // {sd_name}")
+            lines.append(f"  {sd_to_int[sd_name]}: {enum_var},  // {sd_name}")
     lines.append("};\n")
     return "\n".join(lines)
 
