@@ -253,6 +253,30 @@ def emit_daf_yomi() -> str:
     return "\n".join(lines)
 
 
+def emit_zmanim() -> str:
+    data = load("names/zmanim.json")
+    lines = [BANNER]
+    lines.append("part of '../hebrewcalendar_data.dart';\n")
+    lines.append("/// Astronomical / halachic time-of-day noun labels.")
+    lines.append("/// Consumers combine these with per-repo formatting (talit/tefilin")
+    lines.append("/// selection, method-name interpolation, etc.) at render time.")
+    lines.append("enum Zman {")
+    for k, v in data.items():
+        lines.append(
+            f"  {to_dart_enum_name(k)}("
+            f"{dart_str(v['en'])}, {dart_str(v['he'])}, "
+            f"{dart_str(v['ru'])}, {dart_str(v['fr'])}),"
+        )
+    lines.append("  ;")
+    lines.append("  final String en;")
+    lines.append("  final String he;")
+    lines.append("  final String ru;")
+    lines.append("  final String fr;")
+    lines.append("  const Zman(this.en, this.he, this.ru, this.fr);")
+    lines.append("}\n")
+    return "\n".join(lines)
+
+
 def emit_barrel() -> str:
     return (
         BANNER
@@ -264,6 +288,7 @@ def emit_barrel() -> str:
         + "part 'src/special_maftirs.dart';\n"
         + "part 'src/hebrew_year_exceptions.dart';\n"
         + "part 'src/daf_yomi.dart';\n"
+        + "part 'src/zmanim.dart';\n"
     )
 
 
@@ -288,6 +313,7 @@ def main():
     (SRC_DIR / "special_maftirs.dart").write_text(emit_special_maftirs(), encoding="utf-8")
     (SRC_DIR / "hebrew_year_exceptions.dart").write_text(emit_hebrew_year_exceptions(), encoding="utf-8")
     (SRC_DIR / "daf_yomi.dart").write_text(emit_daf_yomi(), encoding="utf-8")
+    (SRC_DIR / "zmanim.dart").write_text(emit_zmanim(), encoding="utf-8")
     (LIB_DIR / "hebrewcalendar_data.dart").write_text(emit_barrel(), encoding="utf-8")
     (DART_DIR / "pubspec.yaml").write_text(emit_pubspec(), encoding="utf-8")
     print(f"OK  dart  → {DART_DIR.relative_to(ROOT)}")
