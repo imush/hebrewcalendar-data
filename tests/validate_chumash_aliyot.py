@@ -20,11 +20,11 @@ for r in data["readings"]:
     for p in r["parshiyot"]:
         if p not in known:
             raise SystemExit(f"unknown parsha key in reading {r['id']}: {p}")
-    if not r["parshiyot"] and not (r.get("displayEn") and r.get("displayHe")):
-        raise SystemExit(f"reading {r['id']} needs displayEn/displayHe or parshiyot")
+    if not r["parshiyot"]:
+        raise SystemExit(f"reading {r['id']} has no parshiyot")
 
-# All parsha keys must appear in at least one reading (except VZot_HaBerachah
-# which isn't in the enum).
+# All parsha keys must appear in at least one reading (including VEZOT_HABRACHA,
+# which has its own reading id and is a first-class Parsha value).
 covered = set()
 for r in data["readings"]:
     for p in r["parshiyot"]: covered.add(p)

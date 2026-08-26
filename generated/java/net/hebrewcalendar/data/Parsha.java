@@ -59,7 +59,8 @@ public enum Parsha {
     KI_TAVO("KI_TAVO", "Ki Tavo", "כי תבוא", "Ки Таво", "Ki Tavo"),
     NITZAVIM("NITZAVIM", "Nitzavim", "נצבים", "Ницавим", "Nitsavim"),
     VAYEILECH("VAYEILECH", "Vayeilech", "וילך", "Вайелех", "Vayéle'h"),
-    HAAZINU("HAAZINU", "Haazinu", "האזינו", "Ѓаазину", "Haazinou");
+    HAAZINU("HAAZINU", "Haazinu", "האזינו", "Ѓаазину", "Haazinou"),
+    VEZOT_HABRACHA("VEZOT_HABRACHA", "Vezot HaBracha", "וזאת הברכה", "Везот ѓаБраха", "Vezot HaBracha");
 
     public final String key;
     public final String en;

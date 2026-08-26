@@ -400,6 +400,13 @@ public final class Haftarot {
             m.put(Custom.TEIMAN, List.of(new Reference("Ezekiel", 17, 22, 18, 32)));
             m.put(Custom.ITALKI, List.of(new Reference("Ezekiel", 17, 22, 18, 32)));
             all.put(Parsha.HAAZINU, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Joshua", 1, 1, 1, 18)));
+            m.put(Custom.SEFARD, List.of(new Reference("Joshua", 1, 1, 1, 9)));
+            m.put(Custom.CHABAD, List.of(new Reference("Joshua", 1, 1, 1, 18)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Joshua", 1, 1, 1, 9), new Reference("Joshua", 6, 27, 6, 27)));
+            m.put(Custom.ITALKI, List.of(new Reference("Joshua", 1, 1, 1, 18)));
+            all.put(Parsha.VEZOT_HABRACHA, java.util.Collections.unmodifiableMap(m)); }
         ALL = java.util.Collections.unmodifiableMap(all);
     }
 

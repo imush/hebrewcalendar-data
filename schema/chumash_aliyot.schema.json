@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://hebrewcalendar.net/schemas/chumash_aliyot.schema.json",
   "title": "Chumash daily-aliyah boundaries",
-  "description": "One reading per single parsha, doubled parsha, or special (Vezot HaBracha). Each carries the book (1=Genesis..5=Deuteronomy) and seven aliyah ranges in chapter:verse-chapter:verse format.",
+  "description": "One reading per single parsha or doubled parsha (Vezot HaBracha included as a single parsha too — read on Simchat Torah, never on a normal Shabbat). Each carries the book (1=Genesis..5=Deuteronomy) and seven aliyah ranges in chapter:verse-chapter:verse format.",
   "type": "object",
   "additionalProperties": false,
   "required": ["readings"],
@@ -19,11 +19,9 @@
           "parshiyot": {
             "type": "array",
             "items": { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$" },
-            "maxItems": 2,
-            "description": "Parsha keys covered (empty for specials like Vezot HaBracha)."
+            "minItems": 1, "maxItems": 2,
+            "description": "1 or 2 Parsha keys covered by this reading."
           },
-          "displayEn": { "type": "string", "description": "Display name for specials without a Parsha reference." },
-          "displayHe": { "type": "string" },
           "book":      { "type": "integer", "minimum": 1, "maximum": 5 },
           "aliyot": {
             "type": "array",

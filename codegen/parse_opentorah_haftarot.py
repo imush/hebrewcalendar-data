@@ -66,7 +66,10 @@ PARSHA_MAP = {
     "Re'eh": "REEH", "Shoftim": "SHOFTIM", "Ki Seitzei": "KI_TEITZEI",
     "Ki Savo": "KI_TAVO", "Nitzavim": "NITZAVIM", "Vayeilech": "VAYEILECH",
     "Haazinu": "HAAZINU",
-    # Vezos Haberachah is Simchat Torah, not a Shabbat parsha — skip.
+    # Vezos Haberachah — read on Simchat Torah (never a normal Shabbat),
+    # but a first-class Parsha value so consumers can Haftarot.forParsha
+    # it alongside the weekly parshiyot.
+    "Vezos Haberachah": "VEZOT_HABRACHA",
 }
 
 
@@ -88,6 +91,7 @@ def _int(v):
 NACH_CHAPTER_LENGTHS = {
     ("II Kings", 13): 25,
     ("Isaiah",   41): 29,
+    ("Joshua",    6): 27,   # Vezos Haberachah Teiman part 2
 }
 
 

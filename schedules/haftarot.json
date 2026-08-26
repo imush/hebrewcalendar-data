@@ -2643,5 +2643,59 @@
         "toV": 32
       }
     ]
+  },
+  "VEZOT_HABRACHA": {
+    "ASHKENAZ": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 18
+      }
+    ],
+    "SEFARD": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 9
+      }
+    ],
+    "CHABAD": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 18
+      }
+    ],
+    "TEIMAN": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 9
+      },
+      {
+        "book": "Joshua",
+        "fromCh": 6,
+        "fromV": 27,
+        "toCh": 6,
+        "toV": 27
+      }
+    ],
+    "ITALKI": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 18
+      }
+    ]
   }
 }

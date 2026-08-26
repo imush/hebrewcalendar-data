@@ -18,8 +18,8 @@ data   = json.loads((ROOT / "names"  / "parshiyot.json").read_text())
 
 jsonschema.validate(data, schema)
 
-# Exactly 53 weekly parshiyot — V'Zot HaBerachah is excluded.
-assert len(data) == 53, f"expected 53 parshiyot, got {len(data)}"
+# 54 parshiyot: 53 weekly + Vezot Haberakhah (Simchat Torah).
+assert len(data) == 54, f"expected 54 parshiyot, got {len(data)}"
 
 # Every language value must be unique — a duplicate signals a typo, since
 # each parsha has a distinct name in every language we translate to.

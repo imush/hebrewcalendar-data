@@ -51,5 +51,6 @@
   "KI_TAVO":        { "en": "Ki Tavo",       "he": "כי תבוא",  "ru": "Ки Таво",     "fr": "Ki Tavo" },
   "NITZAVIM":       { "en": "Nitzavim",      "he": "נצבים",    "ru": "Ницавим",     "fr": "Nitsavim" },
   "VAYEILECH":      { "en": "Vayeilech",     "he": "וילך",     "ru": "Вайелех",     "fr": "Vayéle'h" },
-  "HAAZINU":        { "en": "Haazinu",       "he": "האזינו",   "ru": "Ѓаазину",     "fr": "Haazinou" }
+  "HAAZINU":        { "en": "Haazinu",       "he": "האזינו",   "ru": "Ѓаазину",     "fr": "Haazinou" },
+  "VEZOT_HABRACHA": { "en": "Vezot HaBracha", "he": "וזאת הברכה", "ru": "Везот ѓаБраха", "fr": "Vezot HaBracha" }
 }

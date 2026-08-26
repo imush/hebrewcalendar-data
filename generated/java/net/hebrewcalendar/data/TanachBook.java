@@ -30,7 +30,7 @@ public enum TanachBook {
     OBADIAH("OBADIAH", "Obadiah", "עובדיה", "Овадья", "Ovadia"),
     JONAH("JONAH", "Jonah", "יונה", "Йона", "Yona"),
     MICAH("MICAH", "Micah", "מיכה", "Миха", "Mikha"),
-    NAHUM("NAHUM", "Nahum", "נחום", "Наѓум", "Nahoum"),
+    NAHUM("NAHUM", "Nahum", "נחום", "Нахум", "Nahoum"),
     HABAKKUK("HABAKKUK", "Habakkuk", "חבקוק", "Хавакук", "'Havakouk"),
     ZEPHANIAH("ZEPHANIAH", "Zephaniah", "צפניה", "Цфанья", "Tsefania"),
     HAGGAI("HAGGAI", "Haggai", "חגי", "Хагай", "'Haggaï"),

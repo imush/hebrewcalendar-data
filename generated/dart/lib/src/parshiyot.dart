@@ -60,6 +60,7 @@ enum Parsha {
   nitzavim('NITZAVIM', 'Nitzavim', 'נצבים', 'Ницавим', 'Nitsavim'),
   vayeilech('VAYEILECH', 'Vayeilech', 'וילך', 'Вайелех', 'Vayéle\'h'),
   haazinu('HAAZINU', 'Haazinu', 'האזינו', 'Ѓаазину', 'Haazinou'),
+  vezotHabracha('VEZOT_HABRACHA', 'Vezot Haberakhah', 'וזאת הברכה', 'Везот ѓаБраха', 'Vezot Haberakha'),
   ;
   final String key;   // stable identifier (matches JSON key)
   final String en;
