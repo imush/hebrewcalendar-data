@@ -1,0 +1,411 @@
+/*
+ * GENERATED FILE — DO NOT EDIT.
+ * Source: hebrewcalendar-data — regenerate with ./generate.sh
+ */
+
+package net.hebrewcalendar.data;
+
+import java.util.EnumMap;
+import java.util.List;
+import java.util.Map;
+
+/** Haftarah references per parsha × custom (opentorah-derived).
+ *  Each entry is a list of Reference parts (multi-part haftarot
+ *  concatenate two chunks). Use {@link #forParsha} to look up.
+ */
+public final class Haftarot {
+    private Haftarot() {}
+
+    public static final class Reference {
+        public final String book;
+        public final int fromCh, fromV, toCh, toV;
+        Reference(String book, int fromCh, int fromV, int toCh, int toV) {
+            this.book = book;
+            this.fromCh = fromCh; this.fromV = fromV;
+            this.toCh   = toCh;   this.toV   = toV;
+        }
+    }
+
+    public static final Map<Parsha, Map<Custom, List<Reference>>> ALL;
+    static {
+        Map<Parsha, Map<Custom, List<Reference>>> all = new EnumMap<>(Parsha.class);
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Isaiah", 42, 5, 43, 10)));
+            m.put(Custom.SEFARD, List.of(new Reference("Isaiah", 42, 5, 42, 21)));
+            m.put(Custom.CHABAD, List.of(new Reference("Isaiah", 42, 5, 42, 21)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 42, 1, 42, 16)));
+            m.put(Custom.ITALKI, List.of(new Reference("Isaiah", 42, 1, 42, 21)));
+            all.put(Parsha.BEREISHIT, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Isaiah", 54, 1, 55, 5)));
+            m.put(Custom.SEFARD, List.of(new Reference("Isaiah", 54, 1, 54, 10)));
+            m.put(Custom.CHABAD, List.of(new Reference("Isaiah", 54, 1, 54, 10)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 54, 1, 55, 3)));
+            m.put(Custom.ITALKI, List.of(new Reference("Isaiah", 54, 1, 55, 5)));
+            all.put(Parsha.NOACH, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Isaiah", 40, 27, 41, 16)));
+            m.put(Custom.SEFARD, List.of(new Reference("Isaiah", 40, 27, 41, 16)));
+            m.put(Custom.CHABAD, List.of(new Reference("Isaiah", 40, 27, 41, 16)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 40, 25, 41, 17)));
+            m.put(Custom.ITALKI, List.of(new Reference("Isaiah", 40, 25, 41, 17)));
+            all.put(Parsha.LECH_LECHA, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("II Kings", 4, 1, 4, 37)));
+            m.put(Custom.SEFARD, List.of(new Reference("II Kings", 4, 1, 4, 23)));
+            m.put(Custom.CHABAD, List.of(new Reference("II Kings", 4, 1, 4, 37)));
+            m.put(Custom.TEIMAN, List.of(new Reference("II Kings", 4, 1, 4, 23)));
+            m.put(Custom.ITALKI, List.of(new Reference("II Kings", 4, 1, 4, 37)));
+            all.put(Parsha.VAYERA, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("I Kings", 1, 1, 1, 31)));
+            m.put(Custom.SEFARD, List.of(new Reference("I Kings", 1, 1, 1, 31)));
+            m.put(Custom.CHABAD, List.of(new Reference("I Kings", 1, 1, 1, 31)));
+            m.put(Custom.TEIMAN, List.of(new Reference("I Kings", 1, 1, 1, 31)));
+            m.put(Custom.ITALKI, List.of(new Reference("I Kings", 1, 1, 1, 34)));
+            all.put(Parsha.CHAYEI_SARAH, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Malachi", 1, 1, 2, 7)));
+            m.put(Custom.SEFARD, List.of(new Reference("Malachi", 1, 1, 2, 7)));
+            m.put(Custom.CHABAD, List.of(new Reference("Malachi", 1, 1, 2, 7)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Malachi", 1, 1, 3, 4)));
+            m.put(Custom.ITALKI, List.of(new Reference("Malachi", 1, 1, 2, 7)));
+            all.put(Parsha.TOLDOT, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Hosea", 12, 13, 14, 10)));
+            m.put(Custom.SEFARD, List.of(new Reference("Hosea", 11, 7, 12, 12)));
+            m.put(Custom.CHABAD, List.of(new Reference("Hosea", 11, 7, 12, 14)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Hosea", 11, 7, 12, 14)));
+            m.put(Custom.ITALKI, List.of(new Reference("Hosea", 11, 7, 12, 14)));
+            all.put(Parsha.VAYETZE, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Obadiah", 1, 1, 1, 21)));
+            m.put(Custom.SEFARD, List.of(new Reference("Obadiah", 1, 1, 1, 21)));
+            m.put(Custom.CHABAD, List.of(new Reference("Obadiah", 1, 1, 1, 21)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Obadiah", 1, 1, 1, 21)));
+            m.put(Custom.ITALKI, List.of(new Reference("Obadiah", 1, 1, 1, 21)));
+            all.put(Parsha.VAYISHLACH, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Amos", 2, 6, 3, 8)));
+            m.put(Custom.SEFARD, List.of(new Reference("Amos", 2, 6, 3, 8)));
+            m.put(Custom.CHABAD, List.of(new Reference("Amos", 2, 6, 3, 8)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Amos", 2, 6, 3, 8)));
+            m.put(Custom.ITALKI, List.of(new Reference("Amos", 2, 6, 3, 8)));
+            all.put(Parsha.VAYESHEV, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("I Kings", 3, 15, 4, 1)));
+            m.put(Custom.SEFARD, List.of(new Reference("I Kings", 3, 15, 4, 1)));
+            m.put(Custom.CHABAD, List.of(new Reference("I Kings", 3, 15, 4, 1)));
+            m.put(Custom.TEIMAN, List.of(new Reference("I Kings", 3, 15, 4, 1)));
+            m.put(Custom.ITALKI, List.of(new Reference("I Kings", 3, 15, 4, 1)));
+            all.put(Parsha.MIKETZ, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Ezekiel", 37, 15, 37, 28)));
+            m.put(Custom.SEFARD, List.of(new Reference("Ezekiel", 37, 15, 37, 28)));
+            m.put(Custom.CHABAD, List.of(new Reference("Ezekiel", 37, 15, 37, 28)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Ezekiel", 37, 15, 37, 28)));
+            m.put(Custom.ITALKI, List.of(new Reference("Ezekiel", 37, 15, 37, 28)));
+            all.put(Parsha.VAYIGASH, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("I Kings", 2, 1, 2, 12)));
+            m.put(Custom.SEFARD, List.of(new Reference("I Kings", 2, 1, 2, 12)));
+            m.put(Custom.CHABAD, List.of(new Reference("I Kings", 2, 1, 2, 12)));
+            m.put(Custom.TEIMAN, List.of(new Reference("I Kings", 2, 1, 2, 12)));
+            m.put(Custom.ITALKI, List.of(new Reference("I Kings", 2, 1, 2, 12)));
+            all.put(Parsha.VAYECHI, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Isaiah", 27, 6, 28, 13), new Reference("Isaiah", 29, 22, 29, 23)));
+            m.put(Custom.SEFARD, List.of(new Reference("Jeremiah", 1, 1, 2, 3)));
+            m.put(Custom.CHABAD, List.of(new Reference("Isaiah", 27, 6, 28, 13), new Reference("Isaiah", 29, 22, 29, 23)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Ezekiel", 16, 1, 16, 14)));
+            m.put(Custom.ITALKI, List.of(new Reference("Jeremiah", 1, 1, 1, 19)));
+            all.put(Parsha.SHEMOT, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Ezekiel", 28, 25, 29, 21)));
+            m.put(Custom.SEFARD, List.of(new Reference("Ezekiel", 28, 25, 29, 21)));
+            m.put(Custom.CHABAD, List.of(new Reference("Ezekiel", 28, 25, 29, 21)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Ezekiel", 28, 24, 29, 21)));
+            m.put(Custom.ITALKI, List.of(new Reference("Ezekiel", 28, 25, 29, 21)));
+            all.put(Parsha.VAERA, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Jeremiah", 46, 13, 46, 28)));
+            m.put(Custom.SEFARD, List.of(new Reference("Jeremiah", 46, 13, 46, 28)));
+            m.put(Custom.CHABAD, List.of(new Reference("Jeremiah", 46, 13, 46, 28)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 19, 1, 19, 25)));
+            m.put(Custom.ITALKI, List.of(new Reference("Isaiah", 18, 7, 19, 25)));
+            all.put(Parsha.BO, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Judges", 4, 4, 5, 31)));
+            m.put(Custom.SEFARD, List.of(new Reference("Judges", 5, 1, 5, 31)));
+            m.put(Custom.CHABAD, List.of(new Reference("Judges", 4, 4, 5, 31)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Judges", 4, 23, 5, 31)));
+            m.put(Custom.ITALKI, List.of(new Reference("Judges", 4, 4, 5, 3)));
+            all.put(Parsha.BESHALACH, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Isaiah", 6, 1, 7, 6), new Reference("Isaiah", 9, 5, 9, 6)));
+            m.put(Custom.SEFARD, List.of(new Reference("Isaiah", 6, 1, 6, 13)));
+            m.put(Custom.CHABAD, List.of(new Reference("Isaiah", 6, 1, 6, 13)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 6, 1, 6, 13), new Reference("Isaiah", 9, 5, 9, 6)));
+            m.put(Custom.ITALKI, List.of(new Reference("Isaiah", 6, 1, 7, 6), new Reference("Isaiah", 9, 5, 9, 6)));
+            all.put(Parsha.YITRO, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Jeremiah", 34, 8, 34, 22), new Reference("Jeremiah", 33, 25, 33, 26)));
+            m.put(Custom.SEFARD, List.of(new Reference("Jeremiah", 34, 8, 34, 22), new Reference("Jeremiah", 33, 25, 33, 26)));
+            m.put(Custom.CHABAD, List.of(new Reference("Jeremiah", 34, 8, 34, 22), new Reference("Jeremiah", 33, 25, 33, 26)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Jeremiah", 34, 8, 35, 19)));
+            m.put(Custom.ITALKI, List.of(new Reference("Jeremiah", 34, 8, 35, 11)));
+            all.put(Parsha.MISHPATIM, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("I Kings", 5, 26, 6, 13)));
+            m.put(Custom.SEFARD, List.of(new Reference("I Kings", 5, 26, 6, 13)));
+            m.put(Custom.CHABAD, List.of(new Reference("I Kings", 5, 26, 6, 13)));
+            m.put(Custom.TEIMAN, List.of(new Reference("I Kings", 5, 26, 6, 13)));
+            m.put(Custom.ITALKI, List.of(new Reference("I Kings", 5, 26, 6, 13)));
+            all.put(Parsha.TERUMAH, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Ezekiel", 43, 10, 43, 27)));
+            m.put(Custom.SEFARD, List.of(new Reference("Ezekiel", 43, 10, 43, 27)));
+            m.put(Custom.CHABAD, List.of(new Reference("Ezekiel", 43, 10, 43, 27)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Ezekiel", 43, 10, 43, 27)));
+            m.put(Custom.ITALKI, List.of(new Reference("Ezekiel", 43, 10, 43, 27)));
+            all.put(Parsha.TETZAVEH, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("I Kings", 18, 1, 18, 39)));
+            m.put(Custom.SEFARD, List.of(new Reference("I Kings", 18, 20, 18, 39)));
+            m.put(Custom.CHABAD, List.of(new Reference("I Kings", 18, 1, 18, 39)));
+            m.put(Custom.TEIMAN, List.of(new Reference("I Kings", 18, 1, 18, 45)));
+            m.put(Custom.ITALKI, List.of(new Reference("I Kings", 18, 20, 18, 39)));
+            all.put(Parsha.KI_TISA, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("I Kings", 7, 40, 7, 50)));
+            m.put(Custom.SEFARD, List.of(new Reference("I Kings", 7, 13, 7, 26)));
+            m.put(Custom.CHABAD, List.of(new Reference("I Kings", 7, 13, 7, 26)));
+            m.put(Custom.TEIMAN, List.of(new Reference("I Kings", 7, 13, 7, 22)));
+            m.put(Custom.ITALKI, List.of(new Reference("I Kings", 7, 13, 7, 26)));
+            all.put(Parsha.VAYAKHEL, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("I Kings", 7, 51, 8, 21)));
+            m.put(Custom.SEFARD, List.of(new Reference("I Kings", 7, 40, 7, 50)));
+            m.put(Custom.CHABAD, List.of(new Reference("I Kings", 7, 51, 8, 21)));
+            m.put(Custom.TEIMAN, List.of(new Reference("I Kings", 7, 40, 7, 50)));
+            m.put(Custom.ITALKI, List.of(new Reference("I Kings", 7, 40, 7, 51)));
+            all.put(Parsha.PEKUDEI, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Isaiah", 43, 21, 44, 23)));
+            m.put(Custom.SEFARD, List.of(new Reference("Isaiah", 43, 21, 44, 23)));
+            m.put(Custom.CHABAD, List.of(new Reference("Isaiah", 43, 21, 44, 23)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 43, 21, 44, 6)));
+            m.put(Custom.ITALKI, List.of(new Reference("Isaiah", 43, 21, 44, 6)));
+            all.put(Parsha.VAYIKRA, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Jeremiah", 7, 21, 8, 3), new Reference("Jeremiah", 9, 22, 9, 23)));
+            m.put(Custom.SEFARD, List.of(new Reference("Jeremiah", 7, 21, 8, 3), new Reference("Jeremiah", 9, 22, 9, 23)));
+            m.put(Custom.CHABAD, List.of(new Reference("Jeremiah", 7, 21, 7, 28), new Reference("Jeremiah", 9, 22, 9, 23)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Jeremiah", 7, 21, 7, 28), new Reference("Jeremiah", 9, 22, 9, 23)));
+            m.put(Custom.ITALKI, List.of(new Reference("Jeremiah", 7, 21, 7, 28), new Reference("Jeremiah", 10, 6, 10, 7)));
+            all.put(Parsha.TZAV, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("II Samuel", 6, 1, 7, 17)));
+            m.put(Custom.SEFARD, List.of(new Reference("II Samuel", 6, 1, 6, 19)));
+            m.put(Custom.CHABAD, List.of(new Reference("II Samuel", 6, 1, 6, 19)));
+            m.put(Custom.TEIMAN, List.of(new Reference("II Samuel", 6, 1, 7, 3)));
+            m.put(Custom.ITALKI, List.of(new Reference("II Samuel", 6, 1, 7, 3)));
+            all.put(Parsha.SHEMINI, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("II Kings", 4, 42, 5, 19)));
+            m.put(Custom.SEFARD, List.of(new Reference("II Kings", 4, 42, 5, 19)));
+            m.put(Custom.CHABAD, List.of(new Reference("II Kings", 4, 42, 5, 19)));
+            m.put(Custom.TEIMAN, List.of(new Reference("II Kings", 4, 42, 5, 19)));
+            m.put(Custom.ITALKI, List.of(new Reference("II Kings", 4, 42, 5, 19)));
+            all.put(Parsha.TAZRIA, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("II Kings", 7, 3, 7, 20)));
+            m.put(Custom.SEFARD, List.of(new Reference("II Kings", 7, 3, 7, 20)));
+            m.put(Custom.CHABAD, List.of(new Reference("II Kings", 7, 3, 7, 20)));
+            m.put(Custom.TEIMAN, List.of(new Reference("II Kings", 7, 1, 7, 20), new Reference("II Kings", 13, 23, 13, 25)));
+            m.put(Custom.ITALKI, List.of(new Reference("II Kings", 7, 1, 7, 20), new Reference("II Kings", 13, 23, 13, 25)));
+            all.put(Parsha.METZORA, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Amos", 9, 7, 9, 15)));
+            m.put(Custom.SEFARD, List.of(new Reference("Ezekiel", 22, 1, 22, 16)));
+            m.put(Custom.CHABAD, List.of(new Reference("Amos", 9, 7, 9, 15)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Ezekiel", 22, 1, 22, 16)));
+            m.put(Custom.ITALKI, List.of(new Reference("Ezekiel", 22, 1, 22, 16)));
+            all.put(Parsha.ACHAREI_MOT, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Ezekiel", 22, 1, 22, 16)));
+            m.put(Custom.SEFARD, List.of(new Reference("Ezekiel", 20, 2, 20, 20)));
+            m.put(Custom.CHABAD, List.of(new Reference("Ezekiel", 20, 2, 20, 20)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Ezekiel", 20, 1, 20, 20)));
+            m.put(Custom.ITALKI, List.of(new Reference("Ezekiel", 20, 1, 20, 20)));
+            all.put(Parsha.KEDOSHIM, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Ezekiel", 44, 15, 44, 31)));
+            m.put(Custom.SEFARD, List.of(new Reference("Ezekiel", 44, 15, 44, 31)));
+            m.put(Custom.CHABAD, List.of(new Reference("Ezekiel", 44, 15, 44, 31)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Ezekiel", 44, 15, 44, 31)));
+            m.put(Custom.ITALKI, List.of(new Reference("Ezekiel", 44, 15, 44, 31)));
+            all.put(Parsha.EMOR, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Jeremiah", 32, 6, 32, 27)));
+            m.put(Custom.SEFARD, List.of(new Reference("Jeremiah", 32, 6, 32, 27)));
+            m.put(Custom.CHABAD, List.of(new Reference("Jeremiah", 32, 6, 32, 22)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Jeremiah", 16, 19, 17, 14)));
+            m.put(Custom.ITALKI, List.of(new Reference("Jeremiah", 16, 19, 17, 14)));
+            all.put(Parsha.BEHAR, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Jeremiah", 16, 19, 17, 14)));
+            m.put(Custom.SEFARD, List.of(new Reference("Jeremiah", 16, 19, 17, 14)));
+            m.put(Custom.CHABAD, List.of(new Reference("Jeremiah", 16, 19, 17, 14)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Ezekiel", 34, 1, 34, 27)));
+            m.put(Custom.ITALKI, List.of(new Reference("Ezekiel", 34, 1, 34, 15)));
+            all.put(Parsha.BECHUKOTAI, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Hosea", 2, 1, 2, 22)));
+            m.put(Custom.SEFARD, List.of(new Reference("Hosea", 2, 1, 2, 22)));
+            m.put(Custom.CHABAD, List.of(new Reference("Hosea", 2, 1, 2, 22)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Hosea", 2, 1, 2, 22)));
+            m.put(Custom.ITALKI, List.of(new Reference("Hosea", 2, 1, 2, 22)));
+            all.put(Parsha.BAMIDBAR, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Judges", 13, 2, 13, 25)));
+            m.put(Custom.SEFARD, List.of(new Reference("Judges", 13, 2, 13, 25)));
+            m.put(Custom.CHABAD, List.of(new Reference("Judges", 13, 2, 13, 25)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Judges", 13, 2, 13, 24)));
+            m.put(Custom.ITALKI, List.of(new Reference("Judges", 13, 2, 13, 25)));
+            all.put(Parsha.NASO, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Zechariah", 2, 14, 4, 7)));
+            m.put(Custom.SEFARD, List.of(new Reference("Zechariah", 2, 14, 4, 7)));
+            m.put(Custom.CHABAD, List.of(new Reference("Zechariah", 2, 14, 4, 7)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Zechariah", 2, 14, 4, 9)));
+            m.put(Custom.ITALKI, List.of(new Reference("Zechariah", 2, 14, 4, 7)));
+            all.put(Parsha.BEHAALOTECHA, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Joshua", 2, 1, 2, 24)));
+            m.put(Custom.SEFARD, List.of(new Reference("Joshua", 2, 1, 2, 24)));
+            m.put(Custom.CHABAD, List.of(new Reference("Joshua", 2, 1, 2, 24)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Joshua", 2, 1, 2, 24)));
+            m.put(Custom.ITALKI, List.of(new Reference("Joshua", 2, 1, 2, 24)));
+            all.put(Parsha.SHELACH, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("I Samuel", 11, 14, 12, 22)));
+            m.put(Custom.SEFARD, List.of(new Reference("I Samuel", 11, 14, 12, 22)));
+            m.put(Custom.CHABAD, List.of(new Reference("I Samuel", 11, 14, 12, 22)));
+            m.put(Custom.TEIMAN, List.of(new Reference("I Samuel", 11, 14, 12, 22)));
+            m.put(Custom.ITALKI, List.of(new Reference("I Samuel", 11, 14, 12, 22)));
+            all.put(Parsha.KORACH, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Judges", 11, 1, 11, 33)));
+            m.put(Custom.SEFARD, List.of(new Reference("Judges", 11, 1, 11, 33)));
+            m.put(Custom.CHABAD, List.of(new Reference("Judges", 11, 1, 11, 33)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Judges", 11, 1, 11, 40)));
+            m.put(Custom.ITALKI, List.of(new Reference("Judges", 11, 1, 11, 33)));
+            all.put(Parsha.CHUKAT, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Micah", 5, 6, 6, 8)));
+            m.put(Custom.SEFARD, List.of(new Reference("Micah", 5, 6, 6, 8)));
+            m.put(Custom.CHABAD, List.of(new Reference("Micah", 5, 6, 6, 8)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Micah", 5, 6, 6, 8)));
+            m.put(Custom.ITALKI, List.of(new Reference("Micah", 5, 6, 6, 8)));
+            all.put(Parsha.BALAK, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("I Kings", 18, 46, 19, 21)));
+            m.put(Custom.SEFARD, List.of(new Reference("I Kings", 18, 46, 19, 21)));
+            m.put(Custom.CHABAD, List.of(new Reference("I Kings", 18, 46, 19, 21)));
+            m.put(Custom.TEIMAN, List.of(new Reference("I Kings", 18, 46, 19, 21)));
+            m.put(Custom.ITALKI, List.of(new Reference("I Kings", 18, 46, 19, 21)));
+            all.put(Parsha.PINCHAS, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Jeremiah", 1, 1, 2, 3)));
+            m.put(Custom.SEFARD, List.of(new Reference("Jeremiah", 1, 1, 2, 3)));
+            m.put(Custom.CHABAD, List.of(new Reference("Jeremiah", 1, 1, 2, 3)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Jeremiah", 1, 1, 1, 19)));
+            m.put(Custom.ITALKI, List.of(new Reference("Joshua", 13, 15, 13, 33)));
+            all.put(Parsha.MATOT, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Jeremiah", 2, 4, 2, 28), new Reference("Jeremiah", 3, 4, 3, 4)));
+            m.put(Custom.SEFARD, List.of(new Reference("Jeremiah", 2, 4, 2, 28), new Reference("Jeremiah", 4, 1, 4, 2)));
+            m.put(Custom.CHABAD, List.of(new Reference("Jeremiah", 2, 4, 2, 28), new Reference("Jeremiah", 4, 1, 4, 2)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 1, 1, 1, 20)));
+            m.put(Custom.ITALKI, List.of(new Reference("Joshua", 19, 21, 21, 3)));
+            all.put(Parsha.MASEI, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Isaiah", 1, 1, 1, 27)));
+            m.put(Custom.SEFARD, List.of(new Reference("Isaiah", 1, 1, 1, 27)));
+            m.put(Custom.CHABAD, List.of(new Reference("Isaiah", 1, 1, 1, 27)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 1, 21, 1, 31)));
+            m.put(Custom.ITALKI, List.of(new Reference("Isaiah", 1, 1, 1, 27)));
+            all.put(Parsha.DEVARIM, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Isaiah", 40, 1, 40, 26)));
+            m.put(Custom.SEFARD, List.of(new Reference("Isaiah", 40, 1, 40, 26)));
+            m.put(Custom.CHABAD, List.of(new Reference("Isaiah", 40, 1, 40, 26)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 40, 1, 40, 27), new Reference("Isaiah", 41, 17, 41, 29)));
+            m.put(Custom.ITALKI, List.of(new Reference("Isaiah", 40, 1, 40, 16)));
+            all.put(Parsha.VAETCHANAN, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Isaiah", 49, 14, 51, 3)));
+            m.put(Custom.SEFARD, List.of(new Reference("Isaiah", 49, 14, 51, 3)));
+            m.put(Custom.CHABAD, List.of(new Reference("Isaiah", 49, 14, 51, 3)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 49, 14, 51, 3)));
+            m.put(Custom.ITALKI, List.of(new Reference("Isaiah", 49, 14, 51, 3)));
+            all.put(Parsha.EIKEV, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Isaiah", 54, 11, 55, 5)));
+            m.put(Custom.SEFARD, List.of(new Reference("Isaiah", 54, 11, 55, 5)));
+            m.put(Custom.CHABAD, List.of(new Reference("Isaiah", 54, 11, 55, 5)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 54, 11, 55, 5)));
+            m.put(Custom.ITALKI, List.of(new Reference("Isaiah", 54, 11, 55, 5)));
+            all.put(Parsha.REEH, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Isaiah", 51, 12, 52, 12)));
+            m.put(Custom.SEFARD, List.of(new Reference("Isaiah", 51, 12, 52, 12)));
+            m.put(Custom.CHABAD, List.of(new Reference("Isaiah", 51, 12, 52, 12)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 51, 12, 52, 12)));
+            m.put(Custom.ITALKI, List.of(new Reference("I Samuel", 17, 1, 17, 37)));
+            all.put(Parsha.SHOFTIM, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Isaiah", 54, 1, 54, 10)));
+            m.put(Custom.SEFARD, List.of(new Reference("Isaiah", 54, 1, 54, 10)));
+            m.put(Custom.CHABAD, List.of(new Reference("Isaiah", 54, 1, 54, 10)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 54, 1, 54, 10)));
+            m.put(Custom.ITALKI, List.of(new Reference("I Samuel", 8, 1, 8, 22)));
+            all.put(Parsha.KI_TEITZEI, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Isaiah", 60, 1, 60, 22)));
+            m.put(Custom.SEFARD, List.of(new Reference("Isaiah", 60, 1, 60, 22)));
+            m.put(Custom.CHABAD, List.of(new Reference("Isaiah", 60, 1, 60, 22)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 60, 1, 60, 22)));
+            m.put(Custom.ITALKI, List.of(new Reference("Joshua", 8, 30, 9, 27)));
+            all.put(Parsha.KI_TAVO, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Isaiah", 61, 10, 63, 9)));
+            m.put(Custom.SEFARD, List.of(new Reference("Isaiah", 61, 10, 63, 9)));
+            m.put(Custom.CHABAD, List.of(new Reference("Isaiah", 61, 10, 63, 9)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Isaiah", 61, 9, 63, 9)));
+            m.put(Custom.ITALKI, List.of(new Reference("Joshua", 24, 1, 24, 18)));
+            all.put(Parsha.NITZAVIM, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("Hosea", 14, 2, 14, 10), new Reference("Joel", 2, 11, 2, 27)));
+            m.put(Custom.SEFARD, List.of(new Reference("Hosea", 14, 2, 14, 10), new Reference("Micah", 7, 18, 7, 20)));
+            m.put(Custom.CHABAD, List.of(new Reference("Hosea", 14, 2, 14, 10), new Reference("Micah", 7, 18, 7, 20)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Hosea", 14, 2, 14, 10)));
+            m.put(Custom.ITALKI, List.of(new Reference("Isaiah", 55, 6, 56, 8)));
+            all.put(Parsha.VAYEILECH, java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Reference("II Samuel", 22, 1, 22, 51)));
+            m.put(Custom.SEFARD, List.of(new Reference("II Samuel", 22, 1, 22, 51)));
+            m.put(Custom.CHABAD, List.of(new Reference("II Samuel", 22, 1, 22, 51)));
+            m.put(Custom.TEIMAN, List.of(new Reference("Ezekiel", 17, 22, 18, 32)));
+            m.put(Custom.ITALKI, List.of(new Reference("Ezekiel", 17, 22, 18, 32)));
+            all.put(Parsha.HAAZINU, java.util.Collections.unmodifiableMap(m)); }
+        ALL = java.util.Collections.unmodifiableMap(all);
+    }
+
+    /** Haftarah for the given parsha in the given custom, or null if unknown. */
+    public static List<Reference> forParsha(Parsha p, Custom c) {
+        Map<Custom, List<Reference>> m = ALL.get(p);
+        return m == null ? null : m.get(c);
+    }
+}

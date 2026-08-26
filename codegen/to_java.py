@@ -82,6 +82,63 @@ def emit_zman() -> str:
     )
 
 
+def emit_custom() -> str:
+    return emit_translated_enum(
+        "Custom", "names/customs.json",
+        "The 5 aliyot/haftarah customs the consumer UIs expose. Fallback "
+        "resolution (Chabad → Sefard → Common, etc.) is done at data-gen "
+        "time; every entry in Haftarot.ALL covers all 5 customs."
+    )
+
+
+def emit_haftarot() -> str:
+    data = load("schedules/haftarot.json")
+    lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", "",
+             "import java.util.EnumMap;",
+             "import java.util.List;",
+             "import java.util.Map;",
+             ""]
+    lines.append("/** Haftarah references per parsha × custom (opentorah-derived).")
+    lines.append(" *  Each entry is a list of Reference parts (multi-part haftarot")
+    lines.append(" *  concatenate two chunks). Use {@link #forParsha} to look up.")
+    lines.append(" */")
+    lines.append("public final class Haftarot {")
+    lines.append("    private Haftarot() {}")
+    lines.append("")
+    lines.append("    public static final class Reference {")
+    lines.append("        public final String book;")
+    lines.append("        public final int fromCh, fromV, toCh, toV;")
+    lines.append("        Reference(String book, int fromCh, int fromV, int toCh, int toV) {")
+    lines.append("            this.book = book;")
+    lines.append("            this.fromCh = fromCh; this.fromV = fromV;")
+    lines.append("            this.toCh   = toCh;   this.toV   = toV;")
+    lines.append("        }")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    public static final Map<Parsha, Map<Custom, List<Reference>>> ALL;")
+    lines.append("    static {")
+    lines.append("        Map<Parsha, Map<Custom, List<Reference>>> all = new EnumMap<>(Parsha.class);")
+    for pkey, by_custom in data.items():
+        lines.append(f"        {{  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);")
+        for cname, refs in by_custom.items():
+            joined = ", ".join(
+                f"new Reference({java_str(r['book'])}, {r['fromCh']}, {r['fromV']}, {r['toCh']}, {r['toV']})"
+                for r in refs
+            )
+            lines.append(f"            m.put(Custom.{cname}, List.of({joined}));")
+        lines.append(f"            all.put(Parsha.{pkey}, java.util.Collections.unmodifiableMap(m)); }}")
+    lines.append("        ALL = java.util.Collections.unmodifiableMap(all);")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    /** Haftarah for the given parsha in the given custom, or null if unknown. */")
+    lines.append("    public static List<Reference> forParsha(Parsha p, Custom c) {")
+    lines.append("        Map<Custom, List<Reference>> m = ALL.get(p);")
+    lines.append("        return m == null ? null : m.get(c);")
+    lines.append("    }")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
 def emit_jewish_month() -> str:
     """JewishMonth enum with translations + a helper for (month, leap) lookup."""
     data = load("names/jewish_months.json")
@@ -488,6 +545,8 @@ def main():
     (JAVA_DIR / "ChumashAliyot.java").write_text(emit_chumash_aliyot(), encoding="utf-8")
     (JAVA_DIR / "SpecialMaftir.java").write_text(emit_special_maftir(), encoding="utf-8")
     (JAVA_DIR / "Zman.java").write_text(emit_zman(), encoding="utf-8")
+    (JAVA_DIR / "Custom.java").write_text(emit_custom(), encoding="utf-8")
+    (JAVA_DIR / "Haftarot.java").write_text(emit_haftarot(), encoding="utf-8")
     print(f"OK  java  → {JAVA_DIR.relative_to(ROOT)}")
 
 

@@ -1,0 +1,7 @@
+{
+  "ASHKENAZ": { "en": "Ashkenaz", "he": "אשכנז",  "ru": "Ашкеназ",   "fr": "Ashkénaze" },
+  "SEFARD":   { "en": "Sefard",   "he": "ספרד",   "ru": "Сфарад",    "fr": "Séfarade" },
+  "CHABAD":   { "en": "Chabad",   "he": "חב״ד",   "ru": "Хабад",     "fr": "Habad" },
+  "TEIMAN":   { "en": "Teiman",   "he": "תימן",   "ru": "Йеменский", "fr": "Yéménite" },
+  "ITALKI":   { "en": "Italki",   "he": "יטלקי",  "ru": "Итальянский","fr": "Italien" }
+}
