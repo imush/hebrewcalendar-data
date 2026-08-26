@@ -17,4 +17,5 @@ python3 tests/validate_rambam_mt.py
 python3 tests/validate_sefer_hamitzvot.py
 python3 codegen/to_dart.py
 python3 codegen/to_c.py
+python3 codegen/to_java.py
 # Add codegen/to_java.py, to_scala.py, to_c.py as they land.
