@@ -1,103 +1,737 @@
 {
   "cycle": {
     "epoch": "1984-04-29",
-    "oneChapterDays":   1017,
+    "oneChapterDays": 1017,
     "threeChapterDays": 339
   },
   "firstFourVerses": [
-    ["1-21", "22-33", "34-45"],
-    ["1-83", "84-166", "167-248"],
-    ["1-122", "123-245", "246-365"],
-    ["1:1-4:8", "5:1-9:9", "10:1-14:10"]
+    [
+      "1-21",
+      "22-33",
+      "34-45"
+    ],
+    [
+      "1-83",
+      "84-166",
+      "167-248"
+    ],
+    [
+      "1-122",
+      "123-245",
+      "246-365"
+    ],
+    [
+      "1:1-4:8",
+      "5:1-9:9",
+      "10:1-14:10"
+    ]
   ],
   "halachot": [
-    { "key": "TRANSMISSION_OF_THE_ORAL_LAW", "en": "Transmission of the Oral Law", "he": "מסירת תורה שבעל פה", "ru": "Мсират тора шеб'ал пе", "fr": "Messirat Torah chèbe'al pé", "chapters": 3 },
-    { "key": "POSITIVE_MITZVOT", "en": "Positive Mitzvot", "he": "מצוות עשה", "ru": "Мицвот асе", "fr": "Mitsvot Assé", "chapters": 3 },
-    { "key": "NEGATIVE_MITZVOT", "en": "Negative Mitzvot", "he": "מצוות לא תעשה", "ru": "Мицвот ло та'асе", "fr": "Mitsvot Lo Ta'assé", "chapters": 3 },
-    { "key": "OVERVIEW_OF_MISHNEH_TORAH_CONTENTS", "en": "Overview of Mishneh Torah Contents", "he": "תוכן החיבור", "ru": "Тохен ѓа-хибур", "fr": "Tokhèn Ha'hibbour", "chapters": 3 },
-    { "key": "FOUNDATIONS_OF_THE_TORAH", "en": "Foundations of the Torah", "he": "הלכות יסודי התורה", "ru": "Ѓилхот йесодей ѓа-тора", "fr": "Hilkhot Yessodéi HaTorah", "chapters": 10 },
-    { "key": "HUMAN_DISPOSITIONS", "en": "Human Dispositions", "he": "הלכות דעות", "ru": "Ѓилхот де'от", "fr": "Hilkhot Dé'ot", "chapters": 7 },
-    { "key": "TORAH_STUDY", "en": "Torah Study", "he": "הלכות תלמוד תורה", "ru": "Ѓилхот талмуд тора", "fr": "Hilkhot Talmoud Torah", "chapters": 7 },
-    { "key": "FOREIGN_WORSHIP_AND_CUSTOMS_OF_THE_NATIONS", "en": "Foreign Worship and Customs of the Nations", "he": "הלכות עבודה זרה וחוקות הגויים", "ru": "Ѓилхот авода зара ве-хуккот ѓа-гоим", "fr": "Hilkhot Avoda Zara vé'houkot Hagoyim", "chapters": 12 },
-    { "key": "REPENTANCE", "en": "Repentance", "he": "הלכות תשובה", "ru": "Ѓилхот тшува", "fr": "Hilkhot Techouva", "chapters": 10 },
-    { "key": "READING_THE_SHEMA", "en": "Reading the Shema", "he": "הלכות קריאת שמע", "ru": "Ѓилхот криат шма", "fr": "Hilkhot Kriat Chema", "chapters": 4 },
-    { "key": "PRAYER_AND_THE_PRIESTLY_BLESSING", "en": "Prayer and the Priestly Blessing", "he": "הלכות תפילה וברכת כהנים", "ru": "Ѓилхот тфила у-виркат коѓаним", "fr": "Hilkhot Tefila ouVirkat Kohanim", "chapters": 15 },
-    { "key": "TEFILLIN_MEZUZAH_AND_THE_TORAH_SCROLL", "en": "Tefillin, Mezuzah and the Torah Scroll", "he": "הלכות תפילין ומזוזה וספר תורה", "ru": "Ѓилхот тфилин у-мезуза ве-сефер тора", "fr": "Hilkhot Tefilin ouMezouza véSéfer Torah", "chapters": 10 },
-    { "key": "FRINGES", "en": "Fringes", "he": "הלכות ציצית", "ru": "Ѓилхот цицит", "fr": "Hilkhot Tsitsit", "chapters": 3 },
-    { "key": "BLESSINGS", "en": "Blessings", "he": "הלכות ברכות", "ru": "Ѓилхот брахот", "fr": "Hilkhot Berakhot", "chapters": 11 },
-    { "key": "CIRCUMCISION", "en": "Circumcision", "he": "הלכות מילה", "ru": "Ѓилхот мила", "fr": "Hilkhot Milah", "chapters": 3 },
-    { "key": "THE_ORDER_OF_PRAYER", "en": "The Order of Prayer", "he": "סדר התפילה", "ru": "Седер ѓа-тфила", "fr": "Séder HaTefila", "chapters": 4, "chapters3": 5 },
-    { "key": "SABBATH", "en": "Sabbath", "he": "הלכות שבת", "ru": "Ѓилхот шабат", "fr": "Hilkhot Chabbat", "chapters": 30 },
-    { "key": "ERUVIN", "en": "Eruvin", "he": "הלכות עירובין", "ru": "Ѓилхот эрувин", "fr": "Hilkhot Érouvin", "chapters": 8 },
-    { "key": "REST_ON_THE_TENTH_OF_TISHREI", "en": "Rest on the Tenth of Tishrei", "he": "הלכות שביתת עשור", "ru": "Ѓилхот швитат асор", "fr": "Hilkhot Chevitat Assor", "chapters": 3 },
-    { "key": "REST_ON_A_HOLIDAY", "en": "Rest on a Holiday", "he": "הלכות שביתת יום טוב", "ru": "Ѓилхот швитат йом тов", "fr": "Hilkhot Chevitat Yom Tov", "chapters": 8 },
-    { "key": "LEAVENED_AND_UNLEAVENED_BREAD", "en": "Leavened and Unleavened Bread", "he": "הלכות חמץ ומצה", "ru": "Ѓилхот хамец у-маца", "fr": "Hilkhot 'Hametz ouMatsa", "chapters": 9, "chapters3": 8 },
-    { "key": "SHOFAR_SUKKAH_AND_LULAV", "en": "Shofar, Sukkah and Lulav", "he": "הלכות שופר וסוכה ולולב", "ru": "Ѓилхот шофар ве-сукка ве-лулав", "fr": "Hilkhot Chofar véSoukka véLoulav", "chapters": 8 },
-    { "key": "SHEQEL_DUES", "en": "Sheqel Dues", "he": "הלכות שקלים", "ru": "Ѓилхот шкалим", "fr": "Hilkhot Chekalim", "chapters": 4 },
-    { "key": "SANCTIFICATION_OF_THE_NEW_MONTH", "en": "Sanctification of the New Month", "he": "הלכות קידוש החודש", "ru": "Ѓилхот кидуш ѓа-ходеш", "fr": "Hilkhot Kidoush Ha'hodech", "chapters": 19 },
-    { "key": "FASTS", "en": "Fasts", "he": "הלכות תעניות", "ru": "Ѓилхот та'аниот", "fr": "Hilkhot Ta'aniot", "chapters": 5 },
-    { "key": "SCROLL_OF_ESTHER_AND_HANUKKAH", "en": "Scroll of Esther and Hanukkah", "he": "הלכות מגילה וחנוכה", "ru": "Ѓилхот мегила ве-ханука", "fr": "Hilkhot Megila vé'Hanoucca", "chapters": 4 },
-    { "key": "MARRIAGE", "en": "Marriage", "he": "הלכות אישות", "ru": "Ѓилхот ишут", "fr": "Hilkhot Ichout", "chapters": 25 },
-    { "key": "DIVORCE", "en": "Divorce", "he": "הלכות גירושין", "ru": "Ѓилхот герушин", "fr": "Hilkhot Guerouchin", "chapters": 13 },
-    { "key": "LEVIRATE_MARRIAGE_AND_RELEASE", "en": "Levirate Marriage and Release", "he": "הלכות יבום וחליצה", "ru": "Ѓилхот йибум ве-халица", "fr": "Hilkhot Yiboum vé'Halitsa", "chapters": 8 },
-    { "key": "VIRGIN_MAIDEN", "en": "Virgin Maiden", "he": "הלכות נערה בתולה", "ru": "Ѓилхот на'ара бетула", "fr": "Hilkhot Na'ara Betoula", "chapters": 3 },
-    { "key": "WOMAN_SUSPECTED_OF_INFIDELITY", "en": "Woman Suspected of Infidelity", "he": "הלכות סוטה", "ru": "Ѓилхот сота", "fr": "Hilkhot Sota", "chapters": 4 },
-    { "key": "FORBIDDEN_INTERCOURSE", "en": "Forbidden Intercourse", "he": "הלכות איסורי ביאה", "ru": "Ѓилхот исурей биа", "fr": "Hilkhot Issouréi Biah", "chapters": 22 },
-    { "key": "FORBIDDEN_FOODS", "en": "Forbidden Foods", "he": "הלכות מאכלות אסורות", "ru": "Ѓилхот ма'ахалот асурот", "fr": "Hilkhot Ma'akhalot Assourot", "chapters": 17 },
-    { "key": "RITUAL_SLAUGHTER", "en": "Ritual Slaughter", "he": "הלכות שחיטה", "ru": "Ѓилхот шхита", "fr": "Hilkhot Che'hita", "chapters": 14 },
-    { "key": "OATHS", "en": "Oaths", "he": "הלכות שבועות", "ru": "Ѓилхот швуот", "fr": "Hilkhot Chevouot", "chapters": 12 },
-    { "key": "VOWS", "en": "Vows", "he": "הלכות נדרים", "ru": "Ѓилхот недарим", "fr": "Hilkhot Nedarim", "chapters": 13 },
-    { "key": "NAZARITESHIP", "en": "Nazariteship", "he": "הלכות נזירות", "ru": "Ѓилхот незирут", "fr": "Hilkhot Nezirout", "chapters": 10 },
-    { "key": "APPRAISALS_AND_DEVOTED_PROPERTY", "en": "Appraisals and Devoted Property", "he": "הלכות ערכים וחרמין", "ru": "Ѓилхот арахин ве-харамин", "fr": "Hilkhot Arakhin vé'Haramin", "chapters": 8 },
-    { "key": "DIVERSE_SPECIES", "en": "Diverse Species", "he": "הלכות כלאים", "ru": "Ѓилхот килайим", "fr": "Hilkhot Kilayim", "chapters": 10 },
-    { "key": "GIFTS_TO_THE_POOR", "en": "Gifts to the Poor", "he": "הלכות מתנות עניים", "ru": "Ѓилхот матанот ани'им", "fr": "Hilkhot Matanot Aniyim", "chapters": 10 },
-    { "key": "HEAVE_OFFERINGS", "en": "Heave Offerings", "he": "הלכות תרומות", "ru": "Ѓилхот трумот", "fr": "Hilkhot Teroumot", "chapters": 15 },
-    { "key": "TITHES", "en": "Tithes", "he": "הלכות מעשרות", "ru": "Ѓилхот ма'асрот", "fr": "Hilkhot Ma'assrot", "chapters": 14 },
-    { "key": "SECOND_TITHES_AND_FOURTH_YEARS_FRUIT", "en": "Second Tithes and Fourth Year's Fruit", "he": "הלכות מעשר שני ונטע רבעי", "ru": "Ѓилхот ма'асер шени ве-нета рева'и", "fr": "Hilkhot Ma'asser Chéni véNéta Réva'i", "chapters": 11 },
-    { "key": "FIRST_FRUITS_AND_OTHER_GIFTS_TO_PRIESTS_OUTSIDE_THE_SANCTUARY", "en": "First Fruits and other Gifts to Priests Outside the Sanctuary", "he": "הלכות ביכורים ושאר מתנות כהונה שבגבולין", "ru": "Ѓилхот бикурим у-ш'ар матанот кеѓуна ше-би-гвулин", "fr": "Hilkhot Bikourim ouChe'ar Matanot Kehouna chèbig'voulin", "chapters": 12 },
-    { "key": "SABBATICAL_YEAR_AND_THE_JUBILEE", "en": "Sabbatical Year and the Jubilee", "he": "הלכות שמיטה ויובל", "ru": "Ѓилхот шмита ве-йовел", "fr": "Hilkhot Chemita véYovel", "chapters": 13 },
-    { "key": "THE_CHOSEN_TEMPLE", "en": "The Chosen Temple", "he": "הלכות בית הבחירה", "ru": "Ѓилхот бейт ѓа-бхира", "fr": "Hilkhot Béit HaBe'hira", "chapters": 8 },
-    { "key": "VESSELS_OF_THE_SANCTUARY_AND_THOSE_WHO_SERVE_THEREIN", "en": "Vessels of the Sanctuary and Those Who Serve Therein", "he": "הלכות כלי המקדש והעובדין בו", "ru": "Ѓилхот клей ѓа-микдаш ве-ѓа-овдин бо", "fr": "Hilkhot Kléi HaMikdach véHa'ovdin Bo", "chapters": 10 },
-    { "key": "ADMISSION_INTO_THE_SANCTUARY", "en": "Admission into the Sanctuary", "he": "הלכות ביאת מקדש", "ru": "Ѓилхот биат микдаш", "fr": "Hilkhot Biat Mikdach", "chapters": 9 },
-    { "key": "THINGS_FORBIDDEN_ON_THE_ALTAR", "en": "Things Forbidden on the Altar", "he": "הלכות איסורי המזבח", "ru": "Ѓилхот исурей ѓа-мизбеах", "fr": "Hilkhot Issouréi HaMizbé'a'h", "chapters": 7 },
-    { "key": "SACRIFICIAL_PROCEDURE", "en": "Sacrificial Procedure", "he": "הלכות מעשה הקרבנות", "ru": "Ѓилхот ма'асе ѓа-корбанот", "fr": "Hilkhot Ma'assé HaKorbanot", "chapters": 19 },
-    { "key": "DAILY_OFFERINGS_AND_ADDITIONAL_OFFERINGS", "en": "Daily Offerings and Additional Offerings", "he": "הלכות תמידים ומוספין", "ru": "Ѓилхот тмидин у-мусафин", "fr": "Hilkhot Temidin ouMoussafin", "chapters": 10 },
-    { "key": "SACRIFICES_RENDERED_UNFIT", "en": "Sacrifices Rendered Unfit", "he": "הלכות פסולי המוקדשין", "ru": "Ѓилхот псулей ѓа-мукдашин", "fr": "Hilkhot Pessouléi HaMoukdachin", "chapters": 19 },
-    { "key": "SERVICE_ON_THE_DAY_OF_ATONEMENT", "en": "Service on the Day of Atonement", "he": "הלכות עבודת יום הכפורים", "ru": "Ѓилхот аводат йом ѓа-кипурим", "fr": "Hilkhot Avodat Yom HaKippourim", "chapters": 5 },
-    { "key": "TRESPASS", "en": "Trespass", "he": "הלכות מעילה", "ru": "Ѓилхот ме'ила", "fr": "Hilkhot Mé'ila", "chapters": 8 },
-    { "key": "PASCHAL_OFFERING", "en": "Paschal Offering", "he": "הלכות קרבן פסח", "ru": "Ѓилхот корбан песах", "fr": "Hilkhot Korban Pessa'h", "chapters": 10 },
-    { "key": "FESTIVAL_OFFERING", "en": "Festival Offering", "he": "הלכות חגיגה", "ru": "Ѓилхот хагига", "fr": "Hilkhot 'Haguiga", "chapters": 3 },
-    { "key": "FIRSTLINGS", "en": "Firstlings", "he": "הלכות בכורות", "ru": "Ѓилхот бехорот", "fr": "Hilkhot Bekhorot", "chapters": 8 },
-    { "key": "OFFERINGS_FOR_UNINTENTIONAL_TRANSGRESSIONS", "en": "Offerings for Unintentional Transgressions", "he": "הלכות שגגות", "ru": "Ѓилхот шгагот", "fr": "Hilkhot Chegagot", "chapters": 15 },
-    { "key": "OFFERINGS_FOR_THOSE_WITH_INCOMPLETE_ATONEMENT", "en": "Offerings for Those with Incomplete Atonement", "he": "הלכות מחוסרי כפרה", "ru": "Ѓилхот мехусрей капара", "fr": "Hilkhot Me'houssréi Kappara", "chapters": 5 },
-    { "key": "SUBSTITUTION", "en": "Substitution", "he": "הלכות תמורה", "ru": "Ѓилхот тмура", "fr": "Hilkhot Temoura", "chapters": 4 },
-    { "key": "DEFILEMENT_BY_A_CORPSE", "en": "Defilement by a Corpse", "he": "הלכות טומאת מת", "ru": "Ѓилхот тумат мет", "fr": "Hilkhot Toumat Mét", "chapters": 25 },
-    { "key": "RED_HEIFER", "en": "Red Heifer", "he": "הלכות פרה אדומה", "ru": "Ѓилхот пара адума", "fr": "Hilkhot Para Adouma", "chapters": 15 },
-    { "key": "DEFILEMENT_BY_LEPROSY", "en": "Defilement by Leprosy", "he": "הלכות טומאת צרעת", "ru": "Ѓилхот тумат цара'ат", "fr": "Hilkhot Toumat Tsara'at", "chapters": 16 },
-    { "key": "THOSE_WHO_DEFILE_BED_OR_SEAT", "en": "Those Who Defile Bed or Seat", "he": "הלכות מטמאי משכב ומושב", "ru": "Ѓилхот метамей мишкав у-мошав", "fr": "Hilkhot Metam'éi Michkav ouMochav", "chapters": 13 },
-    { "key": "OTHER_SOURCES_OF_DEFILEMENT", "en": "Other Sources of Defilement", "he": "הלכות שאר אבות הטומאות", "ru": "Ѓилхот ш'ар авот ѓа-тум'от", "fr": "Hilkhot Che'ar Avot HaToum'ot", "chapters": 20 },
-    { "key": "DEFILEMENT_OF_FOODS", "en": "Defilement of Foods", "he": "הלכות טומאת אוכלים", "ru": "Ѓилхот тумат охалин", "fr": "Hilkhot Toumat Okhalin", "chapters": 16 },
-    { "key": "VESSELS", "en": "Vessels", "he": "הלכות כלים", "ru": "Ѓилхот келим", "fr": "Hilkhot Kélim", "chapters": 28 },
-    { "key": "IMMERSION_POOLS", "en": "Immersion Pools", "he": "הלכות מקואות", "ru": "Ѓилхот микваот", "fr": "Hilkhot Mikvaot", "chapters": 11 },
-    { "key": "DAMAGES_TO_PROPERTY", "en": "Damages to Property", "he": "הלכות נזקי ממון", "ru": "Ѓилхот низкей мамон", "fr": "Hilkhot Nizkéi Mamon", "chapters": 14 },
-    { "key": "THEFT", "en": "Theft", "he": "הלכות גניבה", "ru": "Ѓилхот гнева", "fr": "Hilkhot Guenéva", "chapters": 9 },
-    { "key": "ROBBERY_AND_LOST_PROPERTY", "en": "Robbery and Lost Property", "he": "הלכות גזילה ואבידה", "ru": "Ѓилхот гзела ва-аведа", "fr": "Hilkhot Guezéla vaAvéda", "chapters": 18 },
-    { "key": "ONE_WHO_INJURES_A_PERSON_OR_PROPERTY", "en": "One Who Injures a Person or Property", "he": "הלכות חובל ומזיק", "ru": "Ѓилхот ховел у-мазик", "fr": "Hilkhot 'Hovel ouMazik", "chapters": 8 },
-    { "key": "MURDERER_AND_THE_PRESERVATION_OF_LIFE", "en": "Murderer and the Preservation of Life", "he": "הלכות רוצח ושמירת נפש", "ru": "Ѓилхот роцеах у-шмират нефеш", "fr": "Hilkhot Rotsé'a'h ouChemirat Néfech", "chapters": 13 },
-    { "key": "SALES", "en": "Sales", "he": "הלכות מכירה", "ru": "Ѓилхот мхира", "fr": "Hilkhot Mekhira", "chapters": 30 },
-    { "key": "OWNERLESS_PROPERTY_AND_GIFTS", "en": "Ownerless Property and Gifts", "he": "הלכות זכייה ומתנה", "ru": "Ѓилхот зхийа у-матана", "fr": "Hilkhot Zekhiyah ouMatana", "chapters": 12 },
-    { "key": "NEIGHBORS", "en": "Neighbors", "he": "הלכות שכנים", "ru": "Ѓилхот шхеним", "fr": "Hilkhot Chekhénim", "chapters": 14 },
-    { "key": "AGENTS_AND_PARTNERS", "en": "Agents and Partners", "he": "הלכות שלוחין ושותפין", "ru": "Ѓилхот шлухин ве-шутафин", "fr": "Hilkhot Chelou'hin véChoutafin", "chapters": 10 },
-    { "key": "SLAVES", "en": "Slaves", "he": "הלכות עבדים", "ru": "Ѓилхот авадим", "fr": "Hilkhot Avadim", "chapters": 9 },
-    { "key": "HIRING", "en": "Hiring", "he": "הלכות שכירות", "ru": "Ѓилхот схирут", "fr": "Hilkhot Sekhirout", "chapters": 13 },
-    { "key": "BORROWING_AND_DEPOSIT", "en": "Borrowing and Deposit", "he": "הלכות שאלה ופיקדון", "ru": "Ѓилхот шеэла у-пикадон", "fr": "Hilkhot Ché'éla ouPikadon", "chapters": 8 },
-    { "key": "CREDITOR_AND_DEBTOR", "en": "Creditor and Debtor", "he": "הלכות מלווה ולווה", "ru": "Ѓилхот малве ве-лове", "fr": "Hilkhot Malvé véLové", "chapters": 27 },
-    { "key": "PLAINTIFF_AND_DEFENDANT", "en": "Plaintiff and Defendant", "he": "הלכות טוען ונטען", "ru": "Ѓилхот то'ен ве-нит'ан", "fr": "Hilkhot To'én véNit'an", "chapters": 16 },
-    { "key": "INHERITANCES", "en": "Inheritances", "he": "הלכות נחלות", "ru": "Ѓилхот нехалот", "fr": "Hilkhot Ne'halot", "chapters": 11 },
-    { "key": "THE_SANHEDRIN_AND_THE_PENALTIES_WITHIN_THEIR_JURISDICTION", "en": "The Sanhedrin and the Penalties within Their Jurisdiction", "he": "הלכות סנהדרין והעונשין המסורין להם", "ru": "Ѓилхот санѓедрин ве-ѓа-онашин ѓа-мсурин лаѓем", "fr": "Hilkhot Sanhedrin véHa'onachin Hamessourin Lahem", "chapters": 26 },
-    { "key": "TESTIMONY", "en": "Testimony", "he": "הלכות עדות", "ru": "Ѓилхот эдут", "fr": "Hilkhot Édout", "chapters": 22 },
-    { "key": "REBELS", "en": "Rebels", "he": "הלכות ממרים", "ru": "Ѓилхот мамрим", "fr": "Hilkhot Mamrim", "chapters": 7 },
-    { "key": "MOURNING", "en": "Mourning", "he": "הלכות אבל", "ru": "Ѓилхот авель", "fr": "Hilkhot Avel", "chapters": 14 },
-    { "key": "KINGS_AND_WARS", "en": "Kings and Wars", "he": "הלכות מלכים ומלחמות", "ru": "Ѓилхот мелахим у-милхамот", "fr": "Hilkhot Melakhim ouMil'hamot", "chapters": 12 }
+    {
+      "key": "TRANSMISSION_OF_THE_ORAL_LAW",
+      "en": "Transmission of the Oral Law",
+      "he": "מסירת תורה שבעל פה",
+      "ru": "Предисловие автора",
+      "fr": "Messirat Torah chèbe'al pé",
+      "chapters": 3
+    },
+    {
+      "key": "POSITIVE_MITZVOT",
+      "en": "Positive Mitzvot",
+      "he": "מצוות עשה",
+      "ru": "Повелевающие заповеди",
+      "fr": "Mitsvot Assé",
+      "chapters": 3
+    },
+    {
+      "key": "NEGATIVE_MITZVOT",
+      "en": "Negative Mitzvot",
+      "he": "מצוות לא תעשה",
+      "ru": "Запрещающие заповеди",
+      "fr": "Mitsvot Lo Ta'assé",
+      "chapters": 3
+    },
+    {
+      "key": "OVERVIEW_OF_MISHNEH_TORAH_CONTENTS",
+      "en": "Overview of Mishneh Torah Contents",
+      "he": "תוכן החיבור",
+      "ru": "Оглавление",
+      "fr": "Tokhèn Ha'hibbour",
+      "chapters": 3
+    },
+    {
+      "key": "FOUNDATIONS_OF_THE_TORAH",
+      "en": "Foundations of the Torah",
+      "he": "הלכות יסודי התורה",
+      "ru": "Законы основ Торы",
+      "fr": "Hilkhot Yessodéi HaTorah",
+      "chapters": 10
+    },
+    {
+      "key": "HUMAN_DISPOSITIONS",
+      "en": "Human Dispositions",
+      "he": "הלכות דעות",
+      "ru": "Законы об образе жизни",
+      "fr": "Hilkhot Dé'ot",
+      "chapters": 7
+    },
+    {
+      "key": "TORAH_STUDY",
+      "en": "Torah Study",
+      "he": "הלכות תלמוד תורה",
+      "ru": "Законы изучения Торы",
+      "fr": "Hilkhot Talmoud Torah",
+      "chapters": 7
+    },
+    {
+      "key": "FOREIGN_WORSHIP_AND_CUSTOMS_OF_THE_NATIONS",
+      "en": "Foreign Worship and Customs of the Nations",
+      "he": "הלכות עבודה זרה וחוקות הגויים",
+      "ru": "Законы об идолопоклонстве и нееврейских обычаях",
+      "fr": "Hilkhot Avoda Zara vé'houkot Hagoyim",
+      "chapters": 12
+    },
+    {
+      "key": "REPENTANCE",
+      "en": "Repentance",
+      "he": "הלכות תשובה",
+      "ru": "Законы о раскаянии",
+      "fr": "Hilkhot Techouva",
+      "chapters": 10
+    },
+    {
+      "key": "READING_THE_SHEMA",
+      "en": "Reading the Shema",
+      "he": "הלכות קריאת שמע",
+      "ru": "Законы чтения «Шма, Исраэль...»",
+      "fr": "Hilkhot Kriat Chema",
+      "chapters": 4
+    },
+    {
+      "key": "PRAYER_AND_THE_PRIESTLY_BLESSING",
+      "en": "Prayer and the Priestly Blessing",
+      "he": "הלכות תפילה וברכת כהנים",
+      "ru": "Законы молитвы и благословения коэнов",
+      "fr": "Hilkhot Tefila ouVirkat Kohanim",
+      "chapters": 15
+    },
+    {
+      "key": "TEFILLIN_MEZUZAH_AND_THE_TORAH_SCROLL",
+      "en": "Tefillin, Mezuzah and the Torah Scroll",
+      "he": "הלכות תפילין ומזוזה וספר תורה",
+      "ru": "Законы о тфиллин, мезузе и свитке Торы",
+      "fr": "Hilkhot Tefilin ouMezouza véSéfer Torah",
+      "chapters": 10
+    },
+    {
+      "key": "FRINGES",
+      "en": "Fringes",
+      "he": "הלכות ציצית",
+      "ru": "Законы о цицит",
+      "fr": "Hilkhot Tsitsit",
+      "chapters": 3
+    },
+    {
+      "key": "BLESSINGS",
+      "en": "Blessings",
+      "he": "הלכות ברכות",
+      "ru": "Законы о благословениях",
+      "fr": "Hilkhot Berakhot",
+      "chapters": 11
+    },
+    {
+      "key": "CIRCUMCISION",
+      "en": "Circumcision",
+      "he": "הלכות מילה",
+      "ru": "Законы обрезания",
+      "fr": "Hilkhot Milah",
+      "chapters": 3
+    },
+    {
+      "key": "THE_ORDER_OF_PRAYER",
+      "en": "The Order of Prayer",
+      "he": "סדר התפילה",
+      "ru": "Порядок молитв всего года",
+      "fr": "Séder HaTefila",
+      "chapters": 4,
+      "chapters3": 5
+    },
+    {
+      "key": "SABBATH",
+      "en": "Sabbath",
+      "he": "הלכות שבת",
+      "ru": "Законы субботы",
+      "fr": "Hilkhot Chabbat",
+      "chapters": 30
+    },
+    {
+      "key": "ERUVIN",
+      "en": "Eruvin",
+      "he": "הלכות עירובין",
+      "ru": "Законы эрува",
+      "fr": "Hilkhot Érouvin",
+      "chapters": 8
+    },
+    {
+      "key": "REST_ON_THE_TENTH_OF_TISHREI",
+      "en": "Rest on the Tenth of Tishrei",
+      "he": "הלכות שביתת עשור",
+      "ru": "Законы Дня Искупления",
+      "fr": "Hilkhot Chevitat Assor",
+      "chapters": 3
+    },
+    {
+      "key": "REST_ON_A_HOLIDAY",
+      "en": "Rest on a Holiday",
+      "he": "הלכות שביתת יום טוב",
+      "ru": "Законы праздников",
+      "fr": "Hilkhot Chevitat Yom Tov",
+      "chapters": 8
+    },
+    {
+      "key": "LEAVENED_AND_UNLEAVENED_BREAD",
+      "en": "Leavened and Unleavened Bread",
+      "he": "הלכות חמץ ומצה",
+      "ru": "Законы квасного и мацы",
+      "fr": "Hilkhot 'Hametz ouMatsa",
+      "chapters": 9,
+      "chapters3": 8
+    },
+    {
+      "key": "SHOFAR_SUKKAH_AND_LULAV",
+      "en": "Shofar, Sukkah and Lulav",
+      "he": "הלכות שופר וסוכה ולולב",
+      "ru": "Законы шофара, сукки и лулава",
+      "fr": "Hilkhot Chofar véSoukka véLoulav",
+      "chapters": 8
+    },
+    {
+      "key": "SHEQEL_DUES",
+      "en": "Sheqel Dues",
+      "he": "הלכות שקלים",
+      "ru": "Законы полушекеля",
+      "fr": "Hilkhot Chekalim",
+      "chapters": 4
+    },
+    {
+      "key": "SANCTIFICATION_OF_THE_NEW_MONTH",
+      "en": "Sanctification of the New Month",
+      "he": "הלכות קידוש החודש",
+      "ru": "Законы освящения нового месяца",
+      "fr": "Hilkhot Kidoush Ha'hodech",
+      "chapters": 19
+    },
+    {
+      "key": "FASTS",
+      "en": "Fasts",
+      "he": "הלכות תעניות",
+      "ru": "Законы постов",
+      "fr": "Hilkhot Ta'aniot",
+      "chapters": 5
+    },
+    {
+      "key": "SCROLL_OF_ESTHER_AND_HANUKKAH",
+      "en": "Scroll of Esther and Hanukkah",
+      "he": "הלכות מגילה וחנוכה",
+      "ru": "Законы о Свитке Эстер и Хануке",
+      "fr": "Hilkhot Megila vé'Hanoucca",
+      "chapters": 4
+    },
+    {
+      "key": "MARRIAGE",
+      "en": "Marriage",
+      "he": "הלכות אישות",
+      "ru": "Законы брака",
+      "fr": "Hilkhot Ichout",
+      "chapters": 25
+    },
+    {
+      "key": "DIVORCE",
+      "en": "Divorce",
+      "he": "הלכות גירושין",
+      "ru": "Законы развода",
+      "fr": "Hilkhot Guerouchin",
+      "chapters": 13
+    },
+    {
+      "key": "LEVIRATE_MARRIAGE_AND_RELEASE",
+      "en": "Levirate Marriage and Release",
+      "he": "הלכות יבום וחליצה",
+      "ru": "Законы левиратных брака и развода",
+      "fr": "Hilkhot Yiboum vé'Halitsa",
+      "chapters": 8
+    },
+    {
+      "key": "VIRGIN_MAIDEN",
+      "en": "Virgin Maiden",
+      "he": "הלכות נערה בתולה",
+      "ru": "Законы об обрученной девственнице",
+      "fr": "Hilkhot Na'ara Betoula",
+      "chapters": 3
+    },
+    {
+      "key": "WOMAN_SUSPECTED_OF_INFIDELITY",
+      "en": "Woman Suspected of Infidelity",
+      "he": "הלכות סוטה",
+      "ru": "Законы о подозреваемой в неверности",
+      "fr": "Hilkhot Sota",
+      "chapters": 4
+    },
+    {
+      "key": "FORBIDDEN_INTERCOURSE",
+      "en": "Forbidden Intercourse",
+      "he": "הלכות איסורי ביאה",
+      "ru": "Законы запрещенных половых связей",
+      "fr": "Hilkhot Issouréi Biah",
+      "chapters": 22
+    },
+    {
+      "key": "FORBIDDEN_FOODS",
+      "en": "Forbidden Foods",
+      "he": "הלכות מאכלות אסורות",
+      "ru": "Законы запрещенной пищи",
+      "fr": "Hilkhot Ma'akhalot Assourot",
+      "chapters": 17
+    },
+    {
+      "key": "RITUAL_SLAUGHTER",
+      "en": "Ritual Slaughter",
+      "he": "הלכות שחיטה",
+      "ru": "Законы ритуального убоя скота и птицы",
+      "fr": "Hilkhot Che'hita",
+      "chapters": 14
+    },
+    {
+      "key": "OATHS",
+      "en": "Oaths",
+      "he": "הלכות שבועות",
+      "ru": "Законы клятв",
+      "fr": "Hilkhot Chevouot",
+      "chapters": 12
+    },
+    {
+      "key": "VOWS",
+      "en": "Vows",
+      "he": "הלכות נדרים",
+      "ru": "Законы обетов",
+      "fr": "Hilkhot Nedarim",
+      "chapters": 13
+    },
+    {
+      "key": "NAZARITESHIP",
+      "en": "Nazariteship",
+      "he": "הלכות נזירות",
+      "ru": "Законы назореев",
+      "fr": "Hilkhot Nezirout",
+      "chapters": 10
+    },
+    {
+      "key": "APPRAISALS_AND_DEVOTED_PROPERTY",
+      "en": "Appraisals and Devoted Property",
+      "he": "הלכות ערכים וחרמין",
+      "ru": "Законы об оценивании и отрешенном имуществе",
+      "fr": "Hilkhot Arakhin vé'Haramin",
+      "chapters": 8
+    },
+    {
+      "key": "DIVERSE_SPECIES",
+      "en": "Diverse Species",
+      "he": "הלכות כלאים",
+      "ru": "Законы о запрете смешанния видов",
+      "fr": "Hilkhot Kilayim",
+      "chapters": 10
+    },
+    {
+      "key": "GIFTS_TO_THE_POOR",
+      "en": "Gifts to the Poor",
+      "he": "הלכות מתנות עניים",
+      "ru": "Законы пожертвований бедным",
+      "fr": "Hilkhot Matanot Aniyim",
+      "chapters": 10
+    },
+    {
+      "key": "HEAVE_OFFERINGS",
+      "en": "Heave Offerings",
+      "he": "הלכות תרומות",
+      "ru": "Законы возношения",
+      "fr": "Hilkhot Teroumot",
+      "chapters": 15
+    },
+    {
+      "key": "TITHES",
+      "en": "Tithes",
+      "he": "הלכות מעשרות",
+      "ru": "Законы десятины",
+      "fr": "Hilkhot Ma'assrot",
+      "chapters": 14
+    },
+    {
+      "key": "SECOND_TITHES_AND_FOURTH_YEARS_FRUIT",
+      "en": "Second Tithes and Fourth Year's Fruit",
+      "he": "הלכות מעשר שני ונטע רבעי",
+      "ru": "Законы второй десятины и плодов четвертого года",
+      "fr": "Hilkhot Ma'asser Chéni véNéta Réva'i",
+      "chapters": 11
+    },
+    {
+      "key": "FIRST_FRUITS_AND_OTHER_GIFTS_TO_PRIESTS_OUTSIDE_THE_SANCTUARY",
+      "en": "First Fruits and other Gifts to Priests Outside the Sanctuary",
+      "he": "הלכות ביכורים ושאר מתנות כהונה שבגבולין",
+      "ru": "Законы приношения первых плодов урожая",
+      "fr": "Hilkhot Bikourim ouChe'ar Matanot Kehouna chèbig'voulin",
+      "chapters": 12
+    },
+    {
+      "key": "SABBATICAL_YEAR_AND_THE_JUBILEE",
+      "en": "Sabbatical Year and the Jubilee",
+      "he": "הלכות שמיטה ויובל",
+      "ru": "Законы субботнего и юбилейного годов",
+      "fr": "Hilkhot Chemita véYovel",
+      "chapters": 13
+    },
+    {
+      "key": "THE_CHOSEN_TEMPLE",
+      "en": "The Chosen Temple",
+      "he": "הלכות בית הבחירה",
+      "ru": "Законы о Храме",
+      "fr": "Hilkhot Béit HaBe'hira",
+      "chapters": 8
+    },
+    {
+      "key": "VESSELS_OF_THE_SANCTUARY_AND_THOSE_WHO_SERVE_THEREIN",
+      "en": "Vessels of the Sanctuary and Those Who Serve Therein",
+      "he": "הלכות כלי המקדש והעובדין בו",
+      "ru": "Законы храмовой утвари и служения в Храме",
+      "fr": "Hilkhot Kléi HaMikdach véHa'ovdin Bo",
+      "chapters": 10
+    },
+    {
+      "key": "ADMISSION_INTO_THE_SANCTUARY",
+      "en": "Admission into the Sanctuary",
+      "he": "הלכות ביאת מקדש",
+      "ru": "Законы о приходе в Храм",
+      "fr": "Hilkhot Biat Mikdach",
+      "chapters": 9
+    },
+    {
+      "key": "THINGS_FORBIDDEN_ON_THE_ALTAR",
+      "en": "Things Forbidden on the Altar",
+      "he": "הלכות איסורי המזבח",
+      "ru": "Законы о животных, запрещенных для жертвоприношений",
+      "fr": "Hilkhot Issouréi HaMizbé'a'h",
+      "chapters": 7
+    },
+    {
+      "key": "SACRIFICIAL_PROCEDURE",
+      "en": "Sacrificial Procedure",
+      "he": "הלכות מעשה הקרבנות",
+      "ru": "Законы принесения жертвоприношений",
+      "fr": "Hilkhot Ma'assé HaKorbanot",
+      "chapters": 19
+    },
+    {
+      "key": "DAILY_OFFERINGS_AND_ADDITIONAL_OFFERINGS",
+      "en": "Daily Offerings and Additional Offerings",
+      "he": "הלכות תמידים ומוספין",
+      "ru": "Законы ежедневных и дополнительных жертвоприношений",
+      "fr": "Hilkhot Temidin ouMoussafin",
+      "chapters": 10
+    },
+    {
+      "key": "SACRIFICES_RENDERED_UNFIT",
+      "en": "Sacrifices Rendered Unfit",
+      "he": "הלכות פסולי המוקדשין",
+      "ru": "Законы о жертвоприношениях, непригодных для еды",
+      "fr": "Hilkhot Pessouléi HaMoukdachin",
+      "chapters": 19
+    },
+    {
+      "key": "SERVICE_ON_THE_DAY_OF_ATONEMENT",
+      "en": "Service on the Day of Atonement",
+      "he": "הלכות עבודת יום הכפורים",
+      "ru": "Законы храмовой службы в День Искупления",
+      "fr": "Hilkhot Avodat Yom HaKippourim",
+      "chapters": 5
+    },
+    {
+      "key": "TRESPASS",
+      "en": "Trespass",
+      "he": "הלכות מעילה",
+      "ru": "Законы использования имущества, посвященного Храму",
+      "fr": "Hilkhot Mé'ila",
+      "chapters": 8
+    },
+    {
+      "key": "PASCHAL_OFFERING",
+      "en": "Paschal Offering",
+      "he": "הלכות קרבן פסח",
+      "ru": "Законы пасхальной жертвы",
+      "fr": "Hilkhot Korban Pessa'h",
+      "chapters": 10
+    },
+    {
+      "key": "FESTIVAL_OFFERING",
+      "en": "Festival Offering",
+      "he": "הלכות חגיגה",
+      "ru": "Законы праздничной жертвы",
+      "fr": "Hilkhot 'Haguiga",
+      "chapters": 3
+    },
+    {
+      "key": "FIRSTLINGS",
+      "en": "Firstlings",
+      "he": "הלכות בכורות",
+      "ru": "Законы о первенцах животных",
+      "fr": "Hilkhot Bekhorot",
+      "chapters": 8
+    },
+    {
+      "key": "OFFERINGS_FOR_UNINTENTIONAL_TRANSGRESSIONS",
+      "en": "Offerings for Unintentional Transgressions",
+      "he": "הלכות שגגות",
+      "ru": "Законы о жертве за непреднамеренный грех",
+      "fr": "Hilkhot Chegagot",
+      "chapters": 15
+    },
+    {
+      "key": "OFFERINGS_FOR_THOSE_WITH_INCOMPLETE_ATONEMENT",
+      "en": "Offerings for Those with Incomplete Atonement",
+      "he": "הלכות מחוסרי כפרה",
+      "ru": "Законы о человеке, который не получил искупления",
+      "fr": "Hilkhot Me'houssréi Kappara",
+      "chapters": 5
+    },
+    {
+      "key": "SUBSTITUTION",
+      "en": "Substitution",
+      "he": "הלכות תמורה",
+      "ru": "Законы о замене животного, приносимого в жертву",
+      "fr": "Hilkhot Temoura",
+      "chapters": 4
+    },
+    {
+      "key": "DEFILEMENT_BY_A_CORPSE",
+      "en": "Defilement by a Corpse",
+      "he": "הלכות טומאת מת",
+      "ru": "Законы ритуальной нечистоты, порождаемой мертвым",
+      "fr": "Hilkhot Toumat Mét",
+      "chapters": 25
+    },
+    {
+      "key": "RED_HEIFER",
+      "en": "Red Heifer",
+      "he": "הלכות פרה אדומה",
+      "ru": "Законы красной коровы",
+      "fr": "Hilkhot Para Adouma",
+      "chapters": 15
+    },
+    {
+      "key": "DEFILEMENT_BY_LEPROSY",
+      "en": "Defilement by Leprosy",
+      "he": "הלכות טומאת צרעת",
+      "ru": "Законы ритуальной нечистоты, порождаемой болезнью «проказа»",
+      "fr": "Hilkhot Toumat Tsara'at",
+      "chapters": 16
+    },
+    {
+      "key": "THOSE_WHO_DEFILE_BED_OR_SEAT",
+      "en": "Those Who Defile Bed or Seat",
+      "he": "הלכות מטמאי משכב ומושב",
+      "ru": "Законы ритуальной нечистоты, передающейся предмету, на котором сидят или лежат",
+      "fr": "Hilkhot Metam'éi Michkav ouMochav",
+      "chapters": 13
+    },
+    {
+      "key": "OTHER_SOURCES_OF_DEFILEMENT",
+      "en": "Other Sources of Defilement",
+      "he": "הלכות שאר אבות הטומאות",
+      "ru": "Законы других источников ритуальной нечистоты",
+      "fr": "Hilkhot Che'ar Avot HaToum'ot",
+      "chapters": 20
+    },
+    {
+      "key": "DEFILEMENT_OF_FOODS",
+      "en": "Defilement of Foods",
+      "he": "הלכות טומאת אוכלים",
+      "ru": "Законы о ритуальной нечистоте пищи",
+      "fr": "Hilkhot Toumat Okhalin",
+      "chapters": 16
+    },
+    {
+      "key": "VESSELS",
+      "en": "Vessels",
+      "he": "הלכות כלים",
+      "ru": "Законы сосудов",
+      "fr": "Hilkhot Kélim",
+      "chapters": 28
+    },
+    {
+      "key": "IMMERSION_POOLS",
+      "en": "Immersion Pools",
+      "he": "הלכות מקואות",
+      "ru": "Законы миквы",
+      "fr": "Hilkhot Mikvaot",
+      "chapters": 11
+    },
+    {
+      "key": "DAMAGES_TO_PROPERTY",
+      "en": "Damages to Property",
+      "he": "הלכות נזקי ממון",
+      "ru": "Законы об ущербах, причиненных имуществом",
+      "fr": "Hilkhot Nizkéi Mamon",
+      "chapters": 14
+    },
+    {
+      "key": "THEFT",
+      "en": "Theft",
+      "he": "הלכות גניבה",
+      "ru": "Законы о воровстве",
+      "fr": "Hilkhot Guenéva",
+      "chapters": 9
+    },
+    {
+      "key": "ROBBERY_AND_LOST_PROPERTY",
+      "en": "Robbery and Lost Property",
+      "he": "הלכות גזילה ואבידה",
+      "ru": "Законы о грабеже и возвращении потери",
+      "fr": "Hilkhot Guezéla vaAvéda",
+      "chapters": 18
+    },
+    {
+      "key": "ONE_WHO_INJURES_A_PERSON_OR_PROPERTY",
+      "en": "One Who Injures a Person or Property",
+      "he": "הלכות חובל ומזיק",
+      "ru": "Законы о телесных повреждениях",
+      "fr": "Hilkhot 'Hovel ouMazik",
+      "chapters": 8
+    },
+    {
+      "key": "MURDERER_AND_THE_PRESERVATION_OF_LIFE",
+      "en": "Murderer and the Preservation of Life",
+      "he": "הלכות רוצח ושמירת נפש",
+      "ru": "Законы об убийстве и защите жизни",
+      "fr": "Hilkhot Rotsé'a'h ouChemirat Néfech",
+      "chapters": 13
+    },
+    {
+      "key": "SALES",
+      "en": "Sales",
+      "he": "הלכות מכירה",
+      "ru": "Законы продажи",
+      "fr": "Hilkhot Mekhira",
+      "chapters": 30
+    },
+    {
+      "key": "OWNERLESS_PROPERTY_AND_GIFTS",
+      "en": "Ownerless Property and Gifts",
+      "he": "הלכות זכייה ומתנה",
+      "ru": "Законы приобретения во владение и дарения",
+      "fr": "Hilkhot Zekhiyah ouMatana",
+      "chapters": 12
+    },
+    {
+      "key": "NEIGHBORS",
+      "en": "Neighbors",
+      "he": "הלכות שכנים",
+      "ru": "Законы о соседях",
+      "fr": "Hilkhot Chekhénim",
+      "chapters": 14
+    },
+    {
+      "key": "AGENTS_AND_PARTNERS",
+      "en": "Agents and Partners",
+      "he": "הלכות שלוחין ושותפין",
+      "ru": "Законы о посланцах и компаньонах",
+      "fr": "Hilkhot Chelou'hin véChoutafin",
+      "chapters": 10
+    },
+    {
+      "key": "SLAVES",
+      "en": "Slaves",
+      "he": "הלכות עבדים",
+      "ru": "Законы о рабах",
+      "fr": "Hilkhot Avadim",
+      "chapters": 9
+    },
+    {
+      "key": "HIRING",
+      "en": "Hiring",
+      "he": "הלכות שכירות",
+      "ru": "Законы наемных работников",
+      "fr": "Hilkhot Sekhirout",
+      "chapters": 13
+    },
+    {
+      "key": "BORROWING_AND_DEPOSIT",
+      "en": "Borrowing and Deposit",
+      "he": "הלכות שאלה ופיקדון",
+      "ru": "Законы займа и хранения имущества",
+      "fr": "Hilkhot Ché'éla ouPikadon",
+      "chapters": 8
+    },
+    {
+      "key": "CREDITOR_AND_DEBTOR",
+      "en": "Creditor and Debtor",
+      "he": "הלכות מלווה ולווה",
+      "ru": "Законы денежных ссуд",
+      "fr": "Hilkhot Malvé véLové",
+      "chapters": 27
+    },
+    {
+      "key": "PLAINTIFF_AND_DEFENDANT",
+      "en": "Plaintiff and Defendant",
+      "he": "הלכות טוען ונטען",
+      "ru": "Законы исков (об истце и ответчике)",
+      "fr": "Hilkhot To'én véNit'an",
+      "chapters": 16
+    },
+    {
+      "key": "INHERITANCES",
+      "en": "Inheritances",
+      "he": "הלכות נחלות",
+      "ru": "Законы наследования",
+      "fr": "Hilkhot Ne'halot",
+      "chapters": 11
+    },
+    {
+      "key": "THE_SANHEDRIN_AND_THE_PENALTIES_WITHIN_THEIR_JURISDICTION",
+      "en": "The Sanhedrin and the Penalties within Their Jurisdiction",
+      "he": "הלכות סנהדרין והעונשין המסורין להם",
+      "ru": "Законы о Санедрине",
+      "fr": "Hilkhot Sanhedrin véHa'onachin Hamessourin Lahem",
+      "chapters": 26
+    },
+    {
+      "key": "TESTIMONY",
+      "en": "Testimony",
+      "he": "הלכות עדות",
+      "ru": "Законы о свидетелях",
+      "fr": "Hilkhot Édout",
+      "chapters": 22
+    },
+    {
+      "key": "REBELS",
+      "en": "Rebels",
+      "he": "הלכות ממרים",
+      "ru": "Законы об ослушниках",
+      "fr": "Hilkhot Mamrim",
+      "chapters": 7
+    },
+    {
+      "key": "MOURNING",
+      "en": "Mourning",
+      "he": "הלכות אבל",
+      "ru": "Законы траура",
+      "fr": "Hilkhot Avel",
+      "chapters": 14
+    },
+    {
+      "key": "KINGS_AND_WARS",
+      "en": "Kings and Wars",
+      "he": "הלכות מלכים ומלחמות",
+      "ru": "Законы о королях, их войнах и Короле Мошиахе",
+      "fr": "Hilkhot Melakhim ouMil'hamot",
+      "chapters": 12
+    }
   ]
 }
