@@ -62,7 +62,7 @@ const char *const HC_PARSHA_NAMES[HC_PARSHA_COUNT] = {
     [HC_NITZAVIM         ] = "Nitzavim",
     [HC_VAYEILECH        ] = "Vayeilech",
     [HC_HAAZINU          ] = "Haazinu",
-    [HC_VEZOT_HABRACHA   ] = "Vezot Haberakhah",
+    [HC_VEZOT_HABRACHA   ] = "Vezot HaBracha",
 };
 
 /* ── Year-type schedule arrays ────────────────────────────────── */

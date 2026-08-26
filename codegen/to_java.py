@@ -406,12 +406,12 @@ def emit_daf_yomi() -> str:
     lines.append("    private DafYomi() {}")
     lines.append("")
     lines.append("    public static final class Tractate {")
-    lines.append("        public final String key, en, he;")
+    lines.append("        public final String key, en, he, ru, fr;")
     lines.append("        public final int lastDaf, oldLastDaf, dafOffset;")
     lines.append("        public final boolean amudAOnly;")
-    lines.append("        public Tractate(String key, String en, String he, int lastDaf,")
-    lines.append("                        int oldLastDaf, int dafOffset, boolean amudAOnly) {")
-    lines.append("            this.key = key; this.en = en; this.he = he;")
+    lines.append("        public Tractate(String key, String en, String he, String ru, String fr,")
+    lines.append("                        int lastDaf, int oldLastDaf, int dafOffset, boolean amudAOnly) {")
+    lines.append("            this.key = key; this.en = en; this.he = he; this.ru = ru; this.fr = fr;")
     lines.append("            this.lastDaf = lastDaf; this.oldLastDaf = oldLastDaf;")
     lines.append("            this.dafOffset = dafOffset; this.amudAOnly = amudAOnly;")
     lines.append("        }")
@@ -433,7 +433,8 @@ def emit_daf_yomi() -> str:
         amudA = "true" if t.get("amudAOnly", False) else "false"
         lines.append(
             f"        new Tractate({java_str(t['key'])}, {java_str(t['en'])}, "
-            f"{java_str(t['he'])}, {t['lastDaf']}, {old}, {off}, {amudA}),"
+            f"{java_str(t['he'])}, {java_str(t['ru'])}, {java_str(t['fr'])}, "
+            f"{t['lastDaf']}, {old}, {off}, {amudA}),"
         )
     lines.append("    };")
     lines.append("}")
@@ -515,9 +516,14 @@ def emit_tanya() -> str:
     for i, k in enumerate(keys):
         term = "," if i < len(keys) - 1 else ";"
         v = sections[k]
-        lines.append(f"        {k}({java_str(k)}, {java_str(v['en'])}, {java_str(v['he'])}){term}")
-    lines.append("        public final String key, en, he;")
-    lines.append("        Section(String key, String en, String he) { this.key = key; this.en = en; this.he = he; }")
+        lines.append(
+            f"        {k}({java_str(k)}, {java_str(v['en'])}, "
+            f"{java_str(v['he'])}, {java_str(v['ru'])}, {java_str(v['fr'])}){term}"
+        )
+    lines.append("        public final String key, en, he, ru, fr;")
+    lines.append("        Section(String key, String en, String he, String ru, String fr) {")
+    lines.append("            this.key = key; this.en = en; this.he = he; this.ru = ru; this.fr = fr;")
+    lines.append("        }")
     lines.append("    }")
     lines.append("")
     lines.append("    public static final class Portion {")

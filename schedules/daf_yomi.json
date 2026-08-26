@@ -1,51 +1,342 @@
 {
   "cycle": {
-    "oldStart":      "1923-09-11",
-    "newStart":      "1975-06-24",
-    "oldCycleDays":  2702,
-    "newCycleDays":  2711,
+    "oldStart": "1923-09-11",
+    "newStart": "1975-06-24",
+    "oldCycleDays": 2702,
+    "newCycleDays": 2711,
     "firstNewCycle": 8
   },
   "tractates": [
-    { "key": "BERAKHOT",       "en": "Berakhot",       "he": "ברכות",       "lastDaf":  64 },
-    { "key": "SHABBAT",        "en": "Shabbat",        "he": "שבת",         "lastDaf": 157 },
-    { "key": "ERUVIN",         "en": "Eruvin",         "he": "עירובין",     "lastDaf": 105 },
-    { "key": "PESACHIM",       "en": "Pesachim",       "he": "פסחים",       "lastDaf": 121 },
-    { "key": "SHEKALIM",       "en": "Shekalim",       "he": "שקלים",       "lastDaf":  22, "oldLastDaf": 13 },
-    { "key": "YOMA",           "en": "Yoma",           "he": "יומא",        "lastDaf":  88 },
-    { "key": "SUKKAH",         "en": "Sukkah",         "he": "סוכה",        "lastDaf":  56 },
-    { "key": "BEITZAH",        "en": "Beitzah",        "he": "ביצה",        "lastDaf":  40 },
-    { "key": "ROSH_HASHANAH",  "en": "Rosh Hashanah",  "he": "ראש השנה",   "lastDaf":  35 },
-    { "key": "TAANIT",         "en": "Taanit",         "he": "תענית",       "lastDaf":  31 },
-    { "key": "MEGILLAH",       "en": "Megillah",       "he": "מגילה",       "lastDaf":  32 },
-    { "key": "MOED_KATAN",     "en": "Moed Katan",     "he": "מועד קטן",    "lastDaf":  29 },
-    { "key": "CHAGIGAH",       "en": "Chagigah",       "he": "חגיגה",       "lastDaf":  27 },
-    { "key": "YEVAMOT",        "en": "Yevamot",        "he": "יבמות",       "lastDaf": 122 },
-    { "key": "KETUBOT",        "en": "Ketubot",        "he": "כתובות",      "lastDaf": 112 },
-    { "key": "NEDARIM",        "en": "Nedarim",        "he": "נדרים",       "lastDaf":  91 },
-    { "key": "NAZIR",          "en": "Nazir",          "he": "נזיר",        "lastDaf":  66 },
-    { "key": "SOTAH",          "en": "Sotah",          "he": "סוטה",        "lastDaf":  49 },
-    { "key": "GITTIN",         "en": "Gittin",         "he": "גיטין",       "lastDaf":  90 },
-    { "key": "KIDDUSHIN",      "en": "Kiddushin",      "he": "קידושין",     "lastDaf":  82 },
-    { "key": "BAVA_KAMMA",     "en": "Bava Kamma",     "he": "בבא קמא",     "lastDaf": 119 },
-    { "key": "BAVA_METZIA",    "en": "Bava Metzia",    "he": "בבא מציעא",   "lastDaf": 119 },
-    { "key": "BAVA_BATRA",     "en": "Bava Batra",     "he": "בבא בתרא",    "lastDaf": 176 },
-    { "key": "SANHEDRIN",      "en": "Sanhedrin",      "he": "סנהדרין",     "lastDaf": 113 },
-    { "key": "MAKKOT",         "en": "Makkot",         "he": "מכות",        "lastDaf":  24, "amudAOnly": true },
-    { "key": "SHEVUOT",        "en": "Shevuot",        "he": "שבועות",      "lastDaf":  49 },
-    { "key": "AVODAH_ZARAH",   "en": "Avodah Zarah",   "he": "עבודה זרה",   "lastDaf":  76 },
-    { "key": "HORAYOT",        "en": "Horayot",        "he": "הוריות",      "lastDaf":  14 },
-    { "key": "ZEVACHIM",       "en": "Zevachim",       "he": "זבחים",       "lastDaf": 120 },
-    { "key": "MENACHOT",       "en": "Menachot",       "he": "מנחות",       "lastDaf": 110, "amudAOnly": true },
-    { "key": "CHULLIN",        "en": "Chullin",        "he": "חולין",       "lastDaf": 142 },
-    { "key": "BEKHOROT",       "en": "Bekhorot",       "he": "בכורות",      "lastDaf":  61, "amudAOnly": true },
-    { "key": "ARAKHIN",        "en": "Arakhin",        "he": "ערכין",       "lastDaf":  34 },
-    { "key": "TEMURAH",        "en": "Temurah",        "he": "תמורה",       "lastDaf":  34 },
-    { "key": "KERITOT",        "en": "Keritot",        "he": "כריתות",      "lastDaf":  28 },
-    { "key": "MEILAH",         "en": "Meilah",         "he": "מעילה",       "lastDaf":  22, "amudAOnly": true },
-    { "key": "KINNIM",         "en": "Kinnim",         "he": "קינים",       "lastDaf":   4, "dafOffset": 21, "amudAOnly": true },
-    { "key": "TAMID",          "en": "Tamid",          "he": "תמיד",        "lastDaf":   9, "dafOffset": 24, "amudAOnly": true },
-    { "key": "MIDDOT",         "en": "Middot",         "he": "מדות",        "lastDaf":   5, "dafOffset": 32 },
-    { "key": "NIDDAH",         "en": "Niddah",         "he": "נדה",         "lastDaf":  73, "amudAOnly": true }
+    {
+      "key": "BERAKHOT",
+      "en": "Berakhot",
+      "he": "ברכות",
+      "ru": "Брахот",
+      "fr": "Berakhot",
+      "lastDaf": 64
+    },
+    {
+      "key": "SHABBAT",
+      "en": "Shabbat",
+      "he": "שבת",
+      "ru": "Шаббат",
+      "fr": "Chabbat",
+      "lastDaf": 157
+    },
+    {
+      "key": "ERUVIN",
+      "en": "Eruvin",
+      "he": "עירובין",
+      "ru": "Эйрувин",
+      "fr": "Érouvin",
+      "lastDaf": 105
+    },
+    {
+      "key": "PESACHIM",
+      "en": "Pesachim",
+      "he": "פסחים",
+      "ru": "Псахим",
+      "fr": "Pessa'him",
+      "lastDaf": 121
+    },
+    {
+      "key": "SHEKALIM",
+      "en": "Shekalim",
+      "he": "שקלים",
+      "ru": "Шкалим",
+      "fr": "Chekalim",
+      "lastDaf": 22,
+      "oldLastDaf": 13
+    },
+    {
+      "key": "YOMA",
+      "en": "Yoma",
+      "he": "יומא",
+      "ru": "Йома",
+      "fr": "Yoma",
+      "lastDaf": 88
+    },
+    {
+      "key": "SUKKAH",
+      "en": "Sukkah",
+      "he": "סוכה",
+      "ru": "Сукка",
+      "fr": "Soucca",
+      "lastDaf": 56
+    },
+    {
+      "key": "BEITZAH",
+      "en": "Beitzah",
+      "he": "ביצה",
+      "ru": "Бейца",
+      "fr": "Beitsa",
+      "lastDaf": 40
+    },
+    {
+      "key": "ROSH_HASHANAH",
+      "en": "Rosh Hashanah",
+      "he": "ראש השנה",
+      "ru": "Рош ѓаШана",
+      "fr": "Roch Hachana",
+      "lastDaf": 35
+    },
+    {
+      "key": "TAANIT",
+      "en": "Taanit",
+      "he": "תענית",
+      "ru": "Таанит",
+      "fr": "Ta'anit",
+      "lastDaf": 31
+    },
+    {
+      "key": "MEGILLAH",
+      "en": "Megillah",
+      "he": "מגילה",
+      "ru": "Мегила",
+      "fr": "Meguila",
+      "lastDaf": 32
+    },
+    {
+      "key": "MOED_KATAN",
+      "en": "Moed Katan",
+      "he": "מועד קטן",
+      "ru": "Моэд катан",
+      "fr": "Mo'ed Katan",
+      "lastDaf": 29
+    },
+    {
+      "key": "CHAGIGAH",
+      "en": "Chagigah",
+      "he": "חגיגה",
+      "ru": "Хагига",
+      "fr": "'Haguiga",
+      "lastDaf": 27
+    },
+    {
+      "key": "YEVAMOT",
+      "en": "Yevamot",
+      "he": "יבמות",
+      "ru": "Йевамот",
+      "fr": "Yevamot",
+      "lastDaf": 122
+    },
+    {
+      "key": "KETUBOT",
+      "en": "Ketubot",
+      "he": "כתובות",
+      "ru": "Ктубот",
+      "fr": "Ketoubot",
+      "lastDaf": 112
+    },
+    {
+      "key": "NEDARIM",
+      "en": "Nedarim",
+      "he": "נדרים",
+      "ru": "Недарим",
+      "fr": "Nedarim",
+      "lastDaf": 91
+    },
+    {
+      "key": "NAZIR",
+      "en": "Nazir",
+      "he": "נזיר",
+      "ru": "Назир",
+      "fr": "Nazir",
+      "lastDaf": 66
+    },
+    {
+      "key": "SOTAH",
+      "en": "Sotah",
+      "he": "סוטה",
+      "ru": "Сота",
+      "fr": "Sota",
+      "lastDaf": 49
+    },
+    {
+      "key": "GITTIN",
+      "en": "Gittin",
+      "he": "גיטין",
+      "ru": "Гитин",
+      "fr": "Guitin",
+      "lastDaf": 90
+    },
+    {
+      "key": "KIDDUSHIN",
+      "en": "Kiddushin",
+      "he": "קידושין",
+      "ru": "Кидушин",
+      "fr": "Kidouchin",
+      "lastDaf": 82
+    },
+    {
+      "key": "BAVA_KAMMA",
+      "en": "Bava Kamma",
+      "he": "בבא קמא",
+      "ru": "Бава кама",
+      "fr": "Bava Kama",
+      "lastDaf": 119
+    },
+    {
+      "key": "BAVA_METZIA",
+      "en": "Bava Metzia",
+      "he": "בבא מציעא",
+      "ru": "Бава мециа",
+      "fr": "Bava Metsia",
+      "lastDaf": 119
+    },
+    {
+      "key": "BAVA_BATRA",
+      "en": "Bava Batra",
+      "he": "בבא בתרא",
+      "ru": "Бава батра",
+      "fr": "Bava Batra",
+      "lastDaf": 176
+    },
+    {
+      "key": "SANHEDRIN",
+      "en": "Sanhedrin",
+      "he": "סנהדרין",
+      "ru": "Санѓедрин",
+      "fr": "Sanhédrin",
+      "lastDaf": 113
+    },
+    {
+      "key": "MAKKOT",
+      "en": "Makkot",
+      "he": "מכות",
+      "ru": "Макот",
+      "fr": "Makot",
+      "lastDaf": 24,
+      "amudAOnly": true
+    },
+    {
+      "key": "SHEVUOT",
+      "en": "Shevuot",
+      "he": "שבועות",
+      "ru": "Швуот",
+      "fr": "Chevouot",
+      "lastDaf": 49
+    },
+    {
+      "key": "AVODAH_ZARAH",
+      "en": "Avodah Zarah",
+      "he": "עבודה זרה",
+      "ru": "Авода зара",
+      "fr": "Avoda Zara",
+      "lastDaf": 76
+    },
+    {
+      "key": "HORAYOT",
+      "en": "Horayot",
+      "he": "הוריות",
+      "ru": "Ѓораёт",
+      "fr": "Horayot",
+      "lastDaf": 14
+    },
+    {
+      "key": "ZEVACHIM",
+      "en": "Zevachim",
+      "he": "זבחים",
+      "ru": "Звахим",
+      "fr": "Zeva'him",
+      "lastDaf": 120
+    },
+    {
+      "key": "MENACHOT",
+      "en": "Menachot",
+      "he": "מנחות",
+      "ru": "Менахот",
+      "fr": "Mena'hot",
+      "lastDaf": 110,
+      "amudAOnly": true
+    },
+    {
+      "key": "CHULLIN",
+      "en": "Chullin",
+      "he": "חולין",
+      "ru": "Хулин",
+      "fr": "'Houlin",
+      "lastDaf": 142
+    },
+    {
+      "key": "BEKHOROT",
+      "en": "Bekhorot",
+      "he": "בכורות",
+      "ru": "Бхорот",
+      "fr": "Bekhorot",
+      "lastDaf": 61,
+      "amudAOnly": true
+    },
+    {
+      "key": "ARAKHIN",
+      "en": "Arakhin",
+      "he": "ערכין",
+      "ru": "Арахин",
+      "fr": "Arakhin",
+      "lastDaf": 34
+    },
+    {
+      "key": "TEMURAH",
+      "en": "Temurah",
+      "he": "תמורה",
+      "ru": "Тмура",
+      "fr": "Temoura",
+      "lastDaf": 34
+    },
+    {
+      "key": "KERITOT",
+      "en": "Keritot",
+      "he": "כריתות",
+      "ru": "Критот",
+      "fr": "Keritot",
+      "lastDaf": 28
+    },
+    {
+      "key": "MEILAH",
+      "en": "Meilah",
+      "he": "מעילה",
+      "ru": "Меила",
+      "fr": "Me'ila",
+      "lastDaf": 22,
+      "amudAOnly": true
+    },
+    {
+      "key": "KINNIM",
+      "en": "Kinnim",
+      "he": "קינים",
+      "ru": "Киним",
+      "fr": "Kinim",
+      "lastDaf": 4,
+      "dafOffset": 21,
+      "amudAOnly": true
+    },
+    {
+      "key": "TAMID",
+      "en": "Tamid",
+      "he": "תמיד",
+      "ru": "Тамид",
+      "fr": "Tamid",
+      "lastDaf": 9,
+      "dafOffset": 24,
+      "amudAOnly": true
+    },
+    {
+      "key": "MIDDOT",
+      "en": "Middot",
+      "he": "מדות",
+      "ru": "Мидот",
+      "fr": "Midot",
+      "lastDaf": 5,
+      "dafOffset": 32
+    },
+    {
+      "key": "NIDDAH",
+      "en": "Niddah",
+      "he": "נדה",
+      "ru": "Нида",
+      "fr": "Nida",
+      "lastDaf": 73,
+      "amudAOnly": true
+    }
   ]
 }

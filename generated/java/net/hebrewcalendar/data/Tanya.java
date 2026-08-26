@@ -13,17 +13,19 @@ public final class Tanya {
     private Tanya() {}
 
     public enum Section {
-        TITLE_PAGE("TITLE_PAGE", "Title Page", "עמוד הכותרת"),
-        APPROBATION("APPROBATION", "Approbation", "הסכמות הרבנים"),
-        COMPILERS_FOREWORD("COMPILERS_FOREWORD", "Compiler's Foreword", "הקדמת המלקט"),
-        LIKKUTEI_AMARIM("LIKKUTEI_AMARIM", "Likkutei Amarim", "לקוטי אמרים"),
-        CHINUKH_KATAN("CHINUKH_KATAN", "Chinukh Katan", "חינוך קטן"),
-        SHAAR_HAYICHUD_VEHAEMUNAH("SHAAR_HAYICHUD_VEHAEMUNAH", "Shaar HaYichud VehaEmunah", "שער היחוד והאמונה"),
-        IGGERET_HATESHUVAH("IGGERET_HATESHUVAH", "Iggeret HaTeshuvah", "אגרת התשובה"),
-        IGGERET_HAKODESH("IGGERET_HAKODESH", "Iggeret HaKodesh", "אגרת הקודש"),
-        KUNTRES_ACHARON("KUNTRES_ACHARON", "Kuntres Acharon", "קונטרס אחרון");
-        public final String key, en, he;
-        Section(String key, String en, String he) { this.key = key; this.en = en; this.he = he; }
+        TITLE_PAGE("TITLE_PAGE", "Title Page", "עמוד הכותרת", "Титульный лист", "Page de titre"),
+        APPROBATION("APPROBATION", "Approbation", "הסכמות הרבנים", "Ѓаскамот", "Approbations"),
+        COMPILERS_FOREWORD("COMPILERS_FOREWORD", "Compiler's Foreword", "הקדמת המלקט", "Ѓакдамат ѓамелакет", "Préface du compilateur"),
+        LIKKUTEI_AMARIM("LIKKUTEI_AMARIM", "Likkutei Amarim", "לקוטי אמרים", "Ликутей амарим", "Likoutei Amarim"),
+        CHINUKH_KATAN("CHINUKH_KATAN", "Chinukh Katan", "חינוך קטן", "Хинух катан", "'Hinoukh Katan"),
+        SHAAR_HAYICHUD_VEHAEMUNAH("SHAAR_HAYICHUD_VEHAEMUNAH", "Shaar HaYichud VehaEmunah", "שער היחוד והאמונה", "Шаар ѓайихуд ве-ѓаэмуна", "Chaar HaYi'houd VeHaEmouna"),
+        IGGERET_HATESHUVAH("IGGERET_HATESHUVAH", "Iggeret HaTeshuvah", "אגרת התשובה", "Игерет ѓатшува", "Iguéret HaTechouva"),
+        IGGERET_HAKODESH("IGGERET_HAKODESH", "Iggeret HaKodesh", "אגרת הקודש", "Игерет ѓакодеш", "Iguéret HaKodech"),
+        KUNTRES_ACHARON("KUNTRES_ACHARON", "Kuntres Acharon", "קונטרס אחרון", "Кунтрес ахарон", "Kountres A'haron");
+        public final String key, en, he, ru, fr;
+        Section(String key, String en, String he, String ru, String fr) {
+            this.key = key; this.en = en; this.he = he; this.ru = ru; this.fr = fr;
+        }
     }
 
     public static final class Portion {

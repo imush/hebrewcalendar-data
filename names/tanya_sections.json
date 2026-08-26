@@ -1,11 +1,56 @@
 {
-  "TITLE_PAGE":                { "en": "Title Page",                "he": "עמוד הכותרת" },
-  "APPROBATION":               { "en": "Approbation",               "he": "הסכמות הרבנים" },
-  "COMPILERS_FOREWORD":        { "en": "Compiler's Foreword",       "he": "הקדמת המלקט" },
-  "LIKKUTEI_AMARIM":           { "en": "Likkutei Amarim",           "he": "לקוטי אמרים" },
-  "CHINUKH_KATAN":             { "en": "Chinukh Katan",             "he": "חינוך קטן" },
-  "SHAAR_HAYICHUD_VEHAEMUNAH": { "en": "Shaar HaYichud VehaEmunah", "he": "שער היחוד והאמונה" },
-  "IGGERET_HATESHUVAH":        { "en": "Iggeret HaTeshuvah",        "he": "אגרת התשובה" },
-  "IGGERET_HAKODESH":          { "en": "Iggeret HaKodesh",          "he": "אגרת הקודש" },
-  "KUNTRES_ACHARON":           { "en": "Kuntres Acharon",           "he": "קונטרס אחרון" }
+  "TITLE_PAGE": {
+    "en": "Title Page",
+    "he": "עמוד הכותרת",
+    "ru": "Титульный лист",
+    "fr": "Page de titre"
+  },
+  "APPROBATION": {
+    "en": "Approbation",
+    "he": "הסכמות הרבנים",
+    "ru": "Ѓаскамот",
+    "fr": "Approbations"
+  },
+  "COMPILERS_FOREWORD": {
+    "en": "Compiler's Foreword",
+    "he": "הקדמת המלקט",
+    "ru": "Ѓакдамат ѓамелакет",
+    "fr": "Préface du compilateur"
+  },
+  "LIKKUTEI_AMARIM": {
+    "en": "Likkutei Amarim",
+    "he": "לקוטי אמרים",
+    "ru": "Ликутей амарим",
+    "fr": "Likoutei Amarim"
+  },
+  "CHINUKH_KATAN": {
+    "en": "Chinukh Katan",
+    "he": "חינוך קטן",
+    "ru": "Хинух катан",
+    "fr": "'Hinoukh Katan"
+  },
+  "SHAAR_HAYICHUD_VEHAEMUNAH": {
+    "en": "Shaar HaYichud VehaEmunah",
+    "he": "שער היחוד והאמונה",
+    "ru": "Шаар ѓайихуд ве-ѓаэмуна",
+    "fr": "Chaar HaYi'houd VeHaEmouna"
+  },
+  "IGGERET_HATESHUVAH": {
+    "en": "Iggeret HaTeshuvah",
+    "he": "אגרת התשובה",
+    "ru": "Игерет ѓатшува",
+    "fr": "Iguéret HaTechouva"
+  },
+  "IGGERET_HAKODESH": {
+    "en": "Iggeret HaKodesh",
+    "he": "אגרת הקודש",
+    "ru": "Игерет ѓакодеш",
+    "fr": "Iguéret HaKodech"
+  },
+  "KUNTRES_ACHARON": {
+    "en": "Kuntres Acharon",
+    "he": "קונטרס אחרון",
+    "ru": "Кунтрес ахарон",
+    "fr": "Kountres A'haron"
+  }
 }
