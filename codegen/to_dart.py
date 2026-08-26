@@ -331,24 +331,29 @@ def emit_rambam_mt() -> str:
     data = load("schedules/rambam_mt.json")
     lines = [BANNER]
     lines.append("part of '../hebrewcalendar_data.dart';\n")
-    lines.append("/// One halacha (section) of the Mishneh Torah.")
-    lines.append("class RambamHalacha {")
-    lines.append("  final String key, en, he, ru, fr;")
-    lines.append("  final int chapters;      // 1-chapter cycle count")
-    lines.append("  final int chapters3;     // 3-chapter cycle count (may differ)")
-    lines.append("  const RambamHalacha(this.key, this.en, this.he, this.ru, this.fr, this.chapters, this.chapters3);")
-    lines.append("}\n")
-
-    lines.append("/// The 88 halachot in Mishneh Torah study order.")
-    lines.append("const List<RambamHalacha> rambamHalachot = [")
+    lines.append("/// The 88 halachot of Mishneh Torah, in study-cycle order.")
+    lines.append("/// Enum insertion order matches the daily-Rambam cycle; iterate")
+    lines.append("/// [values] to walk the cycle.")
+    lines.append("enum RambamHalacha {")
     for h in data["halachot"]:
         ch3 = h.get("chapters3", h["chapters"])
         lines.append(
-            f"  RambamHalacha({dart_str(h['key'])}, {dart_str(h['en'])}, "
+            f"  {to_dart_enum_name(h['key'])}("
+            f"{dart_str(h['key'])}, {dart_str(h['en'])}, "
             f"{dart_str(h['he'])}, {dart_str(h['ru'])}, {dart_str(h['fr'])}, "
             f"{h['chapters']}, {ch3}),"
         )
-    lines.append("];\n")
+    lines.append("  ;")
+    lines.append("  final String key;        // stable SCREAMING_SNAKE_CASE identifier")
+    lines.append("  final String en;")
+    lines.append("  final String he;")
+    lines.append("  final String ru;")
+    lines.append("  final String fr;")
+    lines.append("  final int chapters;      // 1-chapter cycle count")
+    lines.append("  final int chapters3;     // 3-chapter cycle count (may differ)")
+    lines.append("  const RambamHalacha(this.key, this.en, this.he, this.ru, this.fr,")
+    lines.append("                      this.chapters, this.chapters3);")
+    lines.append("}\n")
 
     lines.append("/// Verse ranges for the four introductory 'halachot' whose")
     lines.append("/// per-day units are pesukim rather than chapters.")
