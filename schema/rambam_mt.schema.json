@@ -32,11 +32,13 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["key", "en", "he", "chapters"],
+        "required": ["key", "en", "he", "ru", "fr", "chapters"],
         "properties": {
           "key":       { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$" },
           "en":        { "type": "string", "minLength": 1 },
           "he":        { "type": "string", "minLength": 1 },
+          "ru":        { "type": "string", "minLength": 1 },
+          "fr":        { "type": "string", "minLength": 1 },
           "chapters":  { "type": "integer", "minimum": 1 },
           "chapters3": { "type": "integer", "minimum": 1, "description": "Chapter count in the 3-chapter cycle if different from 'chapters'." }
         }
