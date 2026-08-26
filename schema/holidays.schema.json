@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hebrewcalendar.net/schemas/holidays.schema.json",
+  "title": "Holiday translation table",
+  "description": "Canonical holidays keyed by SCREAMING_SNAKE_CASE. Each entry lists the HC_SD_* enum values (minus prefix) that map to it, plus en/he/ru/fr display strings.",
+  "type": "object",
+  "propertyNames": { "pattern": "^[A-Z][A-Z0-9_]*$" },
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["sd", "en", "he", "ru", "fr"],
+    "properties": {
+      "sd": {
+        "type": "array",
+        "minItems": 1,
+        "items": { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$" }
+      },
+      "en": { "type": "string", "minLength": 1 },
+      "he": { "type": "string", "minLength": 1 },
+      "ru": { "type": "string", "minLength": 1 },
+      "fr": { "type": "string", "minLength": 1 }
+    }
+  }
+}

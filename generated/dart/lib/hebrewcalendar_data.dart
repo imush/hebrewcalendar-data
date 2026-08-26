@@ -10,3 +10,4 @@ part 'src/special_maftirs.dart';
 part 'src/hebrew_year_exceptions.dart';
 part 'src/daf_yomi.dart';
 part 'src/zmanim.dart';
+part 'src/holidays.dart';

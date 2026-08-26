@@ -277,6 +277,58 @@ def emit_zmanim() -> str:
     return "\n".join(lines)
 
 
+def emit_holidays() -> str:
+    """Emit the Holiday class + hcSdToHoliday reverse map keyed by the
+    integer sd value. The map is derived from names/holidays.json (which
+    references SD keys) and enums/hc_special_days.json (which supplies
+    the ordering that assigns each SD its integer value).
+    """
+    holidays = load("names/holidays.json")
+    sds_list = load("enums/hc_special_days.json")["sds"]
+    sd_to_int = {name: idx for idx, name in enumerate(sds_list)}
+
+    lines = [BANNER]
+    lines.append("part of '../hebrewcalendar_data.dart';\n")
+    lines.append("/// A holiday / special-day category with 4-language display strings.")
+    lines.append("/// A single Holiday may correspond to multiple HC_SD_* enum values")
+    lines.append("/// (Chanukah days 1..8, Chol Hamoed days, etc.); use [hcSdToHoliday]")
+    lines.append("/// to look up by the integer sd returned from getSpecialDays().")
+    lines.append("class Holiday {")
+    lines.append("  final String key;   // stable SCREAMING_SNAKE_CASE")
+    lines.append("  final String en;")
+    lines.append("  final String he;")
+    lines.append("  final String ru;")
+    lines.append("  final String fr;")
+    lines.append("  const Holiday(this.key, this.en, this.he, this.ru, this.fr);")
+    lines.append("}\n")
+
+    # Emit const Holiday instances so the reverse-map values are const.
+    lines.append("// Instances (const) for the reverse map below.")
+    lines.append("class _H {")
+    for k, v in holidays.items():
+        var = "_" + to_dart_enum_name(k)
+        lines.append(
+            f"  static const {var} = Holiday("
+            f"{dart_str(k)}, {dart_str(v['en'])}, {dart_str(v['he'])}, "
+            f"{dart_str(v['ru'])}, {dart_str(v['fr'])});"
+        )
+    lines.append("}\n")
+
+    # Reverse map: int sd -> Holiday.
+    lines.append("/// Look up a Holiday by the integer sd value returned from")
+    lines.append("/// [hc.getSpecialDays]. Returns null for HC_SD_NONE (0) and any")
+    lines.append("/// sd not classified in holidays.json (validator prevents that).")
+    lines.append("const Map<int, Holiday> hcSdToHoliday = {")
+    for k, v in holidays.items():
+        var = f"_H._{to_dart_enum_name(k)}"
+        for sd_name in v["sd"]:
+            if sd_name not in sd_to_int:
+                raise SystemExit(f"holidays.json references unknown SD {sd_name!r}")
+            lines.append(f"  {sd_to_int[sd_name]}: {var},  // {sd_name}")
+    lines.append("};\n")
+    return "\n".join(lines)
+
+
 def emit_barrel() -> str:
     return (
         BANNER
@@ -289,6 +341,7 @@ def emit_barrel() -> str:
         + "part 'src/hebrew_year_exceptions.dart';\n"
         + "part 'src/daf_yomi.dart';\n"
         + "part 'src/zmanim.dart';\n"
+        + "part 'src/holidays.dart';\n"
     )
 
 
@@ -314,6 +367,7 @@ def main():
     (SRC_DIR / "hebrew_year_exceptions.dart").write_text(emit_hebrew_year_exceptions(), encoding="utf-8")
     (SRC_DIR / "daf_yomi.dart").write_text(emit_daf_yomi(), encoding="utf-8")
     (SRC_DIR / "zmanim.dart").write_text(emit_zmanim(), encoding="utf-8")
+    (SRC_DIR / "holidays.dart").write_text(emit_holidays(), encoding="utf-8")
     (LIB_DIR / "hebrewcalendar_data.dart").write_text(emit_barrel(), encoding="utf-8")
     (DART_DIR / "pubspec.yaml").write_text(emit_pubspec(), encoding="utf-8")
     print(f"OK  dart  → {DART_DIR.relative_to(ROOT)}")
