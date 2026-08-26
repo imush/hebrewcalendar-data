@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hebrewcalendar.net/schemas/parsha_year_schedules.schema.json",
+  "title": "Parsha schedules for the 14 Hebrew-calendar year types",
+  "description": "Each year type is uniquely determined by (roshHashanaDow, yearLength, pesachDow, leap). Its israel/diaspora arrays list the readings for the year's Shabbatot in order, starting from the Shabbat on or after Rosh Hashana. Empty [] = Yom Tov / Chol Hamoed (no regular reading); [\"NAME\"] = single parsha; [\"A\", \"B\"] = double parsha. Parsha keys match names/parshiyot.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["yearTypes"],
+  "properties": {
+    "yearTypes": {
+      "type": "array",
+      "minItems": 14,
+      "maxItems": 14,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "letter", "leap", "roshHashanaDow", "yearLength", "pesachDow", "israel", "diaspora"],
+        "properties": {
+          "id":        { "type": "string", "pattern": "^(REG|LEAP)_[A-Z_]+$" },
+          "letter":    { "type": "string", "pattern": "^[A-N]$" },
+          "leap":      { "type": "boolean" },
+          "roshHashanaDow": { "type": "integer", "minimum": 1, "maximum": 7, "description": "1=Sun..7=Sat" },
+          "yearLength": { "type": "string", "enum": ["SHORT", "NORMAL", "FULL"] },
+          "pesachDow":  { "type": "integer", "minimum": 1, "maximum": 7 },
+          "israel":     { "$ref": "#/$defs/schedule" },
+          "diaspora":   { "$ref": "#/$defs/schedule" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "schedule": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "minItems": 0,
+        "maxItems": 2,
+        "items": { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$" }
+      }
+    }
+  }
+}
