@@ -8,6 +8,7 @@ python3 tests/validate_tanya.py
 python3 tests/validate_parshiyot.py
 python3 tests/validate_parsha_year_schedules.py
 python3 tests/validate_hebrew_months.py
+python3 tests/validate_special_maftirs.py
 python3 codegen/to_dart.py
 python3 codegen/to_c.py
 # Add codegen/to_java.py, to_scala.py, to_c.py as they land.

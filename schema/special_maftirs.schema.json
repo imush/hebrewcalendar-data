@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hebrewcalendar.net/schemas/special_maftirs.schema.json",
+  "title": "Special-Shabbat maftir names",
+  "description": "The four 'Arba Parshiyot' maftirs read on specific Shabbatot in Adar / Nisan.",
+  "type": "object",
+  "propertyNames": { "pattern": "^[A-Z][A-Z0-9_]*$" },
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["en", "he", "ru", "fr"],
+    "properties": {
+      "en": { "type": "string", "minLength": 1 },
+      "he": { "type": "string", "minLength": 1 },
+      "ru": { "type": "string", "minLength": 1 },
+      "fr": { "type": "string", "minLength": 1 }
+    }
+  }
+}

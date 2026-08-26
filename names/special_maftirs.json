@@ -1,0 +1,6 @@
+{
+  "SHEKALIM":  { "en": "Shekalim",  "he": "שקלים",  "ru": "Шкалим",  "fr": "Chekalim" },
+  "ZACHOR":    { "en": "Zachor",    "he": "זכור",   "ru": "Захор",   "fr": "Zachor" },
+  "PARA":      { "en": "Para",      "he": "פרה",    "ru": "Пара",    "fr": "Para" },
+  "HACHODESH": { "en": "Hachodesh", "he": "החודש",  "ru": "ѓаХодеш", "fr": "Hachodech" }
+}

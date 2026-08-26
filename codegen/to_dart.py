@@ -150,6 +150,34 @@ def emit_hebrew_months() -> str:
     return "\n".join(lines)
 
 
+def emit_special_maftirs() -> str:
+    data = load("names/special_maftirs.json")
+    lines = [BANNER]
+    lines.append("part of '../hebrewcalendar_data.dart';\n")
+    lines.append("/// The four 'Arba Parshiyot' maftirs read on specific Shabbatot")
+    lines.append("/// in Adar / Nisan.")
+    lines.append("enum SpecialMaftir {")
+    for k, v in data.items():
+        lines.append(
+            f"  {to_dart_enum_name(k)}("
+            f"{dart_str(v['en'])}, {dart_str(v['he'])}, "
+            f"{dart_str(v['ru'])}, {dart_str(v['fr'])}),"
+        )
+    lines.append("  ;")
+    lines.append("  final String en;")
+    lines.append("  final String he;")
+    lines.append("  final String ru;")
+    lines.append("  final String fr;")
+    lines.append("  const SpecialMaftir(this.en, this.he, this.ru, this.fr);")
+    lines.append("")
+    lines.append("  /// Look up by canonical English name (case-sensitive).")
+    lines.append("  static SpecialMaftir? fromEnglishName(String en) => _byEn[en];")
+    lines.append("  static final Map<String, SpecialMaftir> _byEn =")
+    lines.append("      { for (final m in values) m.en: m };")
+    lines.append("}\n")
+    return "\n".join(lines)
+
+
 def emit_barrel() -> str:
     return (
         BANNER
@@ -158,6 +186,7 @@ def emit_barrel() -> str:
         + "part 'src/tanya.dart';\n"
         + "part 'src/parshiyot.dart';\n"
         + "part 'src/hebrew_months.dart';\n"
+        + "part 'src/special_maftirs.dart';\n"
     )
 
 
@@ -179,6 +208,7 @@ def main():
     (SRC_DIR / "tanya.dart").write_text(emit_tanya(), encoding="utf-8")
     (SRC_DIR / "parshiyot.dart").write_text(emit_parshiyot(), encoding="utf-8")
     (SRC_DIR / "hebrew_months.dart").write_text(emit_hebrew_months(), encoding="utf-8")
+    (SRC_DIR / "special_maftirs.dart").write_text(emit_special_maftirs(), encoding="utf-8")
     (LIB_DIR / "hebrewcalendar_data.dart").write_text(emit_barrel(), encoding="utf-8")
     (DART_DIR / "pubspec.yaml").write_text(emit_pubspec(), encoding="utf-8")
     print(f"OK  dart  → {DART_DIR.relative_to(ROOT)}")
