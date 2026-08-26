@@ -1,8 +1,10 @@
 # hebrewcalendar-data
 
-Reference data for Hebrew-calendar tools: learning schedules, parsha
+Reference data for Hebrew calendar tools: learning schedules, parsha
 metadata, and cross-language translations of parshiyot, holidays, months,
 zmanim, and tractate names.
+
+This package is used by both the C and the Java calendar libraries.
 
 The data lives as human-readable JSON. Small Python generators produce
 language-native constant modules under `generated/` (committed to the
