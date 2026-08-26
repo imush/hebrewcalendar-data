@@ -4,19 +4,20 @@
 part of '../hebrewcalendar_data.dart';
 
 enum TanyaSection {
-  titlePage('Title Page', 'עמוד הכותרת'),
-  approbation('Approbation', 'הסכמות הרבנים'),
-  compilersForeword('Compiler\'s Foreword', 'הקדמת המלקט'),
-  likkuteiAmarim('Likkutei Amarim', 'לקוטי אמרים'),
-  chinukhKatan('Chinukh Katan', 'חינוך קטן'),
-  shaarHayichudVehaemunah('Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה'),
-  iggeretHateshuvah('Iggeret HaTeshuvah', 'אגרת התשובה'),
-  iggeretHakodesh('Iggeret HaKodesh', 'אגרת הקודש'),
-  kuntresAcharon('Kuntres Acharon', 'קונטרס אחרון'),
+  titlePage('TITLE_PAGE', 'Title Page', 'עמוד הכותרת'),
+  approbation('APPROBATION', 'Approbation', 'הסכמות הרבנים'),
+  compilersForeword('COMPILERS_FOREWORD', 'Compiler\'s Foreword', 'הקדמת המלקט'),
+  likkuteiAmarim('LIKKUTEI_AMARIM', 'Likkutei Amarim', 'לקוטי אמרים'),
+  chinukhKatan('CHINUKH_KATAN', 'Chinukh Katan', 'חינוך קטן'),
+  shaarHayichudVehaemunah('SHAAR_HAYICHUD_VEHAEMUNAH', 'Shaar HaYichud VehaEmunah', 'שער היחוד והאמונה'),
+  iggeretHateshuvah('IGGERET_HATESHUVAH', 'Iggeret HaTeshuvah', 'אגרת התשובה'),
+  iggeretHakodesh('IGGERET_HAKODESH', 'Iggeret HaKodesh', 'אגרת הקודש'),
+  kuntresAcharon('KUNTRES_ACHARON', 'Kuntres Acharon', 'קונטרס אחרון'),
   ;
+  final String key;   // stable identifier (matches JSON key)
   final String en;
   final String he;
-  const TanyaSection(this.en, this.he);
+  const TanyaSection(this.key, this.en, this.he);
 }
 
 class TanyaPortion {

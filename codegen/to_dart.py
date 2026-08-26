@@ -35,12 +35,13 @@ def emit_tanya() -> str:
     for k in keys_sorted:
         v = sections[k]
         lines.append(
-            f"  {to_dart_enum_name(k)}({dart_str(v['en'])}, {dart_str(v['he'])}),"
+            f"  {to_dart_enum_name(k)}({dart_str(k)}, {dart_str(v['en'])}, {dart_str(v['he'])}),"
         )
     lines.append("  ;")
+    lines.append("  final String key;   // stable identifier (matches JSON key)")
     lines.append("  final String en;")
     lines.append("  final String he;")
-    lines.append("  const TanyaSection(this.en, this.he);")
+    lines.append("  const TanyaSection(this.key, this.en, this.he);")
     lines.append("}\n")
 
     # ── TanyaPortion record type ──────────────────────────────────
@@ -85,15 +86,16 @@ def emit_parshiyot() -> str:
         v = parshiyot[k]
         lines.append(
             f"  {to_dart_enum_name(k)}("
-            f"{dart_str(v['en'])}, {dart_str(v['he'])}, "
+            f"{dart_str(k)}, {dart_str(v['en'])}, {dart_str(v['he'])}, "
             f"{dart_str(v['ru'])}, {dart_str(v['fr'])}),"
         )
     lines.append("  ;")
+    lines.append("  final String key;   // stable identifier (matches JSON key)")
     lines.append("  final String en;")
     lines.append("  final String he;")
     lines.append("  final String ru;")
     lines.append("  final String fr;")
-    lines.append("  const Parsha(this.en, this.he, this.ru, this.fr);")
+    lines.append("  const Parsha(this.key, this.en, this.he, this.ru, this.fr);")
     lines.append("")
     lines.append("  /// hc_parsha enum value (1-based). HC_PARSHA_NONE (0) has no Parsha.")
     lines.append("  int get hcIndex => index + 1;")
@@ -122,15 +124,16 @@ def emit_hebrew_months() -> str:
     for k, v in data.items():
         lines.append(
             f"  {to_dart_enum_name(k)}("
-            f"{dart_str(v['en'])}, {dart_str(v['he'])}, "
+            f"{dart_str(k)}, {dart_str(v['en'])}, {dart_str(v['he'])}, "
             f"{dart_str(v['ru'])}, {dart_str(v['fr'])}),"
         )
     lines.append("  ;")
+    lines.append("  final String key;   // stable identifier (matches JSON key)")
     lines.append("  final String en;")
     lines.append("  final String he;")
     lines.append("  final String ru;")
     lines.append("  final String fr;")
-    lines.append("  const HebrewMonth(this.en, this.he, this.ru, this.fr);")
+    lines.append("  const HebrewMonth(this.key, this.en, this.he, this.ru, this.fr);")
     lines.append("")
     lines.append("  /// Resolve by (month, leap) using the C library's month indexing.")
     lines.append("  /// month must be in 1..13; month 13 requires leap=true.")
@@ -160,15 +163,16 @@ def emit_special_maftirs() -> str:
     for k, v in data.items():
         lines.append(
             f"  {to_dart_enum_name(k)}("
-            f"{dart_str(v['en'])}, {dart_str(v['he'])}, "
+            f"{dart_str(k)}, {dart_str(v['en'])}, {dart_str(v['he'])}, "
             f"{dart_str(v['ru'])}, {dart_str(v['fr'])}),"
         )
     lines.append("  ;")
+    lines.append("  final String key;   // stable identifier (matches JSON key)")
     lines.append("  final String en;")
     lines.append("  final String he;")
     lines.append("  final String ru;")
     lines.append("  final String fr;")
-    lines.append("  const SpecialMaftir(this.en, this.he, this.ru, this.fr);")
+    lines.append("  const SpecialMaftir(this.key, this.en, this.he, this.ru, this.fr);")
     lines.append("")
     lines.append("  /// Look up by canonical English name (case-sensitive).")
     lines.append("  static SpecialMaftir? fromEnglishName(String en) => _byEn[en];")
@@ -264,15 +268,16 @@ def emit_zmanim() -> str:
     for k, v in data.items():
         lines.append(
             f"  {to_dart_enum_name(k)}("
-            f"{dart_str(v['en'])}, {dart_str(v['he'])}, "
+            f"{dart_str(k)}, {dart_str(v['en'])}, {dart_str(v['he'])}, "
             f"{dart_str(v['ru'])}, {dart_str(v['fr'])}),"
         )
     lines.append("  ;")
+    lines.append("  final String key;   // stable identifier (matches JSON key)")
     lines.append("  final String en;")
     lines.append("  final String he;")
     lines.append("  final String ru;")
     lines.append("  final String fr;")
-    lines.append("  const Zman(this.en, this.he, this.ru, this.fr);")
+    lines.append("  const Zman(this.key, this.en, this.he, this.ru, this.fr);")
     lines.append("}\n")
     return "\n".join(lines)
 
