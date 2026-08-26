@@ -1,0 +1,221 @@
+/*
+ * GENERATED FILE — DO NOT EDIT.
+ * Source: hebrewcalendar-data — regenerate with ./generate.sh
+ */
+
+package net.hebrewcalendar.data;
+
+import java.util.EnumMap;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/** Non-parsha haftarot from opentorah SpecialReadings.
+ *  Keyed by "Occasion_VARIANT" (e.g. "RoshChodesh_SHABBAT",
+ *  "ParshasShekalim_MAIN", "YomKippur_AFTERNOON"). The occasion
+ *  names match opentorah's Scala object names so the precedence
+ *  code that consumes this can cross-reference the source. */
+public final class SpecialHaftarot {
+    private SpecialHaftarot() {}
+
+    public static final Map<String, Map<Custom, List<Haftarot.Reference>>> ALL;
+    static {
+        Map<String, Map<Custom, List<Haftarot.Reference>>> all = new HashMap<>();
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("I Samuel", 20, 18, 20, 42)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("I Samuel", 20, 18, 20, 42)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("I Samuel", 20, 18, 20, 42)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("I Samuel", 20, 18, 20, 42)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("I Samuel", 20, 18, 20, 42)));
+            all.put("ErevRoshChodesh_SHABBAT", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("I Samuel", 20, 18, 20, 18), new Haftarot.Reference("I Samuel", 20, 42, 20, 42)));
+            all.put("ErevRoshChodesh_SHABBAT_ADDITION", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Isaiah", 66, 1, 66, 24), new Haftarot.Reference("Isaiah", 66, 23, 66, 23)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Isaiah", 66, 1, 66, 24), new Haftarot.Reference("Isaiah", 66, 23, 66, 23)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Isaiah", 66, 1, 66, 24), new Haftarot.Reference("Isaiah", 66, 23, 66, 23)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Isaiah", 66, 1, 66, 24), new Haftarot.Reference("Isaiah", 66, 23, 66, 23)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Isaiah", 66, 1, 66, 24), new Haftarot.Reference("Isaiah", 66, 23, 66, 23)));
+            all.put("RoshChodesh_SHABBAT", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Isaiah", 66, 1, 66, 1), new Haftarot.Reference("Isaiah", 66, 23, 66, 24), new Haftarot.Reference("Isaiah", 66, 23, 66, 23)));
+            all.put("RoshChodesh_SHABBAT_ADDITION", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("I Samuel", 1, 1, 2, 10)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("I Samuel", 1, 1, 2, 10)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("I Samuel", 1, 1, 2, 10)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("I Samuel", 1, 1, 2, 10)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("I Samuel", 1, 1, 2, 10)));
+            all.put("RoshHashanah1_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Jeremiah", 31, 1, 31, 19)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Jeremiah", 31, 1, 31, 19)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Jeremiah", 31, 1, 31, 19)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Jeremiah", 31, 1, 31, 19)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Jeremiah", 31, 1, 31, 19)));
+            all.put("RoshHashanah2_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Isaiah", 57, 14, 58, 14)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Isaiah", 57, 14, 58, 14)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Isaiah", 57, 14, 58, 14)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Isaiah", 57, 14, 58, 14), new Haftarot.Reference("Isaiah", 59, 20, 59, 21)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Isaiah", 57, 14, 58, 14), new Haftarot.Reference("Isaiah", 59, 20, 59, 21)));
+            all.put("YomKippur_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Jonah", 1, 1, 4, 11), new Haftarot.Reference("Micah", 7, 18, 7, 20)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Jonah", 1, 1, 4, 11), new Haftarot.Reference("Micah", 7, 18, 7, 20)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Jonah", 1, 1, 4, 11), new Haftarot.Reference("Micah", 7, 18, 7, 20)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Jonah", 1, 1, 4, 11), new Haftarot.Reference("Micah", 7, 18, 7, 20)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Obadiah", 1, 21, 1, 21), new Haftarot.Reference("Jonah", 1, 1, 4, 11), new Haftarot.Reference("Micah", 7, 18, 7, 20)));
+            all.put("YomKippur_AFTERNOON", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Zechariah", 14, 1, 14, 21)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Zechariah", 14, 1, 14, 21)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Zechariah", 14, 1, 14, 21)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Zechariah", 13, 9, 14, 21)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Zechariah", 14, 1, 14, 21)));
+            all.put("Succos1_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("I Kings", 8, 2, 8, 21)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("I Kings", 8, 2, 8, 21)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("I Kings", 8, 2, 8, 21)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("I Kings", 7, 51, 8, 21)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("I Kings", 7, 51, 8, 15)));
+            all.put("Succos2_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Ezekiel", 38, 18, 39, 16)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Ezekiel", 38, 18, 39, 16)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Ezekiel", 38, 18, 39, 16)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Ezekiel", 38, 1, 38, 23)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Ezekiel", 38, 1, 38, 23)));
+            all.put("SuccosIntermediate_SHABBAT", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("I Kings", 8, 54, 8, 66)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("I Kings", 8, 54, 8, 66)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("I Kings", 8, 54, 9, 1)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("I Kings", 8, 54, 8, 66)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("I Kings", 8, 54, 9, 1)));
+            all.put("SheminiAtzeres_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Zechariah", 2, 14, 4, 7)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Zechariah", 2, 14, 4, 7)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Zechariah", 2, 14, 4, 7)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Zechariah", 2, 14, 4, 7)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Zechariah", 2, 14, 4, 7)));
+            all.put("Chanukah_SHABBAT_1", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("I Kings", 7, 40, 7, 50)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("I Kings", 7, 40, 7, 50)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("I Kings", 7, 40, 7, 50)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("I Kings", 7, 40, 7, 50)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("I Kings", 7, 40, 7, 51)));
+            all.put("Chanukah_SHABBAT_2", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("II Kings", 12, 1, 12, 17)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("II Kings", 11, 17, 12, 17)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("II Kings", 12, 1, 12, 17)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("II Kings", 12, 1, 12, 17)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("II Kings", 12, 1, 12, 17)));
+            all.put("ParshasShekalim_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("I Samuel", 15, 2, 15, 34)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("I Samuel", 15, 1, 15, 34)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("I Samuel", 15, 2, 15, 34)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("I Samuel", 14, 52, 15, 33)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("I Samuel", 15, 2, 15, 34)));
+            all.put("ParshasZachor_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Ezekiel", 36, 16, 36, 38)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Ezekiel", 36, 16, 36, 36)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Ezekiel", 36, 16, 36, 36)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Ezekiel", 36, 16, 36, 36)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Ezekiel", 36, 16, 36, 38)));
+            all.put("ParshasParah_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Ezekiel", 45, 16, 46, 18)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Ezekiel", 45, 18, 46, 15)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Ezekiel", 45, 18, 46, 15)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Ezekiel", 45, 9, 46, 11)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Ezekiel", 45, 18, 46, 11)));
+            all.put("ParshasHachodesh_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Malachi", 3, 4, 3, 24)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Malachi", 3, 4, 3, 24)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Malachi", 3, 4, 3, 24)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Malachi", 3, 4, 3, 24)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Malachi", 3, 4, 3, 24)));
+            all.put("ShabbosHagodol_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Ezekiel", 37, 1, 37, 14)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Ezekiel", 37, 1, 37, 14)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Ezekiel", 37, 1, 37, 14)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Ezekiel", 36, 37, 37, 14)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Ezekiel", 37, 1, 37, 14)));
+            all.put("PesachIntermediate_SHABBAT", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Joshua", 3, 5, 3, 7), new Haftarot.Reference("Joshua", 5, 2, 6, 1), new Haftarot.Reference("Joshua", 6, 27, 6, 27)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Joshua", 5, 2, 6, 1), new Haftarot.Reference("Joshua", 6, 27, 6, 27)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Joshua", 3, 5, 3, 7), new Haftarot.Reference("Joshua", 5, 2, 6, 1), new Haftarot.Reference("Joshua", 6, 27, 6, 27)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Joshua", 5, 2, 6, 1), new Haftarot.Reference("Joshua", 6, 27, 6, 27)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Joshua", 3, 5, 3, 7), new Haftarot.Reference("Joshua", 5, 2, 6, 1), new Haftarot.Reference("Joshua", 6, 27, 6, 27)));
+            all.put("Pesach1_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("II Kings", 23, 1, 23, 9), new Haftarot.Reference("II Kings", 23, 21, 23, 25)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("II Kings", 23, 1, 23, 9), new Haftarot.Reference("II Kings", 23, 21, 23, 25)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("II Kings", 23, 1, 23, 9), new Haftarot.Reference("II Kings", 23, 21, 23, 25)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("II Kings", 22, 1, 22, 7), new Haftarot.Reference("II Kings", 23, 21, 23, 25)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("II Kings", 23, 21, 23, 30)));
+            all.put("Pesach2_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("II Samuel", 22, 1, 22, 51)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("II Samuel", 22, 1, 22, 51)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("II Samuel", 22, 1, 22, 51)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("II Samuel", 22, 1, 22, 51)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("II Samuel", 22, 1, 22, 51)));
+            all.put("Pesach7_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Isaiah", 10, 32, 12, 6)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Isaiah", 10, 32, 12, 6)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Isaiah", 10, 32, 12, 6)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Isaiah", 10, 32, 12, 6)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Isaiah", 10, 32, 12, 6)));
+            all.put("Pesach8_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Ezekiel", 1, 1, 1, 28), new Haftarot.Reference("Ezekiel", 3, 12, 3, 27)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Ezekiel", 1, 1, 1, 28), new Haftarot.Reference("Ezekiel", 3, 12, 3, 27)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Ezekiel", 1, 1, 1, 28), new Haftarot.Reference("Ezekiel", 3, 12, 3, 27)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Ezekiel", 1, 1, 2, 2), new Haftarot.Reference("Ezekiel", 3, 12, 3, 27)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Ezekiel", 1, 1, 1, 28), new Haftarot.Reference("Ezekiel", 3, 12, 3, 27)));
+            all.put("Shavuos1_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Habakkuk", 3, 1, 3, 19)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Habakkuk", 2, 20, 3, 19)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Habakkuk", 2, 20, 3, 19)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Habakkuk", 2, 20, 3, 19)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Habakkuk", 3, 1, 3, 19)));
+            all.put("Shavuos2_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Isaiah", 55, 6, 56, 8)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Isaiah", 55, 6, 56, 8)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Isaiah", 55, 6, 56, 8)));
+            all.put("Fast_AFTERNOON_DEFAULT", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            all.put("FastOfGedalia_AFTERNOON_EXCEPTIONS", java.util.Collections.unmodifiableMap(m)); }
+        {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
+            m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Jeremiah", 8, 13, 9, 23)));
+            m.put(Custom.SEFARD, List.of(new Haftarot.Reference("Jeremiah", 8, 13, 9, 23)));
+            m.put(Custom.CHABAD, List.of(new Haftarot.Reference("Jeremiah", 8, 13, 9, 23)));
+            m.put(Custom.TEIMAN, List.of(new Haftarot.Reference("Jeremiah", 6, 16, 6, 17), new Haftarot.Reference("Jeremiah", 8, 13, 9, 23)));
+            m.put(Custom.ITALKI, List.of(new Haftarot.Reference("Jeremiah", 8, 13, 9, 23)));
+            all.put("TishaBeAv_MAIN", java.util.Collections.unmodifiableMap(m)); }
+        ALL = java.util.Collections.unmodifiableMap(all);
+    }
+
+    /** Haftarah references for the given occasion+variant in the given custom;
+     *  null if not defined (e.g. an ADDITION only defined for CHABAD). */
+    public static List<Haftarot.Reference> forOccasion(String occasionAndVariant, Custom c) {
+        Map<Custom, List<Haftarot.Reference>> m = ALL.get(occasionAndVariant);
+        return m == null ? null : m.get(c);
+    }
+}

@@ -91,6 +91,53 @@ def emit_custom() -> str:
     )
 
 
+def emit_special_haftarot() -> str:
+    """SpecialHaftarot: opentorah-derived non-parsha haftarot (Rosh Chodesh,
+    Machar Chodesh, Parshas Shekalim/Zachor/Parah/Hachodesh, Shabbos Hagadol,
+    Chanukah, Yom Tov Shabbatot, Yom Kippur morning + afternoon, fast-day
+    afternoons, Tisha B'Av)."""
+    data = load("schedules/special_haftarot.json")
+    lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", "",
+             "import java.util.EnumMap;",
+             "import java.util.HashMap;",
+             "import java.util.List;",
+             "import java.util.Map;",
+             ""]
+    lines.append("/** Non-parsha haftarot from opentorah SpecialReadings.")
+    lines.append(" *  Keyed by \"Occasion_VARIANT\" (e.g. \"RoshChodesh_SHABBAT\",")
+    lines.append(" *  \"ParshasShekalim_MAIN\", \"YomKippur_AFTERNOON\"). The occasion")
+    lines.append(" *  names match opentorah's Scala object names so the precedence")
+    lines.append(" *  code that consumes this can cross-reference the source. */")
+    lines.append("public final class SpecialHaftarot {")
+    lines.append("    private SpecialHaftarot() {}")
+    lines.append("")
+    lines.append("    public static final Map<String, Map<Custom, List<Haftarot.Reference>>> ALL;")
+    lines.append("    static {")
+    lines.append("        Map<String, Map<Custom, List<Haftarot.Reference>>> all = new HashMap<>();")
+    for occ, variants in data.items():
+        for variant, by_custom in variants.items():
+            key = f"{occ}_{variant}"
+            lines.append(f"        {{  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);")
+            for cname, refs in by_custom.items():
+                joined = ", ".join(
+                    f"new Haftarot.Reference({java_str(r['book'])}, {r['fromCh']}, {r['fromV']}, {r['toCh']}, {r['toV']})"
+                    for r in refs
+                )
+                lines.append(f"            m.put(Custom.{cname}, List.of({joined}));")
+            lines.append(f"            all.put({java_str(key)}, java.util.Collections.unmodifiableMap(m)); }}")
+    lines.append("        ALL = java.util.Collections.unmodifiableMap(all);")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    /** Haftarah references for the given occasion+variant in the given custom;")
+    lines.append("     *  null if not defined (e.g. an ADDITION only defined for CHABAD). */")
+    lines.append("    public static List<Haftarot.Reference> forOccasion(String occasionAndVariant, Custom c) {")
+    lines.append("        Map<Custom, List<Haftarot.Reference>> m = ALL.get(occasionAndVariant);")
+    lines.append("        return m == null ? null : m.get(c);")
+    lines.append("    }")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
 def emit_haftarot() -> str:
     data = load("schedules/haftarot.json")
     lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", "",
@@ -547,6 +594,7 @@ def main():
     (JAVA_DIR / "Zman.java").write_text(emit_zman(), encoding="utf-8")
     (JAVA_DIR / "Custom.java").write_text(emit_custom(), encoding="utf-8")
     (JAVA_DIR / "Haftarot.java").write_text(emit_haftarot(), encoding="utf-8")
+    (JAVA_DIR / "SpecialHaftarot.java").write_text(emit_special_haftarot(), encoding="utf-8")
     print(f"OK  java  → {JAVA_DIR.relative_to(ROOT)}")
 
 

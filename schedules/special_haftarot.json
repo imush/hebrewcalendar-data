@@ -1,0 +1,1517 @@
+{
+  "ErevRoshChodesh": {
+    "SHABBAT": {
+      "ASHKENAZ": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ]
+    },
+    "SHABBAT_ADDITION": {
+      "CHABAD": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 18
+        },
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 42,
+          "toCh": 20,
+          "toV": 42
+        }
+      ]
+    }
+  },
+  "RoshChodesh": {
+    "SHABBAT": {
+      "ASHKENAZ": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ]
+    },
+    "SHABBAT_ADDITION": {
+      "CHABAD": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 1
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ]
+    }
+  },
+  "RoshHashanah1": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ]
+    }
+  },
+  "RoshHashanah2": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ]
+    }
+  },
+  "YomKippur": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 59,
+          "fromV": 20,
+          "toCh": 59,
+          "toV": 21
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 59,
+          "fromV": 20,
+          "toCh": 59,
+          "toV": 21
+        }
+      ]
+    },
+    "AFTERNOON": {
+      "ASHKENAZ": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Obadiah",
+          "fromCh": 1,
+          "fromV": 21,
+          "toCh": 1,
+          "toV": 21
+        },
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ]
+    }
+  },
+  "Succos1": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Zechariah",
+          "fromCh": 13,
+          "fromV": 9,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ]
+    }
+  },
+  "Succos2": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 2,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 2,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 2,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 51,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 51,
+          "toCh": 8,
+          "toV": 15
+        }
+      ]
+    }
+  },
+  "SuccosIntermediate": {
+    "SHABBAT": {
+      "ASHKENAZ": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 18,
+          "toCh": 39,
+          "toV": 16
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 18,
+          "toCh": 39,
+          "toV": 16
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 18,
+          "toCh": 39,
+          "toV": 16
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 1,
+          "toCh": 38,
+          "toV": 23
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 1,
+          "toCh": 38,
+          "toV": 23
+        }
+      ]
+    }
+  },
+  "SheminiAtzeres": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 9,
+          "toV": 1
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 9,
+          "toV": 1
+        }
+      ]
+    }
+  },
+  "Chanukah": {
+    "SHABBAT_1": {
+      "ASHKENAZ": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ]
+    },
+    "SHABBAT_2": {
+      "ASHKENAZ": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 51
+        }
+      ]
+    }
+  },
+  "ParshasShekalim": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "II Kings",
+          "fromCh": 12,
+          "fromV": 1,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "II Kings",
+          "fromCh": 11,
+          "fromV": 17,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "II Kings",
+          "fromCh": 12,
+          "fromV": 1,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "II Kings",
+          "fromCh": 12,
+          "fromV": 1,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "II Kings",
+          "fromCh": 12,
+          "fromV": 1,
+          "toCh": 12,
+          "toV": 17
+        }
+      ]
+    }
+  },
+  "ParshasZachor": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 2,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 1,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 2,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "I Samuel",
+          "fromCh": 14,
+          "fromV": 52,
+          "toCh": 15,
+          "toV": 33
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 2,
+          "toCh": 15,
+          "toV": 34
+        }
+      ]
+    }
+  },
+  "ParshasParah": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 38
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 36
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 36
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 36
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 38
+        }
+      ]
+    }
+  },
+  "ParshasHachodesh": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 16,
+          "toCh": 46,
+          "toV": 18
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 18,
+          "toCh": 46,
+          "toV": 15
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 18,
+          "toCh": 46,
+          "toV": 15
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 9,
+          "toCh": 46,
+          "toV": 11
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 18,
+          "toCh": 46,
+          "toV": 11
+        }
+      ]
+    }
+  },
+  "ShabbosHagodol": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ]
+    }
+  },
+  "PesachIntermediate": {
+    "SHABBAT": {
+      "ASHKENAZ": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 37,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ]
+    }
+  },
+  "Pesach1": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "Joshua",
+          "fromCh": 3,
+          "fromV": 5,
+          "toCh": 3,
+          "toV": 7
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Joshua",
+          "fromCh": 3,
+          "fromV": 5,
+          "toCh": 3,
+          "toV": 7
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Joshua",
+          "fromCh": 3,
+          "fromV": 5,
+          "toCh": 3,
+          "toV": 7
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ]
+    }
+  },
+  "Pesach2": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 1,
+          "toCh": 23,
+          "toV": 9
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 1,
+          "toCh": 23,
+          "toV": 9
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 1,
+          "toCh": 23,
+          "toV": 9
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "II Kings",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 7
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 30
+        }
+      ]
+    }
+  },
+  "Pesach7": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ]
+    }
+  },
+  "Pesach8": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ]
+    }
+  },
+  "Shavuos1": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 2
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ]
+    }
+  },
+  "Shavuos2": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 3,
+          "fromV": 1,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 2,
+          "fromV": 20,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 2,
+          "fromV": 20,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 2,
+          "fromV": 20,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 3,
+          "fromV": 1,
+          "toCh": 3,
+          "toV": 19
+        }
+      ]
+    }
+  },
+  "Fast": {
+    "AFTERNOON_DEFAULT": {
+      "ASHKENAZ": [
+        {
+          "book": "Isaiah",
+          "fromCh": 55,
+          "fromV": 6,
+          "toCh": 56,
+          "toV": 8
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Isaiah",
+          "fromCh": 55,
+          "fromV": 6,
+          "toCh": 56,
+          "toV": 8
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Isaiah",
+          "fromCh": 55,
+          "fromV": 6,
+          "toCh": 56,
+          "toV": 8
+        }
+      ]
+    }
+  },
+  "FastOfGedalia": {
+    "AFTERNOON_EXCEPTIONS": {}
+  },
+  "TishaBeAv": {
+    "MAIN": {
+      "ASHKENAZ": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 6,
+          "fromV": 16,
+          "toCh": 6,
+          "toV": 17
+        },
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ]
+    }
+  }
+}
