@@ -72,12 +72,51 @@ def emit_tanya() -> str:
     return "\n".join(lines)
 
 
+def emit_parshiyot() -> str:
+    parshiyot = load("names/parshiyot.json")
+    lines = [BANNER]
+    lines.append("part of '../hebrewcalendar_data.dart';\n")
+    lines.append("/// A weekly Torah portion. Enum insertion order matches the C library's")
+    lines.append("/// hc_parsha enum (Bereishit=1..Haazinu=53); [hcIndex] gives that value.")
+    lines.append("/// V'Zot HaBerachah is not included — it's a Simchat Torah reading only.")
+    lines.append("enum Parsha {")
+    keys = list(parshiyot.keys())
+    for k in keys:
+        v = parshiyot[k]
+        lines.append(
+            f"  {to_dart_enum_name(k)}("
+            f"{dart_str(v['en'])}, {dart_str(v['he'])}, "
+            f"{dart_str(v['ru'])}, {dart_str(v['fr'])}),"
+        )
+    lines.append("  ;")
+    lines.append("  final String en;")
+    lines.append("  final String he;")
+    lines.append("  final String ru;")
+    lines.append("  final String fr;")
+    lines.append("  const Parsha(this.en, this.he, this.ru, this.fr);")
+    lines.append("")
+    lines.append("  /// hc_parsha enum value (1-based). HC_PARSHA_NONE (0) has no Parsha.")
+    lines.append("  int get hcIndex => index + 1;")
+    lines.append("")
+    lines.append("  /// Look up by hc_parsha integer. Returns null for 0 or out-of-range.")
+    lines.append("  static Parsha? fromHcIndex(int idx) =>")
+    lines.append("      (idx >= 1 && idx <= values.length) ? values[idx - 1] : null;")
+    lines.append("")
+    lines.append("  /// Look up by canonical English name (case-sensitive).")
+    lines.append("  static Parsha? fromEnglishName(String en) => _byEn[en];")
+    lines.append("  static final Map<String, Parsha> _byEn = ")
+    lines.append("      { for (final p in values) p.en: p };")
+    lines.append("}\n")
+    return "\n".join(lines)
+
+
 def emit_barrel() -> str:
     return (
         BANNER
         + "\n"
         + "library hebrewcalendar_data;\n\n"
         + "part 'src/tanya.dart';\n"
+        + "part 'src/parshiyot.dart';\n"
     )
 
 
@@ -97,6 +136,7 @@ def emit_pubspec() -> str:
 def main():
     SRC_DIR.mkdir(parents=True, exist_ok=True)
     (SRC_DIR / "tanya.dart").write_text(emit_tanya(), encoding="utf-8")
+    (SRC_DIR / "parshiyot.dart").write_text(emit_parshiyot(), encoding="utf-8")
     (LIB_DIR / "hebrewcalendar_data.dart").write_text(emit_barrel(), encoding="utf-8")
     (DART_DIR / "pubspec.yaml").write_text(emit_pubspec(), encoding="utf-8")
     print(f"OK  dart  → {DART_DIR.relative_to(ROOT)}")

@@ -5,5 +5,6 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 python3 tests/validate_tanya.py
+python3 tests/validate_parshiyot.py
 python3 codegen/to_dart.py
 # Add codegen/to_java.py, to_scala.py, to_c.py as they land.

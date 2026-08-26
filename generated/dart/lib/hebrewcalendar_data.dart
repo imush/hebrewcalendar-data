@@ -4,3 +4,4 @@
 library hebrewcalendar_data;
 
 part 'src/tanya.dart';
+part 'src/parshiyot.dart';

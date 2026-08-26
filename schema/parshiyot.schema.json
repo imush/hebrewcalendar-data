@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hebrewcalendar.net/schemas/parshiyot.schema.json",
+  "title": "Parsha translations",
+  "description": "One entry per weekly Torah portion, keyed by a stable SCREAMING_SNAKE_CASE identifier matching the C library's hc_parsha enum (minus the HC_ prefix). Insertion order equals the enum's integer ordering — codegen relies on it for FFI-stable indexing. V'Zot HaBerachah is excluded (Simchat Torah only, not a weekly reading).",
+  "type": "object",
+  "propertyNames": { "pattern": "^[A-Z][A-Z0-9_]*$" },
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["en", "he", "ru", "fr"],
+    "properties": {
+      "en": { "type": "string", "minLength": 1 },
+      "he": { "type": "string", "minLength": 1 },
+      "ru": { "type": "string", "minLength": 1 },
+      "fr": { "type": "string", "minLength": 1 }
+    }
+  }
+}
