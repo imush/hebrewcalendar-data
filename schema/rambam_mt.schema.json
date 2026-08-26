@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hebrewcalendar.net/schemas/rambam_mt.schema.json",
+  "title": "Rambam Mishneh Torah study cycles",
+  "description": "88 halachot in Mishneh Torah study order (Chabad daily-study). The 1-chapter cycle reads one chapter/day (1017 days); the 3-chapter reads three (339 days). Two halachot have a different chapter count in the 3-chapter cycle (chapters3): The Order of Prayer (4→5) and Leavened and Unleavened Bread (9→8), to keep chapters grouped. The first four 'halachot' are introductory sections whose 'chapters' are verse ranges given in firstFourVerses.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["cycle", "firstFourVerses", "halachot"],
+  "properties": {
+    "cycle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["epoch", "oneChapterDays", "threeChapterDays"],
+      "properties": {
+        "epoch":            { "type": "string", "format": "date" },
+        "oneChapterDays":   { "type": "integer", "minimum": 1 },
+        "threeChapterDays": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "firstFourVerses": {
+      "type": "array",
+      "minItems": 4, "maxItems": 4,
+      "items": {
+        "type": "array",
+        "minItems": 3, "maxItems": 3,
+        "items": { "type": "string", "minLength": 1 }
+      }
+    },
+    "halachot": {
+      "type": "array",
+      "minItems": 88, "maxItems": 88,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["key", "en", "he", "chapters"],
+        "properties": {
+          "key":       { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$" },
+          "en":        { "type": "string", "minLength": 1 },
+          "he":        { "type": "string", "minLength": 1 },
+          "chapters":  { "type": "integer", "minimum": 1 },
+          "chapters3": { "type": "integer", "minimum": 1, "description": "Chapter count in the 3-chapter cycle if different from 'chapters'." }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hebrewcalendar.net/schemas/sefer_hamitzvot.schema.json",
+  "title": "Sefer HaMitzvot daily-study cycle",
+  "description": "339-day cycle. Each entry is a comma-separated list of positive (P<n>) and negative (N<n>) commandments studied that day. Some entries are prose descriptions (e.g. 'Nusach HaTefila').",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["cycle", "readings"],
+  "properties": {
+    "cycle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["epoch", "cycleDays"],
+      "properties": {
+        "epoch":     { "type": "string", "format": "date" },
+        "cycleDays": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "readings": {
+      "type": "array",
+      "minItems": 339, "maxItems": 339,
+      "items": { "type": "string" }
+    }
+  }
+}

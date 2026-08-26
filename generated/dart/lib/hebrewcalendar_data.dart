@@ -11,3 +11,5 @@ part 'src/hebrew_year_exceptions.dart';
 part 'src/daf_yomi.dart';
 part 'src/zmanim.dart';
 part 'src/holidays.dart';
+part 'src/rambam_mt.dart';
+part 'src/sefer_hamitzvot.dart';

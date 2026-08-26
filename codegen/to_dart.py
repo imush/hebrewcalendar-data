@@ -327,6 +327,60 @@ def emit_holidays() -> str:
     return "\n".join(lines)
 
 
+def emit_rambam_mt() -> str:
+    data = load("schedules/rambam_mt.json")
+    lines = [BANNER]
+    lines.append("part of '../hebrewcalendar_data.dart';\n")
+    lines.append("/// One halacha (section) of the Mishneh Torah.")
+    lines.append("class RambamHalacha {")
+    lines.append("  final String key, en, he;")
+    lines.append("  final int chapters;      // 1-chapter cycle count")
+    lines.append("  final int chapters3;     // 3-chapter cycle count (may differ)")
+    lines.append("  const RambamHalacha(this.key, this.en, this.he, this.chapters, this.chapters3);")
+    lines.append("}\n")
+
+    lines.append("/// The 88 halachot in Mishneh Torah study order.")
+    lines.append("const List<RambamHalacha> rambamHalachot = [")
+    for h in data["halachot"]:
+        ch3 = h.get("chapters3", h["chapters"])
+        lines.append(
+            f"  RambamHalacha({dart_str(h['key'])}, {dart_str(h['en'])}, "
+            f"{dart_str(h['he'])}, {h['chapters']}, {ch3}),"
+        )
+    lines.append("];\n")
+
+    lines.append("/// Verse ranges for the four introductory 'halachot' whose")
+    lines.append("/// per-day units are pesukim rather than chapters.")
+    lines.append("const List<List<String>> rambamFirstFourVerses = [")
+    for row in data["firstFourVerses"]:
+        lines.append(f"  [{dart_str(row[0])}, {dart_str(row[1])}, {dart_str(row[2])}],")
+    lines.append("];\n")
+
+    cycle = data["cycle"]
+    lines.append(f"final DateTime rambamEpoch = DateTime.utc({cycle['epoch'].split('-')[0]}, "
+                 f"{int(cycle['epoch'].split('-')[1])}, {int(cycle['epoch'].split('-')[2])});")
+    lines.append(f"const int rambamOneChapterCycleDays   = {cycle['oneChapterDays']};")
+    lines.append(f"const int rambamThreeChapterCycleDays = {cycle['threeChapterDays']};")
+    return "\n".join(lines)
+
+
+def emit_sefer_hamitzvot() -> str:
+    data = load("schedules/sefer_hamitzvot.json")
+    lines = [BANNER]
+    lines.append("part of '../hebrewcalendar_data.dart';\n")
+    cycle = data["cycle"]
+    lines.append(f"final DateTime seferHaMitzvotEpoch = DateTime.utc({cycle['epoch'].split('-')[0]}, "
+                 f"{int(cycle['epoch'].split('-')[1])}, {int(cycle['epoch'].split('-')[2])});")
+    lines.append(f"const int seferHaMitzvotCycleDays = {cycle['cycleDays']};\n")
+    lines.append("/// 339-day Sefer HaMitzvot cycle table. Each entry is the compact")
+    lines.append("/// chabad.org notation (P<n>/N<n>) or a prose description.")
+    lines.append("const List<String> seferHaMitzvotReadings = [")
+    for r in data["readings"]:
+        lines.append(f"  {dart_str(r)},")
+    lines.append("];\n")
+    return "\n".join(lines)
+
+
 def emit_barrel() -> str:
     return (
         BANNER
@@ -340,6 +394,8 @@ def emit_barrel() -> str:
         + "part 'src/daf_yomi.dart';\n"
         + "part 'src/zmanim.dart';\n"
         + "part 'src/holidays.dart';\n"
+        + "part 'src/rambam_mt.dart';\n"
+        + "part 'src/sefer_hamitzvot.dart';\n"
     )
 
 
@@ -366,6 +422,8 @@ def main():
     (SRC_DIR / "daf_yomi.dart").write_text(emit_daf_yomi(), encoding="utf-8")
     (SRC_DIR / "zmanim.dart").write_text(emit_zmanim(), encoding="utf-8")
     (SRC_DIR / "holidays.dart").write_text(emit_holidays(), encoding="utf-8")
+    (SRC_DIR / "rambam_mt.dart").write_text(emit_rambam_mt(), encoding="utf-8")
+    (SRC_DIR / "sefer_hamitzvot.dart").write_text(emit_sefer_hamitzvot(), encoding="utf-8")
     (LIB_DIR / "hebrewcalendar_data.dart").write_text(emit_barrel(), encoding="utf-8")
     (DART_DIR / "pubspec.yaml").write_text(emit_pubspec(), encoding="utf-8")
     print(f"OK  dart  → {DART_DIR.relative_to(ROOT)}")
