@@ -123,10 +123,108 @@ def emit_jewish_month() -> str:
     return "\n".join(lines) + "\n"
 
 
+def emit_parshiot_year_type() -> str:
+    data = load("schedules/parsha_year_schedules.json")
+    year_types = data["yearTypes"]
+
+    def render_week(week):
+        if not week:
+            return "e()"
+        if len(week) == 1:
+            return f"s({week[0]})"
+        return f"d({week[0]}, {week[1]})"
+
+    def render_schedule(readings):
+        # Format 4 readings per line for readability.
+        parts = [render_week(w) for w in readings]
+        lines = []
+        for i in range(0, len(parts), 4):
+            lines.append("            " + ", ".join(parts[i:i+4]))
+        return ",\n".join(lines)
+
+    lines = [JAVA_BANNER]
+    lines.append("package net.hebrewcalendar.data;")
+    lines.append("")
+    lines.append("import java.util.List;")
+    lines.append("")
+    lines.append("import static net.hebrewcalendar.data.Parsha.*;")
+    lines.append("")
+    lines.append("/** The 14 canonical Hebrew year types, each carrying its Shabbat reading")
+    lines.append(" *  schedule for Israel and the Diaspora. */")
+    lines.append("public enum ParshiotYearType {")
+
+    for i, yt in enumerate(year_types):
+        term = "," if i < len(year_types) - 1 else ";"
+        year_length = yt["yearLength"]
+        lines.append(f"")
+        lines.append(f"    /** {yt['letter']} : {yt['id']} */")
+        lines.append(f"    {yt['id']}(")
+        lines.append(f"        {yt['roshHashanaDow']}, YearCheshvanKislevType.{year_length}, {yt['pesachDow']}, {'true' if yt['leap'] else 'false'},")
+        lines.append(f"        List.of(")
+        lines.append(render_schedule(yt["israel"]))
+        lines.append("        ),")
+        lines.append(f"        List.of(")
+        lines.append(render_schedule(yt["diaspora"]))
+        lines.append("        )")
+        lines.append(f"    ){term}")
+
+    lines.append("")
+    lines.append("    public final int rosh;")
+    lines.append("    public final YearCheshvanKislevType yearType;")
+    lines.append("    public final int pesach;")
+    lines.append("    public final boolean leap;")
+    lines.append("    private final List<List<Parsha>> israelSchedule;")
+    lines.append("    private final List<List<Parsha>> diasporaSchedule;")
+    lines.append("")
+    lines.append("    ParshiotYearType(int rosh, YearCheshvanKislevType yearType, int pesach, boolean leap,")
+    lines.append("                     List<List<Parsha>> israel, List<List<Parsha>> diaspora) {")
+    lines.append("        this.rosh = rosh;")
+    lines.append("        this.yearType = yearType;")
+    lines.append("        this.pesach = pesach;")
+    lines.append("        this.leap = leap;")
+    lines.append("        this.israelSchedule = israel;")
+    lines.append("        this.diasporaSchedule = diaspora;")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    public List<List<Parsha>> schedule(boolean inIsrael) {")
+    lines.append("        return inIsrael ? israelSchedule : diasporaSchedule;")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    public static ParshiotYearType forYear(int rosh, YearCheshvanKislevType yearType, int pesach) {")
+    lines.append("        for (ParshiotYearType t : values())")
+    lines.append("            if (t.rosh == rosh && t.yearType == yearType && t.pesach == pesach) return t;")
+    lines.append("        throw new IllegalArgumentException(")
+    lines.append("            \"Unknown Hebrew year type: rosh=\" + rosh + \" yearType=\" + yearType + \" pesach=\" + pesach);")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    private static List<Parsha> s(Parsha a)             { return List.of(a); }")
+    lines.append("    private static List<Parsha> d(Parsha a, Parsha b)   { return List.of(a, b); }")
+    lines.append("    private static List<Parsha> e()                     { return List.of(); }")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
+def emit_year_cheshvan_kislev_type() -> str:
+    """Simple 3-value enum imported by ParshiotYearType. Emitted so that the
+    generated package is self-contained. Callers in the Java lib import it
+    from data (was in impl/ before)."""
+    lines = [JAVA_BANNER]
+    lines.append("package net.hebrewcalendar.data;")
+    lines.append("")
+    lines.append("/** Length type of the Hebrew year, determined by the days in Cheshvan and Kislev:")
+    lines.append(" *  SHORT (both 29), NORMAL (Cheshvan 29 / Kislev 30), FULL (both 30). */")
+    lines.append("public enum YearCheshvanKislevType {")
+    lines.append("    SHORT, NORMAL, FULL")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
 def main():
     JAVA_DIR.mkdir(parents=True, exist_ok=True)
     (JAVA_DIR / "Parsha.java").write_text(emit_parsha(), encoding="utf-8")
     (JAVA_DIR / "JewishMonth.java").write_text(emit_jewish_month(), encoding="utf-8")
+    (JAVA_DIR / "YearCheshvanKislevType.java").write_text(emit_year_cheshvan_kislev_type(), encoding="utf-8")
+    (JAVA_DIR / "ParshiotYearType.java").write_text(emit_parshiot_year_type(), encoding="utf-8")
     print(f"OK  java  → {JAVA_DIR.relative_to(ROOT)}")
 
 
