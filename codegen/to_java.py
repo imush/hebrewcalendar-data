@@ -68,6 +68,20 @@ def emit_parsha() -> str:
     )
 
 
+def emit_special_maftir() -> str:
+    return emit_translated_enum(
+        "SpecialMaftir", "names/special_maftirs.json",
+        "The four special Shabbat maftirs read on the Shabbatot before/around Purim & Nisan."
+    )
+
+
+def emit_zman() -> str:
+    return emit_translated_enum(
+        "Zman", "names/zmanim.json",
+        "Zmanim labels for the halachic times displayed by every consumer."
+    )
+
+
 def emit_jewish_month() -> str:
     """JewishMonth enum with translations + a helper for (month, leap) lookup."""
     data = load("names/jewish_months.json")
@@ -472,6 +486,8 @@ def main():
     (JAVA_DIR / "SeferHaMitzvot.java").write_text(emit_sefer_hamitzvot(), encoding="utf-8")
     (JAVA_DIR / "Tanya.java").write_text(emit_tanya(), encoding="utf-8")
     (JAVA_DIR / "ChumashAliyot.java").write_text(emit_chumash_aliyot(), encoding="utf-8")
+    (JAVA_DIR / "SpecialMaftir.java").write_text(emit_special_maftir(), encoding="utf-8")
+    (JAVA_DIR / "Zman.java").write_text(emit_zman(), encoding="utf-8")
     print(f"OK  java  → {JAVA_DIR.relative_to(ROOT)}")
 
 
