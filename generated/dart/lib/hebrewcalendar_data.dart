@@ -7,3 +7,4 @@ part 'src/tanya.dart';
 part 'src/parshiyot.dart';
 part 'src/hebrew_months.dart';
 part 'src/special_maftirs.dart';
+part 'src/hebrew_year_exceptions.dart';

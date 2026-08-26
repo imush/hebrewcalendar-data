@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hebrewcalendar.net/schemas/hebrew_year_exceptions.schema.json",
+  "title": "Hebrew year gematria exceptions",
+  "description": "Years whose gematria letter-ordering is replaced. Keys are absolute Hebrew years (as strings, since JSON object keys must be strings). Values are the canonical Hebrew rendering including the gershayim character.",
+  "type": "object",
+  "propertyNames": { "pattern": "^[$_]|^[0-9]+$" },
+  "patternProperties": {
+    "^[0-9]+$": { "type": "string", "minLength": 3 }
+  },
+  "properties": {
+    "$comment": { "type": "string" }
+  },
+  "additionalProperties": false
+}

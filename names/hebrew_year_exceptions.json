@@ -1,0 +1,10 @@
+{
+  "$comment": "Hebrew years whose default gematria letter-ordering is replaced by a rearranged form. The reorderings avoid ominous letter combinations (רע=evil, רצ=murder, ...) or spell auspicious phrases (השי״ת = Hashem Yisborach). Keyed by absolute Hebrew year.",
+  "5670": "עת״ר",
+  "5672": "תער״ב",
+  "5677": "עזר״ת",
+  "5679": "עטר״ת",
+  "5698": "תרח״צ",
+  "5710": "השי״ת",
+  "5751": "תנש״א"
+}

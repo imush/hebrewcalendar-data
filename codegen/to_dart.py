@@ -178,6 +178,21 @@ def emit_special_maftirs() -> str:
     return "\n".join(lines)
 
 
+def emit_hebrew_year_exceptions() -> str:
+    data = load("names/hebrew_year_exceptions.json")
+    entries = sorted((int(k), v) for k, v in data.items() if not k.startswith("$"))
+    lines = [BANNER]
+    lines.append("part of '../hebrewcalendar_data.dart';\n")
+    lines.append("/// Hebrew years whose gematria letter-ordering is replaced by a")
+    lines.append("/// rearranged form (avoiding ominous combinations, spelling auspicious")
+    lines.append("/// phrases). Look up a year here before running the default gematria.")
+    lines.append("const Map<int, String> hebrewYearExceptions = {")
+    for year, form in entries:
+        lines.append(f"  {year}: {dart_str(form)},")
+    lines.append("};\n")
+    return "\n".join(lines)
+
+
 def emit_barrel() -> str:
     return (
         BANNER
@@ -187,6 +202,7 @@ def emit_barrel() -> str:
         + "part 'src/parshiyot.dart';\n"
         + "part 'src/hebrew_months.dart';\n"
         + "part 'src/special_maftirs.dart';\n"
+        + "part 'src/hebrew_year_exceptions.dart';\n"
     )
 
 
@@ -209,6 +225,7 @@ def main():
     (SRC_DIR / "parshiyot.dart").write_text(emit_parshiyot(), encoding="utf-8")
     (SRC_DIR / "hebrew_months.dart").write_text(emit_hebrew_months(), encoding="utf-8")
     (SRC_DIR / "special_maftirs.dart").write_text(emit_special_maftirs(), encoding="utf-8")
+    (SRC_DIR / "hebrew_year_exceptions.dart").write_text(emit_hebrew_year_exceptions(), encoding="utf-8")
     (LIB_DIR / "hebrewcalendar_data.dart").write_text(emit_barrel(), encoding="utf-8")
     (DART_DIR / "pubspec.yaml").write_text(emit_pubspec(), encoding="utf-8")
     print(f"OK  dart  → {DART_DIR.relative_to(ROOT)}")
