@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hebrewcalendar.net/schemas/hebrew_months.schema.json",
+  "title": "Hebrew month names",
+  "description": "The 12 Hebrew months plus Adar I and Adar II leap variants. Callers pick the key by month index (1..11 = NISAN..SHVAT) and, for month 12/13, by leap flag: non-leap 12=ADAR, leap 12=ADAR_I, leap 13=ADAR_II.",
+  "type": "object",
+  "propertyNames": { "pattern": "^[A-Z][A-Z0-9_]*$" },
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["en", "he", "ru", "fr"],
+    "properties": {
+      "en": { "type": "string", "minLength": 1 },
+      "he": { "type": "string", "minLength": 1 },
+      "ru": { "type": "string", "minLength": 1 },
+      "fr": { "type": "string", "minLength": 1 }
+    }
+  }
+}

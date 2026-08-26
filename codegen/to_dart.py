@@ -110,6 +110,46 @@ def emit_parshiyot() -> str:
     return "\n".join(lines)
 
 
+def emit_hebrew_months() -> str:
+    data = load("names/hebrew_months.json")
+    lines = [BANNER]
+    lines.append("part of '../hebrewcalendar_data.dart';\n")
+    lines.append("/// The 12 Hebrew months plus Adar I / Adar II leap variants.")
+    lines.append("/// Callers pick the enum value with [forMonth] using the C library's")
+    lines.append("/// month index (1..13, where month 12 in a non-leap year is Adar and")
+    lines.append("/// in a leap year is Adar I, and month 13 exists only in leap years).")
+    lines.append("enum HebrewMonth {")
+    for k, v in data.items():
+        lines.append(
+            f"  {to_dart_enum_name(k)}("
+            f"{dart_str(v['en'])}, {dart_str(v['he'])}, "
+            f"{dart_str(v['ru'])}, {dart_str(v['fr'])}),"
+        )
+    lines.append("  ;")
+    lines.append("  final String en;")
+    lines.append("  final String he;")
+    lines.append("  final String ru;")
+    lines.append("  final String fr;")
+    lines.append("  const HebrewMonth(this.en, this.he, this.ru, this.fr);")
+    lines.append("")
+    lines.append("  /// Resolve by (month, leap) using the C library's month indexing.")
+    lines.append("  /// month must be in 1..13; month 13 requires leap=true.")
+    lines.append("  static HebrewMonth? forMonth(int month, {required bool leap}) {")
+    lines.append("    const regular = [")
+    lines.append("      HebrewMonth.nisan,   HebrewMonth.iyar,     HebrewMonth.sivan,")
+    lines.append("      HebrewMonth.tamuz,   HebrewMonth.av,       HebrewMonth.elul,")
+    lines.append("      HebrewMonth.tishrei, HebrewMonth.cheshvan, HebrewMonth.kislev,")
+    lines.append("      HebrewMonth.tevet,   HebrewMonth.shvat,")
+    lines.append("    ];")
+    lines.append("    if (month >= 1 && month <= 11) return regular[month - 1];")
+    lines.append("    if (month == 12) return leap ? HebrewMonth.adarI : HebrewMonth.adar;")
+    lines.append("    if (month == 13 && leap) return HebrewMonth.adarIi;")
+    lines.append("    return null;")
+    lines.append("  }")
+    lines.append("}\n")
+    return "\n".join(lines)
+
+
 def emit_barrel() -> str:
     return (
         BANNER
@@ -117,6 +157,7 @@ def emit_barrel() -> str:
         + "library hebrewcalendar_data;\n\n"
         + "part 'src/tanya.dart';\n"
         + "part 'src/parshiyot.dart';\n"
+        + "part 'src/hebrew_months.dart';\n"
     )
 
 
@@ -137,6 +178,7 @@ def main():
     SRC_DIR.mkdir(parents=True, exist_ok=True)
     (SRC_DIR / "tanya.dart").write_text(emit_tanya(), encoding="utf-8")
     (SRC_DIR / "parshiyot.dart").write_text(emit_parshiyot(), encoding="utf-8")
+    (SRC_DIR / "hebrew_months.dart").write_text(emit_hebrew_months(), encoding="utf-8")
     (LIB_DIR / "hebrewcalendar_data.dart").write_text(emit_barrel(), encoding="utf-8")
     (DART_DIR / "pubspec.yaml").write_text(emit_pubspec(), encoding="utf-8")
     print(f"OK  dart  → {DART_DIR.relative_to(ROOT)}")

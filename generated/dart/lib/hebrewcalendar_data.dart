@@ -5,3 +5,4 @@ library hebrewcalendar_data;
 
 part 'src/tanya.dart';
 part 'src/parshiyot.dart';
+part 'src/hebrew_months.dart';

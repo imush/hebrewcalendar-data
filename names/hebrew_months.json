@@ -1,0 +1,16 @@
+{
+  "NISAN":     { "en": "Nisan",    "he": "ניסן",    "ru": "Нисан",   "fr": "Nissan" },
+  "IYAR":      { "en": "Iyar",     "he": "אייר",    "ru": "Ияр",     "fr": "Iyar" },
+  "SIVAN":     { "en": "Sivan",    "he": "סיון",    "ru": "Сиван",   "fr": "Sivane" },
+  "TAMUZ":     { "en": "Tamuz",    "he": "תמוז",    "ru": "Тамуз",   "fr": "Tamouz" },
+  "AV":        { "en": "Av",       "he": "אב",      "ru": "Ав",      "fr": "Av" },
+  "ELUL":      { "en": "Elul",     "he": "אלול",    "ru": "Элул",    "fr": "Eloul" },
+  "TISHREI":   { "en": "Tishrei",  "he": "תשרי",    "ru": "Тишрей",  "fr": "Tichri" },
+  "CHESHVAN":  { "en": "Cheshvan", "he": "חשון",    "ru": "Хешван",  "fr": "Hechvan" },
+  "KISLEV":    { "en": "Kislev",   "he": "כסלו",    "ru": "Кислев",  "fr": "Kislev" },
+  "TEVET":     { "en": "Tevet",    "he": "טבת",     "ru": "Тевет",   "fr": "Tevet" },
+  "SHVAT":     { "en": "Shvat",    "he": "שבט",     "ru": "Шват",    "fr": "Chevat" },
+  "ADAR":      { "en": "Adar",     "he": "אדר",     "ru": "Адар",    "fr": "Adar" },
+  "ADAR_I":    { "en": "Adar I",   "he": "אדר א׳",  "ru": "Адар I",  "fr": "Adar I" },
+  "ADAR_II":   { "en": "Adar II",  "he": "אדר ב׳",  "ru": "Адар II", "fr": "Adar II" }
+}
