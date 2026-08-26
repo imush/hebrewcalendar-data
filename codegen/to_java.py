@@ -204,6 +204,160 @@ def emit_parshiot_year_type() -> str:
     return "\n".join(lines) + "\n"
 
 
+def emit_daf_yomi() -> str:
+    data = load("schedules/daf_yomi.json")
+    lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", "",
+             "import java.time.LocalDate;", ""]
+    lines.append("/** Daf Yomi Bavli cycle: 40 tractates + cycle boundary constants. */")
+    lines.append("public final class DafYomi {")
+    lines.append("    private DafYomi() {}")
+    lines.append("")
+    lines.append("    public static final class Tractate {")
+    lines.append("        public final String key, en, he;")
+    lines.append("        public final int lastDaf, oldLastDaf, dafOffset;")
+    lines.append("        public final boolean amudAOnly;")
+    lines.append("        public Tractate(String key, String en, String he, int lastDaf,")
+    lines.append("                        int oldLastDaf, int dafOffset, boolean amudAOnly) {")
+    lines.append("            this.key = key; this.en = en; this.he = he;")
+    lines.append("            this.lastDaf = lastDaf; this.oldLastDaf = oldLastDaf;")
+    lines.append("            this.dafOffset = dafOffset; this.amudAOnly = amudAOnly;")
+    lines.append("        }")
+    lines.append("    }")
+    lines.append("")
+    cycle = data["cycle"]
+    y, m, d = cycle["oldStart"].split("-")
+    lines.append(f"    public static final LocalDate OLD_START      = LocalDate.of({int(y)}, {int(m)}, {int(d)});")
+    y, m, d = cycle["newStart"].split("-")
+    lines.append(f"    public static final LocalDate NEW_START      = LocalDate.of({int(y)}, {int(m)}, {int(d)});")
+    lines.append(f"    public static final int      OLD_CYCLE_DAYS  = {cycle['oldCycleDays']};")
+    lines.append(f"    public static final int      NEW_CYCLE_DAYS  = {cycle['newCycleDays']};")
+    lines.append(f"    public static final int      FIRST_NEW_CYCLE = {cycle['firstNewCycle']};")
+    lines.append("")
+    lines.append("    public static final Tractate[] TRACTATES = {")
+    for t in data["tractates"]:
+        old = t.get("oldLastDaf", t["lastDaf"])
+        off = t.get("dafOffset", 0)
+        amudA = "true" if t.get("amudAOnly", False) else "false"
+        lines.append(
+            f"        new Tractate({java_str(t['key'])}, {java_str(t['en'])}, "
+            f"{java_str(t['he'])}, {t['lastDaf']}, {old}, {off}, {amudA}),"
+        )
+    lines.append("    };")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
+def emit_rambam_mt() -> str:
+    data = load("schedules/rambam_mt.json")
+    lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", "",
+             "import java.time.LocalDate;", ""]
+    lines.append("/** Rambam Mishneh Torah study cycle data. */")
+    lines.append("public enum RambamHalacha {")
+    items = data["halachot"]
+    for i, h in enumerate(items):
+        ch3 = h.get("chapters3", h["chapters"])
+        term = "," if i < len(items) - 1 else ";"
+        lines.append(
+            f"    {h['key']}({java_str(h['key'])}, {java_str(h['en'])}, "
+            f"{java_str(h['he'])}, {java_str(h['ru'])}, {java_str(h['fr'])}, "
+            f"{h['chapters']}, {ch3}){term}"
+        )
+    lines.append("")
+    lines.append("    public final String key, en, he, ru, fr;")
+    lines.append("    public final int chapters, chapters3;")
+    lines.append("")
+    lines.append("    RambamHalacha(String key, String en, String he, String ru, String fr,")
+    lines.append("                  int chapters, int chapters3) {")
+    lines.append("        this.key = key; this.en = en; this.he = he;")
+    lines.append("        this.ru = ru; this.fr = fr;")
+    lines.append("        this.chapters = chapters; this.chapters3 = chapters3;")
+    lines.append("    }")
+    lines.append("")
+    cycle = data["cycle"]
+    y, m, d = cycle["epoch"].split("-")
+    lines.append(f"    public static final LocalDate EPOCH                    = LocalDate.of({int(y)}, {int(m)}, {int(d)});")
+    lines.append(f"    public static final int      ONE_CHAPTER_CYCLE_DAYS   = {cycle['oneChapterDays']};")
+    lines.append(f"    public static final int      THREE_CHAPTER_CYCLE_DAYS = {cycle['threeChapterDays']};")
+    lines.append("")
+    lines.append("    public static final String[][] FIRST_FOUR_VERSES = {")
+    for row in data["firstFourVerses"]:
+        lines.append(f"        {{ {java_str(row[0])}, {java_str(row[1])}, {java_str(row[2])} }},")
+    lines.append("    };")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
+def emit_sefer_hamitzvot() -> str:
+    data = load("schedules/sefer_hamitzvot.json")
+    lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", "",
+             "import java.time.LocalDate;", ""]
+    lines.append("/** Sefer HaMitzvot 339-day study cycle. */")
+    lines.append("public final class SeferHaMitzvot {")
+    lines.append("    private SeferHaMitzvot() {}")
+    lines.append("")
+    cycle = data["cycle"]
+    y, m, d = cycle["epoch"].split("-")
+    lines.append(f"    public static final LocalDate EPOCH      = LocalDate.of({int(y)}, {int(m)}, {int(d)});")
+    lines.append(f"    public static final int      CYCLE_DAYS = {cycle['cycleDays']};")
+    lines.append("")
+    lines.append("    public static final String[] READINGS = {")
+    for r in data["readings"]:
+        lines.append(f"        {java_str(r)},")
+    lines.append("    };")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
+def emit_tanya() -> str:
+    entries  = load("schedules/tanya.json")
+    sections = load("names/tanya_sections.json")
+    lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", "",
+             "import java.util.HashMap;", "import java.util.Map;", ""]
+    lines.append("/** Tanya daily-study schedule (740 entries: leap + non-leap partitions). */")
+    lines.append("public final class Tanya {")
+    lines.append("    private Tanya() {}")
+    lines.append("")
+    lines.append("    public enum Section {")
+    keys = list(sections.keys())
+    for i, k in enumerate(keys):
+        term = "," if i < len(keys) - 1 else ";"
+        v = sections[k]
+        lines.append(f"        {k}({java_str(k)}, {java_str(v['en'])}, {java_str(v['he'])}){term}")
+    lines.append("        public final String key, en, he;")
+    lines.append("        Section(String key, String en, String he) { this.key = key; this.en = en; this.he = he; }")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    public static final class Portion {")
+    lines.append("        public final Section section;")
+    lines.append("        public final int chapter;")
+    lines.append("        public final String start, end;")
+    lines.append("        public Portion(Section section, int chapter, String start, String end) {")
+    lines.append("            this.section = section; this.chapter = chapter;")
+    lines.append("            this.start = start; this.end = end;")
+    lines.append("        }")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    /** Map key: (leap ? 1000 : 0) + month * 40 + day. */")
+    lines.append("    public static int key(boolean leap, int month, int day) {")
+    lines.append("        return (leap ? 1000 : 0) + month * 40 + day;")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    public static final Map<Integer, Portion> SCHEDULE;")
+    lines.append("    static {")
+    lines.append("        Map<Integer, Portion> m = new HashMap<>(800);")
+    entries.sort(key=lambda e: (1000 if e["leap"] else 0) + e["month"] * 40 + e["day"])
+    for e in entries:
+        k = (1000 if e["leap"] else 0) + e["month"] * 40 + e["day"]
+        lines.append(
+            f"        m.put({k}, new Portion(Section.{e['section']}, "
+            f"{e['chapter']}, {java_str(e['start'])}, {java_str(e['end'])}));"
+        )
+    lines.append("        SCHEDULE = java.util.Collections.unmodifiableMap(m);")
+    lines.append("    }")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
 def emit_year_cheshvan_kislev_type() -> str:
     """Simple 3-value enum imported by ParshiotYearType. Emitted so that the
     generated package is self-contained. Callers in the Java lib import it
@@ -225,6 +379,10 @@ def main():
     (JAVA_DIR / "JewishMonth.java").write_text(emit_jewish_month(), encoding="utf-8")
     (JAVA_DIR / "YearCheshvanKislevType.java").write_text(emit_year_cheshvan_kislev_type(), encoding="utf-8")
     (JAVA_DIR / "ParshiotYearType.java").write_text(emit_parshiot_year_type(), encoding="utf-8")
+    (JAVA_DIR / "DafYomi.java").write_text(emit_daf_yomi(), encoding="utf-8")
+    (JAVA_DIR / "RambamHalacha.java").write_text(emit_rambam_mt(), encoding="utf-8")
+    (JAVA_DIR / "SeferHaMitzvot.java").write_text(emit_sefer_hamitzvot(), encoding="utf-8")
+    (JAVA_DIR / "Tanya.java").write_text(emit_tanya(), encoding="utf-8")
     print(f"OK  java  → {JAVA_DIR.relative_to(ROOT)}")
 
 
