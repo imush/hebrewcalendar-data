@@ -333,10 +333,10 @@ def emit_rambam_mt() -> str:
     lines.append("part of '../hebrewcalendar_data.dart';\n")
     lines.append("/// One halacha (section) of the Mishneh Torah.")
     lines.append("class RambamHalacha {")
-    lines.append("  final String key, en, he;")
+    lines.append("  final String key, en, he, ru, fr;")
     lines.append("  final int chapters;      // 1-chapter cycle count")
     lines.append("  final int chapters3;     // 3-chapter cycle count (may differ)")
-    lines.append("  const RambamHalacha(this.key, this.en, this.he, this.chapters, this.chapters3);")
+    lines.append("  const RambamHalacha(this.key, this.en, this.he, this.ru, this.fr, this.chapters, this.chapters3);")
     lines.append("}\n")
 
     lines.append("/// The 88 halachot in Mishneh Torah study order.")
@@ -345,7 +345,8 @@ def emit_rambam_mt() -> str:
         ch3 = h.get("chapters3", h["chapters"])
         lines.append(
             f"  RambamHalacha({dart_str(h['key'])}, {dart_str(h['en'])}, "
-            f"{dart_str(h['he'])}, {h['chapters']}, {ch3}),"
+            f"{dart_str(h['he'])}, {dart_str(h['ru'])}, {dart_str(h['fr'])}, "
+            f"{h['chapters']}, {ch3}),"
         )
     lines.append("];\n")
 
