@@ -204,6 +204,43 @@ def emit_parshiot_year_type() -> str:
     return "\n".join(lines) + "\n"
 
 
+def emit_jewish_special_day_key() -> str:
+    """Emit the categorical translation enum. Each Java lib's algorithmic
+    JewishSpecialDay maps to one of these; consumers read display strings
+    via .en/.he/.ru/.fr."""
+    data = load("names/jewish_special_days.json")
+    lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", ""]
+    lines.append("/** Typed enum of holiday categories. Each value carries a stable key")
+    lines.append(" *  + 4-language display strings. Java lib's JewishSpecialDay.category()")
+    lines.append(" *  maps each algorithmic special-day to one value here. */")
+    lines.append("public enum JewishSpecialDayKey {")
+    items = list(data.items())
+    for i, (key, v) in enumerate(items):
+        term = "," if i < len(items) - 1 else ";"
+        lines.append(
+            f"    {key}("
+            f"{java_str(key)}, {java_str(v['en'])}, "
+            f"{java_str(v['he'])}, {java_str(v['ru'])}, "
+            f"{java_str(v['fr'])}){term}"
+        )
+    lines.append("")
+    lines.append("    public final String key;")
+    lines.append("    public final String en;")
+    lines.append("    public final String he;")
+    lines.append("    public final String ru;")
+    lines.append("    public final String fr;")
+    lines.append("")
+    lines.append("    JewishSpecialDayKey(String key, String en, String he, String ru, String fr) {")
+    lines.append("        this.key = key;")
+    lines.append("        this.en = en;")
+    lines.append("        this.he = he;")
+    lines.append("        this.ru = ru;")
+    lines.append("        this.fr = fr;")
+    lines.append("    }")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
 def emit_daf_yomi() -> str:
     data = load("schedules/daf_yomi.json")
     lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", "",
@@ -379,6 +416,7 @@ def main():
     (JAVA_DIR / "JewishMonth.java").write_text(emit_jewish_month(), encoding="utf-8")
     (JAVA_DIR / "YearCheshvanKislevType.java").write_text(emit_year_cheshvan_kislev_type(), encoding="utf-8")
     (JAVA_DIR / "ParshiotYearType.java").write_text(emit_parshiot_year_type(), encoding="utf-8")
+    (JAVA_DIR / "JewishSpecialDayKey.java").write_text(emit_jewish_special_day_key(), encoding="utf-8")
     (JAVA_DIR / "DafYomi.java").write_text(emit_daf_yomi(), encoding="utf-8")
     (JAVA_DIR / "RambamHalacha.java").write_text(emit_rambam_mt(), encoding="utf-8")
     (JAVA_DIR / "SeferHaMitzvot.java").write_text(emit_sefer_hamitzvot(), encoding="utf-8")
