@@ -187,6 +187,49 @@ def emit_tanach_books() -> str:
     return "\n".join(lines)
 
 
+
+def emit_chumash_aliyot() -> str:
+    readings = load("schedules/chumash_aliyot.json")["readings"]
+    lines = [BANNER]
+    lines.append("part of '../hebrewcalendar_data.dart';\n")
+    lines.append("/// Which verses each of the seven Shabbat aliyot covers, per reading.")
+    lines.append("///")
+    lines.append("/// Keyed by reading id: a single Parsha key, two joined with '_' for")
+    lines.append("/// a doubled week, or VEZOT_HABRACHA. Aliyah boundaries diverge along")
+    lines.append("/// the Chabad axis only — see [ChumashReading.aliyotFor].")
+    lines.append("class ChumashReading {")
+    lines.append("  final String id;")
+    lines.append("  final List<String> parshiyot;   // 1 or 2 Parsha keys")
+    lines.append("  final int book;                 // index into chumashBooks, 1..5")
+    lines.append("  final List<String> aliyot;      // 7 Common (Ashkenaz) aliyot")
+    lines.append("  /// Chabad aliyot; null when identical to [aliyot].")
+    lines.append("  final List<String>? aliyotChabad;")
+    lines.append("  const ChumashReading(this.id, this.parshiyot, this.book,")
+    lines.append("      this.aliyot, this.aliyotChabad);")
+    lines.append("")
+    lines.append("  /// Chabad gets its own boundaries where they differ; everyone else")
+    lines.append("  /// reads the Common split.")
+    lines.append("  List<String> aliyotFor({required bool chabad}) =>")
+    lines.append("      (chabad && aliyotChabad != null) ? aliyotChabad! : aliyot;")
+    lines.append("}\n")
+    lines.append("/// Chumash book names by index; entry 0 is unused.")
+    lines.append("const List<String?> chumashBooks = [")
+    lines.append("  null, 'Genesis', 'Exodus', 'Leviticus', 'Numbers', 'Deuteronomy',")
+    lines.append("];\n")
+    lines.append("const Map<String, ChumashReading> chumashAliyot = {")
+    for r in readings:
+        parshiyot = ", ".join(dart_str(k) for k in r["parshiyot"])
+        aliyot = ", ".join(dart_str(a) for a in r["aliyot"])
+        chabad = r.get("aliyotChabad")
+        chabad_lit = ("[" + ", ".join(dart_str(a) for a in chabad) + "]") if chabad else "null"
+        lines.append(
+            f"  {dart_str(r['id'])}: ChumashReading({dart_str(r['id'])}, "
+            f"[{parshiyot}], {r['book']}, [{aliyot}], {chabad_lit}),"
+        )
+    lines.append("};\n")
+    return "\n".join(lines)
+
+
 def emit_jewish_months() -> str:
     data = load("names/jewish_months.json")
     lines = [BANNER]
@@ -479,6 +522,7 @@ def emit_barrel() -> str:
         + "part 'src/sefer_hamitzvot.dart';\n"
         + "part 'src/customs.dart';\n"
         + "part 'src/tanach_books.dart';\n"
+        + "part 'src/chumash_aliyot.dart';\n"
     )
 
 
@@ -509,6 +553,7 @@ def main():
     (SRC_DIR / "sefer_hamitzvot.dart").write_text(emit_sefer_hamitzvot(), encoding="utf-8")
     (SRC_DIR / "customs.dart").write_text(emit_customs(), encoding="utf-8")
     (SRC_DIR / "tanach_books.dart").write_text(emit_tanach_books(), encoding="utf-8")
+    (SRC_DIR / "chumash_aliyot.dart").write_text(emit_chumash_aliyot(), encoding="utf-8")
     (LIB_DIR / "hebrewcalendar_data.dart").write_text(emit_barrel(), encoding="utf-8")
     (DART_DIR / "pubspec.yaml").write_text(emit_pubspec(), encoding="utf-8")
     print(f"OK  dart  → {DART_DIR.relative_to(ROOT)}")
