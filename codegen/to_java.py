@@ -123,9 +123,11 @@ def emit_zman() -> str:
 def emit_custom() -> str:
     return emit_translated_enum(
         "Custom", "names/customs.json",
-        "The 5 aliyot/haftarah customs the consumer UIs expose. Fallback "
-        "resolution (Chabad → Sefard → Common, etc.) is done at data-gen "
-        "time; every entry in Haftarot.ALL covers all 5 customs."
+        "The 18 minhagim the haftarah tables distinguish (opentorah's "
+        "Custom.xml minus the abstract 'Common' root). Fallback resolution "
+        "(Chabad → Sefard → Common, etc.) is done at data-gen time; every "
+        "entry in Haftarot.ALL covers all 18 customs. Aliyot expose only a "
+        "Chabad/Common split — see ChumashAliyot.aliyotFor."
     )
 
 

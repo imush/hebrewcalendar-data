@@ -153,6 +153,38 @@ def emit_customs() -> str:
     return "\n".join(lines)
 
 
+def emit_tanach_books() -> str:
+    data = load("names/tanach_books.json")
+    lines = [BANNER]
+    lines.append("part of '../hebrewcalendar_data.dart';\n")
+    lines.append("/// Books of the Tanach — 5 Chumash + Prophets — with 4-lang names.")
+    lines.append("///")
+    lines.append("/// Haftarah references come back from the C library carrying the")
+    lines.append("/// English book name, which is also what Sefaria URLs use; look up")
+    lines.append("/// with [fromEnglishName] to render it in another locale.")
+    lines.append("enum TanachBook {")
+    for k, v in data.items():
+        lines.append(
+            f"  {to_dart_enum_name(k)}("
+            f"{dart_str(k)}, {dart_str(v['en'])}, {dart_str(v['he'])}, "
+            f"{dart_str(v['ru'])}, {dart_str(v['fr'])}),"
+        )
+    lines.append("  ;")
+    lines.append("  final String key;   // stable identifier (matches JSON key)")
+    lines.append("  final String en;")
+    lines.append("  final String he;")
+    lines.append("  final String ru;")
+    lines.append("  final String fr;")
+    lines.append("  const TanachBook(this.key, this.en, this.he, this.ru, this.fr);")
+    lines.append("")
+    lines.append("  /// Look up by English name ('II Kings', 'Isaiah', …); null if unknown.")
+    lines.append("  static TanachBook? fromEnglishName(String en) => _byEn[en];")
+    lines.append("  static final Map<String, TanachBook> _byEn =")
+    lines.append("      { for (final b in values) b.en: b };")
+    lines.append("}\n")
+    return "\n".join(lines)
+
+
 def emit_jewish_months() -> str:
     data = load("names/jewish_months.json")
     lines = [BANNER]
@@ -444,6 +476,7 @@ def emit_barrel() -> str:
         + "part 'src/rambam_mt.dart';\n"
         + "part 'src/sefer_hamitzvot.dart';\n"
         + "part 'src/customs.dart';\n"
+        + "part 'src/tanach_books.dart';\n"
     )
 
 
@@ -473,6 +506,7 @@ def main():
     (SRC_DIR / "rambam_mt.dart").write_text(emit_rambam_mt(), encoding="utf-8")
     (SRC_DIR / "sefer_hamitzvot.dart").write_text(emit_sefer_hamitzvot(), encoding="utf-8")
     (SRC_DIR / "customs.dart").write_text(emit_customs(), encoding="utf-8")
+    (SRC_DIR / "tanach_books.dart").write_text(emit_tanach_books(), encoding="utf-8")
     (LIB_DIR / "hebrewcalendar_data.dart").write_text(emit_barrel(), encoding="utf-8")
     (DART_DIR / "pubspec.yaml").write_text(emit_pubspec(), encoding="utf-8")
     print(f"OK  dart  → {DART_DIR.relative_to(ROOT)}")

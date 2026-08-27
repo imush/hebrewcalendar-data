@@ -5,7 +5,7 @@
 
 package net.hebrewcalendar.data;
 
-/** The 5 aliyot/haftarah customs the consumer UIs expose. Fallback resolution (Chabad → Sefard → Common, etc.) is done at data-gen time; every entry in Haftarot.ALL covers all 5 customs. */
+/** The 18 minhagim the haftarah tables distinguish (opentorah's Custom.xml minus the abstract 'Common' root). Fallback resolution (Chabad → Sefard → Common, etc.) is done at data-gen time; every entry in Haftarot.ALL covers all 18 customs. Aliyot expose only a Chabad/Common split — see ChumashAliyot.aliyotFor. */
 public enum Custom {
     ASHKENAZ("ASHKENAZ", "Ashkenaz", "אשכנז", "Ашкеназский", "Ashkénaze"),
     ITALKI("ITALKI", "Italki", "יטלקי", "Итальянский", "Italien"),
