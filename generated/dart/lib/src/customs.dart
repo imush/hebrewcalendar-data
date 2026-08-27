@@ -23,6 +23,7 @@ enum HaftarahCustom {
   algeria('ALGERIA', 'Algeria', 'אלגיר', 'Алжирский', 'Algérien'),
   morocco('MOROCCO', 'Morocco', 'מרוקו', 'Марокко', 'Marocain'),
   fes('FES', 'Fes', 'פאס', 'Фес', 'Fès'),
+  marrakesh('MARRAKESH', 'Marrakesh', 'מראכש', 'Марракеш', 'Marrakech'),
   toshbim('TOSHBIM', 'Toshbim', 'תושבים', 'Тошбим', 'Tochbim'),
   djerba('DJERBA', 'Djerba', 'דגרבה', 'Джерба', 'Djerba'),
   bavlim('BAVLIM', 'Bavlim', 'בבלים', 'Вавилонский', 'Babylonien'),

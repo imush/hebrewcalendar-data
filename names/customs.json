@@ -11,6 +11,7 @@
   "ALGERIA":    { "en": "Algeria",    "he": "אלגיר",   "ru": "Алжирский",    "fr": "Algérien" },
   "MOROCCO":    { "en": "Morocco",    "he": "מרוקו",   "ru": "Марокко",      "fr": "Marocain" },
   "FES":        { "en": "Fes",        "he": "פאס",     "ru": "Фес",          "fr": "Fès" },
+  "MARRAKESH":  { "en": "Marrakesh",  "he": "מראכש",   "ru": "Марракеш",     "fr": "Marrakech" },
   "TOSHBIM":    { "en": "Toshbim",    "he": "תושבים",  "ru": "Тошбим",       "fr": "Tochbim" },
   "DJERBA":     { "en": "Djerba",     "he": "דגרבה",   "ru": "Джерба",       "fr": "Djerba" },
   "BAVLIM":     { "en": "Bavlim",     "he": "בבלים",   "ru": "Вавилонский",  "fr": "Babylonien" },

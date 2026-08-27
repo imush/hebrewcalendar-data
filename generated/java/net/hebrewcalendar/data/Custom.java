@@ -19,6 +19,7 @@ public enum Custom {
     ALGERIA("ALGERIA", "Algeria", "אלגיר", "Алжирский", "Algérien"),
     MOROCCO("MOROCCO", "Morocco", "מרוקו", "Марокко", "Marocain"),
     FES("FES", "Fes", "פאס", "Фес", "Fès"),
+    MARRAKESH("MARRAKESH", "Marrakesh", "מראכש", "Марракеш", "Marrakech"),
     TOSHBIM("TOSHBIM", "Toshbim", "תושבים", "Тошбим", "Tochbim"),
     DJERBA("DJERBA", "Djerba", "דגרבה", "Джерба", "Djerba"),
     BAVLIM("BAVLIM", "Bavlim", "בבלים", "Вавилонский", "Babylonien"),

@@ -34,6 +34,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("I Samuel", 20, 18, 20, 42)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("I Samuel", 20, 18, 20, 42)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("I Samuel", 20, 18, 20, 42)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("I Samuel", 20, 18, 20, 42)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("I Samuel", 20, 18, 20, 42)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("I Samuel", 20, 18, 20, 42)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("I Samuel", 20, 18, 20, 42)));
@@ -58,6 +59,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Isaiah", 66, 1, 66, 24), new Haftarot.Reference("Isaiah", 66, 23, 66, 23)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Isaiah", 66, 1, 66, 24), new Haftarot.Reference("Isaiah", 66, 23, 66, 23)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Isaiah", 66, 1, 66, 24), new Haftarot.Reference("Isaiah", 66, 23, 66, 23)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Isaiah", 66, 1, 66, 24), new Haftarot.Reference("Isaiah", 66, 23, 66, 23)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Isaiah", 66, 1, 66, 24), new Haftarot.Reference("Isaiah", 66, 23, 66, 23)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Isaiah", 66, 1, 66, 24), new Haftarot.Reference("Isaiah", 66, 23, 66, 23)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Isaiah", 66, 1, 66, 24), new Haftarot.Reference("Isaiah", 66, 23, 66, 23)));
@@ -81,6 +83,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("I Samuel", 1, 1, 2, 10)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("I Samuel", 1, 1, 2, 10)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("I Samuel", 1, 1, 2, 10)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("I Samuel", 1, 1, 2, 10)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("I Samuel", 1, 1, 2, 10)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("I Samuel", 1, 1, 2, 10)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("I Samuel", 1, 1, 2, 10)));
@@ -101,6 +104,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Jeremiah", 31, 1, 31, 19)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Jeremiah", 31, 1, 31, 19)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Jeremiah", 31, 1, 31, 19)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Jeremiah", 31, 1, 31, 19)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Jeremiah", 31, 1, 31, 19)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Jeremiah", 31, 1, 31, 19)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Jeremiah", 31, 1, 31, 19)));
@@ -121,6 +125,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Isaiah", 57, 14, 58, 14)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Isaiah", 57, 14, 58, 14)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Isaiah", 57, 14, 58, 14)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Isaiah", 57, 14, 58, 14)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Isaiah", 57, 14, 58, 14)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Isaiah", 57, 14, 58, 14)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Isaiah", 57, 14, 58, 14)));
@@ -141,6 +146,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Jonah", 1, 1, 4, 11), new Haftarot.Reference("Micah", 7, 18, 7, 20)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Jonah", 1, 1, 4, 11), new Haftarot.Reference("Micah", 7, 18, 7, 20)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Jonah", 1, 1, 4, 11), new Haftarot.Reference("Micah", 7, 18, 7, 20)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Jonah", 1, 1, 4, 11), new Haftarot.Reference("Micah", 7, 18, 7, 20)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Jonah", 1, 1, 4, 11), new Haftarot.Reference("Micah", 7, 18, 7, 20)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Jonah", 1, 1, 4, 11), new Haftarot.Reference("Micah", 7, 18, 7, 20)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Jonah", 1, 1, 4, 11), new Haftarot.Reference("Micah", 7, 18, 7, 20)));
@@ -161,6 +167,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Zechariah", 14, 1, 14, 21)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Zechariah", 14, 1, 14, 21)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Zechariah", 14, 1, 14, 21)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Zechariah", 14, 1, 14, 21)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Zechariah", 14, 1, 14, 21)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Zechariah", 14, 1, 14, 21)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Zechariah", 14, 1, 14, 21)));
@@ -181,6 +188,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("I Kings", 8, 2, 8, 21)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("I Kings", 8, 2, 8, 21)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("I Kings", 8, 2, 8, 21)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("I Kings", 8, 2, 8, 21)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("I Kings", 8, 2, 8, 21)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("I Kings", 8, 2, 8, 21)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("I Kings", 8, 2, 8, 21)));
@@ -201,6 +209,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Ezekiel", 38, 18, 39, 16)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Ezekiel", 38, 18, 39, 16)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Ezekiel", 38, 18, 39, 16)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Ezekiel", 38, 18, 39, 16)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Ezekiel", 38, 18, 39, 16)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Ezekiel", 38, 18, 39, 16)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Ezekiel", 38, 18, 39, 16)));
@@ -221,6 +230,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("I Kings", 8, 54, 8, 66)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("I Kings", 8, 54, 8, 66)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("I Kings", 8, 54, 8, 66)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("I Kings", 8, 54, 8, 66)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("I Kings", 8, 54, 8, 66)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("I Kings", 8, 54, 8, 66)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("I Kings", 8, 54, 8, 66)));
@@ -241,6 +251,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Zechariah", 2, 14, 4, 7)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Zechariah", 2, 14, 4, 7)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Zechariah", 2, 14, 4, 7)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Zechariah", 2, 14, 4, 7)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Zechariah", 2, 14, 4, 7)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Zechariah", 2, 14, 4, 7)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Zechariah", 2, 14, 4, 7)));
@@ -261,6 +272,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("I Kings", 7, 40, 7, 50)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("I Kings", 7, 40, 7, 50)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("I Kings", 7, 40, 7, 50)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("I Kings", 7, 40, 7, 50)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("I Kings", 7, 40, 7, 50)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("I Kings", 7, 40, 7, 50)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("I Kings", 7, 40, 7, 50)));
@@ -281,6 +293,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("II Kings", 11, 17, 12, 17)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("II Kings", 11, 17, 12, 17)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("II Kings", 11, 17, 12, 17)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("II Kings", 11, 17, 12, 17)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("II Kings", 11, 17, 12, 17)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("II Kings", 11, 17, 12, 17)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("II Kings", 11, 17, 12, 17)));
@@ -301,6 +314,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("I Samuel", 15, 1, 15, 34)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("I Samuel", 15, 1, 15, 34)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("I Samuel", 15, 1, 15, 34)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("I Samuel", 15, 1, 15, 34)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("I Samuel", 15, 1, 15, 34)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("I Samuel", 15, 1, 15, 34)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("I Samuel", 15, 1, 15, 34)));
@@ -321,6 +335,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Ezekiel", 36, 16, 36, 36)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Ezekiel", 36, 16, 36, 36)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Ezekiel", 36, 16, 36, 36)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Ezekiel", 36, 16, 36, 36)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Ezekiel", 36, 16, 36, 36)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Ezekiel", 36, 16, 36, 36)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Ezekiel", 36, 16, 36, 36)));
@@ -341,6 +356,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Ezekiel", 45, 18, 46, 15)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Ezekiel", 45, 18, 46, 15)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Ezekiel", 45, 18, 46, 15)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Ezekiel", 45, 18, 46, 15)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Ezekiel", 45, 18, 46, 15)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Ezekiel", 45, 18, 46, 15)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Ezekiel", 45, 18, 46, 15)));
@@ -361,6 +377,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Malachi", 3, 4, 3, 24)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Malachi", 3, 4, 3, 24)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Malachi", 3, 4, 3, 24)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Malachi", 3, 4, 3, 24)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Malachi", 3, 4, 3, 24)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Malachi", 3, 4, 3, 24)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Malachi", 3, 4, 3, 24)));
@@ -381,6 +398,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Ezekiel", 37, 1, 37, 14)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Ezekiel", 37, 1, 37, 14)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Ezekiel", 37, 1, 37, 14)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Ezekiel", 37, 1, 37, 14)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Ezekiel", 37, 1, 37, 14)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Ezekiel", 37, 1, 37, 14)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Ezekiel", 37, 1, 37, 14)));
@@ -401,6 +419,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Joshua", 5, 2, 6, 1), new Haftarot.Reference("Joshua", 6, 27, 6, 27)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Joshua", 5, 2, 6, 1), new Haftarot.Reference("Joshua", 6, 27, 6, 27)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Joshua", 5, 2, 6, 1), new Haftarot.Reference("Joshua", 6, 27, 6, 27)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Joshua", 5, 2, 6, 1), new Haftarot.Reference("Joshua", 6, 27, 6, 27)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Joshua", 5, 2, 6, 1), new Haftarot.Reference("Joshua", 6, 27, 6, 27)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Joshua", 5, 2, 6, 1), new Haftarot.Reference("Joshua", 6, 27, 6, 27)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Joshua", 5, 2, 6, 1), new Haftarot.Reference("Joshua", 6, 27, 6, 27)));
@@ -421,6 +440,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("II Kings", 23, 1, 23, 9), new Haftarot.Reference("II Kings", 23, 21, 23, 25)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("II Kings", 23, 1, 23, 9), new Haftarot.Reference("II Kings", 23, 21, 23, 25)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("II Kings", 23, 1, 23, 9), new Haftarot.Reference("II Kings", 23, 21, 23, 25)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("II Kings", 23, 1, 23, 9), new Haftarot.Reference("II Kings", 23, 21, 23, 25)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("II Kings", 23, 1, 23, 9), new Haftarot.Reference("II Kings", 23, 21, 23, 25)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("II Kings", 23, 1, 23, 9), new Haftarot.Reference("II Kings", 23, 21, 23, 25)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("II Kings", 23, 1, 23, 9), new Haftarot.Reference("II Kings", 23, 21, 23, 25)));
@@ -441,6 +461,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("II Samuel", 22, 1, 22, 51)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("II Samuel", 22, 1, 22, 51)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("II Samuel", 22, 1, 22, 51)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("II Samuel", 22, 1, 22, 51)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("II Samuel", 22, 1, 22, 51)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("II Samuel", 22, 1, 22, 51)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("II Samuel", 22, 1, 22, 51)));
@@ -461,6 +482,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Isaiah", 10, 32, 12, 6)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Isaiah", 10, 32, 12, 6)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Isaiah", 10, 32, 12, 6)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Isaiah", 10, 32, 12, 6)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Isaiah", 10, 32, 12, 6)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Isaiah", 10, 32, 12, 6)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Isaiah", 10, 32, 12, 6)));
@@ -481,6 +503,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Ezekiel", 1, 1, 1, 28), new Haftarot.Reference("Ezekiel", 3, 12, 3, 27)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Ezekiel", 1, 1, 1, 28), new Haftarot.Reference("Ezekiel", 3, 12, 3, 27)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Ezekiel", 1, 1, 1, 28), new Haftarot.Reference("Ezekiel", 3, 12, 3, 27)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Ezekiel", 1, 1, 1, 28), new Haftarot.Reference("Ezekiel", 3, 12, 3, 27)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Ezekiel", 1, 1, 1, 28), new Haftarot.Reference("Ezekiel", 3, 12, 3, 27)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Ezekiel", 1, 1, 1, 28), new Haftarot.Reference("Ezekiel", 3, 12, 3, 27)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Ezekiel", 1, 1, 1, 28), new Haftarot.Reference("Ezekiel", 3, 12, 3, 27)));
@@ -501,6 +524,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Habakkuk", 2, 20, 3, 19)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Habakkuk", 2, 20, 3, 19)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Habakkuk", 2, 20, 3, 19)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Habakkuk", 2, 20, 3, 19)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Habakkuk", 2, 20, 3, 19)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Habakkuk", 2, 20, 3, 19)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Habakkuk", 2, 20, 3, 19)));
@@ -519,10 +543,10 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Hosea", 14, 2, 14, 10), new Haftarot.Reference("Joel", 2, 11, 2, 27)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Isaiah", 55, 6, 56, 8)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Isaiah", 55, 6, 56, 8)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Isaiah", 55, 6, 56, 8)));
             all.put("Fast_AFTERNOON_DEFAULT", java.util.Collections.unmodifiableMap(m)); }
         {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
-            m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Hosea", 14, 2, 14, 10), new Haftarot.Reference("Joel", 2, 11, 2, 27)));
-            m.put(Custom.FES, List.of(new Haftarot.Reference("Hosea", 14, 2, 14, 10), new Haftarot.Reference("Joel", 2, 11, 2, 27)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Hosea", 14, 2, 14, 10), new Haftarot.Reference("Joel", 2, 11, 2, 27)));
             all.put("FastOfGedalia_AFTERNOON_EXCEPTIONS", java.util.Collections.unmodifiableMap(m)); }
         {  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);
             m.put(Custom.ASHKENAZ, List.of(new Haftarot.Reference("Jeremiah", 8, 13, 9, 23)));
@@ -537,6 +561,7 @@ public final class SpecialHaftarot {
             m.put(Custom.ALGERIA, List.of(new Haftarot.Reference("Jeremiah", 8, 13, 9, 23)));
             m.put(Custom.MOROCCO, List.of(new Haftarot.Reference("Jeremiah", 8, 13, 9, 23)));
             m.put(Custom.FES, List.of(new Haftarot.Reference("Jeremiah", 8, 13, 9, 23)));
+            m.put(Custom.MARRAKESH, List.of(new Haftarot.Reference("Jeremiah", 8, 13, 9, 23)));
             m.put(Custom.TOSHBIM, List.of(new Haftarot.Reference("Jeremiah", 8, 13, 9, 23)));
             m.put(Custom.DJERBA, List.of(new Haftarot.Reference("Jeremiah", 8, 13, 9, 23)));
             m.put(Custom.BAVLIM, List.of(new Haftarot.Reference("Jeremiah", 8, 13, 9, 23)));

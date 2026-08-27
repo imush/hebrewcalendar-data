@@ -131,6 +131,7 @@ def emit_source() -> str:
 CUSTOMS = [
     "ASHKENAZ", "ITALKI", "FRANKFURT", "LITA", "CHAYEY_ODOM", "HAGRA",
     "SEFARD",   "CHABAD", "MAGREB",    "ALGERIA","MOROCCO",    "FES",
+    "MARRAKESH",
     "TOSHBIM",  "DJERBA", "BAVLIM",    "TEIMAN", "BALADI",     "SHAMI",
 ]
 

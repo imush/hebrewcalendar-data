@@ -32,6 +32,7 @@ PARENT = {
     "Djerba":     "Magreb",
     "Morocco":    "Magreb",
     "Fes":        "Morocco",
+    "Marrakesh":  "Morocco",
     "Bavlim":     "Sefard",
     "Teiman":     "Sefard",
     "Baladi":     "Teiman",
@@ -48,13 +49,15 @@ XML_TO_INTERNAL = {"Chayey Odom": "ChayeyOdom"}
 EXPOSED = [
     "ASHKENAZ", "ITALKI", "FRANKFURT", "LITA", "CHAYEY_ODOM", "HAGRA",
     "SEFARD",   "CHABAD", "MAGREB",    "ALGERIA","MOROCCO",    "FES",
+    "MARRAKESH",
     "TOSHBIM",  "DJERBA", "BAVLIM",    "TEIMAN", "BALADI",     "SHAMI",
 ]
 EXPOSED_INTERNAL = {
     "ASHKENAZ":"Ashkenaz","ITALKI":"Italki","FRANKFURT":"Frankfurt",
     "LITA":"Lita","CHAYEY_ODOM":"ChayeyOdom","HAGRA":"Hagra",
     "SEFARD":"Sefard","CHABAD":"Chabad","MAGREB":"Magreb","ALGERIA":"Algeria",
-    "MOROCCO":"Morocco","FES":"Fes","TOSHBIM":"Toshbim","DJERBA":"Djerba",
+    "MOROCCO":"Morocco","FES":"Fes","MARRAKESH":"Marrakesh",
+    "TOSHBIM":"Toshbim","DJERBA":"Djerba",
     "BAVLIM":"Bavlim","TEIMAN":"Teiman","BALADI":"Baladi","SHAMI":"Shami",
 }
 

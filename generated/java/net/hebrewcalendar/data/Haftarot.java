@@ -42,6 +42,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Isaiah", 42, 5, 42, 21)));
             m.put(Custom.MOROCCO, List.of(new Reference("Isaiah", 42, 5, 42, 21)));
             m.put(Custom.FES, List.of(new Reference("Isaiah", 42, 5, 42, 21)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Isaiah", 42, 5, 42, 21)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Isaiah", 42, 5, 42, 21)));
             m.put(Custom.DJERBA, List.of(new Reference("Isaiah", 42, 5, 42, 21)));
             m.put(Custom.BAVLIM, List.of(new Reference("Isaiah", 42, 5, 42, 21)));
@@ -62,6 +63,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Isaiah", 54, 1, 55, 5)));
             m.put(Custom.MOROCCO, List.of(new Reference("Isaiah", 54, 1, 55, 5)));
             m.put(Custom.FES, List.of(new Reference("Isaiah", 54, 1, 55, 5)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Isaiah", 54, 1, 55, 5)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Isaiah", 54, 1, 55, 5)));
             m.put(Custom.DJERBA, List.of(new Reference("Isaiah", 54, 1, 55, 5)));
             m.put(Custom.BAVLIM, List.of(new Reference("Isaiah", 54, 1, 54, 10)));
@@ -82,6 +84,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Isaiah", 40, 27, 41, 16)));
             m.put(Custom.MOROCCO, List.of(new Reference("Isaiah", 40, 27, 41, 16)));
             m.put(Custom.FES, List.of(new Reference("Isaiah", 40, 27, 41, 16)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Isaiah", 40, 27, 41, 16)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Isaiah", 40, 27, 41, 16)));
             m.put(Custom.DJERBA, List.of(new Reference("Isaiah", 40, 27, 41, 16)));
             m.put(Custom.BAVLIM, List.of(new Reference("Isaiah", 40, 27, 41, 16)));
@@ -102,6 +105,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("II Kings", 4, 1, 4, 37)));
             m.put(Custom.MOROCCO, List.of(new Reference("II Kings", 4, 1, 4, 23)));
             m.put(Custom.FES, List.of(new Reference("II Kings", 4, 1, 4, 23)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("II Kings", 4, 1, 4, 23)));
             m.put(Custom.TOSHBIM, List.of(new Reference("II Kings", 4, 1, 4, 23)));
             m.put(Custom.DJERBA, List.of(new Reference("II Kings", 4, 1, 4, 23)));
             m.put(Custom.BAVLIM, List.of(new Reference("II Kings", 4, 1, 4, 23)));
@@ -122,6 +126,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("I Kings", 1, 1, 1, 31)));
             m.put(Custom.MOROCCO, List.of(new Reference("I Kings", 1, 1, 1, 31)));
             m.put(Custom.FES, List.of(new Reference("I Kings", 1, 1, 1, 31)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("I Kings", 1, 1, 1, 31)));
             m.put(Custom.TOSHBIM, List.of(new Reference("I Kings", 1, 1, 1, 31)));
             m.put(Custom.DJERBA, List.of(new Reference("I Kings", 1, 1, 1, 31)));
             m.put(Custom.BAVLIM, List.of(new Reference("I Kings", 1, 1, 1, 31)));
@@ -142,6 +147,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Malachi", 1, 1, 2, 7)));
             m.put(Custom.MOROCCO, List.of(new Reference("Malachi", 1, 1, 2, 7)));
             m.put(Custom.FES, List.of(new Reference("Malachi", 1, 1, 2, 7)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Malachi", 1, 1, 2, 7)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Malachi", 1, 1, 2, 7)));
             m.put(Custom.DJERBA, List.of(new Reference("Malachi", 1, 1, 2, 7)));
             m.put(Custom.BAVLIM, List.of(new Reference("Malachi", 1, 1, 2, 7)));
@@ -162,6 +168,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Hosea", 11, 7, 13, 5)));
             m.put(Custom.MOROCCO, List.of(new Reference("Hosea", 11, 7, 13, 5)));
             m.put(Custom.FES, List.of(new Reference("Hosea", 11, 7, 13, 5)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Hosea", 11, 7, 13, 5)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Hosea", 11, 7, 13, 5)));
             m.put(Custom.DJERBA, List.of(new Reference("Hosea", 11, 7, 12, 14)));
             m.put(Custom.BAVLIM, List.of(new Reference("Hosea", 11, 7, 12, 12)));
@@ -182,6 +189,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Obadiah", 1, 1, 1, 21)));
             m.put(Custom.MOROCCO, List.of(new Reference("Obadiah", 1, 1, 1, 21)));
             m.put(Custom.FES, List.of(new Reference("Obadiah", 1, 1, 1, 21)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Obadiah", 1, 1, 1, 21)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Obadiah", 1, 1, 1, 21)));
             m.put(Custom.DJERBA, List.of(new Reference("Obadiah", 1, 1, 1, 21)));
             m.put(Custom.BAVLIM, List.of(new Reference("Obadiah", 1, 1, 1, 21)));
@@ -202,6 +210,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Amos", 2, 6, 3, 8)));
             m.put(Custom.MOROCCO, List.of(new Reference("Amos", 2, 6, 3, 8)));
             m.put(Custom.FES, List.of(new Reference("Amos", 2, 6, 3, 8)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Amos", 2, 6, 3, 8)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Amos", 2, 6, 3, 8)));
             m.put(Custom.DJERBA, List.of(new Reference("Amos", 2, 6, 3, 8)));
             m.put(Custom.BAVLIM, List.of(new Reference("Amos", 2, 6, 3, 8)));
@@ -222,6 +231,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("I Kings", 3, 15, 4, 1)));
             m.put(Custom.MOROCCO, List.of(new Reference("I Kings", 3, 15, 4, 1)));
             m.put(Custom.FES, List.of(new Reference("I Kings", 3, 15, 4, 1)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("I Kings", 3, 15, 4, 1)));
             m.put(Custom.TOSHBIM, List.of(new Reference("I Kings", 3, 15, 4, 1)));
             m.put(Custom.DJERBA, List.of(new Reference("I Kings", 3, 15, 4, 1)));
             m.put(Custom.BAVLIM, List.of(new Reference("I Kings", 3, 15, 4, 1)));
@@ -242,6 +252,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Ezekiel", 37, 15, 37, 28)));
             m.put(Custom.MOROCCO, List.of(new Reference("Ezekiel", 37, 15, 37, 28)));
             m.put(Custom.FES, List.of(new Reference("Ezekiel", 37, 15, 37, 28)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Ezekiel", 37, 15, 37, 28)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Ezekiel", 37, 15, 37, 28)));
             m.put(Custom.DJERBA, List.of(new Reference("Ezekiel", 37, 15, 37, 28)));
             m.put(Custom.BAVLIM, List.of(new Reference("Ezekiel", 37, 15, 37, 28)));
@@ -262,6 +273,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("I Kings", 2, 1, 2, 12)));
             m.put(Custom.MOROCCO, List.of(new Reference("I Kings", 2, 1, 2, 12)));
             m.put(Custom.FES, List.of(new Reference("I Kings", 2, 1, 2, 12)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("I Kings", 2, 1, 2, 12)));
             m.put(Custom.TOSHBIM, List.of(new Reference("I Kings", 2, 1, 2, 12)));
             m.put(Custom.DJERBA, List.of(new Reference("I Kings", 2, 1, 2, 12)));
             m.put(Custom.BAVLIM, List.of(new Reference("I Kings", 2, 1, 2, 12)));
@@ -282,6 +294,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Ezekiel", 16, 1, 16, 14)));
             m.put(Custom.MOROCCO, List.of(new Reference("Ezekiel", 16, 1, 16, 14)));
             m.put(Custom.FES, List.of(new Reference("Ezekiel", 16, 1, 16, 14)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Ezekiel", 16, 1, 16, 14)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Ezekiel", 16, 1, 16, 14)));
             m.put(Custom.DJERBA, List.of(new Reference("Ezekiel", 16, 1, 16, 14)));
             m.put(Custom.BAVLIM, List.of(new Reference("Ezekiel", 16, 1, 16, 14)));
@@ -302,6 +315,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Ezekiel", 28, 25, 29, 21)));
             m.put(Custom.MOROCCO, List.of(new Reference("Ezekiel", 28, 25, 29, 21)));
             m.put(Custom.FES, List.of(new Reference("Ezekiel", 28, 25, 29, 21)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Ezekiel", 28, 25, 29, 21)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Ezekiel", 28, 25, 29, 21)));
             m.put(Custom.DJERBA, List.of(new Reference("Ezekiel", 28, 25, 29, 21)));
             m.put(Custom.BAVLIM, List.of(new Reference("Ezekiel", 28, 25, 29, 21)));
@@ -322,6 +336,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Isaiah", 19, 1, 19, 25)));
             m.put(Custom.MOROCCO, List.of(new Reference("Isaiah", 19, 1, 19, 25)));
             m.put(Custom.FES, List.of(new Reference("Isaiah", 19, 1, 19, 25)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Isaiah", 19, 1, 19, 25)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Isaiah", 19, 1, 19, 25)));
             m.put(Custom.DJERBA, List.of(new Reference("Isaiah", 19, 1, 19, 25)));
             m.put(Custom.BAVLIM, List.of(new Reference("Isaiah", 18, 7, 19, 25)));
@@ -342,6 +357,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Judges", 5, 1, 5, 31)));
             m.put(Custom.MOROCCO, List.of(new Reference("Judges", 5, 1, 5, 31)));
             m.put(Custom.FES, List.of(new Reference("Judges", 5, 1, 5, 31)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Judges", 5, 1, 5, 31)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Judges", 5, 1, 5, 31)));
             m.put(Custom.DJERBA, List.of(new Reference("Judges", 5, 1, 5, 31)));
             m.put(Custom.BAVLIM, List.of(new Reference("Judges", 5, 1, 5, 31)));
@@ -362,6 +378,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Isaiah", 6, 1, 7, 6)));
             m.put(Custom.MOROCCO, List.of(new Reference("Isaiah", 6, 1, 6, 13)));
             m.put(Custom.FES, List.of(new Reference("Isaiah", 6, 1, 6, 13)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Isaiah", 6, 1, 6, 13)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Isaiah", 6, 1, 6, 13)));
             m.put(Custom.DJERBA, List.of(new Reference("Isaiah", 6, 1, 6, 13)));
             m.put(Custom.BAVLIM, List.of(new Reference("Isaiah", 6, 1, 6, 13)));
@@ -382,6 +399,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Jeremiah", 34, 8, 34, 22), new Reference("Jeremiah", 33, 25, 33, 26)));
             m.put(Custom.MOROCCO, List.of(new Reference("Jeremiah", 34, 8, 34, 22), new Reference("Jeremiah", 33, 25, 33, 26)));
             m.put(Custom.FES, List.of(new Reference("Jeremiah", 34, 8, 34, 22), new Reference("Jeremiah", 33, 25, 33, 26)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Jeremiah", 34, 8, 34, 22), new Reference("Jeremiah", 33, 25, 33, 26)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Jeremiah", 34, 8, 34, 22), new Reference("Jeremiah", 33, 25, 33, 26)));
             m.put(Custom.DJERBA, List.of(new Reference("Jeremiah", 34, 8, 34, 22), new Reference("Jeremiah", 33, 25, 33, 26)));
             m.put(Custom.BAVLIM, List.of(new Reference("Jeremiah", 34, 8, 34, 22), new Reference("Jeremiah", 33, 25, 33, 26)));
@@ -402,6 +420,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("I Kings", 5, 26, 6, 13)));
             m.put(Custom.MOROCCO, List.of(new Reference("I Kings", 5, 26, 6, 13)));
             m.put(Custom.FES, List.of(new Reference("I Kings", 5, 26, 6, 13)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("I Kings", 5, 26, 6, 13)));
             m.put(Custom.TOSHBIM, List.of(new Reference("I Kings", 5, 26, 6, 13)));
             m.put(Custom.DJERBA, List.of(new Reference("I Kings", 5, 26, 6, 13)));
             m.put(Custom.BAVLIM, List.of(new Reference("I Kings", 5, 26, 6, 13)));
@@ -422,6 +441,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Ezekiel", 43, 10, 43, 27)));
             m.put(Custom.MOROCCO, List.of(new Reference("Ezekiel", 43, 10, 43, 27)));
             m.put(Custom.FES, List.of(new Reference("Ezekiel", 43, 10, 43, 27)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Ezekiel", 43, 10, 43, 27)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Ezekiel", 43, 10, 43, 27)));
             m.put(Custom.DJERBA, List.of(new Reference("Ezekiel", 43, 10, 43, 27)));
             m.put(Custom.BAVLIM, List.of(new Reference("Ezekiel", 43, 10, 43, 27)));
@@ -442,6 +462,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("I Kings", 18, 20, 18, 39)));
             m.put(Custom.MOROCCO, List.of(new Reference("I Kings", 18, 20, 18, 39)));
             m.put(Custom.FES, List.of(new Reference("I Kings", 18, 20, 18, 39)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("I Kings", 18, 20, 18, 39)));
             m.put(Custom.TOSHBIM, List.of(new Reference("I Kings", 18, 20, 18, 39)));
             m.put(Custom.DJERBA, List.of(new Reference("I Kings", 18, 20, 18, 39)));
             m.put(Custom.BAVLIM, List.of(new Reference("I Kings", 18, 20, 18, 39)));
@@ -462,6 +483,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("I Kings", 7, 13, 7, 26)));
             m.put(Custom.MOROCCO, List.of(new Reference("I Kings", 7, 13, 7, 26)));
             m.put(Custom.FES, List.of(new Reference("I Kings", 7, 13, 7, 26)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("I Kings", 7, 13, 7, 26)));
             m.put(Custom.TOSHBIM, List.of(new Reference("I Kings", 7, 13, 7, 26)));
             m.put(Custom.DJERBA, List.of(new Reference("I Kings", 7, 13, 7, 26)));
             m.put(Custom.BAVLIM, List.of(new Reference("I Kings", 7, 13, 7, 26)));
@@ -482,6 +504,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("I Kings", 7, 40, 7, 50)));
             m.put(Custom.MOROCCO, List.of(new Reference("I Kings", 7, 40, 7, 50)));
             m.put(Custom.FES, List.of(new Reference("I Kings", 7, 40, 7, 50)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("I Kings", 7, 40, 7, 50)));
             m.put(Custom.TOSHBIM, List.of(new Reference("I Kings", 7, 40, 7, 50)));
             m.put(Custom.DJERBA, List.of(new Reference("I Kings", 7, 40, 7, 50)));
             m.put(Custom.BAVLIM, List.of(new Reference("I Kings", 7, 40, 7, 50)));
@@ -502,6 +525,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Isaiah", 43, 21, 44, 6)));
             m.put(Custom.MOROCCO, List.of(new Reference("Isaiah", 43, 21, 44, 6)));
             m.put(Custom.FES, List.of(new Reference("Isaiah", 43, 21, 44, 6)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Isaiah", 43, 21, 44, 6)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Isaiah", 43, 21, 44, 6), new Reference("Isaiah", 44, 21, 44, 23)));
             m.put(Custom.DJERBA, List.of(new Reference("Isaiah", 43, 21, 44, 6)));
             m.put(Custom.BAVLIM, List.of(new Reference("Isaiah", 43, 21, 44, 23)));
@@ -522,6 +546,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Jeremiah", 7, 21, 8, 3), new Reference("Jeremiah", 9, 22, 9, 23)));
             m.put(Custom.MOROCCO, List.of(new Reference("Jeremiah", 7, 21, 8, 3), new Reference("Jeremiah", 9, 22, 9, 23)));
             m.put(Custom.FES, List.of(new Reference("Jeremiah", 7, 21, 8, 3), new Reference("Jeremiah", 9, 22, 9, 23)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Jeremiah", 7, 21, 8, 3), new Reference("Jeremiah", 9, 22, 9, 23)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Jeremiah", 7, 21, 7, 28), new Reference("Jeremiah", 9, 22, 9, 23)));
             m.put(Custom.DJERBA, List.of(new Reference("Jeremiah", 7, 21, 8, 3), new Reference("Jeremiah", 9, 22, 9, 23)));
             m.put(Custom.BAVLIM, List.of(new Reference("Jeremiah", 7, 21, 8, 3), new Reference("Jeremiah", 9, 22, 9, 23)));
@@ -542,6 +567,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("II Samuel", 6, 1, 6, 19)));
             m.put(Custom.MOROCCO, List.of(new Reference("II Samuel", 6, 1, 6, 19)));
             m.put(Custom.FES, List.of(new Reference("II Samuel", 6, 1, 6, 19)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("II Samuel", 6, 1, 6, 19)));
             m.put(Custom.TOSHBIM, List.of(new Reference("II Samuel", 6, 1, 6, 19)));
             m.put(Custom.DJERBA, List.of(new Reference("II Samuel", 6, 1, 6, 19)));
             m.put(Custom.BAVLIM, List.of(new Reference("II Samuel", 6, 1, 6, 19)));
@@ -562,6 +588,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("II Kings", 4, 42, 5, 19)));
             m.put(Custom.MOROCCO, List.of(new Reference("II Kings", 4, 42, 5, 19)));
             m.put(Custom.FES, List.of(new Reference("II Kings", 4, 42, 5, 19)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("II Kings", 4, 42, 5, 19)));
             m.put(Custom.TOSHBIM, List.of(new Reference("II Kings", 4, 42, 5, 19)));
             m.put(Custom.DJERBA, List.of(new Reference("II Kings", 4, 42, 5, 19)));
             m.put(Custom.BAVLIM, List.of(new Reference("II Kings", 4, 42, 5, 19)));
@@ -582,6 +609,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("II Kings", 7, 3, 7, 20)));
             m.put(Custom.MOROCCO, List.of(new Reference("II Kings", 7, 3, 7, 20)));
             m.put(Custom.FES, List.of(new Reference("II Kings", 7, 3, 7, 20)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("II Kings", 7, 3, 7, 20)));
             m.put(Custom.TOSHBIM, List.of(new Reference("II Kings", 7, 3, 7, 20)));
             m.put(Custom.DJERBA, List.of(new Reference("II Kings", 7, 3, 7, 20)));
             m.put(Custom.BAVLIM, List.of(new Reference("II Kings", 7, 3, 7, 20)));
@@ -602,6 +630,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Ezekiel", 22, 1, 22, 16)));
             m.put(Custom.MOROCCO, List.of(new Reference("Ezekiel", 22, 1, 22, 16)));
             m.put(Custom.FES, List.of(new Reference("Ezekiel", 22, 1, 22, 16)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Ezekiel", 22, 1, 22, 16)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Ezekiel", 22, 1, 22, 16)));
             m.put(Custom.DJERBA, List.of(new Reference("Ezekiel", 22, 1, 22, 16)));
             m.put(Custom.BAVLIM, List.of(new Reference("Ezekiel", 22, 1, 22, 16)));
@@ -622,6 +651,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Ezekiel", 20, 2, 20, 20)));
             m.put(Custom.MOROCCO, List.of(new Reference("Ezekiel", 20, 2, 20, 20)));
             m.put(Custom.FES, List.of(new Reference("Ezekiel", 20, 2, 20, 20)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Ezekiel", 20, 2, 20, 20)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Ezekiel", 20, 2, 20, 20)));
             m.put(Custom.DJERBA, List.of(new Reference("Ezekiel", 20, 2, 20, 20)));
             m.put(Custom.BAVLIM, List.of(new Reference("Ezekiel", 20, 2, 20, 20)));
@@ -642,6 +672,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Ezekiel", 44, 15, 44, 31)));
             m.put(Custom.MOROCCO, List.of(new Reference("Ezekiel", 44, 15, 44, 31)));
             m.put(Custom.FES, List.of(new Reference("Ezekiel", 44, 15, 44, 31)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Ezekiel", 44, 15, 44, 31)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Ezekiel", 44, 15, 44, 31)));
             m.put(Custom.DJERBA, List.of(new Reference("Ezekiel", 44, 15, 44, 31)));
             m.put(Custom.BAVLIM, List.of(new Reference("Ezekiel", 44, 15, 44, 31)));
@@ -662,6 +693,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Jeremiah", 32, 6, 32, 27)));
             m.put(Custom.MOROCCO, List.of(new Reference("Jeremiah", 32, 6, 32, 27)));
             m.put(Custom.FES, List.of(new Reference("Jeremiah", 32, 6, 32, 27)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Jeremiah", 32, 6, 32, 27)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Jeremiah", 32, 6, 32, 27)));
             m.put(Custom.DJERBA, List.of(new Reference("Jeremiah", 32, 6, 32, 27)));
             m.put(Custom.BAVLIM, List.of(new Reference("Jeremiah", 32, 6, 32, 27)));
@@ -682,6 +714,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Jeremiah", 16, 19, 17, 14)));
             m.put(Custom.MOROCCO, List.of(new Reference("Jeremiah", 16, 19, 17, 14)));
             m.put(Custom.FES, List.of(new Reference("Jeremiah", 16, 19, 17, 14)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Jeremiah", 16, 19, 17, 14)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Jeremiah", 16, 19, 17, 14)));
             m.put(Custom.DJERBA, List.of(new Reference("Jeremiah", 16, 19, 17, 14)));
             m.put(Custom.BAVLIM, List.of(new Reference("Jeremiah", 16, 19, 17, 14)));
@@ -702,6 +735,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Hosea", 2, 1, 2, 22)));
             m.put(Custom.MOROCCO, List.of(new Reference("Hosea", 2, 1, 2, 22)));
             m.put(Custom.FES, List.of(new Reference("Hosea", 2, 1, 2, 22)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Hosea", 2, 1, 2, 22)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Hosea", 2, 1, 2, 22)));
             m.put(Custom.DJERBA, List.of(new Reference("Hosea", 2, 1, 2, 22)));
             m.put(Custom.BAVLIM, List.of(new Reference("Hosea", 2, 1, 2, 22)));
@@ -722,6 +756,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Judges", 13, 2, 13, 25)));
             m.put(Custom.MOROCCO, List.of(new Reference("Judges", 13, 2, 13, 25)));
             m.put(Custom.FES, List.of(new Reference("Judges", 13, 2, 13, 25)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Judges", 13, 2, 13, 25)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Judges", 13, 2, 13, 25)));
             m.put(Custom.DJERBA, List.of(new Reference("Judges", 13, 2, 13, 25)));
             m.put(Custom.BAVLIM, List.of(new Reference("Judges", 13, 2, 13, 25)));
@@ -742,6 +777,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Zechariah", 2, 14, 4, 7)));
             m.put(Custom.MOROCCO, List.of(new Reference("Zechariah", 2, 14, 4, 7)));
             m.put(Custom.FES, List.of(new Reference("Zechariah", 2, 14, 4, 7)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Zechariah", 2, 14, 4, 7)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Zechariah", 2, 14, 4, 10)));
             m.put(Custom.DJERBA, List.of(new Reference("Zechariah", 2, 14, 4, 7)));
             m.put(Custom.BAVLIM, List.of(new Reference("Zechariah", 2, 14, 4, 7)));
@@ -762,6 +798,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Joshua", 2, 1, 2, 24)));
             m.put(Custom.MOROCCO, List.of(new Reference("Joshua", 2, 1, 2, 24)));
             m.put(Custom.FES, List.of(new Reference("Joshua", 2, 1, 2, 24)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Joshua", 2, 1, 2, 24)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Joshua", 2, 1, 2, 24)));
             m.put(Custom.DJERBA, List.of(new Reference("Joshua", 2, 1, 2, 24)));
             m.put(Custom.BAVLIM, List.of(new Reference("Joshua", 2, 1, 2, 24)));
@@ -782,6 +819,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("I Samuel", 11, 14, 12, 22)));
             m.put(Custom.MOROCCO, List.of(new Reference("I Samuel", 11, 14, 12, 22)));
             m.put(Custom.FES, List.of(new Reference("I Samuel", 11, 14, 12, 22)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("I Samuel", 11, 14, 12, 22)));
             m.put(Custom.TOSHBIM, List.of(new Reference("I Samuel", 11, 14, 12, 22)));
             m.put(Custom.DJERBA, List.of(new Reference("I Samuel", 11, 14, 12, 22)));
             m.put(Custom.BAVLIM, List.of(new Reference("I Samuel", 11, 14, 12, 22)));
@@ -802,6 +840,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Judges", 11, 1, 11, 33)));
             m.put(Custom.MOROCCO, List.of(new Reference("Judges", 11, 1, 11, 33)));
             m.put(Custom.FES, List.of(new Reference("Judges", 11, 1, 11, 33)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Judges", 11, 1, 11, 33)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Judges", 11, 1, 11, 33)));
             m.put(Custom.DJERBA, List.of(new Reference("Judges", 11, 1, 11, 33)));
             m.put(Custom.BAVLIM, List.of(new Reference("Judges", 11, 1, 11, 33)));
@@ -822,6 +861,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Micah", 5, 6, 6, 8)));
             m.put(Custom.MOROCCO, List.of(new Reference("Micah", 5, 6, 6, 8)));
             m.put(Custom.FES, List.of(new Reference("Micah", 5, 6, 6, 8)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Micah", 5, 6, 6, 8)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Micah", 5, 6, 6, 8)));
             m.put(Custom.DJERBA, List.of(new Reference("Micah", 5, 6, 6, 8)));
             m.put(Custom.BAVLIM, List.of(new Reference("Micah", 5, 6, 6, 8)));
@@ -842,6 +882,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("I Kings", 18, 46, 19, 21)));
             m.put(Custom.MOROCCO, List.of(new Reference("I Kings", 18, 46, 19, 21)));
             m.put(Custom.FES, List.of(new Reference("I Kings", 18, 46, 19, 21)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("I Kings", 18, 46, 19, 21)));
             m.put(Custom.TOSHBIM, List.of(new Reference("I Kings", 18, 46, 19, 21)));
             m.put(Custom.DJERBA, List.of(new Reference("I Kings", 18, 46, 19, 21)));
             m.put(Custom.BAVLIM, List.of(new Reference("I Kings", 18, 46, 19, 21)));
@@ -862,6 +903,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Jeremiah", 1, 1, 2, 3)));
             m.put(Custom.MOROCCO, List.of(new Reference("Jeremiah", 1, 1, 2, 3)));
             m.put(Custom.FES, List.of(new Reference("Jeremiah", 1, 1, 2, 3)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Jeremiah", 1, 1, 2, 3)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Jeremiah", 1, 1, 2, 3)));
             m.put(Custom.DJERBA, List.of(new Reference("Jeremiah", 1, 1, 2, 3)));
             m.put(Custom.BAVLIM, List.of(new Reference("Jeremiah", 1, 1, 2, 3)));
@@ -882,6 +924,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Jeremiah", 2, 4, 2, 28), new Reference("Jeremiah", 4, 1, 4, 2)));
             m.put(Custom.MOROCCO, List.of(new Reference("Jeremiah", 2, 4, 2, 28), new Reference("Jeremiah", 4, 1, 4, 2)));
             m.put(Custom.FES, List.of(new Reference("Jeremiah", 2, 4, 2, 28), new Reference("Jeremiah", 4, 1, 4, 2)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Jeremiah", 2, 4, 2, 28), new Reference("Jeremiah", 4, 1, 4, 2)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Jeremiah", 2, 4, 2, 28), new Reference("Jeremiah", 4, 1, 4, 2)));
             m.put(Custom.DJERBA, List.of(new Reference("Jeremiah", 2, 4, 2, 28), new Reference("Jeremiah", 4, 1, 4, 2)));
             m.put(Custom.BAVLIM, List.of(new Reference("Jeremiah", 2, 4, 2, 28), new Reference("Jeremiah", 4, 1, 4, 2)));
@@ -902,6 +945,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Isaiah", 1, 1, 1, 27)));
             m.put(Custom.MOROCCO, List.of(new Reference("Isaiah", 1, 1, 1, 27)));
             m.put(Custom.FES, List.of(new Reference("Isaiah", 1, 1, 1, 27)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Isaiah", 1, 1, 1, 27)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Isaiah", 1, 1, 1, 27)));
             m.put(Custom.DJERBA, List.of(new Reference("Isaiah", 1, 1, 1, 27)));
             m.put(Custom.BAVLIM, List.of(new Reference("Isaiah", 1, 1, 1, 27)));
@@ -922,6 +966,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Isaiah", 40, 1, 40, 26)));
             m.put(Custom.MOROCCO, List.of(new Reference("Isaiah", 40, 1, 40, 26)));
             m.put(Custom.FES, List.of(new Reference("Isaiah", 40, 1, 40, 26)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Isaiah", 40, 1, 40, 26)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Isaiah", 40, 1, 40, 26)));
             m.put(Custom.DJERBA, List.of(new Reference("Isaiah", 40, 1, 40, 26)));
             m.put(Custom.BAVLIM, List.of(new Reference("Isaiah", 40, 1, 40, 26)));
@@ -942,6 +987,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Isaiah", 49, 14, 51, 3)));
             m.put(Custom.MOROCCO, List.of(new Reference("Isaiah", 49, 14, 51, 3)));
             m.put(Custom.FES, List.of(new Reference("Isaiah", 49, 14, 51, 3)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Isaiah", 49, 14, 51, 3)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Isaiah", 49, 14, 51, 3)));
             m.put(Custom.DJERBA, List.of(new Reference("Isaiah", 49, 14, 51, 3)));
             m.put(Custom.BAVLIM, List.of(new Reference("Isaiah", 49, 14, 51, 3)));
@@ -962,6 +1008,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Isaiah", 54, 11, 55, 5)));
             m.put(Custom.MOROCCO, List.of(new Reference("Isaiah", 54, 11, 55, 5)));
             m.put(Custom.FES, List.of(new Reference("Isaiah", 54, 11, 55, 5)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Isaiah", 54, 11, 55, 5)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Isaiah", 54, 11, 55, 5)));
             m.put(Custom.DJERBA, List.of(new Reference("Isaiah", 54, 11, 55, 5)));
             m.put(Custom.BAVLIM, List.of(new Reference("Isaiah", 54, 11, 55, 5)));
@@ -982,6 +1029,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Isaiah", 51, 12, 52, 12)));
             m.put(Custom.MOROCCO, List.of(new Reference("Isaiah", 51, 12, 52, 12)));
             m.put(Custom.FES, List.of(new Reference("Isaiah", 51, 12, 52, 12)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Isaiah", 51, 12, 52, 12)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Isaiah", 51, 12, 52, 12)));
             m.put(Custom.DJERBA, List.of(new Reference("Isaiah", 51, 12, 52, 12)));
             m.put(Custom.BAVLIM, List.of(new Reference("Isaiah", 51, 12, 52, 12)));
@@ -1002,6 +1050,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Isaiah", 54, 1, 54, 10)));
             m.put(Custom.MOROCCO, List.of(new Reference("Isaiah", 54, 1, 54, 10)));
             m.put(Custom.FES, List.of(new Reference("Isaiah", 54, 1, 54, 10)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Isaiah", 54, 1, 54, 10)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Isaiah", 54, 1, 54, 10)));
             m.put(Custom.DJERBA, List.of(new Reference("Isaiah", 54, 1, 54, 10)));
             m.put(Custom.BAVLIM, List.of(new Reference("Isaiah", 54, 1, 54, 10)));
@@ -1022,6 +1071,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Isaiah", 60, 1, 60, 22)));
             m.put(Custom.MOROCCO, List.of(new Reference("Isaiah", 60, 1, 60, 22)));
             m.put(Custom.FES, List.of(new Reference("Isaiah", 60, 1, 60, 22)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Isaiah", 60, 1, 60, 22)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Isaiah", 60, 1, 60, 22)));
             m.put(Custom.DJERBA, List.of(new Reference("Isaiah", 60, 1, 60, 22)));
             m.put(Custom.BAVLIM, List.of(new Reference("Isaiah", 60, 1, 60, 22)));
@@ -1042,6 +1092,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Isaiah", 61, 10, 63, 9)));
             m.put(Custom.MOROCCO, List.of(new Reference("Isaiah", 61, 10, 63, 9)));
             m.put(Custom.FES, List.of(new Reference("Isaiah", 61, 10, 63, 9)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Isaiah", 61, 10, 63, 9)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Isaiah", 61, 10, 63, 9)));
             m.put(Custom.DJERBA, List.of(new Reference("Isaiah", 61, 10, 63, 9)));
             m.put(Custom.BAVLIM, List.of(new Reference("Isaiah", 61, 10, 63, 9)));
@@ -1062,6 +1113,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Hosea", 14, 2, 14, 10), new Reference("Micah", 7, 18, 7, 20)));
             m.put(Custom.MOROCCO, List.of(new Reference("Hosea", 14, 2, 14, 10), new Reference("Micah", 7, 18, 7, 20)));
             m.put(Custom.FES, List.of(new Reference("Hosea", 14, 2, 14, 10), new Reference("Micah", 7, 18, 7, 20)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Hosea", 14, 2, 14, 10), new Reference("Micah", 7, 18, 7, 20)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Hosea", 14, 2, 14, 10), new Reference("Micah", 7, 18, 7, 20)));
             m.put(Custom.DJERBA, List.of(new Reference("Hosea", 14, 2, 14, 10), new Reference("Micah", 7, 18, 7, 20)));
             m.put(Custom.BAVLIM, List.of(new Reference("Hosea", 14, 2, 14, 10), new Reference("Micah", 7, 18, 7, 20)));
@@ -1082,6 +1134,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("II Samuel", 22, 1, 22, 51)));
             m.put(Custom.MOROCCO, List.of(new Reference("II Samuel", 22, 1, 22, 51)));
             m.put(Custom.FES, List.of(new Reference("II Samuel", 22, 1, 22, 51)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("II Samuel", 22, 1, 22, 51)));
             m.put(Custom.TOSHBIM, List.of(new Reference("II Samuel", 22, 1, 22, 51)));
             m.put(Custom.DJERBA, List.of(new Reference("II Samuel", 22, 1, 22, 51)));
             m.put(Custom.BAVLIM, List.of(new Reference("II Samuel", 22, 1, 22, 51)));
@@ -1102,6 +1155,7 @@ public final class Haftarot {
             m.put(Custom.ALGERIA, List.of(new Reference("Joshua", 1, 1, 1, 9)));
             m.put(Custom.MOROCCO, List.of(new Reference("Joshua", 1, 1, 1, 9)));
             m.put(Custom.FES, List.of(new Reference("Joshua", 1, 1, 1, 9)));
+            m.put(Custom.MARRAKESH, List.of(new Reference("Joshua", 1, 1, 1, 9)));
             m.put(Custom.TOSHBIM, List.of(new Reference("Joshua", 1, 1, 1, 9)));
             m.put(Custom.DJERBA, List.of(new Reference("Joshua", 1, 1, 1, 9)));
             m.put(Custom.BAVLIM, List.of(new Reference("Joshua", 1, 1, 1, 9)));

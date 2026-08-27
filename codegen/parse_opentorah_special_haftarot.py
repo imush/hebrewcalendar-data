@@ -38,6 +38,7 @@ PARENT = {
     "Sefard":     "Common",  "Chabad":  "Sefard",   "Magreb":    "Sefard",
     "Algeria":    "Magreb",  "Toshbim": "Magreb",   "Djerba":    "Magreb",
     "Morocco":    "Magreb",  "Fes":     "Morocco",
+    "Marrakesh":  "Morocco",
     "Bavlim":     "Sefard",  "Teiman":  "Sefard",
     "Baladi":     "Teiman",  "Shami":   "Teiman",
 }
@@ -45,13 +46,15 @@ XML_TO_INTERNAL = {"Chayey Odom": "ChayeyOdom"}
 EXPOSED = [
     "ASHKENAZ", "ITALKI", "FRANKFURT", "LITA", "CHAYEY_ODOM", "HAGRA",
     "SEFARD",   "CHABAD", "MAGREB",    "ALGERIA","MOROCCO",    "FES",
+    "MARRAKESH",
     "TOSHBIM",  "DJERBA", "BAVLIM",    "TEIMAN", "BALADI",     "SHAMI",
 ]
 EXPOSED_INTERNAL = {
     "ASHKENAZ":"Ashkenaz","ITALKI":"Italki","FRANKFURT":"Frankfurt",
     "LITA":"Lita","CHAYEY_ODOM":"ChayeyOdom","HAGRA":"Hagra",
     "SEFARD":"Sefard","CHABAD":"Chabad","MAGREB":"Magreb","ALGERIA":"Algeria",
-    "MOROCCO":"Morocco","FES":"Fes","TOSHBIM":"Toshbim","DJERBA":"Djerba",
+    "MOROCCO":"Morocco","FES":"Fes","MARRAKESH":"Marrakesh",
+    "TOSHBIM":"Toshbim","DJERBA":"Djerba",
     "BAVLIM":"Bavlim","TEIMAN":"Teiman","BALADI":"Baladi","SHAMI":"Shami",
 }
 
@@ -302,6 +305,44 @@ def parse_xml(xml_str):
     return by
 
 
+# ── Deliberate divergences from upstream ───────────────────────────────
+# Corrections applied after parsing, so the vendored Scala stays a verbatim
+# copy of upstream and re-vendoring keeps the fix. Drop an entry once the
+# corresponding change lands upstream.
+#
+# (occasion, variant) → (customs to keep, why)
+UPSTREAM_CORRECTIONS = {
+    # opentorah hangs the Tzom Gedalia mincha exception — Hosea 14:2-10 +
+    # Joel 2:11-27 — on Morocco, so Fes inherits it too. Morocco reads the
+    # same as Ashkenaz there (Isaiah 55:6-56:8, already
+    # Fast.defaultAfternoonHaftarah); it is specifically Marrakesh that keeps
+    # Hosea + Joel. Narrowing the exception to Marrakesh leaves Morocco and
+    # Fes falling through to the default. The verses are unchanged.
+    ("FastOfGedalia", "AFTERNOON_EXCEPTIONS"):
+        (["MARRAKESH"],
+         "the Tzom Gedalia exception belongs to Marrakesh, not to Morocco as a whole"),
+}
+
+
+def apply_corrections(out):
+    for (occasion, variant), (keep, why) in UPSTREAM_CORRECTIONS.items():
+        entry = out.get(occasion, {}).get(variant)
+        if entry is None:
+            print(f"WARNING  correction no longer applies: {occasion}.{variant} is "
+                  f"absent upstream — has it been fixed? ({why})")
+            continue
+        dropped = sorted(set(entry) - set(keep))
+        missing = sorted(set(keep) - set(entry))
+        if missing:
+            raise SystemExit(
+                f"correction for {occasion}.{variant} wants {missing}, which the "
+                f"parser did not resolve — check the custom tree")
+        for c in dropped:
+            del entry[c]
+        print(f"OK  correction: {occasion}.{variant} kept for {keep}, "
+              f"dropped {dropped} — {why}")
+
+
 def main():
     text = SCALA.read_text()
     out = {}    # occasion → {variant → {custom → parts, ...}}
@@ -315,6 +356,7 @@ def main():
             raise
         resolved  = resolve_all(by_custom, is_full)
         out.setdefault(occasion, {})[variant] = resolved
+    apply_corrections(out)
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"OK  wrote {OUT.relative_to(ROOT)} — {len(out)} occasions, "
           f"{sum(len(v) for v in out.values())} variants total")

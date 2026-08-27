@@ -4,7 +4,7 @@
 Invariants beyond the schema:
 - Every parsha key must exist in names/parshiyot.json.
 - Every referenced book name is one of the recognised Nach books.
-- Every parsha declares all 5 exposed customs; every reference range
+- Every parsha declares every exposed custom; every reference range
   runs strictly forward (fromCh, fromV) ≤ (toCh, toV).
 """
 import json, sys
@@ -21,7 +21,9 @@ parshiyot = json.loads((ROOT / "names"  / "parshiyot.json").read_text())
 
 jsonschema.validate(data, schema)
 
-EXPOSED = {"ASHKENAZ","ITALKI","FRANKFURT","LITA","CHAYEY_ODOM","HAGRA","SEFARD","CHABAD","MAGREB","ALGERIA","MOROCCO","FES","TOSHBIM","DJERBA","BAVLIM","TEIMAN","BALADI","SHAMI"}
+# Derived from names/customs.json so adding a custom cannot silently leave
+# this check behind.
+EXPOSED = set(json.loads((ROOT / "names" / "customs.json").read_text()))
 NACH_BOOKS = {
     "Joshua", "Judges", "I Samuel", "II Samuel", "I Kings", "II Kings",
     "Isaiah", "Jeremiah", "Ezekiel", "Hosea", "Joel", "Amos", "Obadiah",

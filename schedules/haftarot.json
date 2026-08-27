@@ -108,6 +108,15 @@
         "toV": 21
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 42,
+        "fromV": 5,
+        "toCh": 42,
+        "toV": 21
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Isaiah",
@@ -264,6 +273,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -436,6 +454,15 @@
         "toV": 16
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Isaiah",
@@ -592,6 +619,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 23
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "II Kings",
         "fromCh": 4,
@@ -764,6 +800,15 @@
         "toV": 31
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "I Kings",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "I Kings",
@@ -920,6 +965,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Malachi",
         "fromCh": 1,
@@ -1106,6 +1160,15 @@
         "toV": 5
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Hosea",
+        "fromCh": 11,
+        "fromV": 7,
+        "toCh": 13,
+        "toV": 5
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Hosea",
@@ -1262,6 +1325,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Obadiah",
         "fromCh": 1,
@@ -1434,6 +1506,15 @@
         "toV": 8
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Amos",
@@ -1590,6 +1671,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "I Kings",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "I Kings",
         "fromCh": 3,
@@ -1762,6 +1852,15 @@
         "toV": 28
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Ezekiel",
@@ -1918,6 +2017,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "I Kings",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "I Kings",
         "fromCh": 2,
@@ -2132,6 +2240,15 @@
         "toV": 14
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 16,
+        "fromV": 1,
+        "toCh": 16,
+        "toV": 14
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Ezekiel",
@@ -2288,6 +2405,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 28,
+        "fromV": 25,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Ezekiel",
         "fromCh": 28,
@@ -2460,6 +2586,15 @@
         "toV": 25
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 19,
+        "fromV": 1,
+        "toCh": 19,
+        "toV": 25
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Isaiah",
@@ -2616,6 +2751,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Judges",
+        "fromCh": 5,
+        "fromV": 1,
+        "toCh": 5,
+        "toV": 31
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Judges",
         "fromCh": 5,
@@ -2822,6 +2966,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Isaiah",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Isaiah",
         "fromCh": 6,
@@ -3092,6 +3245,22 @@
         "toV": 26
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Jeremiah",
@@ -3277,6 +3446,15 @@
         "toV": 13
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "I Kings",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "I Kings",
@@ -3433,6 +3611,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Ezekiel",
         "fromCh": 43,
@@ -3605,6 +3792,15 @@
         "toV": 39
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 20,
+        "toCh": 18,
+        "toV": 39
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "I Kings",
@@ -3761,6 +3957,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "I Kings",
+        "fromCh": 7,
+        "fromV": 13,
+        "toCh": 7,
+        "toV": 26
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "I Kings",
         "fromCh": 7,
@@ -3933,6 +4138,15 @@
         "toV": 50
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "I Kings",
+        "fromCh": 7,
+        "fromV": 40,
+        "toCh": 7,
+        "toV": 50
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "I Kings",
@@ -4089,6 +4303,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 6
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Isaiah",
         "fromCh": 43,
@@ -4352,6 +4575,22 @@
         "toV": 23
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Jeremiah",
@@ -4558,6 +4797,15 @@
         "toV": 19
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "II Samuel",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 19
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "II Samuel",
@@ -4714,6 +4962,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "II Kings",
         "fromCh": 4,
@@ -4885,6 +5142,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "II Kings",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "II Kings",
         "fromCh": 7,
@@ -5078,6 +5344,15 @@
         "toV": 16
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Ezekiel",
@@ -5234,6 +5509,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 20,
+        "fromV": 2,
+        "toCh": 20,
+        "toV": 20
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Ezekiel",
         "fromCh": 20,
@@ -5406,6 +5690,15 @@
         "toV": 31
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Ezekiel",
@@ -5562,6 +5855,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 27
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Jeremiah",
         "fromCh": 32,
@@ -5734,6 +6036,15 @@
         "toV": 14
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 16,
+        "fromV": 19,
+        "toCh": 17,
+        "toV": 14
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Jeremiah",
@@ -5890,6 +6201,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Hosea",
         "fromCh": 2,
@@ -6062,6 +6382,15 @@
         "toV": 25
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Judges",
@@ -6218,6 +6547,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Zechariah",
         "fromCh": 2,
@@ -6390,6 +6728,15 @@
         "toV": 24
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Joshua",
@@ -6546,6 +6893,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "I Samuel",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "I Samuel",
         "fromCh": 11,
@@ -6718,6 +7074,15 @@
         "toV": 33
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 33
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Judges",
@@ -6874,6 +7239,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Micah",
         "fromCh": 5,
@@ -7046,6 +7420,15 @@
         "toV": 21
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "I Kings",
@@ -7202,6 +7585,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Jeremiah",
         "fromCh": 1,
@@ -7451,6 +7843,22 @@
         "toV": 2
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 2
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Jeremiah",
@@ -7643,6 +8051,15 @@
         "toV": 27
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Isaiah",
@@ -7799,6 +8216,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Isaiah",
         "fromCh": 40,
@@ -7992,6 +8418,15 @@
         "toV": 3
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Isaiah",
@@ -8148,6 +8583,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -8320,6 +8764,15 @@
         "toV": 12
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Isaiah",
@@ -8476,6 +8929,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -8648,6 +9110,15 @@
         "toV": 22
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Isaiah",
@@ -8804,6 +9275,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Isaiah",
         "fromCh": 61,
@@ -9053,6 +9533,22 @@
         "toV": 20
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Micah",
+        "fromCh": 7,
+        "fromV": 18,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "Hosea",
@@ -9238,6 +9734,15 @@
         "toV": 51
       }
     ],
+    "MARRAKESH": [
+      {
+        "book": "II Samuel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 51
+      }
+    ],
     "TOSHBIM": [
       {
         "book": "II Samuel",
@@ -9394,6 +9899,15 @@
       }
     ],
     "FES": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 9
+      }
+    ],
+    "MARRAKESH": [
       {
         "book": "Joshua",
         "fromCh": 1,
