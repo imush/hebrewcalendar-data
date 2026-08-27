@@ -4,8 +4,10 @@
 part of '../hebrewcalendar_data.dart';
 
 /// A weekly Torah portion. Enum insertion order matches the C library's
-/// hc_parsha enum (Bereishit=1..Haazinu=53); [hcIndex] gives that value.
-/// V'Zot HaBerachah is not included — it's a Simchat Torah reading only.
+/// hc_parsha enum (Bereishit=1..V'Zot HaBerachah=54); [hcIndex] gives
+/// that value. V'Zot HaBerachah is never a Shabbat reading — hc_get_parsha
+/// never returns it — but it owns the Simchat Torah haftarah, so it is
+/// part of the enum.
 enum Parsha {
   bereishit('BEREISHIT', 'Bereishit', 'בראשית', 'Берешит', 'Béréchit'),
   noach('NOACH', 'Noach', 'נח', 'Ноах', 'Noach'),

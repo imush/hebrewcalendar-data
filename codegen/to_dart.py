@@ -78,8 +78,10 @@ def emit_parshiyot() -> str:
     lines = [BANNER]
     lines.append("part of '../hebrewcalendar_data.dart';\n")
     lines.append("/// A weekly Torah portion. Enum insertion order matches the C library's")
-    lines.append("/// hc_parsha enum (Bereishit=1..Haazinu=53); [hcIndex] gives that value.")
-    lines.append("/// V'Zot HaBerachah is not included — it's a Simchat Torah reading only.")
+    lines.append("/// hc_parsha enum (Bereishit=1..V'Zot HaBerachah=54); [hcIndex] gives")
+    lines.append("/// that value. V'Zot HaBerachah is never a Shabbat reading — hc_get_parsha")
+    lines.append("/// never returns it — but it owns the Simchat Torah haftarah, so it is")
+    lines.append("/// part of the enum.")
     lines.append("enum Parsha {")
     keys = list(parshiyot.keys())
     for k in keys:
