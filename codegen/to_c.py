@@ -125,10 +125,187 @@ def emit_source() -> str:
     return "\n".join(lines)
 
 
+# ── Haftarot tables ────────────────────────────────────────────────
+
+# Custom order matches Java/Dart. Ashkenaz cluster, then Sefard, then Teiman.
+CUSTOMS = [
+    "ASHKENAZ", "ITALKI", "FRANKFURT", "LITA", "CHAYEY_ODOM", "HAGRA",
+    "SEFARD",   "CHABAD", "MAGREB",    "ALGERIA","MOROCCO",    "FES",
+    "TOSHBIM",  "DJERBA", "BAVLIM",    "TEIMAN", "BALADI",     "SHAMI",
+]
+
+def _book_enum(en_name: str) -> str:
+    # "II Kings" → HC_BOOK_II_KINGS
+    return "HC_BOOK_" + en_name.upper().replace(" ", "_")
+
+
+def emit_haftarot_header() -> str:
+    parshiyot = load("names/parshiyot.json")
+    tanach    = load("names/tanach_books.json")
+
+    lines = [C_BANNER, "#ifndef HC_GENERATED_HAFTAROT_DATA_H_"]
+    lines.append("#define HC_GENERATED_HAFTAROT_DATA_H_")
+    lines.append("")
+    lines.append('#include "parshiot.h"')
+    lines.append("#include <stdint.h>")
+    lines.append("")
+    lines.append("/* All 18 exposed customs (opentorah's Custom.xml minus \"Common\"). */")
+    lines.append("typedef enum hc_custom {")
+    for c in CUSTOMS:
+        lines.append(f"    HC_CUSTOM_{c},")
+    lines.append("    HC_CUSTOM_COUNT")
+    lines.append("} hc_custom;")
+    lines.append("")
+    lines.append("/* Books of Tanach used by haftarah references. */")
+    lines.append("typedef enum hc_tanach_book {")
+    lines.append("    HC_BOOK_NONE = 0,")
+    for k in tanach.keys():
+        lines.append(f"    HC_BOOK_{k},")
+    lines.append("    HC_BOOK_COUNT")
+    lines.append("} hc_tanach_book;")
+    lines.append("")
+    lines.append("/* English name of a Tanach book (NULL for HC_BOOK_NONE). Used to build")
+    lines.append(" * Sefaria URLs on the consumer side. */")
+    lines.append("const char *hc_tanach_book_name(hc_tanach_book b);")
+    lines.append("")
+    lines.append("/* One reference span within a (possibly multi-part) haftarah reading. */")
+    lines.append("typedef struct {")
+    lines.append("    uint8_t  book;      /* hc_tanach_book */")
+    lines.append("    uint16_t from_ch, from_v, to_ch, to_v;")
+    lines.append("} hc_haftarah_ref;")
+    lines.append("")
+    lines.append("/* Multi-part haftarah spans: a pointer + a count. */")
+    lines.append("typedef struct {")
+    lines.append("    const hc_haftarah_ref *refs;")
+    lines.append("    int refs_count;")
+    lines.append("} hc_haftarah_spans;")
+    lines.append("")
+    lines.append("/* Weekly haftarah by parsha × custom. Zero-length spans (refs_count == 0)")
+    lines.append(" * signal 'no data' — should not occur for our 54 × 18 grid.")
+    lines.append(" * Parsha index is the hc_parsha enum value (VEZOT_HABRACHA included). */")
+    lines.append("extern const hc_haftarah_spans HC_HAFTAROT_WEEKLY[HC_PARSHA_COUNT][HC_CUSTOM_COUNT];")
+    lines.append("")
+    lines.append("/* Special-day haftarot: opentorah's SpecialReadings entries")
+    lines.append(" * (RoshChodesh, ParshasShekalim, YomKippur, ...). Keyed by an")
+    lines.append(" * \"Occasion_VARIANT\" string that mirrors the Java/Dart layers. */")
+    lines.append("typedef struct {")
+    lines.append("    const char *key;                                    /* e.g. \"YomKippur_AFTERNOON\" */")
+    lines.append("    hc_haftarah_spans customs[HC_CUSTOM_COUNT];")
+    lines.append("} hc_special_haftarah;")
+    lines.append("")
+    lines.append("extern const hc_special_haftarah HC_SPECIAL_HAFTAROT[];")
+    lines.append("extern const int HC_SPECIAL_HAFTAROT_COUNT;")
+    lines.append("")
+    lines.append("/* Look up a special-haftarah entry by \"Occasion_VARIANT\" key. NULL if none. */")
+    lines.append("const hc_special_haftarah *hc_special_haftarah_lookup(const char *key);")
+    lines.append("")
+    lines.append("#endif /* HC_GENERATED_HAFTAROT_DATA_H_ */")
+    return "\n".join(lines)
+
+
+def emit_haftarot_source() -> str:
+    parshiyot = load("names/parshiyot.json")
+    tanach    = load("names/tanach_books.json")
+    haftarot  = load("schedules/haftarot.json")
+    special   = load("schedules/special_haftarot.json")
+
+    parsha_index = {k: f"HC_{k}" for k in parshiyot.keys()}
+
+    lines = [C_BANNER, '#include "haftarot_data.h"', '#include <string.h>', '']
+    lines.append("/* ── Tanach book names ──────────────────────────────────────── */")
+    lines.append("static const char *const HC_TANACH_BOOK_NAMES[HC_BOOK_COUNT] = {")
+    lines.append('    [HC_BOOK_NONE] = "",')
+    for k, v in tanach.items():
+        en = v["en"].replace('"', '\\"')
+        lines.append(f'    [HC_BOOK_{k}] = "{en}",')
+    lines.append("};")
+    lines.append("")
+    lines.append("const char *hc_tanach_book_name(hc_tanach_book b) {")
+    lines.append("    if (b <= HC_BOOK_NONE || b >= HC_BOOK_COUNT) return NULL;")
+    lines.append("    return HC_TANACH_BOOK_NAMES[b];")
+    lines.append("}")
+    lines.append("")
+
+    # Emit one static array of refs per (parsha, custom) pair; then the top-level table.
+    lines.append("/* ── Weekly parsha haftarot ──────────────────────────────────── */")
+    weekly_ref_arrays = {}  # (pkey, custom) → C symbol name
+    for pkey, byc in haftarot.items():
+        for cname, parts in byc.items():
+            sym = f"HC_HAFT_W_{pkey}_{cname}"
+            weekly_ref_arrays[(pkey, cname)] = sym
+            lines.append(f"static const hc_haftarah_ref {sym}[] = {{")
+            for r in parts:
+                lines.append(
+                    f"    {{ {_book_enum(r['book'])}, {r['fromCh']}, {r['fromV']}, "
+                    f"{r['toCh']}, {r['toV']} }},"
+                )
+            lines.append("};")
+
+    lines.append("")
+    lines.append("const hc_haftarah_spans HC_HAFTAROT_WEEKLY[HC_PARSHA_COUNT][HC_CUSTOM_COUNT] = {")
+    for pkey in parshiyot.keys():
+        c_parsha = parsha_index[pkey]
+        row = []
+        for c in CUSTOMS:
+            sym = weekly_ref_arrays.get((pkey, c))
+            if sym:
+                row.append(f"[HC_CUSTOM_{c}] = {{ {sym}, (int)(sizeof({sym})/sizeof({sym}[0])) }}")
+            else:
+                row.append(f"[HC_CUSTOM_{c}] = {{ NULL, 0 }}")
+        lines.append(f"    [{c_parsha}] = {{ " + ", ".join(row) + " },")
+    lines.append("};")
+    lines.append("")
+
+    # Special haftarot: same structure but keyed by string.
+    lines.append("/* ── Special-day haftarot ──────────────────────────────────── */")
+    special_arrays = []  # list of dicts: {key, per_custom → sym}
+    for occ, variants in special.items():
+        for variant, byc in variants.items():
+            entry_key = f"{occ}_{variant}"
+            per_c = {}
+            for cname, parts in byc.items():
+                sym = f"HC_HAFT_S_{entry_key}_{cname}"
+                per_c[cname] = sym
+                lines.append(f"static const hc_haftarah_ref {sym}[] = {{")
+                for r in parts:
+                    lines.append(
+                        f"    {{ {_book_enum(r['book'])}, {r['fromCh']}, {r['fromV']}, "
+                        f"{r['toCh']}, {r['toV']} }},"
+                    )
+                lines.append("};")
+            special_arrays.append((entry_key, per_c))
+    lines.append("")
+
+    lines.append("const hc_special_haftarah HC_SPECIAL_HAFTAROT[] = {")
+    for entry_key, per_c in special_arrays:
+        parts = [f'.key = "{entry_key}"']
+        for c in CUSTOMS:
+            if c in per_c:
+                sym = per_c[c]
+                parts.append(f".customs[HC_CUSTOM_{c}] = {{ {sym}, (int)(sizeof({sym})/sizeof({sym}[0])) }}")
+        lines.append("    { " + ", ".join(parts) + " },")
+    lines.append("};")
+    lines.append(f"const int HC_SPECIAL_HAFTAROT_COUNT = {len(special_arrays)};")
+    lines.append("")
+
+    lines.append("const hc_special_haftarah *hc_special_haftarah_lookup(const char *key) {")
+    lines.append("    if (!key) return NULL;")
+    lines.append("    for (int i = 0; i < HC_SPECIAL_HAFTAROT_COUNT; i++) {")
+    lines.append("        if (strcmp(HC_SPECIAL_HAFTAROT[i].key, key) == 0)")
+    lines.append("            return &HC_SPECIAL_HAFTAROT[i];")
+    lines.append("    }")
+    lines.append("    return NULL;")
+    lines.append("}")
+    lines.append("")
+    return "\n".join(lines)
+
+
 def main():
     C_DIR.mkdir(parents=True, exist_ok=True)
     (C_DIR / "parshiot_data.h").write_text(emit_header(), encoding="utf-8")
     (C_DIR / "parshiot_data.c").write_text(emit_source(), encoding="utf-8")
+    (C_DIR / "haftarot_data.h").write_text(emit_haftarot_header(), encoding="utf-8")
+    (C_DIR / "haftarot_data.c").write_text(emit_haftarot_source(), encoding="utf-8")
     print(f"OK  c     → {C_DIR.relative_to(ROOT)}")
 
 
