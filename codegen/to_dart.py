@@ -112,6 +112,47 @@ def emit_parshiyot() -> str:
     return "\n".join(lines)
 
 
+def emit_customs() -> str:
+    data = load("names/customs.json")
+    lines = [BANNER]
+    lines.append("part of '../hebrewcalendar_data.dart';\n")
+    lines.append("/// The 18 minhagim that the haftarah tables distinguish")
+    lines.append("/// (opentorah's Custom.xml minus the abstract 'Common' root).")
+    lines.append("///")
+    lines.append("/// Declaration order is load-bearing: [index] is the `hc_custom`")
+    lines.append("/// value the C library expects, so this enum and the generated")
+    lines.append("/// `hc_custom` in haftarot_data.h must stay in lockstep. Both are")
+    lines.append("/// emitted from names/customs.json, which fixes the order.")
+    lines.append("enum HaftarahCustom {")
+    for k, v in data.items():
+        lines.append(
+            f"  {to_dart_enum_name(k)}("
+            f"{dart_str(k)}, {dart_str(v['en'])}, {dart_str(v['he'])}, "
+            f"{dart_str(v['ru'])}, {dart_str(v['fr'])}),"
+        )
+    lines.append("  ;")
+    lines.append("  final String key;   // stable identifier (matches JSON key)")
+    lines.append("  final String en;")
+    lines.append("  final String he;")
+    lines.append("  final String ru;")
+    lines.append("  final String fr;")
+    lines.append("  const HaftarahCustom(this.key, this.en, this.he, this.ru, this.fr);")
+    lines.append("")
+    lines.append("  /// The `hc_custom` value for this minhag.")
+    lines.append("  int get hcIndex => index;")
+    lines.append("")
+    lines.append("  /// Look up by `hc_custom` value. Null if out of range.")
+    lines.append("  static HaftarahCustom? fromHcIndex(int idx) =>")
+    lines.append("      (idx >= 0 && idx < values.length) ? values[idx] : null;")
+    lines.append("")
+    lines.append("  /// Look up by stable key (the JSON/enum name, e.g. 'CHAYEY_ODOM').")
+    lines.append("  static HaftarahCustom? fromKey(String key) => _byKey[key];")
+    lines.append("  static final Map<String, HaftarahCustom> _byKey =")
+    lines.append("      { for (final c in values) c.key: c };")
+    lines.append("}\n")
+    return "\n".join(lines)
+
+
 def emit_jewish_months() -> str:
     data = load("names/jewish_months.json")
     lines = [BANNER]
@@ -402,6 +443,7 @@ def emit_barrel() -> str:
         + "part 'src/jewish_special_days.dart';\n"
         + "part 'src/rambam_mt.dart';\n"
         + "part 'src/sefer_hamitzvot.dart';\n"
+        + "part 'src/customs.dart';\n"
     )
 
 
@@ -430,6 +472,7 @@ def main():
     (SRC_DIR / "jewish_special_days.dart").write_text(emit_jewish_special_days(), encoding="utf-8")
     (SRC_DIR / "rambam_mt.dart").write_text(emit_rambam_mt(), encoding="utf-8")
     (SRC_DIR / "sefer_hamitzvot.dart").write_text(emit_sefer_hamitzvot(), encoding="utf-8")
+    (SRC_DIR / "customs.dart").write_text(emit_customs(), encoding="utf-8")
     (LIB_DIR / "hebrewcalendar_data.dart").write_text(emit_barrel(), encoding="utf-8")
     (DART_DIR / "pubspec.yaml").write_text(emit_pubspec(), encoding="utf-8")
     print(f"OK  dart  → {DART_DIR.relative_to(ROOT)}")

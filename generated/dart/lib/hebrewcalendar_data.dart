@@ -13,3 +13,4 @@ part 'src/zmanim.dart';
 part 'src/jewish_special_days.dart';
 part 'src/rambam_mt.dart';
 part 'src/sefer_hamitzvot.dart';
+part 'src/customs.dart';
