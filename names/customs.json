@@ -4,7 +4,7 @@
   "FRANKFURT":  { "en": "Frankfurt",  "he": "פרנקפורט", "ru": "Франкфуртский", "fr": "Francfort" },
   "LITA":       { "en": "Lita",       "he": "ליטה",    "ru": "Литовский",    "fr": "Lituanien" },
   "CHAYEY_ODOM":{ "en": "Chayey Odom","he": "חיי אדם", "ru": "Хаей адам",    "fr": "'Hayé Adam" },
-  "HAGRA":      { "en": "Hagra",      "he": "הגרא",    "ru": "Агро",         "fr": "Hagra" },
+  "HAGRA":      { "en": "GR\"A",      "he": "הגר״א",   "ru": "Виленский гаон", "fr": "GR\"A" },
   "SEFARD":     { "en": "Sefard",     "he": "ספרד",    "ru": "Сефардский",   "fr": "Séfarade" },
   "CHABAD":     { "en": "Chabad",     "he": "חב״ד",    "ru": "Хабад",        "fr": "Habad" },
   "MAGREB":     { "en": "Magreb",     "he": "מגרב",    "ru": "Магреб",       "fr": "Maghreb" },

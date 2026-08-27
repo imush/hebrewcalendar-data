@@ -12,7 +12,7 @@ public enum Custom {
     FRANKFURT("FRANKFURT", "Frankfurt", "פרנקפורט", "Франкфуртский", "Francfort"),
     LITA("LITA", "Lita", "ליטה", "Литовский", "Lituanien"),
     CHAYEY_ODOM("CHAYEY_ODOM", "Chayey Odom", "חיי אדם", "Хаей адам", "'Hayé Adam"),
-    HAGRA("HAGRA", "Hagra", "הגרא", "Агро", "Hagra"),
+    HAGRA("HAGRA", "GR\"A", "הגר״א", "Виленский гаон", "GR\"A"),
     SEFARD("SEFARD", "Sefard", "ספרד", "Сефардский", "Séfarade"),
     CHABAD("CHABAD", "Chabad", "חב״ד", "Хабад", "Habad"),
     MAGREB("MAGREB", "Magreb", "מגרב", "Магреб", "Maghreb"),
