@@ -42,9 +42,21 @@ PARENT = {
 XML_TO_INTERNAL = {"Chayey Odom": "ChayeyOdom"}
 
 # Customs the consumer UI exposes; every parsha resolves for each of these.
-EXPOSED = ["ASHKENAZ", "SEFARD", "CHABAD", "TEIMAN", "ITALKI"]
-EXPOSED_INTERNAL = {"ASHKENAZ":"Ashkenaz","SEFARD":"Sefard","CHABAD":"Chabad",
-                    "TEIMAN":"Teiman","ITALKI":"Italki"}
+# All 18 non-Common customs opentorah defines in Custom.xml, in the same
+# tree order so the picker groups by parent (Ashkenaz cluster first, then
+# Sefard cluster, then Teiman cluster).
+EXPOSED = [
+    "ASHKENAZ", "ITALKI", "FRANKFURT", "LITA", "CHAYEY_ODOM", "HAGRA",
+    "SEFARD",   "CHABAD", "MAGREB",    "ALGERIA","MOROCCO",    "FES",
+    "TOSHBIM",  "DJERBA", "BAVLIM",    "TEIMAN", "BALADI",     "SHAMI",
+]
+EXPOSED_INTERNAL = {
+    "ASHKENAZ":"Ashkenaz","ITALKI":"Italki","FRANKFURT":"Frankfurt",
+    "LITA":"Lita","CHAYEY_ODOM":"ChayeyOdom","HAGRA":"Hagra",
+    "SEFARD":"Sefard","CHABAD":"Chabad","MAGREB":"Magreb","ALGERIA":"Algeria",
+    "MOROCCO":"Morocco","FES":"Fes","TOSHBIM":"Toshbim","DJERBA":"Djerba",
+    "BAVLIM":"Bavlim","TEIMAN":"Teiman","BALADI":"Baladi","SHAMI":"Shami",
+}
 
 # opentorah parsha name → hebrewcalendar-data key
 PARSHA_MAP = {

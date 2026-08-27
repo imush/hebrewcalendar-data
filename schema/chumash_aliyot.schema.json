@@ -29,7 +29,17 @@
             "items": {
               "type": "string",
               "pattern": "^\\d+:\\d+-\\d+:\\d+$"
-            }
+            },
+            "description": "Common (Ashkenaz-flavour) Shabbat 7 aliyot: aliyot 1-3 from opentorah <aliyah> tags, 4-7 from <day> defaults."
+          },
+          "aliyotChabad": {
+            "type": "array",
+            "minItems": 7, "maxItems": 7,
+            "items": {
+              "type": "string",
+              "pattern": "^\\d+:\\d+-\\d+:\\d+$"
+            },
+            "description": "Chabad Shabbat 7 aliyot (= chumash-yomi day boundaries), from opentorah <day> tags with custom=\"Chabad\" overrides. Present only when different from `aliyot`."
           }
         }
       }

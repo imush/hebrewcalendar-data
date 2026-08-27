@@ -42,9 +42,18 @@ PARENT = {
     "Baladi":     "Teiman",  "Shami":   "Teiman",
 }
 XML_TO_INTERNAL = {"Chayey Odom": "ChayeyOdom"}
-EXPOSED = ["ASHKENAZ", "SEFARD", "CHABAD", "TEIMAN", "ITALKI"]
-EXPOSED_INTERNAL = {"ASHKENAZ":"Ashkenaz","SEFARD":"Sefard","CHABAD":"Chabad",
-                    "TEIMAN":"Teiman","ITALKI":"Italki"}
+EXPOSED = [
+    "ASHKENAZ", "ITALKI", "FRANKFURT", "LITA", "CHAYEY_ODOM", "HAGRA",
+    "SEFARD",   "CHABAD", "MAGREB",    "ALGERIA","MOROCCO",    "FES",
+    "TOSHBIM",  "DJERBA", "BAVLIM",    "TEIMAN", "BALADI",     "SHAMI",
+]
+EXPOSED_INTERNAL = {
+    "ASHKENAZ":"Ashkenaz","ITALKI":"Italki","FRANKFURT":"Frankfurt",
+    "LITA":"Lita","CHAYEY_ODOM":"ChayeyOdom","HAGRA":"Hagra",
+    "SEFARD":"Sefard","CHABAD":"Chabad","MAGREB":"Magreb","ALGERIA":"Algeria",
+    "MOROCCO":"Morocco","FES":"Fes","TOSHBIM":"Toshbim","DJERBA":"Djerba",
+    "BAVLIM":"Bavlim","TEIMAN":"Teiman","BALADI":"Baladi","SHAMI":"Shami",
+}
 
 # Nach chapter lengths where opentorah's XML omits `toVerse`, meaning
 # "read to end of chapter". Verified against Sefaria.

@@ -577,10 +577,18 @@ def emit_chumash_aliyot() -> str:
     lines.append("        public final String id;")
     lines.append("        public final List<String> parshiyot;   // 1 or 2 Parsha keys")
     lines.append("        public final int book;                 // 1..5")
-    lines.append("        public final String[] aliyot;          // 7 entries in \"chap:verse-chap:verse\" form")
-    lines.append("        public Reading(String id, List<String> parshiyot, int book, String[] aliyot) {")
+    lines.append("        public final String[] aliyot;          // 7 Common (Ashkenaz) aliyot")
+    lines.append("        /** Chabad aliyot; null when identical to `aliyot`. */")
+    lines.append("        public final String[] aliyotChabad;")
+    lines.append("        public Reading(String id, List<String> parshiyot, int book,")
+    lines.append("                       String[] aliyot, String[] aliyotChabad) {")
     lines.append("            this.id = id; this.parshiyot = parshiyot;")
     lines.append("            this.book = book; this.aliyot = aliyot;")
+    lines.append("            this.aliyotChabad = aliyotChabad;")
+    lines.append("        }")
+    lines.append("        /** Locale-aware aliyot picker: Chabad → chabad variant if present, else common. */")
+    lines.append("        public String[] aliyotFor(Custom custom) {")
+    lines.append("            return (custom == Custom.CHABAD && aliyotChabad != null) ? aliyotChabad : aliyot;")
     lines.append("        }")
     lines.append("    }")
     lines.append("")
@@ -591,10 +599,15 @@ def emit_chumash_aliyot() -> str:
         parshiyot = ", ".join(java_str(p) for p in r["parshiyot"])
         parshiyot_expr = f"List.of({parshiyot})"
         aliyot_str = ", ".join(java_str(a) for a in r["aliyot"])
+        if "aliyotChabad" in r:
+            chabad_str = ", ".join(java_str(a) for a in r["aliyotChabad"])
+            chabad_expr = f"new String[]{{ {chabad_str} }}"
+        else:
+            chabad_expr = "null"
         lines.append(
             f"        m.put({java_str(r['id'])}, new Reading({java_str(r['id'])}, "
             f"{parshiyot_expr}, {r['book']}, "
-            f"new String[]{{ {aliyot_str} }}));"
+            f"new String[]{{ {aliyot_str} }}, {chabad_expr}));"
         )
     lines.append("        READINGS = java.util.Collections.unmodifiableMap(m);")
     lines.append("    }")

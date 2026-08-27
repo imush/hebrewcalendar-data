@@ -21,7 +21,7 @@ parshiyot = json.loads((ROOT / "names"  / "parshiyot.json").read_text())
 
 jsonschema.validate(data, schema)
 
-EXPOSED = {"ASHKENAZ", "SEFARD", "CHABAD", "TEIMAN", "ITALKI"}
+EXPOSED = {"ASHKENAZ","ITALKI","FRANKFURT","LITA","CHAYEY_ODOM","HAGRA","SEFARD","CHABAD","MAGREB","ALGERIA","MOROCCO","FES","TOSHBIM","DJERBA","BAVLIM","TEIMAN","BALADI","SHAMI"}
 NACH_BOOKS = {
     "Joshua", "Judges", "I Samuel", "II Samuel", "I Kings", "II Kings",
     "Isaiah", "Jeremiah", "Ezekiel", "Hosea", "Joel", "Amos", "Obadiah",

@@ -6,19 +6,39 @@
     "^[A-Z][A-Z_]+$": {
       "type": "object",
       "patternProperties": {
-        "^(ASHKENAZ|SEFARD|CHABAD|TEIMAN|ITALKI)$": {
+        "^(ASHKENAZ|ITALKI|FRANKFURT|LITA|CHAYEY_ODOM|HAGRA|SEFARD|CHABAD|MAGREB|ALGERIA|MOROCCO|FES|TOSHBIM|DJERBA|BAVLIM|TEIMAN|BALADI|SHAMI)$": {
           "type": "array",
           "minItems": 1,
           "items": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["book", "fromCh", "fromV", "toCh", "toV"],
+            "required": [
+              "book",
+              "fromCh",
+              "fromV",
+              "toCh",
+              "toV"
+            ],
             "properties": {
-              "book":   { "type": "string" },
-              "fromCh": { "type": "integer", "minimum": 1 },
-              "fromV":  { "type": "integer", "minimum": 1 },
-              "toCh":   { "type": "integer", "minimum": 1 },
-              "toV":    { "type": "integer", "minimum": 1 }
+              "book": {
+                "type": "string"
+              },
+              "fromCh": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "fromV": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "toCh": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "toV": {
+                "type": "integer",
+                "minimum": 1
+              }
             }
           }
         }

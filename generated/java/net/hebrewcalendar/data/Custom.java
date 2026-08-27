@@ -7,11 +7,24 @@ package net.hebrewcalendar.data;
 
 /** The 5 aliyot/haftarah customs the consumer UIs expose. Fallback resolution (Chabad → Sefard → Common, etc.) is done at data-gen time; every entry in Haftarot.ALL covers all 5 customs. */
 public enum Custom {
-    ASHKENAZ("ASHKENAZ", "Ashkenaz", "אשכנז", "Ашкеназ", "Ashkénaze"),
-    SEFARD("SEFARD", "Sefard", "ספרד", "Сфарад", "Séfarade"),
+    ASHKENAZ("ASHKENAZ", "Ashkenaz", "אשכנז", "Ашкеназский", "Ashkénaze"),
+    ITALKI("ITALKI", "Italki", "יטלקי", "Итальянский", "Italien"),
+    FRANKFURT("FRANKFURT", "Frankfurt", "פרנקפורט", "Франкфуртский", "Francfort"),
+    LITA("LITA", "Lita", "ליטה", "Литовский", "Lituanien"),
+    CHAYEY_ODOM("CHAYEY_ODOM", "Chayey Odom", "חיי אדם", "Хаей адам", "'Hayé Adam"),
+    HAGRA("HAGRA", "Hagra", "הגרא", "Агро", "Hagra"),
+    SEFARD("SEFARD", "Sefard", "ספרד", "Сефардский", "Séfarade"),
     CHABAD("CHABAD", "Chabad", "חב״ד", "Хабад", "Habad"),
+    MAGREB("MAGREB", "Magreb", "מגרב", "Магреб", "Maghreb"),
+    ALGERIA("ALGERIA", "Algeria", "אלגיר", "Алжирский", "Algérien"),
+    MOROCCO("MOROCCO", "Morocco", "מרוקו", "Марокко", "Marocain"),
+    FES("FES", "Fes", "פאס", "Фес", "Fès"),
+    TOSHBIM("TOSHBIM", "Toshbim", "תושבים", "Тошбим", "Tochbim"),
+    DJERBA("DJERBA", "Djerba", "דגרבה", "Джерба", "Djerba"),
+    BAVLIM("BAVLIM", "Bavlim", "בבלים", "Вавилонский", "Babylonien"),
     TEIMAN("TEIMAN", "Teiman", "תימן", "Йеменский", "Yéménite"),
-    ITALKI("ITALKI", "Italki", "יטלקי", "Итальянский", "Italien");
+    BALADI("BALADI", "Baladi", "בלדי", "Балади", "Baladi"),
+    SHAMI("SHAMI", "Shami", "שאמי", "Шами", "Chami");
 
     public final String key;
     public final String en;

@@ -10,6 +10,51 @@
           "toV": 42
         }
       ],
+      "ITALKI": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "LITA": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
       "SEFARD": [
         {
           "book": "I Samuel",
@@ -28,6 +73,69 @@
           "toV": 42
         }
       ],
+      "MAGREB": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "FES": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
       "TEIMAN": [
         {
           "book": "I Samuel",
@@ -37,7 +145,16 @@
           "toV": 42
         }
       ],
-      "ITALKI": [
+      "BALADI": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "SHAMI": [
         {
           "book": "I Samuel",
           "fromCh": 20,
@@ -49,6 +166,22 @@
     },
     "SHABBAT_ADDITION": {
       "CHABAD": [
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 18,
+          "toCh": 20,
+          "toV": 18
+        },
+        {
+          "book": "I Samuel",
+          "fromCh": 20,
+          "fromV": 42,
+          "toCh": 20,
+          "toV": 42
+        }
+      ],
+      "FES": [
         {
           "book": "I Samuel",
           "fromCh": 20,
@@ -84,6 +217,86 @@
           "toV": 23
         }
       ],
+      "ITALKI": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
       "SEFARD": [
         {
           "book": "Isaiah",
@@ -116,6 +329,118 @@
           "toV": 23
         }
       ],
+      "MAGREB": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "FES": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
       "TEIMAN": [
         {
           "book": "Isaiah",
@@ -132,7 +457,23 @@
           "toV": 23
         }
       ],
-      "ITALKI": [
+      "BALADI": [
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 1,
+          "toCh": 66,
+          "toV": 24
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 66,
+          "fromV": 23,
+          "toCh": 66,
+          "toV": 23
+        }
+      ],
+      "SHAMI": [
         {
           "book": "Isaiah",
           "fromCh": 66,
@@ -186,6 +527,51 @@
           "toV": 10
         }
       ],
+      "ITALKI": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "LITA": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
       "SEFARD": [
         {
           "book": "I Samuel",
@@ -204,6 +590,69 @@
           "toV": 10
         }
       ],
+      "MAGREB": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "FES": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
       "TEIMAN": [
         {
           "book": "I Samuel",
@@ -213,7 +662,16 @@
           "toV": 10
         }
       ],
-      "ITALKI": [
+      "BALADI": [
+        {
+          "book": "I Samuel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 10
+        }
+      ],
+      "SHAMI": [
         {
           "book": "I Samuel",
           "fromCh": 1,
@@ -235,6 +693,51 @@
           "toV": 19
         }
       ],
+      "ITALKI": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
       "SEFARD": [
         {
           "book": "Jeremiah",
@@ -253,6 +756,69 @@
           "toV": 19
         }
       ],
+      "MAGREB": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "FES": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
       "TEIMAN": [
         {
           "book": "Jeremiah",
@@ -262,7 +828,16 @@
           "toV": 19
         }
       ],
-      "ITALKI": [
+      "BALADI": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 31,
+          "fromV": 1,
+          "toCh": 31,
+          "toV": 19
+        }
+      ],
+      "SHAMI": [
         {
           "book": "Jeremiah",
           "fromCh": 31,
@@ -284,6 +859,58 @@
           "toV": 14
         }
       ],
+      "ITALKI": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 59,
+          "fromV": 20,
+          "toCh": 59,
+          "toV": 21
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        }
+      ],
       "SEFARD": [
         {
           "book": "Isaiah",
@@ -294,6 +921,69 @@
         }
       ],
       "CHABAD": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        }
+      ],
+      "MAGREB": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        }
+      ],
+      "FES": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        }
+      ],
+      "BAVLIM": [
         {
           "book": "Isaiah",
           "fromCh": 57,
@@ -318,7 +1008,23 @@
           "toV": 21
         }
       ],
-      "ITALKI": [
+      "BALADI": [
+        {
+          "book": "Isaiah",
+          "fromCh": 57,
+          "fromV": 14,
+          "toCh": 58,
+          "toV": 14
+        },
+        {
+          "book": "Isaiah",
+          "fromCh": 59,
+          "fromV": 20,
+          "toCh": 59,
+          "toV": 21
+        }
+      ],
+      "SHAMI": [
         {
           "book": "Isaiah",
           "fromCh": 57,
@@ -337,54 +1043,6 @@
     },
     "AFTERNOON": {
       "ASHKENAZ": [
-        {
-          "book": "Jonah",
-          "fromCh": 1,
-          "fromV": 1,
-          "toCh": 4,
-          "toV": 11
-        },
-        {
-          "book": "Micah",
-          "fromCh": 7,
-          "fromV": 18,
-          "toCh": 7,
-          "toV": 20
-        }
-      ],
-      "SEFARD": [
-        {
-          "book": "Jonah",
-          "fromCh": 1,
-          "fromV": 1,
-          "toCh": 4,
-          "toV": 11
-        },
-        {
-          "book": "Micah",
-          "fromCh": 7,
-          "fromV": 18,
-          "toCh": 7,
-          "toV": 20
-        }
-      ],
-      "CHABAD": [
-        {
-          "book": "Jonah",
-          "fromCh": 1,
-          "fromV": 1,
-          "toCh": 4,
-          "toV": 11
-        },
-        {
-          "book": "Micah",
-          "fromCh": 7,
-          "fromV": 18,
-          "toCh": 7,
-          "toV": 20
-        }
-      ],
-      "TEIMAN": [
         {
           "book": "Jonah",
           "fromCh": 1,
@@ -422,12 +1080,313 @@
           "toCh": 7,
           "toV": 20
         }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "SEFARD": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "CHABAD": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "MAGREB": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "FES": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "TEIMAN": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "BALADI": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
+      ],
+      "SHAMI": [
+        {
+          "book": "Jonah",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 4,
+          "toV": 11
+        },
+        {
+          "book": "Micah",
+          "fromCh": 7,
+          "fromV": 18,
+          "toCh": 7,
+          "toV": 20
+        }
       ]
     }
   },
   "Succos1": {
     "MAIN": {
       "ASHKENAZ": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "HAGRA": [
         {
           "book": "Zechariah",
           "fromCh": 14,
@@ -446,6 +1405,69 @@
         }
       ],
       "CHABAD": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "MAGREB": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "FES": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Zechariah",
+          "fromCh": 14,
+          "fromV": 1,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "BAVLIM": [
         {
           "book": "Zechariah",
           "fromCh": 14,
@@ -463,11 +1485,20 @@
           "toV": 21
         }
       ],
-      "ITALKI": [
+      "BALADI": [
         {
           "book": "Zechariah",
-          "fromCh": 14,
-          "fromV": 1,
+          "fromCh": 13,
+          "fromV": 9,
+          "toCh": 14,
+          "toV": 21
+        }
+      ],
+      "SHAMI": [
+        {
+          "book": "Zechariah",
+          "fromCh": 13,
+          "fromV": 9,
           "toCh": 14,
           "toV": 21
         }
@@ -485,6 +1516,51 @@
           "toV": 21
         }
       ],
+      "ITALKI": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 51,
+          "toCh": 8,
+          "toV": 15
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 2,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
+      "LITA": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 2,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 2,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 2,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
       "SEFARD": [
         {
           "book": "I Kings",
@@ -495,6 +1571,69 @@
         }
       ],
       "CHABAD": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 2,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
+      "MAGREB": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 2,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 2,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 2,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
+      "FES": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 2,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 2,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 2,
+          "toCh": 8,
+          "toV": 21
+        }
+      ],
+      "BAVLIM": [
         {
           "book": "I Kings",
           "fromCh": 8,
@@ -512,13 +1651,22 @@
           "toV": 21
         }
       ],
-      "ITALKI": [
+      "BALADI": [
         {
           "book": "I Kings",
           "fromCh": 7,
           "fromV": 51,
           "toCh": 8,
-          "toV": 15
+          "toV": 21
+        }
+      ],
+      "SHAMI": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 51,
+          "toCh": 8,
+          "toV": 21
         }
       ]
     }
@@ -526,6 +1674,51 @@
   "SuccosIntermediate": {
     "SHABBAT": {
       "ASHKENAZ": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 18,
+          "toCh": 39,
+          "toV": 16
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 1,
+          "toCh": 38,
+          "toV": 23
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 18,
+          "toCh": 39,
+          "toV": 16
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 18,
+          "toCh": 39,
+          "toV": 16
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 18,
+          "toCh": 39,
+          "toV": 16
+        }
+      ],
+      "HAGRA": [
         {
           "book": "Ezekiel",
           "fromCh": 38,
@@ -544,6 +1737,69 @@
         }
       ],
       "CHABAD": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 18,
+          "toCh": 39,
+          "toV": 16
+        }
+      ],
+      "MAGREB": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 18,
+          "toCh": 39,
+          "toV": 16
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 18,
+          "toCh": 39,
+          "toV": 16
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 18,
+          "toCh": 39,
+          "toV": 16
+        }
+      ],
+      "FES": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 18,
+          "toCh": 39,
+          "toV": 16
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 18,
+          "toCh": 39,
+          "toV": 16
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 18,
+          "toCh": 39,
+          "toV": 16
+        }
+      ],
+      "BAVLIM": [
         {
           "book": "Ezekiel",
           "fromCh": 38,
@@ -561,7 +1817,16 @@
           "toV": 23
         }
       ],
-      "ITALKI": [
+      "BALADI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 38,
+          "fromV": 1,
+          "toCh": 38,
+          "toV": 23
+        }
+      ],
+      "SHAMI": [
         {
           "book": "Ezekiel",
           "fromCh": 38,
@@ -583,6 +1848,51 @@
           "toV": 66
         }
       ],
+      "ITALKI": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 9,
+          "toV": 1
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
+      "LITA": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
       "SEFARD": [
         {
           "book": "I Kings",
@@ -601,6 +1911,69 @@
           "toV": 1
         }
       ],
+      "MAGREB": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
+      "FES": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
       "TEIMAN": [
         {
           "book": "I Kings",
@@ -610,13 +1983,22 @@
           "toV": 66
         }
       ],
-      "ITALKI": [
+      "BALADI": [
         {
           "book": "I Kings",
           "fromCh": 8,
           "fromV": 54,
-          "toCh": 9,
-          "toV": 1
+          "toCh": 8,
+          "toV": 66
+        }
+      ],
+      "SHAMI": [
+        {
+          "book": "I Kings",
+          "fromCh": 8,
+          "fromV": 54,
+          "toCh": 8,
+          "toV": 66
         }
       ]
     }
@@ -632,6 +2014,51 @@
           "toV": 7
         }
       ],
+      "ITALKI": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
       "SEFARD": [
         {
           "book": "Zechariah",
@@ -650,6 +2077,69 @@
           "toV": 7
         }
       ],
+      "MAGREB": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "FES": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
       "TEIMAN": [
         {
           "book": "Zechariah",
@@ -659,7 +2149,16 @@
           "toV": 7
         }
       ],
-      "ITALKI": [
+      "BALADI": [
+        {
+          "book": "Zechariah",
+          "fromCh": 2,
+          "fromV": 14,
+          "toCh": 4,
+          "toV": 7
+        }
+      ],
+      "SHAMI": [
         {
           "book": "Zechariah",
           "fromCh": 2,
@@ -679,6 +2178,51 @@
           "toV": 50
         }
       ],
+      "ITALKI": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 51
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
+      "LITA": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
       "SEFARD": [
         {
           "book": "I Kings",
@@ -697,6 +2241,69 @@
           "toV": 50
         }
       ],
+      "MAGREB": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
+      "FES": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
+        }
+      ],
       "TEIMAN": [
         {
           "book": "I Kings",
@@ -706,13 +2313,22 @@
           "toV": 50
         }
       ],
-      "ITALKI": [
+      "BALADI": [
         {
           "book": "I Kings",
           "fromCh": 7,
           "fromV": 40,
           "toCh": 7,
-          "toV": 51
+          "toV": 50
+        }
+      ],
+      "SHAMI": [
+        {
+          "book": "I Kings",
+          "fromCh": 7,
+          "fromV": 40,
+          "toCh": 7,
+          "toV": 50
         }
       ]
     }
@@ -720,6 +2336,51 @@
   "ParshasShekalim": {
     "MAIN": {
       "ASHKENAZ": [
+        {
+          "book": "II Kings",
+          "fromCh": 12,
+          "fromV": 1,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "II Kings",
+          "fromCh": 12,
+          "fromV": 1,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "II Kings",
+          "fromCh": 12,
+          "fromV": 1,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "LITA": [
+        {
+          "book": "II Kings",
+          "fromCh": 12,
+          "fromV": 1,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "II Kings",
+          "fromCh": 12,
+          "fromV": 1,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "HAGRA": [
         {
           "book": "II Kings",
           "fromCh": 12,
@@ -746,6 +2407,69 @@
           "toV": 17
         }
       ],
+      "MAGREB": [
+        {
+          "book": "II Kings",
+          "fromCh": 11,
+          "fromV": 17,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "II Kings",
+          "fromCh": 11,
+          "fromV": 17,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "II Kings",
+          "fromCh": 11,
+          "fromV": 17,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "FES": [
+        {
+          "book": "II Kings",
+          "fromCh": 11,
+          "fromV": 17,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "II Kings",
+          "fromCh": 11,
+          "fromV": 17,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "II Kings",
+          "fromCh": 11,
+          "fromV": 17,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "II Kings",
+          "fromCh": 11,
+          "fromV": 17,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
       "TEIMAN": [
         {
           "book": "II Kings",
@@ -755,7 +2479,16 @@
           "toV": 17
         }
       ],
-      "ITALKI": [
+      "BALADI": [
+        {
+          "book": "II Kings",
+          "fromCh": 12,
+          "fromV": 1,
+          "toCh": 12,
+          "toV": 17
+        }
+      ],
+      "SHAMI": [
         {
           "book": "II Kings",
           "fromCh": 12,
@@ -777,6 +2510,51 @@
           "toV": 34
         }
       ],
+      "ITALKI": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 2,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 2,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
+      "LITA": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 2,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 2,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 2,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
       "SEFARD": [
         {
           "book": "I Samuel",
@@ -795,6 +2573,69 @@
           "toV": 34
         }
       ],
+      "MAGREB": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 1,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 1,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 1,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
+      "FES": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 1,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 1,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 1,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "I Samuel",
+          "fromCh": 15,
+          "fromV": 1,
+          "toCh": 15,
+          "toV": 34
+        }
+      ],
       "TEIMAN": [
         {
           "book": "I Samuel",
@@ -804,13 +2645,22 @@
           "toV": 33
         }
       ],
-      "ITALKI": [
+      "BALADI": [
         {
           "book": "I Samuel",
-          "fromCh": 15,
-          "fromV": 2,
+          "fromCh": 14,
+          "fromV": 52,
           "toCh": 15,
-          "toV": 34
+          "toV": 33
+        }
+      ],
+      "SHAMI": [
+        {
+          "book": "I Samuel",
+          "fromCh": 14,
+          "fromV": 52,
+          "toCh": 15,
+          "toV": 33
         }
       ]
     }
@@ -818,6 +2668,51 @@
   "ParshasParah": {
     "MAIN": {
       "ASHKENAZ": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 38
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 38
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 38
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 38
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 38
+        }
+      ],
+      "HAGRA": [
         {
           "book": "Ezekiel",
           "fromCh": 36,
@@ -844,6 +2739,69 @@
           "toV": 36
         }
       ],
+      "MAGREB": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 36
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 36
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 36
+        }
+      ],
+      "FES": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 36
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 36
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 36
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 36
+        }
+      ],
       "TEIMAN": [
         {
           "book": "Ezekiel",
@@ -853,13 +2811,22 @@
           "toV": 36
         }
       ],
-      "ITALKI": [
+      "BALADI": [
         {
           "book": "Ezekiel",
           "fromCh": 36,
           "fromV": 16,
           "toCh": 36,
-          "toV": 38
+          "toV": 36
+        }
+      ],
+      "SHAMI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 16,
+          "toCh": 36,
+          "toV": 36
         }
       ]
     }
@@ -867,6 +2834,51 @@
   "ParshasHachodesh": {
     "MAIN": {
       "ASHKENAZ": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 16,
+          "toCh": 46,
+          "toV": 18
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 18,
+          "toCh": 46,
+          "toV": 11
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 16,
+          "toCh": 46,
+          "toV": 18
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 16,
+          "toCh": 46,
+          "toV": 18
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 16,
+          "toCh": 46,
+          "toV": 18
+        }
+      ],
+      "HAGRA": [
         {
           "book": "Ezekiel",
           "fromCh": 45,
@@ -893,6 +2905,69 @@
           "toV": 15
         }
       ],
+      "MAGREB": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 18,
+          "toCh": 46,
+          "toV": 15
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 18,
+          "toCh": 46,
+          "toV": 15
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 18,
+          "toCh": 46,
+          "toV": 15
+        }
+      ],
+      "FES": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 18,
+          "toCh": 46,
+          "toV": 15
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 18,
+          "toCh": 46,
+          "toV": 15
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 18,
+          "toCh": 46,
+          "toV": 15
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 18,
+          "toCh": 46,
+          "toV": 15
+        }
+      ],
       "TEIMAN": [
         {
           "book": "Ezekiel",
@@ -902,11 +2977,20 @@
           "toV": 11
         }
       ],
-      "ITALKI": [
+      "BALADI": [
         {
           "book": "Ezekiel",
           "fromCh": 45,
-          "fromV": 18,
+          "fromV": 9,
+          "toCh": 46,
+          "toV": 11
+        }
+      ],
+      "SHAMI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 45,
+          "fromV": 9,
           "toCh": 46,
           "toV": 11
         }
@@ -916,6 +3000,51 @@
   "ShabbosHagodol": {
     "MAIN": {
       "ASHKENAZ": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "HAGRA": [
         {
           "book": "Malachi",
           "fromCh": 3,
@@ -942,6 +3071,69 @@
           "toV": 24
         }
       ],
+      "MAGREB": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "FES": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
       "TEIMAN": [
         {
           "book": "Malachi",
@@ -951,7 +3143,16 @@
           "toV": 24
         }
       ],
-      "ITALKI": [
+      "BALADI": [
+        {
+          "book": "Malachi",
+          "fromCh": 3,
+          "fromV": 4,
+          "toCh": 3,
+          "toV": 24
+        }
+      ],
+      "SHAMI": [
         {
           "book": "Malachi",
           "fromCh": 3,
@@ -973,6 +3174,51 @@
           "toV": 14
         }
       ],
+      "ITALKI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
       "SEFARD": [
         {
           "book": "Ezekiel",
@@ -991,6 +3237,69 @@
           "toV": 14
         }
       ],
+      "MAGREB": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "FES": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 37,
+          "fromV": 1,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
       "TEIMAN": [
         {
           "book": "Ezekiel",
@@ -1000,11 +3309,20 @@
           "toV": 14
         }
       ],
-      "ITALKI": [
+      "BALADI": [
         {
           "book": "Ezekiel",
-          "fromCh": 37,
-          "fromV": 1,
+          "fromCh": 36,
+          "fromV": 37,
+          "toCh": 37,
+          "toV": 14
+        }
+      ],
+      "SHAMI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 36,
+          "fromV": 37,
           "toCh": 37,
           "toV": 14
         }
@@ -1036,6 +3354,93 @@
           "toV": 27
         }
       ],
+      "ITALKI": [
+        {
+          "book": "Joshua",
+          "fromCh": 3,
+          "fromV": 5,
+          "toCh": 3,
+          "toV": 7
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Joshua",
+          "fromCh": 3,
+          "fromV": 5,
+          "toCh": 3,
+          "toV": 7
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Joshua",
+          "fromCh": 3,
+          "fromV": 5,
+          "toCh": 3,
+          "toV": 7
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        }
+      ],
       "SEFARD": [
         {
           "book": "Joshua",
@@ -1075,6 +3480,118 @@
           "toV": 27
         }
       ],
+      "MAGREB": [
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
+      "FES": [
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "Joshua",
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
+        },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
       "TEIMAN": [
         {
           "book": "Joshua",
@@ -1091,14 +3608,23 @@
           "toV": 27
         }
       ],
-      "ITALKI": [
+      "BALADI": [
         {
           "book": "Joshua",
-          "fromCh": 3,
-          "fromV": 5,
-          "toCh": 3,
-          "toV": 7
+          "fromCh": 5,
+          "fromV": 2,
+          "toCh": 6,
+          "toV": 1
         },
+        {
+          "book": "Joshua",
+          "fromCh": 6,
+          "fromV": 27,
+          "toCh": 6,
+          "toV": 27
+        }
+      ],
+      "SHAMI": [
         {
           "book": "Joshua",
           "fromCh": 5,
@@ -1134,6 +3660,79 @@
           "toV": 25
         }
       ],
+      "ITALKI": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 30
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 1,
+          "toCh": 23,
+          "toV": 9
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
+      "LITA": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 1,
+          "toCh": 23,
+          "toV": 9
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 1,
+          "toCh": 23,
+          "toV": 9
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 1,
+          "toCh": 23,
+          "toV": 9
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
       "SEFARD": [
         {
           "book": "II Kings",
@@ -1151,6 +3750,118 @@
         }
       ],
       "CHABAD": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 1,
+          "toCh": 23,
+          "toV": 9
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
+      "MAGREB": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 1,
+          "toCh": 23,
+          "toV": 9
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 1,
+          "toCh": 23,
+          "toV": 9
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 1,
+          "toCh": 23,
+          "toV": 9
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
+      "FES": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 1,
+          "toCh": 23,
+          "toV": 9
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 1,
+          "toCh": 23,
+          "toV": 9
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 1,
+          "toCh": 23,
+          "toV": 9
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
+        }
+      ],
+      "BAVLIM": [
         {
           "book": "II Kings",
           "fromCh": 23,
@@ -1182,13 +3893,36 @@
           "toV": 25
         }
       ],
-      "ITALKI": [
+      "BALADI": [
+        {
+          "book": "II Kings",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 7
+        },
         {
           "book": "II Kings",
           "fromCh": 23,
           "fromV": 21,
           "toCh": 23,
-          "toV": 30
+          "toV": 25
+        }
+      ],
+      "SHAMI": [
+        {
+          "book": "II Kings",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 7
+        },
+        {
+          "book": "II Kings",
+          "fromCh": 23,
+          "fromV": 21,
+          "toCh": 23,
+          "toV": 25
         }
       ]
     }
@@ -1196,6 +3930,51 @@
   "Pesach7": {
     "MAIN": {
       "ASHKENAZ": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "LITA": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "HAGRA": [
         {
           "book": "II Samuel",
           "fromCh": 22,
@@ -1222,6 +4001,69 @@
           "toV": 51
         }
       ],
+      "MAGREB": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "FES": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
       "TEIMAN": [
         {
           "book": "II Samuel",
@@ -1231,7 +4073,16 @@
           "toV": 51
         }
       ],
-      "ITALKI": [
+      "BALADI": [
+        {
+          "book": "II Samuel",
+          "fromCh": 22,
+          "fromV": 1,
+          "toCh": 22,
+          "toV": 51
+        }
+      ],
+      "SHAMI": [
         {
           "book": "II Samuel",
           "fromCh": 22,
@@ -1253,6 +4104,51 @@
           "toV": 6
         }
       ],
+      "ITALKI": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
       "SEFARD": [
         {
           "book": "Isaiah",
@@ -1271,6 +4167,69 @@
           "toV": 6
         }
       ],
+      "MAGREB": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "FES": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "BAVLIM": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
       "TEIMAN": [
         {
           "book": "Isaiah",
@@ -1280,7 +4239,16 @@
           "toV": 6
         }
       ],
-      "ITALKI": [
+      "BALADI": [
+        {
+          "book": "Isaiah",
+          "fromCh": 10,
+          "fromV": 32,
+          "toCh": 12,
+          "toV": 6
+        }
+      ],
+      "SHAMI": [
         {
           "book": "Isaiah",
           "fromCh": 10,
@@ -1309,6 +4277,86 @@
           "toV": 27
         }
       ],
+      "ITALKI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
       "SEFARD": [
         {
           "book": "Ezekiel",
@@ -1326,6 +4374,118 @@
         }
       ],
       "CHABAD": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "MAGREB": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "FES": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 1,
+          "toV": 28
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "BAVLIM": [
         {
           "book": "Ezekiel",
           "fromCh": 1,
@@ -1357,13 +4517,29 @@
           "toV": 27
         }
       ],
-      "ITALKI": [
+      "BALADI": [
         {
           "book": "Ezekiel",
           "fromCh": 1,
           "fromV": 1,
-          "toCh": 1,
-          "toV": 28
+          "toCh": 2,
+          "toV": 2
+        },
+        {
+          "book": "Ezekiel",
+          "fromCh": 3,
+          "fromV": 12,
+          "toCh": 3,
+          "toV": 27
+        }
+      ],
+      "SHAMI": [
+        {
+          "book": "Ezekiel",
+          "fromCh": 1,
+          "fromV": 1,
+          "toCh": 2,
+          "toV": 2
         },
         {
           "book": "Ezekiel",
@@ -1386,6 +4562,51 @@
           "toV": 19
         }
       ],
+      "ITALKI": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 3,
+          "fromV": 1,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 3,
+          "fromV": 1,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 3,
+          "fromV": 1,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 3,
+          "fromV": 1,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 3,
+          "fromV": 1,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
       "SEFARD": [
         {
           "book": "Habakkuk",
@@ -1396,6 +4617,69 @@
         }
       ],
       "CHABAD": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 2,
+          "fromV": 20,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "MAGREB": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 2,
+          "fromV": 20,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 2,
+          "fromV": 20,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 2,
+          "fromV": 20,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "FES": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 2,
+          "fromV": 20,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 2,
+          "fromV": 20,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 2,
+          "fromV": 20,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "BAVLIM": [
         {
           "book": "Habakkuk",
           "fromCh": 2,
@@ -1413,11 +4697,20 @@
           "toV": 19
         }
       ],
-      "ITALKI": [
+      "BALADI": [
         {
           "book": "Habakkuk",
-          "fromCh": 3,
-          "fromV": 1,
+          "fromCh": 2,
+          "fromV": 20,
+          "toCh": 3,
+          "toV": 19
+        }
+      ],
+      "SHAMI": [
+        {
+          "book": "Habakkuk",
+          "fromCh": 2,
+          "fromV": 20,
           "toCh": 3,
           "toV": 19
         }
@@ -1435,6 +4728,51 @@
           "toV": 8
         }
       ],
+      "ITALKI": [
+        {
+          "book": "Isaiah",
+          "fromCh": 55,
+          "fromV": 6,
+          "toCh": 56,
+          "toV": 8
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Isaiah",
+          "fromCh": 55,
+          "fromV": 6,
+          "toCh": 56,
+          "toV": 8
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Isaiah",
+          "fromCh": 55,
+          "fromV": 6,
+          "toCh": 56,
+          "toV": 8
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Isaiah",
+          "fromCh": 55,
+          "fromV": 6,
+          "toCh": 56,
+          "toV": 8
+        }
+      ],
+      "HAGRA": [
+        {
+          "book": "Isaiah",
+          "fromCh": 55,
+          "fromV": 6,
+          "toCh": 56,
+          "toV": 8
+        }
+      ],
       "CHABAD": [
         {
           "book": "Isaiah",
@@ -1444,7 +4782,32 @@
           "toV": 8
         }
       ],
-      "ITALKI": [
+      "ALGERIA": [
+        {
+          "book": "Hosea",
+          "fromCh": 14,
+          "fromV": 2,
+          "toCh": 14,
+          "toV": 10
+        },
+        {
+          "book": "Joel",
+          "fromCh": 2,
+          "fromV": 11,
+          "toCh": 2,
+          "toV": 27
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Isaiah",
+          "fromCh": 55,
+          "fromV": 6,
+          "toCh": 56,
+          "toV": 8
+        }
+      ],
+      "FES": [
         {
           "book": "Isaiah",
           "fromCh": 55,
@@ -1456,11 +4819,89 @@
     }
   },
   "FastOfGedalia": {
-    "AFTERNOON_EXCEPTIONS": {}
+    "AFTERNOON_EXCEPTIONS": {
+      "MOROCCO": [
+        {
+          "book": "Hosea",
+          "fromCh": 14,
+          "fromV": 2,
+          "toCh": 14,
+          "toV": 10
+        },
+        {
+          "book": "Joel",
+          "fromCh": 2,
+          "fromV": 11,
+          "toCh": 2,
+          "toV": 27
+        }
+      ],
+      "FES": [
+        {
+          "book": "Hosea",
+          "fromCh": 14,
+          "fromV": 2,
+          "toCh": 14,
+          "toV": 10
+        },
+        {
+          "book": "Joel",
+          "fromCh": 2,
+          "fromV": 11,
+          "toCh": 2,
+          "toV": 27
+        }
+      ]
+    }
   },
   "TishaBeAv": {
     "MAIN": {
       "ASHKENAZ": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "ITALKI": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "FRANKFURT": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "LITA": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "CHAYEY_ODOM": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "HAGRA": [
         {
           "book": "Jeremiah",
           "fromCh": 8,
@@ -1479,6 +4920,69 @@
         }
       ],
       "CHABAD": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "MAGREB": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "ALGERIA": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "MOROCCO": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "FES": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "TOSHBIM": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "DJERBA": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "BAVLIM": [
         {
           "book": "Jeremiah",
           "fromCh": 8,
@@ -1503,7 +5007,30 @@
           "toV": 23
         }
       ],
-      "ITALKI": [
+      "BALADI": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 6,
+          "fromV": 16,
+          "toCh": 6,
+          "toV": 17
+        },
+        {
+          "book": "Jeremiah",
+          "fromCh": 8,
+          "fromV": 13,
+          "toCh": 9,
+          "toV": 23
+        }
+      ],
+      "SHAMI": [
+        {
+          "book": "Jeremiah",
+          "fromCh": 6,
+          "fromV": 16,
+          "toCh": 6,
+          "toV": 17
+        },
         {
           "book": "Jeremiah",
           "fromCh": 8,
