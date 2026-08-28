@@ -31,32 +31,22 @@ OUT    = ROOT / "schedules" / "special_haftarot.json"
 # Reuse the same custom parent map / exposed customs / xml→internal from
 # the standard-haftarot parser.  Kept in-file to keep this script self-
 # contained (no cross-imports between codegen scripts).
-PARENT = {
-    "Common":     None,
-    "Ashkenaz":   "Common",  "Italki":  "Ashkenaz", "Frankfurt": "Ashkenaz",
-    "Lita":       "Ashkenaz","ChayeyOdom":"Lita",   "Hagra":     "Ashkenaz",
-    "Sefard":     "Common",  "Chabad":  "Sefard",   "Magreb":    "Sefard",
-    "Algeria":    "Magreb",  "Toshbim": "Magreb",   "Djerba":    "Magreb",
-    "Morocco":    "Magreb",  "Fes":     "Morocco",
-    "Marrakesh":  "Morocco",
-    "Bavlim":     "Sefard",  "Teiman":  "Sefard",
-    "Baladi":     "Teiman",  "Shami":   "Teiman",
-}
+# The custom tree, exposed customs and their opentorah XML names all come
+# from names/customs.json, so the tree lives in exactly one place.
+_CUSTOMS = json.loads((ROOT / "names" / "customs.json").read_text(encoding="utf-8"))
+
+def _internal(key):
+    """ASHKENAZ → Ashkenaz, CHAYEY_ODOM → ChayeyOdom."""
+    return "".join(p.capitalize() for p in key.split("_"))
+
+EXPOSED = list(_CUSTOMS)
+EXPOSED_INTERNAL = {k: _internal(k) for k in EXPOSED}
+# "Common" is opentorah's abstract root; it is not an exposed custom, so
+# customs.json spells it as a null parent.
+PARENT = {"Common": None}
+for _k, _v in _CUSTOMS.items():
+    PARENT[_internal(_k)] = _internal(_v["parent"]) if _v["parent"] else "Common"
 XML_TO_INTERNAL = {"Chayey Odom": "ChayeyOdom"}
-EXPOSED = [
-    "ASHKENAZ", "ITALKI", "FRANKFURT", "LITA", "CHAYEY_ODOM", "HAGRA",
-    "SEFARD",   "CHABAD", "MAGREB",    "ALGERIA","MOROCCO",    "FES",
-    "MARRAKESH",
-    "TOSHBIM",  "DJERBA", "BAVLIM",    "TEIMAN", "BALADI",     "SHAMI",
-]
-EXPOSED_INTERNAL = {
-    "ASHKENAZ":"Ashkenaz","ITALKI":"Italki","FRANKFURT":"Frankfurt",
-    "LITA":"Lita","CHAYEY_ODOM":"ChayeyOdom","HAGRA":"Hagra",
-    "SEFARD":"Sefard","CHABAD":"Chabad","MAGREB":"Magreb","ALGERIA":"Algeria",
-    "MOROCCO":"Morocco","FES":"Fes","MARRAKESH":"Marrakesh",
-    "TOSHBIM":"Toshbim","DJERBA":"Djerba",
-    "BAVLIM":"Bavlim","TEIMAN":"Teiman","BALADI":"Baladi","SHAMI":"Shami",
-}
 
 # Nach chapter lengths where opentorah's XML omits `toVerse`, meaning
 # "read to end of chapter". Verified against Sefaria.
