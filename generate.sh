@@ -13,6 +13,7 @@ python3 tests/validate_hebrew_year_exceptions.py
 python3 tests/validate_daf_yomi.py
 python3 tests/validate_zmanim.py
 python3 tests/validate_jewish_special_days.py
+python3 tests/validate_haftarah_occasions.py
 python3 tests/validate_rambam_mt.py
 python3 tests/validate_sefer_hamitzvot.py
 python3 codegen/parse_opentorah_chumash.py

@@ -1,0 +1,30 @@
+{
+  "$comment": "hc_haftarah_occasion enum names in their declared order. The C header is the source; this file mirrors it so the Dart and Java copies can be validated against one declaration rather than against each other. See tests/validate_haftarah_occasions.py.",
+  "occasions": [
+    "WEEKLY",
+    "PARSHAT_SHEKALIM",
+    "PARSHAT_ZACHOR",
+    "PARSHAT_PARAH",
+    "PARSHAT_HACHODESH",
+    "SHABBAT_HAGADOL",
+    "CHANUKAH_SHABBAT_1",
+    "CHANUKAH_SHABBAT_2",
+    "ROSH_CHODESH",
+    "MACHAR_CHODESH",
+    "ROSH_HASHANA",
+    "YOM_KIPPUR",
+    "YOM_KIPPUR_AFTERNOON",
+    "SUKKOT",
+    "SHMINI_ATZERET",
+    "SIMCHAT_TORAH",
+    "PESACH",
+    "SHAVUOT",
+    "CHOL_HAMOED_PESACH",
+    "CHOL_HAMOED_SUKKOT",
+    "TISHA_BAV",
+    "TISHA_BAV_AFTERNOON",
+    "FAST_AFTERNOON",
+    "SHABBAT_SHUVAH",
+    "SHABBAT_BEFORE_ROSH_HASHANA"
+  ]
+}
