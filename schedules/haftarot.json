@@ -1716,8 +1716,8 @@
         "book": "Hosea",
         "fromCh": 11,
         "fromV": 7,
-        "toCh": 12,
-        "toV": 12
+        "toCh": 13,
+        "toV": 4
       }
     ],
     "HAGRA": [
@@ -2978,11 +2978,11 @@
     ],
     "PURE_SEPHARDIM": [
       {
-        "book": "Jeremiah",
-        "fromCh": 1,
+        "book": "Ezekiel",
+        "fromCh": 16,
         "fromV": 1,
-        "toCh": 2,
-        "toV": 3
+        "toCh": 16,
+        "toV": 14
       }
     ],
     "PERSIA": [
@@ -6872,7 +6872,7 @@
         "fromCh": 13,
         "fromV": 23,
         "toCh": 13,
-        "toV": 25
+        "toV": 23
       }
     ],
     "FRANKFURT": [
@@ -7059,7 +7059,7 @@
         "fromCh": 13,
         "fromV": 23,
         "toCh": 13,
-        "toV": 25
+        "toV": 23
       }
     ],
     "BALADI": [
@@ -7075,7 +7075,7 @@
         "fromCh": 13,
         "fromV": 23,
         "toCh": 13,
-        "toV": 25
+        "toV": 23
       }
     ],
     "SHAMI": [
@@ -7091,7 +7091,7 @@
         "fromCh": 13,
         "fromV": 23,
         "toCh": 13,
-        "toV": 25
+        "toV": 23
       }
     ],
     "ROMANIA": [
@@ -11253,7 +11253,7 @@
         "fromCh": 41,
         "fromV": 17,
         "toCh": 41,
-        "toV": 29
+        "toV": 17
       }
     ],
     "BALADI": [
@@ -11269,7 +11269,7 @@
         "fromCh": 41,
         "fromV": 17,
         "toCh": 41,
-        "toV": 29
+        "toV": 17
       }
     ],
     "SHAMI": [
@@ -11285,7 +11285,7 @@
         "fromCh": 41,
         "fromV": 17,
         "toCh": 41,
-        "toV": 29
+        "toV": 17
       }
     ],
     "ROMANIA": [

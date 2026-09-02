@@ -31,7 +31,14 @@ EXPOSED_INTERNAL = {k: _internal(k) for k in EXPOSED}
 PARENT = {"Common": None}
 for _k, _v in _CUSTOMS.items():
     PARENT[_internal(_k)] = _internal(_v["parent"]) if _v["parent"] else "Common"
-XML_TO_INTERNAL = {"Chayey Odom": "ChayeyOdom"}
+# opentorah spells the two-word names with a space; ours have none
+def _from_xml_name(name):
+    internal = name.replace(" ", "")
+    if internal != "Common" and internal not in PARENT:
+        raise SystemExit(
+            f"unknown custom in Haftarah.xml: {name!r}. It used to be accepted "
+            f"silently, so the custom kept its parent's reading.")
+    return internal
 
 # opentorah parsha name → hebrewcalendar-data key
 PARSHA_MAP = {
@@ -73,32 +80,20 @@ def _int(v):
     return None if v is None else int(v)
 
 
-# Nach chapter lengths for the few "read to end of chapter" haftarah
-# fragments where opentorah omits toVerse. Verified against Sefaria.
-NACH_CHAPTER_LENGTHS = {
-    ("II Kings", 13): 25,
-    ("Isaiah",   41): 29,
-    ("Joshua",    6): 27,   # Vezos Haberachah Teiman part 2
-}
-
-
 def _finalize(attrs):
     """attrs → single-part reference (book, fromCh, fromV, toCh, toV).
 
-    toChapter defaults to fromChapter (per XML doc comment).
-    Missing toVerse means 'read to end of that chapter' — resolved via
-    NACH_CHAPTER_LENGTHS."""
+    toChapter defaults to fromChapter, and a missing toVerse means a SINGLE
+    VERSE, not "read to the end of the chapter". This read it the second way
+    and resolved it through a table of chapter lengths, which made Baladi's
+    Metzora run to II Kings 13:25 instead of stopping at 13:23, and
+    Va'eschanan to Isaiah 41:29 instead of 41:17."""
     if "book" not in attrs:
         raise ValueError(f"missing book in {attrs}")
     from_ch = _int(attrs.get("fromChapter"))
     from_v  = _int(attrs.get("fromVerse"))
-    to_ch   = _int(attrs.get("toChapter",   from_ch))
-    to_v    = _int(attrs.get("toVerse"))
-    if to_v is None:
-        key = (attrs["book"], to_ch)
-        if key not in NACH_CHAPTER_LENGTHS:
-            raise ValueError(f"missing toVerse and no chapter length for {key}: {attrs}")
-        to_v = NACH_CHAPTER_LENGTHS[key]
+    to_ch   = _int(attrs.get("toChapter", from_ch))
+    to_v    = _int(attrs.get("toVerse", from_v))
     return {"book": attrs["book"], "fromCh": from_ch, "fromV": from_v,
             "toCh": to_ch, "toV": to_v}
 
@@ -138,10 +133,13 @@ def parse():
         else:
             for c in custom_els:
                 n = c.get("n") or "Common"
-                # Space or comma-separated list of custom names.
-                names = [x.strip() for x in n.replace(",", " ").split() if x.strip()]
+                # Comma-separated only: two customs are spelled with a space,
+                # "Chayey Odom" and "Pure Sephardim", and splitting on spaces
+                # turned each into two names that match nothing -- so they
+                # silently kept their parent's reading.
+                names = [x.strip() for x in n.split(",") if x.strip()]
                 for name in names:
-                    internal = XML_TO_INTERNAL.get(name, name)
+                    internal = _from_xml_name(name)
                     by_custom[internal] = parse_custom_element(c, week_attrs)
         per_parsha_customs[pkey] = by_custom
     return per_parsha_customs

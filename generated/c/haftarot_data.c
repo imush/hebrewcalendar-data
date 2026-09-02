@@ -607,7 +607,7 @@ static const hc_haftarah_ref HC_HAFT_W_VAYISHLACH_LITA[] = {
     { HC_BOOK_HOSEA, 11, 7, 12, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYISHLACH_CHAYEY_ODOM[] = {
-    { HC_BOOK_HOSEA, 11, 7, 12, 12 },
+    { HC_BOOK_HOSEA, 11, 7, 13, 4 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYISHLACH_HAGRA[] = {
     { HC_BOOK_OBADIAH, 1, 1, 1, 21 },
@@ -1016,7 +1016,7 @@ static const hc_haftarah_ref HC_HAFT_W_SHEMOT_CHABAD[] = {
     { HC_BOOK_ISAIAH, 29, 22, 29, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMOT_PURE_SEPHARDIM[] = {
-    { HC_BOOK_JEREMIAH, 1, 1, 2, 3 },
+    { HC_BOOK_EZEKIEL, 16, 1, 16, 14 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMOT_PERSIA[] = {
     { HC_BOOK_EZEKIEL, 16, 1, 16, 14 },
@@ -2224,7 +2224,7 @@ static const hc_haftarah_ref HC_HAFT_W_METZORA_POZNAN[] = {
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_ITALKI[] = {
     { HC_BOOK_II_KINGS, 7, 1, 7, 20 },
-    { HC_BOOK_II_KINGS, 13, 23, 13, 25 },
+    { HC_BOOK_II_KINGS, 13, 23, 13, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_FRANKFURT[] = {
     { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
@@ -2285,15 +2285,15 @@ static const hc_haftarah_ref HC_HAFT_W_METZORA_BAVLIM[] = {
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_TEIMAN[] = {
     { HC_BOOK_II_KINGS, 7, 1, 7, 20 },
-    { HC_BOOK_II_KINGS, 13, 23, 13, 25 },
+    { HC_BOOK_II_KINGS, 13, 23, 13, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_BALADI[] = {
     { HC_BOOK_II_KINGS, 7, 1, 7, 20 },
-    { HC_BOOK_II_KINGS, 13, 23, 13, 25 },
+    { HC_BOOK_II_KINGS, 13, 23, 13, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_SHAMI[] = {
     { HC_BOOK_II_KINGS, 7, 1, 7, 20 },
-    { HC_BOOK_II_KINGS, 13, 23, 13, 25 },
+    { HC_BOOK_II_KINGS, 13, 23, 13, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_ROMANIA[] = {
     { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
@@ -3637,15 +3637,15 @@ static const hc_haftarah_ref HC_HAFT_W_VAETCHANAN_BAVLIM[] = {
 };
 static const hc_haftarah_ref HC_HAFT_W_VAETCHANAN_TEIMAN[] = {
     { HC_BOOK_ISAIAH, 40, 1, 40, 27 },
-    { HC_BOOK_ISAIAH, 41, 17, 41, 29 },
+    { HC_BOOK_ISAIAH, 41, 17, 41, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAETCHANAN_BALADI[] = {
     { HC_BOOK_ISAIAH, 40, 1, 40, 27 },
-    { HC_BOOK_ISAIAH, 41, 17, 41, 29 },
+    { HC_BOOK_ISAIAH, 41, 17, 41, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAETCHANAN_SHAMI[] = {
     { HC_BOOK_ISAIAH, 40, 1, 40, 27 },
-    { HC_BOOK_ISAIAH, 41, 17, 41, 29 },
+    { HC_BOOK_ISAIAH, 41, 17, 41, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAETCHANAN_ROMANIA[] = {
     { HC_BOOK_ISAIAH, 40, 1, 40, 26 },
