@@ -261,7 +261,8 @@ def emit_haftarot_source() -> str:
     lines.append("/* ── Special-day haftarot ──────────────────────────────────── */")
     special_arrays = []  # list of dicts: {key, per_custom → sym}
     for occ, variants in special.items():
-        for variant, byc in variants.items():
+        for variant, entry in variants.items():
+            byc = entry["readings"]
             entry_key = f"{occ}_{variant}"
             per_c = {}
             for cname, parts in byc.items():

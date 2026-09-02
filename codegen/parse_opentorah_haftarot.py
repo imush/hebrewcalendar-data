@@ -126,7 +126,11 @@ def parse():
             continue
         pkey = PARSHA_MAP[wname]
         week_attrs = {k: v for k, v in week.attrib.items() if k != "n"}
-        custom_els = list(week.findall("custom"))
+        # A `variant` entry is a reading recorded beside a custom's own, never
+        # resolved to. Taking it would silently overwrite the reading it sits
+        # beside -- which it did, giving Ashkenaz the Vayeilech variant.
+        custom_els = [c for c in week.findall("custom") if c.get("variant") is None]
+        variant_els = [c for c in week.findall("custom") if c.get("variant") is not None]
         by_custom = {}
         if not custom_els:
             # Universal — the <week> itself carries all the reference attrs.

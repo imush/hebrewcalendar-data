@@ -18,10 +18,12 @@ python3 tests/validate_rambam_mt.py
 python3 tests/validate_sefer_hamitzvot.py
 python3 codegen/parse_opentorah_chumash.py
 python3 tests/validate_chumash_aliyot.py
+python3 codegen/parse_opentorah_sources.py
 python3 codegen/parse_opentorah_haftarot.py
 python3 tests/validate_haftarot.py
 python3 codegen/parse_opentorah_special_haftarot.py
 python3 tests/validate_special_haftarot.py
+python3 tests/validate_opentorah_sync.py
 python3 codegen/to_dart.py
 python3 codegen/to_c.py
 python3 codegen/to_java.py

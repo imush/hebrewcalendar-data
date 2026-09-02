@@ -155,7 +155,8 @@ def emit_special_haftarot() -> str:
     lines.append("    static {")
     lines.append("        Map<String, Map<Custom, List<Haftarot.Reference>>> all = new HashMap<>();")
     for occ, variants in data.items():
-        for variant, by_custom in variants.items():
+        for variant, entry in variants.items():
+            by_custom = entry["readings"]
             key = f"{occ}_{variant}"
             lines.append(f"        {{  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);")
             for cname, refs in by_custom.items():

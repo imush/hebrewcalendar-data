@@ -9,6 +9,15 @@
         "toV": 10
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 42,
+        "fromV": 5,
+        "toCh": 42,
+        "toV": 21
+      }
+    ],
     "ITALKI": [
       {
         "book": "Isaiah",
@@ -72,6 +81,33 @@
         "toV": 21
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 42,
+        "fromV": 5,
+        "toCh": 42,
+        "toV": 21
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 42,
+        "fromV": 5,
+        "toCh": 42,
+        "toV": 21
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 42,
+        "fromV": 5,
+        "toCh": 42,
+        "toV": 21
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -82,6 +118,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 42,
+        "fromV": 5,
+        "toCh": 42,
+        "toV": 21
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 42,
@@ -109,6 +154,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 42,
+        "fromV": 5,
+        "toCh": 42,
+        "toV": 21
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 42,
@@ -169,6 +223,15 @@
         "fromV": 1,
         "toCh": 42,
         "toV": 16
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 65,
+        "fromV": 16,
+        "toCh": 66,
+        "toV": 11
       }
     ]
   },
@@ -182,6 +245,15 @@
         "toV": 5
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
     "ITALKI": [
       {
         "book": "Isaiah",
@@ -245,6 +317,33 @@
         "toV": 10
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -255,6 +354,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -282,6 +390,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -342,6 +459,15 @@
         "fromV": 1,
         "toCh": 55,
         "toV": 5
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 9,
+        "toCh": 55,
+        "toV": 12
       }
     ]
   },
@@ -355,6 +481,15 @@
         "toV": 16
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
+      }
+    ],
     "ITALKI": [
       {
         "book": "Isaiah",
@@ -418,6 +553,33 @@
         "toV": 16
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -428,6 +590,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 40,
@@ -455,6 +626,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 40,
@@ -515,6 +695,15 @@
         "fromV": 25,
         "toCh": 41,
         "toV": 17
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
       }
     ]
   },
@@ -528,6 +717,15 @@
         "toV": 37
       }
     ],
+    "POZNAN": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 23
+      }
+    ],
     "ITALKI": [
       {
         "book": "II Kings",
@@ -591,6 +789,33 @@
         "toV": 37
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 23
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 23
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 23
+      }
+    ],
     "MAGREB": [
       {
         "book": "II Kings",
@@ -601,6 +826,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 37
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "II Kings",
         "fromCh": 4,
@@ -628,6 +862,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 23
+      }
+    ],
+    "AGADIR": [
       {
         "book": "II Kings",
         "fromCh": 4,
@@ -689,10 +932,28 @@
         "toCh": 4,
         "toV": 23
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 33,
+        "fromV": 17,
+        "toCh": 34,
+        "toV": 13
+      }
     ]
   },
   "CHAYEI_SARAH": {
     "ASHKENAZ": [
+      {
+        "book": "I Kings",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
+    "POZNAN": [
       {
         "book": "I Kings",
         "fromCh": 1,
@@ -764,6 +1025,33 @@
         "toV": 31
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "I Kings",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "I Kings",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
     "MAGREB": [
       {
         "book": "I Kings",
@@ -774,6 +1062,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "I Kings",
         "fromCh": 1,
@@ -801,6 +1098,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "I Kings",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
+    "AGADIR": [
       {
         "book": "I Kings",
         "fromCh": 1,
@@ -855,6 +1161,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "I Kings",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "I Kings",
         "fromCh": 1,
@@ -874,6 +1189,15 @@
         "toV": 7
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
+      }
+    ],
     "ITALKI": [
       {
         "book": "Malachi",
@@ -937,6 +1261,33 @@
         "toV": 7
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
+      }
+    ],
     "MAGREB": [
       {
         "book": "Malachi",
@@ -947,6 +1298,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Malachi",
         "fromCh": 1,
@@ -974,6 +1334,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Malachi",
         "fromCh": 1,
@@ -1034,6 +1403,15 @@
         "fromV": 1,
         "toCh": 3,
         "toV": 4
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
       }
     ]
   },
@@ -1047,6 +1425,15 @@
         "toV": 10
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Hosea",
+        "fromCh": 12,
+        "fromV": 13,
+        "toCh": 14,
+        "toV": 10
+      }
+    ],
     "ITALKI": [
       {
         "book": "Hosea",
@@ -1124,6 +1511,33 @@
         "toV": 14
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Hosea",
+        "fromCh": 11,
+        "fromV": 7,
+        "toCh": 12,
+        "toV": 12
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 11,
+        "fromV": 7,
+        "toCh": 12,
+        "toV": 12
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Hosea",
+        "fromCh": 11,
+        "fromV": 7,
+        "toCh": 12,
+        "toV": 12
+      }
+    ],
     "MAGREB": [
       {
         "book": "Hosea",
@@ -1134,6 +1548,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 11,
+        "fromV": 7,
+        "toCh": 13,
+        "toV": 5
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Hosea",
         "fromCh": 11,
@@ -1161,6 +1584,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Hosea",
+        "fromCh": 11,
+        "fromV": 7,
+        "toCh": 13,
+        "toV": 5
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Hosea",
         "fromCh": 11,
@@ -1221,6 +1653,15 @@
         "fromV": 7,
         "toCh": 12,
         "toV": 14
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 12,
+        "fromV": 13,
+        "toCh": 14,
+        "toV": 3
       }
     ]
   },
@@ -1234,6 +1675,15 @@
         "toV": 21
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
     "ITALKI": [
       {
         "book": "Obadiah",
@@ -1297,6 +1747,33 @@
         "toV": 21
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
     "MAGREB": [
       {
         "book": "Obadiah",
@@ -1307,6 +1784,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Obadiah",
         "fromCh": 1,
@@ -1334,6 +1820,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Obadiah",
         "fromCh": 1,
@@ -1388,6 +1883,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Obadiah",
         "fromCh": 1,
@@ -1407,6 +1911,15 @@
         "toV": 8
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
     "ITALKI": [
       {
         "book": "Amos",
@@ -1470,6 +1983,33 @@
         "toV": 8
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
     "MAGREB": [
       {
         "book": "Amos",
@@ -1480,6 +2020,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Amos",
         "fromCh": 2,
@@ -1507,6 +2056,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Amos",
         "fromCh": 2,
@@ -1561,6 +2119,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Amos",
         "fromCh": 2,
@@ -1580,6 +2147,15 @@
         "toV": 1
       }
     ],
+    "POZNAN": [
+      {
+        "book": "I Kings",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
     "ITALKI": [
       {
         "book": "I Kings",
@@ -1643,6 +2219,33 @@
         "toV": 1
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "I Kings",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "I Kings",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
     "MAGREB": [
       {
         "book": "I Kings",
@@ -1653,6 +2256,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "I Kings",
         "fromCh": 3,
@@ -1680,6 +2292,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "I Kings",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
+    "AGADIR": [
       {
         "book": "I Kings",
         "fromCh": 3,
@@ -1734,6 +2355,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "I Kings",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "I Kings",
         "fromCh": 3,
@@ -1753,6 +2383,15 @@
         "toV": 28
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
     "ITALKI": [
       {
         "book": "Ezekiel",
@@ -1816,6 +2455,33 @@
         "toV": 28
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
     "MAGREB": [
       {
         "book": "Ezekiel",
@@ -1826,6 +2492,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Ezekiel",
         "fromCh": 37,
@@ -1853,6 +2528,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Ezekiel",
         "fromCh": 37,
@@ -1907,6 +2591,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Ezekiel",
         "fromCh": 37,
@@ -1926,6 +2619,15 @@
         "toV": 12
       }
     ],
+    "POZNAN": [
+      {
+        "book": "I Kings",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
+    ],
     "ITALKI": [
       {
         "book": "I Kings",
@@ -1989,6 +2691,33 @@
         "toV": 12
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "I Kings",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "I Kings",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
+    ],
     "MAGREB": [
       {
         "book": "I Kings",
@@ -1999,6 +2728,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "I Kings",
         "fromCh": 2,
@@ -2026,6 +2764,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "I Kings",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
+    ],
+    "AGADIR": [
       {
         "book": "I Kings",
         "fromCh": 2,
@@ -2087,10 +2834,35 @@
         "toCh": 2,
         "toV": 12
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
     ]
   },
   "SHEMOT": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 27,
+        "fromV": 6,
+        "toCh": 28,
+        "toV": 13
+      },
+      {
+        "book": "Isaiah",
+        "fromCh": 29,
+        "fromV": 22,
+        "toCh": 29,
+        "toV": 23
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 27,
@@ -2204,6 +2976,33 @@
         "toV": 23
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 16,
+        "fromV": 1,
+        "toCh": 16,
+        "toV": 14
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 16,
+        "fromV": 1,
+        "toCh": 16,
+        "toV": 14
+      }
+    ],
     "MAGREB": [
       {
         "book": "Ezekiel",
@@ -2214,6 +3013,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 16,
+        "fromV": 1,
+        "toCh": 16,
+        "toV": 14
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Ezekiel",
         "fromCh": 16,
@@ -2241,6 +3049,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 16,
+        "fromV": 1,
+        "toCh": 16,
+        "toV": 14
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Ezekiel",
         "fromCh": 16,
@@ -2302,6 +3119,15 @@
         "toCh": 16,
         "toV": 14
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 27,
+        "fromV": 6,
+        "toCh": 28,
+        "toV": 13
+      }
     ]
   },
   "VAERA": {
@@ -2310,6 +3136,15 @@
         "book": "Ezekiel",
         "fromCh": 28,
         "fromV": 25,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 29,
+        "fromV": 1,
         "toCh": 29,
         "toV": 21
       }
@@ -2377,6 +3212,33 @@
         "toV": 21
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 28,
+        "fromV": 25,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 28,
+        "fromV": 25,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 28,
+        "fromV": 25,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
     "MAGREB": [
       {
         "book": "Ezekiel",
@@ -2387,6 +3249,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 28,
+        "fromV": 25,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Ezekiel",
         "fromCh": 28,
@@ -2414,6 +3285,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 28,
+        "fromV": 25,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Ezekiel",
         "fromCh": 28,
@@ -2472,6 +3352,15 @@
         "book": "Ezekiel",
         "fromCh": 28,
         "fromV": 24,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 28,
+        "fromV": 25,
         "toCh": 29,
         "toV": 21
       }
@@ -2487,6 +3376,15 @@
         "toV": 28
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 46,
+        "fromV": 13,
+        "toCh": 46,
+        "toV": 28
+      }
+    ],
     "ITALKI": [
       {
         "book": "Isaiah",
@@ -2550,6 +3448,33 @@
         "toV": 28
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 46,
+        "fromV": 13,
+        "toCh": 46,
+        "toV": 28
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 46,
+        "fromV": 13,
+        "toCh": 46,
+        "toV": 28
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 46,
+        "fromV": 13,
+        "toCh": 46,
+        "toV": 28
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -2560,6 +3485,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 19,
+        "fromV": 1,
+        "toCh": 19,
+        "toV": 25
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 19,
@@ -2587,6 +3521,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 19,
+        "fromV": 1,
+        "toCh": 19,
+        "toV": 25
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 19,
@@ -2648,10 +3591,28 @@
         "toCh": 19,
         "toV": 25
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 46,
+        "fromV": 13,
+        "toCh": 46,
+        "toV": 28
+      }
     ]
   },
   "BESHALACH": {
     "ASHKENAZ": [
+      {
+        "book": "Judges",
+        "fromCh": 4,
+        "fromV": 4,
+        "toCh": 5,
+        "toV": 31
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Judges",
         "fromCh": 4,
@@ -2723,6 +3684,33 @@
         "toV": 31
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Judges",
+        "fromCh": 5,
+        "fromV": 1,
+        "toCh": 5,
+        "toV": 31
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Judges",
+        "fromCh": 5,
+        "fromV": 1,
+        "toCh": 5,
+        "toV": 31
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Judges",
+        "fromCh": 5,
+        "fromV": 1,
+        "toCh": 5,
+        "toV": 31
+      }
+    ],
     "MAGREB": [
       {
         "book": "Judges",
@@ -2733,6 +3721,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Judges",
+        "fromCh": 5,
+        "fromV": 1,
+        "toCh": 5,
+        "toV": 31
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Judges",
         "fromCh": 5,
@@ -2760,6 +3757,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Judges",
+        "fromCh": 5,
+        "fromV": 1,
+        "toCh": 5,
+        "toV": 31
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Judges",
         "fromCh": 5,
@@ -2821,6 +3827,15 @@
         "toCh": 5,
         "toV": 31
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Joshua",
+        "fromCh": 24,
+        "fromV": 7,
+        "toCh": 24,
+        "toV": 26
+      }
     ]
   },
   "YITRO": {
@@ -2838,6 +3853,15 @@
         "fromV": 5,
         "toCh": 9,
         "toV": 6
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 13
       }
     ],
     "ITALKI": [
@@ -2938,6 +3962,33 @@
         "toV": 13
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -2948,6 +3999,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 7,
+        "toV": 6
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 6,
@@ -2975,6 +4035,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 6,
@@ -3057,10 +4126,35 @@
         "toCh": 9,
         "toV": 6
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 33,
+        "fromV": 13,
+        "toCh": 34,
+        "toV": 10
+      }
     ]
   },
   "MISHPATIM": {
     "ASHKENAZ": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Jeremiah",
         "fromCh": 34,
@@ -3181,6 +4275,54 @@
         "toV": 26
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
+    ],
     "MAGREB": [
       {
         "book": "Jeremiah",
@@ -3198,6 +4340,22 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Jeremiah",
         "fromCh": 34,
@@ -3246,6 +4404,22 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Jeremiah",
         "fromCh": 34,
@@ -3335,10 +4509,35 @@
         "toCh": 35,
         "toV": 19
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
     ]
   },
   "TERUMAH": {
     "ASHKENAZ": [
+      {
+        "book": "I Kings",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "POZNAN": [
       {
         "book": "I Kings",
         "fromCh": 5,
@@ -3410,6 +4609,33 @@
         "toV": 13
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "I Kings",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "I Kings",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
     "MAGREB": [
       {
         "book": "I Kings",
@@ -3420,6 +4646,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "I Kings",
         "fromCh": 5,
@@ -3447,6 +4682,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "I Kings",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "AGADIR": [
       {
         "book": "I Kings",
         "fromCh": 5,
@@ -3501,6 +4745,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "I Kings",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "I Kings",
         "fromCh": 5,
@@ -3520,6 +4773,15 @@
         "toV": 27
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
     "ITALKI": [
       {
         "book": "Ezekiel",
@@ -3583,6 +4845,33 @@
         "toV": 27
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
     "MAGREB": [
       {
         "book": "Ezekiel",
@@ -3593,6 +4882,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Ezekiel",
         "fromCh": 43,
@@ -3620,6 +4918,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Ezekiel",
         "fromCh": 43,
@@ -3674,6 +4981,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Ezekiel",
         "fromCh": 43,
@@ -3693,6 +5009,15 @@
         "toV": 39
       }
     ],
+    "POZNAN": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 20,
+        "toCh": 18,
+        "toV": 39
+      }
+    ],
     "ITALKI": [
       {
         "book": "I Kings",
@@ -3751,7 +5076,34 @@
       {
         "book": "I Kings",
         "fromCh": 18,
-        "fromV": 1,
+        "fromV": 20,
+        "toCh": 18,
+        "toV": 39
+      }
+    ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 20,
+        "toCh": 18,
+        "toV": 39
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 20,
+        "toCh": 18,
+        "toV": 39
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 20,
         "toCh": 18,
         "toV": 39
       }
@@ -3766,6 +5118,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 20,
+        "toCh": 18,
+        "toV": 39
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "I Kings",
         "fromCh": 18,
@@ -3793,6 +5154,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 20,
+        "toCh": 18,
+        "toV": 39
+      }
+    ],
+    "AGADIR": [
       {
         "book": "I Kings",
         "fromCh": 18,
@@ -3853,6 +5223,15 @@
         "fromV": 1,
         "toCh": 18,
         "toV": 45
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 7,
+        "toCh": 44,
+        "toV": 2
       }
     ]
   },
@@ -3866,6 +5245,15 @@
         "toV": 50
       }
     ],
+    "POZNAN": [
+      {
+        "book": "I Kings",
+        "fromCh": 7,
+        "fromV": 40,
+        "toCh": 7,
+        "toV": 50
+      }
+    ],
     "ITALKI": [
       {
         "book": "I Kings",
@@ -3929,6 +5317,33 @@
         "toV": 26
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "I Kings",
+        "fromCh": 7,
+        "fromV": 13,
+        "toCh": 7,
+        "toV": 26
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 7,
+        "fromV": 13,
+        "toCh": 7,
+        "toV": 26
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "I Kings",
+        "fromCh": 7,
+        "fromV": 13,
+        "toCh": 7,
+        "toV": 26
+      }
+    ],
     "MAGREB": [
       {
         "book": "I Kings",
@@ -3939,6 +5354,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 7,
+        "fromV": 13,
+        "toCh": 7,
+        "toV": 26
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "I Kings",
         "fromCh": 7,
@@ -3966,6 +5390,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "I Kings",
+        "fromCh": 7,
+        "fromV": 13,
+        "toCh": 7,
+        "toV": 26
+      }
+    ],
+    "AGADIR": [
       {
         "book": "I Kings",
         "fromCh": 7,
@@ -4027,6 +5460,15 @@
         "toCh": 7,
         "toV": 22
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 8,
+        "fromV": 1,
+        "toCh": 8,
+        "toV": 10
+      }
     ]
   },
   "PEKUDEI": {
@@ -4035,6 +5477,15 @@
         "book": "I Kings",
         "fromCh": 7,
         "fromV": 51,
+        "toCh": 8,
+        "toV": 21
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "I Kings",
+        "fromCh": 8,
+        "fromV": 1,
         "toCh": 8,
         "toV": 21
       }
@@ -4102,6 +5553,33 @@
         "toV": 21
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "I Kings",
+        "fromCh": 7,
+        "fromV": 40,
+        "toCh": 7,
+        "toV": 50
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 7,
+        "fromV": 40,
+        "toCh": 7,
+        "toV": 50
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "I Kings",
+        "fromCh": 7,
+        "fromV": 40,
+        "toCh": 7,
+        "toV": 50
+      }
+    ],
     "MAGREB": [
       {
         "book": "I Kings",
@@ -4112,6 +5590,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 7,
+        "fromV": 40,
+        "toCh": 7,
+        "toV": 50
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "I Kings",
         "fromCh": 7,
@@ -4139,6 +5626,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "I Kings",
+        "fromCh": 7,
+        "fromV": 40,
+        "toCh": 7,
+        "toV": 50
+      }
+    ],
+    "AGADIR": [
       {
         "book": "I Kings",
         "fromCh": 7,
@@ -4200,10 +5696,28 @@
         "toCh": 7,
         "toV": 50
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 7,
+        "fromV": 27,
+        "toCh": 7,
+        "toV": 47
+      }
     ]
   },
   "VAYIKRA": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 23
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 43,
@@ -4275,6 +5789,33 @@
         "toV": 23
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 23
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 23
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 23
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -4285,6 +5826,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 6
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 43,
@@ -4312,6 +5862,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 6
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 43,
@@ -4380,10 +5939,35 @@
         "toCh": 44,
         "toV": 6
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 23
+      }
     ]
   },
   "TZAV": {
     "ASHKENAZ": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Jeremiah",
         "fromCh": 7,
@@ -4511,6 +6095,54 @@
         "toV": 23
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
     "MAGREB": [
       {
         "book": "Jeremiah",
@@ -4528,6 +6160,22 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Jeremiah",
         "fromCh": 7,
@@ -4576,6 +6224,22 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Jeremiah",
         "fromCh": 7,
@@ -4678,6 +6342,22 @@
         "fromV": 21,
         "toCh": 7,
         "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
       },
       {
         "book": "Jeremiah",
@@ -4698,6 +6378,15 @@
         "toV": 17
       }
     ],
+    "POZNAN": [
+      {
+        "book": "II Samuel",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 19
+      }
+    ],
     "ITALKI": [
       {
         "book": "II Samuel",
@@ -4761,6 +6450,33 @@
         "toV": 19
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "II Samuel",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 19
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "II Samuel",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 19
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "II Samuel",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 19
+      }
+    ],
     "MAGREB": [
       {
         "book": "II Samuel",
@@ -4771,6 +6487,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "II Samuel",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 19
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "II Samuel",
         "fromCh": 6,
@@ -4798,6 +6523,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "II Samuel",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 19
+      }
+    ],
+    "AGADIR": [
       {
         "book": "II Samuel",
         "fromCh": 6,
@@ -4858,6 +6592,15 @@
         "fromV": 1,
         "toCh": 7,
         "toV": 3
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 27,
+        "toCh": 44,
+        "toV": 21
       }
     ]
   },
@@ -4871,6 +6614,15 @@
         "toV": 19
       }
     ],
+    "POZNAN": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
     "ITALKI": [
       {
         "book": "II Kings",
@@ -4934,6 +6686,33 @@
         "toV": 19
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
     "MAGREB": [
       {
         "book": "II Kings",
@@ -4944,6 +6723,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "II Kings",
         "fromCh": 4,
@@ -4971,6 +6759,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
+    "AGADIR": [
       {
         "book": "II Kings",
         "fromCh": 4,
@@ -5025,6 +6822,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "II Kings",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "II Kings",
         "fromCh": 4,
@@ -5044,6 +6850,15 @@
         "toV": 20
       }
     ],
+    "POZNAN": [
+      {
+        "book": "II Kings",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
     "ITALKI": [
       {
         "book": "II Kings",
@@ -5114,6 +6929,33 @@
         "toV": 20
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "II Kings",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "II Kings",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "II Kings",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
     "MAGREB": [
       {
         "book": "II Kings",
@@ -5124,6 +6966,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "II Kings",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "II Kings",
         "fromCh": 7,
@@ -5151,6 +7002,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "II Kings",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "AGADIR": [
       {
         "book": "II Kings",
         "fromCh": 7,
@@ -5232,17 +7092,35 @@
         "fromV": 23,
         "toCh": 13,
         "toV": 25
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "II Kings",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
       }
     ]
   },
   "ACHAREI_MOT": {
     "ASHKENAZ": [
       {
-        "book": "Amos",
-        "fromCh": 9,
-        "fromV": 7,
-        "toCh": 9,
-        "toV": 15
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 2,
+        "toCh": 22,
+        "toV": 16
       }
     ],
     "ITALKI": [
@@ -5256,38 +7134,38 @@
     ],
     "FRANKFURT": [
       {
-        "book": "Amos",
-        "fromCh": 9,
-        "fromV": 7,
-        "toCh": 9,
-        "toV": 15
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
       }
     ],
     "LITA": [
       {
-        "book": "Amos",
-        "fromCh": 9,
-        "fromV": 7,
-        "toCh": 9,
-        "toV": 15
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
       }
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "Amos",
-        "fromCh": 9,
-        "fromV": 7,
-        "toCh": 9,
-        "toV": 15
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
       }
     ],
     "HAGRA": [
       {
-        "book": "Amos",
-        "fromCh": 9,
-        "fromV": 7,
-        "toCh": 9,
-        "toV": 15
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
       }
     ],
     "SEFARD": [
@@ -5308,6 +7186,33 @@
         "toV": 15
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
     "MAGREB": [
       {
         "book": "Ezekiel",
@@ -5318,6 +7223,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Ezekiel",
         "fromCh": 22,
@@ -5345,6 +7259,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Ezekiel",
         "fromCh": 22,
@@ -5399,6 +7322,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Ezekiel",
         "fromCh": 22,
@@ -5411,11 +7343,20 @@
   "KEDOSHIM": {
     "ASHKENAZ": [
       {
-        "book": "Ezekiel",
-        "fromCh": 22,
-        "fromV": 1,
-        "toCh": 22,
-        "toV": 16
+        "book": "Amos",
+        "fromCh": 9,
+        "fromV": 7,
+        "toCh": 9,
+        "toV": 15
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Amos",
+        "fromCh": 9,
+        "fromV": 7,
+        "toCh": 9,
+        "toV": 15
       }
     ],
     "ITALKI": [
@@ -5429,11 +7370,11 @@
     ],
     "FRANKFURT": [
       {
-        "book": "Ezekiel",
-        "fromCh": 22,
-        "fromV": 1,
-        "toCh": 22,
-        "toV": 16
+        "book": "Amos",
+        "fromCh": 9,
+        "fromV": 7,
+        "toCh": 9,
+        "toV": 15
       }
     ],
     "LITA": [
@@ -5456,11 +7397,11 @@
     ],
     "HAGRA": [
       {
-        "book": "Ezekiel",
-        "fromCh": 22,
-        "fromV": 1,
-        "toCh": 22,
-        "toV": 16
+        "book": "Amos",
+        "fromCh": 9,
+        "fromV": 7,
+        "toCh": 9,
+        "toV": 15
       }
     ],
     "SEFARD": [
@@ -5481,6 +7422,33 @@
         "toV": 20
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 20,
+        "fromV": 2,
+        "toCh": 20,
+        "toV": 20
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 20,
+        "fromV": 2,
+        "toCh": 20,
+        "toV": 20
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 20,
+        "fromV": 2,
+        "toCh": 20,
+        "toV": 20
+      }
+    ],
     "MAGREB": [
       {
         "book": "Ezekiel",
@@ -5491,6 +7459,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 20,
+        "fromV": 2,
+        "toCh": 20,
+        "toV": 20
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Ezekiel",
         "fromCh": 20,
@@ -5518,6 +7495,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 20,
+        "fromV": 2,
+        "toCh": 20,
+        "toV": 20
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Ezekiel",
         "fromCh": 20,
@@ -5578,6 +7564,15 @@
         "fromV": 1,
         "toCh": 20,
         "toV": 20
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 3,
+        "fromV": 4,
+        "toCh": 5,
+        "toV": 17
       }
     ]
   },
@@ -5591,6 +7586,15 @@
         "toV": 31
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
     "ITALKI": [
       {
         "book": "Ezekiel",
@@ -5654,6 +7658,33 @@
         "toV": 31
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
     "MAGREB": [
       {
         "book": "Ezekiel",
@@ -5664,6 +7695,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Ezekiel",
         "fromCh": 44,
@@ -5691,6 +7731,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Ezekiel",
         "fromCh": 44,
@@ -5745,6 +7794,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Ezekiel",
         "fromCh": 44,
@@ -5764,6 +7822,15 @@
         "toV": 27
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 22
+      }
+    ],
     "ITALKI": [
       {
         "book": "Jeremiah",
@@ -5827,6 +7894,33 @@
         "toV": 22
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 27
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 27
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 27
+      }
+    ],
     "MAGREB": [
       {
         "book": "Jeremiah",
@@ -5837,6 +7931,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 27
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Jeremiah",
         "fromCh": 32,
@@ -5864,6 +7967,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 27
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Jeremiah",
         "fromCh": 32,
@@ -5925,6 +8037,15 @@
         "toCh": 17,
         "toV": 14
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 27
+      }
     ]
   },
   "BECHUKOTAI": {
@@ -5935,6 +8056,15 @@
         "fromV": 19,
         "toCh": 17,
         "toV": 14
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 34,
+        "fromV": 1,
+        "toCh": 34,
+        "toV": 15
       }
     ],
     "ITALKI": [
@@ -6000,6 +8130,33 @@
         "toV": 14
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 16,
+        "fromV": 19,
+        "toCh": 17,
+        "toV": 14
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 16,
+        "fromV": 19,
+        "toCh": 17,
+        "toV": 14
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 16,
+        "fromV": 19,
+        "toCh": 17,
+        "toV": 14
+      }
+    ],
     "MAGREB": [
       {
         "book": "Jeremiah",
@@ -6010,6 +8167,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 16,
+        "fromV": 19,
+        "toCh": 17,
+        "toV": 14
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Jeremiah",
         "fromCh": 16,
@@ -6037,6 +8203,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 16,
+        "fromV": 19,
+        "toCh": 17,
+        "toV": 14
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Jeremiah",
         "fromCh": 16,
@@ -6098,10 +8273,28 @@
         "toCh": 34,
         "toV": 27
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 16,
+        "fromV": 19,
+        "toCh": 17,
+        "toV": 14
+      }
     ]
   },
   "BAMIDBAR": {
     "ASHKENAZ": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Hosea",
         "fromCh": 2,
@@ -6173,6 +8366,33 @@
         "toV": 22
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
     "MAGREB": [
       {
         "book": "Hosea",
@@ -6183,6 +8403,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Hosea",
         "fromCh": 2,
@@ -6210,6 +8439,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Hosea",
         "fromCh": 2,
@@ -6264,6 +8502,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Hosea",
         "fromCh": 2,
@@ -6283,6 +8530,15 @@
         "toV": 25
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
+    ],
     "ITALKI": [
       {
         "book": "Judges",
@@ -6346,6 +8602,33 @@
         "toV": 25
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
+    ],
     "MAGREB": [
       {
         "book": "Judges",
@@ -6356,6 +8639,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Judges",
         "fromCh": 13,
@@ -6383,6 +8675,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Judges",
         "fromCh": 13,
@@ -6444,10 +8745,28 @@
         "toCh": 13,
         "toV": 24
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
     ]
   },
   "BEHAALOTECHA": {
     "ASHKENAZ": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Zechariah",
         "fromCh": 2,
@@ -6519,6 +8838,33 @@
         "toV": 7
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
+    ],
     "MAGREB": [
       {
         "book": "Zechariah",
@@ -6529,6 +8875,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Zechariah",
         "fromCh": 2,
@@ -6556,6 +8911,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Zechariah",
         "fromCh": 2,
@@ -6617,10 +8981,28 @@
         "toCh": 4,
         "toV": 9
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
     ]
   },
   "SHELACH": {
     "ASHKENAZ": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Joshua",
         "fromCh": 2,
@@ -6692,6 +9074,33 @@
         "toV": 24
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
     "MAGREB": [
       {
         "book": "Joshua",
@@ -6702,6 +9111,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Joshua",
         "fromCh": 2,
@@ -6729,6 +9147,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Joshua",
         "fromCh": 2,
@@ -6783,6 +9210,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Joshua",
         "fromCh": 2,
@@ -6802,6 +9238,15 @@
         "toV": 22
       }
     ],
+    "POZNAN": [
+      {
+        "book": "I Samuel",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
     "ITALKI": [
       {
         "book": "I Samuel",
@@ -6865,6 +9310,33 @@
         "toV": 22
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "I Samuel",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "I Samuel",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "I Samuel",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
     "MAGREB": [
       {
         "book": "I Samuel",
@@ -6875,6 +9347,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "I Samuel",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "I Samuel",
         "fromCh": 11,
@@ -6902,6 +9383,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "I Samuel",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
+    "AGADIR": [
       {
         "book": "I Samuel",
         "fromCh": 11,
@@ -6956,6 +9446,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "I Samuel",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "I Samuel",
         "fromCh": 11,
@@ -6975,6 +9474,15 @@
         "toV": 33
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 24
+      }
+    ],
     "ITALKI": [
       {
         "book": "Judges",
@@ -7038,6 +9546,33 @@
         "toV": 33
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 33
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 33
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 33
+      }
+    ],
     "MAGREB": [
       {
         "book": "Judges",
@@ -7048,6 +9583,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 33
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Judges",
         "fromCh": 11,
@@ -7075,6 +9619,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 33
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Judges",
         "fromCh": 11,
@@ -7135,6 +9688,15 @@
         "fromV": 1,
         "toCh": 11,
         "toV": 40
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 33
       }
     ]
   },
@@ -7148,6 +9710,15 @@
         "toV": 8
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
     "ITALKI": [
       {
         "book": "Micah",
@@ -7211,6 +9782,33 @@
         "toV": 8
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
     "MAGREB": [
       {
         "book": "Micah",
@@ -7221,6 +9819,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Micah",
         "fromCh": 5,
@@ -7248,6 +9855,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Micah",
         "fromCh": 5,
@@ -7302,6 +9918,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Micah",
         "fromCh": 5,
@@ -7321,6 +9946,15 @@
         "toV": 21
       }
     ],
+    "POZNAN": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
+    ],
     "ITALKI": [
       {
         "book": "I Kings",
@@ -7384,6 +10018,33 @@
         "toV": 21
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
+    ],
     "MAGREB": [
       {
         "book": "I Kings",
@@ -7394,6 +10055,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "I Kings",
         "fromCh": 18,
@@ -7421,6 +10091,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
+    ],
+    "AGADIR": [
       {
         "book": "I Kings",
         "fromCh": 18,
@@ -7482,10 +10161,28 @@
         "toCh": 19,
         "toV": 21
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
     ]
   },
   "MATOT": {
     "ASHKENAZ": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Jeremiah",
         "fromCh": 1,
@@ -7557,6 +10254,33 @@
         "toV": 3
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
+    ],
     "MAGREB": [
       {
         "book": "Jeremiah",
@@ -7567,6 +10291,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Jeremiah",
         "fromCh": 1,
@@ -7594,6 +10327,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Jeremiah",
         "fromCh": 1,
@@ -7655,10 +10397,35 @@
         "toCh": 1,
         "toV": 19
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
     ]
   },
   "MASEI": {
     "ASHKENAZ": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 3,
+        "fromV": 4,
+        "toCh": 3,
+        "toV": 4
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Jeremiah",
         "fromCh": 2,
@@ -7779,6 +10546,54 @@
         "toV": 2
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 2
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 2
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 2
+      }
+    ],
     "MAGREB": [
       {
         "book": "Jeremiah",
@@ -7796,6 +10611,22 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 2
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Jeremiah",
         "fromCh": 2,
@@ -7844,6 +10675,22 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 2
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Jeremiah",
         "fromCh": 2,
@@ -7940,10 +10787,35 @@
         "toCh": 4,
         "toV": 2
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 2
+      }
     ]
   },
   "DEVARIM": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 1,
@@ -8015,6 +10887,33 @@
         "toV": 27
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -8025,6 +10924,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 1,
@@ -8052,6 +10960,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 1,
@@ -8113,10 +11030,28 @@
         "toCh": 1,
         "toV": 31
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
     ]
   },
   "VAETCHANAN": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 40,
@@ -8188,6 +11123,33 @@
         "toV": 26
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -8198,6 +11160,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 40,
@@ -8225,6 +11196,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 40,
@@ -8307,10 +11287,28 @@
         "toCh": 41,
         "toV": 29
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
+      }
     ]
   },
   "EIKEV": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 49,
@@ -8382,6 +11380,33 @@
         "toV": 3
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -8392,6 +11417,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 49,
@@ -8419,6 +11453,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 49,
@@ -8473,6 +11516,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Isaiah",
         "fromCh": 49,
@@ -8492,6 +11544,15 @@
         "toV": 5
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
     "ITALKI": [
       {
         "book": "Isaiah",
@@ -8555,6 +11616,33 @@
         "toV": 5
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -8565,6 +11653,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -8592,6 +11689,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -8653,10 +11759,28 @@
         "toCh": 55,
         "toV": 5
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
     ]
   },
   "SHOFTIM": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 51,
@@ -8728,6 +11852,33 @@
         "toV": 12
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -8738,6 +11889,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 51,
@@ -8765,6 +11925,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 51,
@@ -8826,10 +11995,28 @@
         "toCh": 52,
         "toV": 12
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
     ]
   },
   "KI_TEITZEI": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -8901,6 +12088,33 @@
         "toV": 10
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -8911,6 +12125,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -8938,6 +12161,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -8999,10 +12231,28 @@
         "toCh": 54,
         "toV": 10
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
     ]
   },
   "KI_TAVO": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 60,
@@ -9074,6 +12324,33 @@
         "toV": 22
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -9084,6 +12361,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 60,
@@ -9111,6 +12397,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 60,
@@ -9172,10 +12467,28 @@
         "toCh": 60,
         "toV": 22
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
     ]
   },
   "NITZAVIM": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 61,
@@ -9247,6 +12560,33 @@
         "toV": 9
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -9257,6 +12597,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 61,
@@ -9284,6 +12633,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 61,
@@ -9345,6 +12703,15 @@
         "toCh": 63,
         "toV": 9
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
     ]
   },
   "VAYEILECH": {
@@ -9359,9 +12726,18 @@
       {
         "book": "Joel",
         "fromCh": 2,
-        "fromV": 11,
+        "fromV": 15,
         "toCh": 2,
         "toV": 27
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 55,
+        "fromV": 6,
+        "toCh": 56,
+        "toV": 8
       }
     ],
     "ITALKI": [
@@ -9384,7 +12760,7 @@
       {
         "book": "Joel",
         "fromCh": 2,
-        "fromV": 11,
+        "fromV": 15,
         "toCh": 2,
         "toV": 27
       }
@@ -9400,7 +12776,7 @@
       {
         "book": "Joel",
         "fromCh": 2,
-        "fromV": 11,
+        "fromV": 15,
         "toCh": 2,
         "toV": 27
       }
@@ -9416,7 +12792,7 @@
       {
         "book": "Joel",
         "fromCh": 2,
-        "fromV": 11,
+        "fromV": 15,
         "toCh": 2,
         "toV": 27
       }
@@ -9432,7 +12808,7 @@
       {
         "book": "Joel",
         "fromCh": 2,
-        "fromV": 11,
+        "fromV": 15,
         "toCh": 2,
         "toV": 27
       }
@@ -9469,6 +12845,54 @@
         "toV": 20
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Micah",
+        "fromCh": 7,
+        "fromV": 18,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Micah",
+        "fromCh": 7,
+        "fromV": 18,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Micah",
+        "fromCh": 7,
+        "fromV": 18,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
     "MAGREB": [
       {
         "book": "Hosea",
@@ -9486,6 +12910,22 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Micah",
+        "fromCh": 7,
+        "fromV": 18,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Hosea",
         "fromCh": 14,
@@ -9534,6 +12974,22 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Micah",
+        "fromCh": 7,
+        "fromV": 18,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Hosea",
         "fromCh": 14,
@@ -9622,6 +13078,22 @@
         "fromV": 2,
         "toCh": 14,
         "toV": 10
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Micah",
+        "fromCh": 7,
+        "fromV": 18,
+        "toCh": 7,
+        "toV": 20
       }
     ]
   },
@@ -9635,6 +13107,22 @@
         "toV": 51
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Joel",
+        "fromCh": 2,
+        "fromV": 15,
+        "toCh": 2,
+        "toV": 27
+      }
+    ],
     "ITALKI": [
       {
         "book": "Ezekiel",
@@ -9698,6 +13186,33 @@
         "toV": 51
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "II Samuel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 51
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "II Samuel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 51
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "II Samuel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 51
+      }
+    ],
     "MAGREB": [
       {
         "book": "II Samuel",
@@ -9708,6 +13223,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "II Samuel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 51
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "II Samuel",
         "fromCh": 22,
@@ -9735,6 +13259,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "II Samuel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 51
+      }
+    ],
+    "AGADIR": [
       {
         "book": "II Samuel",
         "fromCh": 22,
@@ -9795,6 +13328,15 @@
         "fromV": 22,
         "toCh": 18,
         "toV": 32
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "II Samuel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 51
       }
     ]
   },
@@ -9808,6 +13350,15 @@
         "toV": 18
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 18
+      }
+    ],
     "ITALKI": [
       {
         "book": "Joshua",
@@ -9871,6 +13422,33 @@
         "toV": 18
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 9
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 9
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 9
+      }
+    ],
     "MAGREB": [
       {
         "book": "Joshua",
@@ -9881,6 +13459,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 9
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Joshua",
         "fromCh": 1,
@@ -9908,6 +13495,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 9
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Joshua",
         "fromCh": 1,
@@ -9989,6 +13585,15 @@
         "fromV": 27,
         "toCh": 6,
         "toV": 27
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "I Kings",
+        "fromCh": 8,
+        "fromV": 22,
+        "toCh": 8,
+        "toV": 34
       }
     ]
   }

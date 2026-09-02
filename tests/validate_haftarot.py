@@ -19,11 +19,22 @@ schema = json.loads((ROOT / "schema"    / "haftarot.schema.json").read_text())
 data   = json.loads((ROOT / "schedules" / "haftarot.json").read_text())
 parshiyot = json.loads((ROOT / "names"  / "parshiyot.json").read_text())
 
-jsonschema.validate(data, schema)
-
 # Derived from names/customs.json so adding a custom cannot silently leave
-# this check behind.
+# this check behind -- including in the schema, whose custom pattern is built
+# here rather than written out, so the two cannot drift.
 EXPOSED = set(json.loads((ROOT / "names" / "customs.json").read_text()))
+
+def _with_customs(node):
+    """Replace the placeholder custom pattern with the customs we declare."""
+    if isinstance(node, dict):
+        return {("^(" + "|".join(sorted(EXPOSED)) + ")$" if k == "^(CUSTOMS)$" else k):
+                _with_customs(v) for k, v in node.items()}
+    if isinstance(node, list):
+        return [_with_customs(v) for v in node]
+    return node
+
+schema = _with_customs(schema)
+jsonschema.validate(data, schema)
 NACH_BOOKS = {
     "Joshua", "Judges", "I Samuel", "II Samuel", "I Kings", "II Kings",
     "Isaiah", "Jeremiah", "Ezekiel", "Hosea", "Joel", "Amos", "Obadiah",

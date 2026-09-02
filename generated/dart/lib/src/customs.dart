@@ -12,6 +12,7 @@ part of '../hebrewcalendar_data.dart';
 /// emitted from names/customs.json, which fixes the order.
 enum HaftarahCustom {
   ashkenaz('ASHKENAZ', 'Ashkenaz', 'אשכנז', 'Ашкеназский', 'Ashkénaze'),
+  poznan('POZNAN', 'Poznan', 'פוזנא', 'Познанский', 'Poznanien'),
   italki('ITALKI', 'Italki', 'יטלקי', 'Итальянский', 'Italien'),
   frankfurt('FRANKFURT', 'Frankfurt', 'פרנקפורט', 'Франкфуртский', 'Francfort'),
   lita('LITA', 'Lita', 'ליטה', 'Литовский', 'Lituanien'),
@@ -19,17 +20,23 @@ enum HaftarahCustom {
   hagra('HAGRA', 'GR"A', 'הגר״א', 'Виленский гаон', 'GR"A'),
   sefard('SEFARD', 'Sefard', 'ספרד', 'Сефардский', 'Séfarade'),
   chabad('CHABAD', 'Chabad', 'חב״ד', 'Хабад', 'Habad'),
+  pureSephardim('PURE_SEPHARDIM', 'Pure Sephardim', 'ספרדים טהורים', 'Чистые сефарды', 'Séfarades purs'),
+  persia('PERSIA', 'Persia', 'פרס ובוכרה', 'Персия и Бухара', 'Perse et Boukhara'),
+  libya('LIBYA', 'Libya', 'לוב', 'Ливийский', 'Libyen'),
   magreb('MAGREB', 'Magreb', 'מגרב', 'Магреб', 'Maghreb'),
   algeria('ALGERIA', 'Algeria', 'אלגיר', 'Алжирский', 'Algérien'),
+  algiers('ALGIERS', 'Algiers', 'אלג׳יר', 'Алжир (город)', 'Alger (ville)'),
   morocco('MOROCCO', 'Morocco', 'מרוקו', 'Марокко', 'Marocain'),
   fes('FES', 'Fes', 'פאס', 'Фес', 'Fès'),
   marrakesh('MARRAKESH', 'Marrakesh', 'מראכש', 'Марракеш', 'Marrakech'),
+  agadir('AGADIR', 'Agadir', 'אגדיר', 'Агадир', 'Agadir'),
   toshbim('TOSHBIM', 'Toshbim', 'תושבים', 'Тошбим', 'Tochbim'),
   djerba('DJERBA', 'Djerba', 'דגרבה', 'Джерба', 'Djerba'),
   bavlim('BAVLIM', 'Bavlim', 'בבלים', 'Вавилонский', 'Babylonien'),
   teiman('TEIMAN', 'Teiman', 'תימן', 'Йеменский', 'Yéménite'),
   baladi('BALADI', 'Baladi', 'בלדי', 'Балади', 'Baladi'),
   shami('SHAMI', 'Shami', 'שאמי', 'Шами', 'Chami'),
+  romania('ROMANIA', 'Romania', 'רומניא', 'Румыния (нусах романия)', 'Romaniote'),
   ;
   final String key;   // stable identifier (matches JSON key)
   final String en;
