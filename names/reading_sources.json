@@ -1,35 +1,53 @@
 {
   "michlol": {
     "kind": "website",
-    "name": "hamichlol",
+    "en": "hamichlol",
+    "he": "המכלול",
+    "ru": "ѓа-Michlol",
+    "fr": "HaMichlol",
     "where": "הפטרה",
     "url": "https://www.hamichlol.org.il/הפטרה"
   },
   "torah-temimah": {
     "kind": "chumash",
-    "name": "Chumash Torah Temimah",
+    "en": "Chumash Torah Temimah",
+    "he": "חומש תורה תמימה",
+    "ru": "Хумаш Тора Тмима",
+    "fr": "Houmach Torah Temima",
     "publication": "Hebrew Publishing Company, New York 1928"
   },
   "chabad-org": {
     "kind": "website",
-    "name": "chabad.org",
+    "en": "chabad.org",
+    "he": "chabad.org",
+    "ru": "chabad.org",
+    "fr": "chabad.org",
     "url": "https://www.chabad.org"
   },
   "finkelstein": {
     "kind": "study",
-    "name": "Louis Finkelstein",
+    "en": "Louis Finkelstein",
+    "he": "לואיס פינקלשטיין",
+    "ru": "Луис Финкельштейн",
+    "fr": "Louis Finkelstein",
     "where": "The Prophetic Readings According to the Palestinian, Byzantine, and Karaite Rites, HUCA vol. 17 (1942-1943) p. 423",
     "url": "https://www.jstor.org/stable/23506442"
   },
   "opensiddur": {
     "kind": "study",
-    "name": "Sedarim and Hafṭarot according to the nusaḥ Erets Yisrael",
+    "en": "Sedarim and Hafṭarot according to the nusaḥ Erets Yisrael",
+    "he": "סדרים והפטרות כמנהג ארץ ישראל",
+    "ru": "Седарим и ѓафтарот по нусаху Эрец-Исраэль",
+    "fr": "Sedarim et haftarot selon le noussah d'Erets Israël",
     "where": "St. Petersburg Manuscript, NLR Ms. EVR II B 42; ed. Isaac Gantwerk Mayer, CC BY-SA 4.0",
     "url": "https://opensiddur.org/readings-and-sourcetexts/reading-schedules/sedarim-and-haftarot-according-to-the-nusah-erets-yisrael-as-recorded-in-the-st-petersburg-manuscript-nlr-ms-evr-ii-b-42/"
   },
   "romania-reconstruction": {
     "kind": "reconstruction",
-    "name": "Romania readings reconstructed from the Erets Yisrael sedarim",
+    "en": "Romania readings reconstructed from the Erets Yisrael sedarim",
+    "he": "הפטרות רומניא לפי סדרי ארץ ישראל",
+    "ru": "Чтения нусаха романия, восстановленные по седарим Эрец-Исраэль",
+    "fr": "Lectures romaniotes reconstituées d'après les sedarim d'Erets Israël",
     "where": "the haftarah of the first complete seder falling within each parsha, per michlol's account of how Romania chose one reading from the three parallel sedarim",
     "combines": [
       "finkelstein",
@@ -38,39 +56,60 @@
   },
   "chitas": {
     "kind": "chumash",
-    "name": "Sefer Chitas",
+    "en": "Sefer Chitas",
+    "he": "ספר חת\"ת",
+    "ru": "Сефер Хитас",
+    "fr": "Sefer Hitas",
     "publication": "Kehot Publication Society, Brooklyn NY, 2019"
   },
   "torat-chaim": {
     "kind": "chumash",
-    "name": "Chumash Torat Chaim",
+    "en": "Chumash Torat Chaim",
+    "he": "חומש תורת חיים",
+    "ru": "Хумаш Торат Хаим",
+    "fr": "Houmach Torat Haïm",
     "publication": "Mossad Harav Kook, Jerusalem 1993"
   },
   "steinsaltz": {
     "kind": "chumash",
-    "name": "Chumash Steinsaltz",
+    "en": "Chumash Steinsaltz",
+    "he": "חומש שטיינזלץ",
+    "ru": "Хумаш Штейнзальца",
+    "fr": "Houmach Steinsaltz",
     "publication": "Koren Publishers, Jerusalem 2023"
   },
   "nitei-gavriel": {
     "kind": "halachah",
-    "name": "Nitei Gavriel",
+    "en": "Nitei Gavriel",
+    "he": "נטעי גבריאל",
+    "ru": "Нитей Гавриэль",
+    "fr": "Nitei Gavriel",
     "publication": "Hotzaat Shemesh, Jerusalem 2002",
     "where": "Hilchot Sukkot"
   },
   "poznan-pinkas": {
     "kind": "study",
-    "name": "Pinkas Beis HaKnesses de-Kehilas Pozna",
+    "en": "Pinkas Beis HaKnesses de-Kehilas Pozna",
+    "he": "פנקס בית הכנסת דק\"ק פוזנא",
+    "ru": "Пинкас синагоги общины Познани",
+    "fr": "Pinkas de la synagogue de la communauté de Poznań",
     "publication": "in Berakhah le-Menachem, St. Louis 1955, p. 262"
   },
   "asulin": {
     "kind": "website",
-    "name": "R. Avraham Asulin",
+    "en": "R. Avraham Asulin",
+    "he": "הרב אברהם אסולין",
+    "ru": "рав Авраѓам Асулин",
+    "fr": "Rav Avraham Assouline",
     "where": "Moroccan customs, on moreshet-morocco.com",
     "url": "https://moreshet-morocco.com/2015/07/12/הלכות-ט-באב-הרב-אברה-אסולין/"
   },
   "nahagu-haam": {
     "kind": "halachah",
-    "name": "Nahagu HaAm",
+    "en": "Nahagu HaAm",
+    "he": "נהגו העם",
+    "ru": "Наѓагу ѓа-Ам",
+    "fr": "Nahagou HaAm",
     "publication": "Machon le-Hotzaat Sefarim ve-Khitvei Yad, Jerusalem 2000"
   }
 }

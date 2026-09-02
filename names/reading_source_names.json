@@ -1,0 +1,81 @@
+{
+  "_comment": "Display names for the sources in reading_sources.json, in the four languages the UI speaks. Local: opentorah names them in English only. The English here is upstream's own name; the rest are ours. parse_opentorah_sources.py merges these in and fails if upstream gains a source this file does not name.",
+  "michlol": {
+    "en": "hamichlol",
+    "he": "המכלול",
+    "ru": "ѓа-Michlol",
+    "fr": "HaMichlol"
+  },
+  "torah-temimah": {
+    "en": "Chumash Torah Temimah",
+    "he": "חומש תורה תמימה",
+    "ru": "Хумаш Тора Тмима",
+    "fr": "Houmach Torah Temima"
+  },
+  "chabad-org": {
+    "en": "chabad.org",
+    "he": "chabad.org",
+    "ru": "chabad.org",
+    "fr": "chabad.org"
+  },
+  "finkelstein": {
+    "en": "Louis Finkelstein",
+    "he": "לואיס פינקלשטיין",
+    "ru": "Луис Финкельштейн",
+    "fr": "Louis Finkelstein"
+  },
+  "opensiddur": {
+    "en": "Sedarim and Hafṭarot according to the nusaḥ Erets Yisrael",
+    "he": "סדרים והפטרות כמנהג ארץ ישראל",
+    "ru": "Седарим и ѓафтарот по нусаху Эрец-Исраэль",
+    "fr": "Sedarim et haftarot selon le noussah d'Erets Israël"
+  },
+  "romania-reconstruction": {
+    "en": "Romania readings reconstructed from the Erets Yisrael sedarim",
+    "he": "הפטרות רומניא לפי סדרי ארץ ישראל",
+    "ru": "Чтения нусаха романия, восстановленные по седарим Эрец-Исраэль",
+    "fr": "Lectures romaniotes reconstituées d'après les sedarim d'Erets Israël"
+  },
+  "chitas": {
+    "en": "Sefer Chitas",
+    "he": "ספר חת\"ת",
+    "ru": "Сефер Хитас",
+    "fr": "Sefer Hitas"
+  },
+  "torat-chaim": {
+    "en": "Chumash Torat Chaim",
+    "he": "חומש תורת חיים",
+    "ru": "Хумаш Торат Хаим",
+    "fr": "Houmach Torat Haïm"
+  },
+  "steinsaltz": {
+    "en": "Chumash Steinsaltz",
+    "he": "חומש שטיינזלץ",
+    "ru": "Хумаш Штейнзальца",
+    "fr": "Houmach Steinsaltz"
+  },
+  "nitei-gavriel": {
+    "en": "Nitei Gavriel",
+    "he": "נטעי גבריאל",
+    "ru": "Нитей Гавриэль",
+    "fr": "Nitei Gavriel"
+  },
+  "poznan-pinkas": {
+    "en": "Pinkas Beis HaKnesses de-Kehilas Pozna",
+    "he": "פנקס בית הכנסת דק\"ק פוזנא",
+    "ru": "Пинкас синагоги общины Познани",
+    "fr": "Pinkas de la synagogue de la communauté de Poznań"
+  },
+  "asulin": {
+    "en": "R. Avraham Asulin",
+    "he": "הרב אברהם אסולין",
+    "ru": "рав Авраѓам Асулин",
+    "fr": "Rav Avraham Assouline"
+  },
+  "nahagu-haam": {
+    "en": "Nahagu HaAm",
+    "he": "נהגו העם",
+    "ru": "Наѓагу ѓа-Ам",
+    "fr": "Nahagou HaAm"
+  }
+}

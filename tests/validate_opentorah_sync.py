@@ -71,6 +71,14 @@ for occasion, variants in special.items():
             check(custom in customs or custom == "COMMON",
                   f"{occasion}/{variant} annotates {custom}, which is not a custom")
 
+# 5. the notes we author locally are complete in all four languages
+notes = json.loads((ROOT / "names" / "reading_notes.json").read_text(encoding="utf-8"))
+for key, note in notes.items():
+    if key.startswith("_"):
+        continue
+    for lang in ("en", "he", "ru", "fr"):
+        check(note.get(lang), f"reading_notes.json: {key} has no {lang}")
+
 if errors:
     print(f"FAIL  validate_opentorah_sync: {len(errors)} problem(s)")
     for e in errors:
