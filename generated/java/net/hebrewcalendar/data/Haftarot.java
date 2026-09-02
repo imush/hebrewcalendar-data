@@ -1549,4 +1549,21 @@ public final class Haftarot {
         Map<Custom, List<Reference>> m = ALL.get(p);
         return m == null ? null : m.get(c);
     }
+
+    /** Customs for which this parsha's haftarah wins when it is the first of a
+     *  combined week, instead of the second parsha's as combined weeks otherwise
+     *  go. Nitzavim claims every custom; Acharei claims Chabad alone. */
+    private static final Map<Parsha, java.util.Set<Custom>> PRECEDENCE_WHEN_COMBINED;
+    static {
+        Map<Parsha, java.util.Set<Custom>> p = new EnumMap<>(Parsha.class);
+        p.put(Parsha.ACHAREI_MOT, java.util.EnumSet.of(Custom.CHABAD));
+        p.put(Parsha.NITZAVIM, java.util.EnumSet.of(Custom.AGADIR, Custom.ALGERIA, Custom.ALGIERS, Custom.ASHKENAZ, Custom.BALADI, Custom.BAVLIM, Custom.CHABAD, Custom.CHAYEY_ODOM, Custom.DJERBA, Custom.FES, Custom.FRANKFURT, Custom.HAGRA, Custom.ITALKI, Custom.LIBYA, Custom.LITA, Custom.MAGREB, Custom.MARRAKESH, Custom.MOROCCO, Custom.PERSIA, Custom.POZNAN, Custom.PURE_SEPHARDIM, Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI, Custom.TEIMAN, Custom.TOSHBIM));
+        PRECEDENCE_WHEN_COMBINED = java.util.Collections.unmodifiableMap(p);
+    }
+
+    /** Does this parsha claim this custom's reading when it is combined with the next? */
+    public static boolean takesPrecedenceWhenCombined(Parsha p, Custom c) {
+        java.util.Set<Custom> claimed = PRECEDENCE_WHEN_COMBINED.get(p);
+        return claimed != null && claimed.contains(c);
+    }
 }

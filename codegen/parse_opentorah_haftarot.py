@@ -14,6 +14,7 @@ from xml.etree import ElementTree as ET
 ROOT   = Path(__file__).resolve().parent.parent
 XML    = ROOT / "vendor" / "opentorah" / "Haftarah.xml"
 OUT    = ROOT / "schedules" / "haftarot.json"
+OUT_PRECEDENCE = ROOT / "schedules" / "haftarah_precedence.json"
 
 # opentorah custom name -> parent custom name (from Custom.scala)
 # The custom tree, exposed customs and their opentorah XML names all come
@@ -32,6 +33,24 @@ PARENT = {"Common": None}
 for _k, _v in _CUSTOMS.items():
     PARENT[_internal(_k)] = _internal(_v["parent"]) if _v["parent"] else "Common"
 # opentorah spells the two-word names with a space; ours have none
+def _key_of(internal):
+    """Ashkenaz -> ASHKENAZ, ChayeyOdom -> CHAYEY_ODOM."""
+    import re as _re
+    return _re.sub(r"(?<=[a-z])(?=[A-Z])", "_", internal).upper()
+
+
+def _with_descendants(internal):
+    """A custom and everything under it, as opentorah means when it names one."""
+    out = [internal]
+    changed = True
+    while changed:
+        changed = False
+        for child, parent in PARENT.items():
+            if parent in out and child not in out:
+                out.append(child); changed = True
+    return out
+
+
 def _from_xml_name(name):
     internal = name.replace(" ", "")
     if internal != "Common" and internal not in PARENT:
@@ -110,6 +129,9 @@ def parse_custom_element(custom_el, week_attrs):
     return result
 
 
+precedence = {}   # parsha key -> customs whose reading comes from this parsha when combined
+
+
 def parse():
     tree = ET.parse(XML)
     root = tree.getroot()
@@ -120,7 +142,18 @@ def parse():
         if wname not in PARSHA_MAP:
             continue
         pkey = PARSHA_MAP[wname]
-        week_attrs = {k: v for k, v in week.attrib.items() if k != "n"}
+        week_attrs = {k: v for k, v in week.attrib.items()
+                      if k not in ("n", "sources", "comment", "precedenceWhenCombined")}
+        # Customs for which this parsha's haftarah wins when it is the first of
+        # a combined week, instead of the second parsha's as combined weeks
+        # otherwise go. Names a custom and everything under it.
+        if week.get("precedenceWhenCombined"):
+            claimed = []
+            for name in week.get("precedenceWhenCombined").split(","):
+                internal = _from_xml_name(name.strip())
+                claimed.extend(_with_descendants(internal))
+            # Common is opentorah's abstract root, not a custom anyone reads as
+            precedence[pkey] = sorted({_key_of(c) for c in claimed} - {"COMMON"})
         # A `variant` entry is a reading recorded beside a custom's own, never
         # resolved to. Taking it would silently overwrite the reading it sits
         # beside -- which it did, giving Ashkenaz the Vayeilech variant.
@@ -172,6 +205,10 @@ def main():
         raise SystemExit(f"unresolved (parsha, custom) pairs: {unresolved}")
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"OK  wrote {OUT.relative_to(ROOT)} — {len(out)} parshiyot × {len(EXPOSED)} customs")
+    OUT_PRECEDENCE.write_text(json.dumps(precedence, ensure_ascii=False, indent=2) + "\n",
+                              encoding="utf-8")
+    print(f"OK  wrote {OUT_PRECEDENCE.relative_to(ROOT)} — "
+          f"{len(precedence)} parshiyot claim customs when combined")
 
 
 if __name__ == "__main__":

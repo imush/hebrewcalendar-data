@@ -181,6 +181,7 @@ def emit_special_haftarot() -> str:
 
 def emit_haftarot() -> str:
     data = load("schedules/haftarot.json")
+    precedence = load("schedules/haftarah_precedence.json")
     lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", "",
              "import java.util.EnumMap;",
              "import java.util.List;",
@@ -222,6 +223,24 @@ def emit_haftarot() -> str:
     lines.append("    public static List<Reference> forParsha(Parsha p, Custom c) {")
     lines.append("        Map<Custom, List<Reference>> m = ALL.get(p);")
     lines.append("        return m == null ? null : m.get(c);")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    /** Customs for which this parsha's haftarah wins when it is the first of a")
+    lines.append("     *  combined week, instead of the second parsha's as combined weeks otherwise")
+    lines.append("     *  go. Nitzavim claims every custom; Acharei claims Chabad alone. */")
+    lines.append("    private static final Map<Parsha, java.util.Set<Custom>> PRECEDENCE_WHEN_COMBINED;")
+    lines.append("    static {")
+    lines.append("        Map<Parsha, java.util.Set<Custom>> p = new EnumMap<>(Parsha.class);")
+    for pkey, customs in sorted(precedence.items()):
+        joined = ", ".join(f"Custom.{c}" for c in customs)
+        lines.append(f"        p.put(Parsha.{pkey}, java.util.EnumSet.of({joined}));")
+    lines.append("        PRECEDENCE_WHEN_COMBINED = java.util.Collections.unmodifiableMap(p);")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    /** Does this parsha claim this custom's reading when it is combined with the next? */")
+    lines.append("    public static boolean takesPrecedenceWhenCombined(Parsha p, Custom c) {")
+    lines.append("        java.util.Set<Custom> claimed = PRECEDENCE_WHEN_COMBINED.get(p);")
+    lines.append("        return claimed != null && claimed.contains(c);")
     lines.append("    }")
     lines.append("}")
     return "\n".join(lines) + "\n"
