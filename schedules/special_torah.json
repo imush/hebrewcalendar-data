@@ -1,0 +1,1023 @@
+{
+ "RoshChodesh": {
+  "torah": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Numbers",
+     "fromCh": 28,
+     "fromV": 1,
+     "toCh": 28,
+     "toV": 2
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 28,
+     "fromV": 3,
+     "toCh": 28,
+     "toV": 3
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 28,
+     "fromV": 4,
+     "toCh": 28,
+     "toV": 5
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 28,
+     "fromV": 6,
+     "toCh": 28,
+     "toV": 8
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 28,
+     "fromV": 9,
+     "toCh": 28,
+     "toV": 10
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 28,
+     "fromV": 11,
+     "toCh": 28,
+     "toV": 15
+    }
+   ]
+  }
+ },
+ "FestivalEnd": {
+  "shabbosTorah": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Deuteronomy",
+     "fromCh": 14,
+     "fromV": 22,
+     "toCh": 14,
+     "toV": 29
+    },
+    {
+     "book": "Deuteronomy",
+     "fromCh": 15,
+     "fromV": 1,
+     "toCh": 15,
+     "toV": 18
+    },
+    {
+     "book": "Deuteronomy",
+     "fromCh": 15,
+     "fromV": 19,
+     "toCh": 15,
+     "toV": 23
+    },
+    {
+     "book": "Deuteronomy",
+     "fromCh": 16,
+     "fromV": 1,
+     "toCh": 16,
+     "toV": 3
+    },
+    {
+     "book": "Deuteronomy",
+     "fromCh": 16,
+     "fromV": 4,
+     "toCh": 16,
+     "toV": 8
+    },
+    {
+     "book": "Deuteronomy",
+     "fromCh": 16,
+     "fromV": 9,
+     "toCh": 16,
+     "toV": 12
+    },
+    {
+     "book": "Deuteronomy",
+     "fromCh": 16,
+     "fromV": 13,
+     "toCh": 16,
+     "toV": 17
+    }
+   ]
+  }
+ },
+ "IntermediateShabbos": {
+  "torah": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Exodus",
+     "fromCh": 33,
+     "fromV": 12,
+     "toCh": 33,
+     "toV": 16
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 33,
+     "fromV": 17,
+     "toCh": 33,
+     "toV": 19
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 33,
+     "fromV": 20,
+     "toCh": 33,
+     "toV": 23
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 34,
+     "fromV": 1,
+     "toCh": 34,
+     "toV": 3
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 34,
+     "fromV": 4,
+     "toCh": 34,
+     "toV": 10
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 34,
+     "fromV": 11,
+     "toCh": 34,
+     "toV": 17
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 34,
+     "fromV": 18,
+     "toCh": 34,
+     "toV": 26
+    }
+   ]
+  }
+ },
+ "RoshHashanah1": {
+  "shabbosTorah": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Genesis",
+     "fromCh": 21,
+     "fromV": 1,
+     "toCh": 21,
+     "toV": 4
+    },
+    {
+     "book": "Genesis",
+     "fromCh": 21,
+     "fromV": 5,
+     "toCh": 21,
+     "toV": 8
+    },
+    {
+     "book": "Genesis",
+     "fromCh": 21,
+     "fromV": 9,
+     "toCh": 21,
+     "toV": 12
+    },
+    {
+     "book": "Genesis",
+     "fromCh": 21,
+     "fromV": 13,
+     "toCh": 21,
+     "toV": 17
+    },
+    {
+     "book": "Genesis",
+     "fromCh": 21,
+     "fromV": 18,
+     "toCh": 21,
+     "toV": 21
+    },
+    {
+     "book": "Genesis",
+     "fromCh": 21,
+     "fromV": 22,
+     "toCh": 21,
+     "toV": 27
+    },
+    {
+     "book": "Genesis",
+     "fromCh": 21,
+     "fromV": 28,
+     "toCh": 21,
+     "toV": 34
+    }
+   ]
+  },
+  "maftir": {
+   "kind": "maftir",
+   "ref": {
+    "book": "Numbers",
+    "fromCh": 29,
+    "fromV": 1,
+    "toCh": 29,
+    "toV": 6
+   }
+  }
+ },
+ "RoshHashanah2": {
+  "torah": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Genesis",
+     "fromCh": 22,
+     "fromV": 1,
+     "toCh": 22,
+     "toV": 3
+    },
+    {
+     "book": "Genesis",
+     "fromCh": 22,
+     "fromV": 4,
+     "toCh": 22,
+     "toV": 8
+    },
+    {
+     "book": "Genesis",
+     "fromCh": 22,
+     "fromV": 9,
+     "toCh": 22,
+     "toV": 14
+    },
+    {
+     "book": "Genesis",
+     "fromCh": 22,
+     "fromV": 15,
+     "toCh": 22,
+     "toV": 19
+    },
+    {
+     "book": "Genesis",
+     "fromCh": 22,
+     "fromV": 20,
+     "toCh": 22,
+     "toV": 24
+    }
+   ]
+  }
+ },
+ "YomKippur": {
+  "shabbosTorah": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Leviticus",
+     "fromCh": 16,
+     "fromV": 1,
+     "toCh": 16,
+     "toV": 3
+    },
+    {
+     "book": "Leviticus",
+     "fromCh": 16,
+     "fromV": 4,
+     "toCh": 16,
+     "toV": 6
+    },
+    {
+     "book": "Leviticus",
+     "fromCh": 16,
+     "fromV": 7,
+     "toCh": 16,
+     "toV": 11
+    },
+    {
+     "book": "Leviticus",
+     "fromCh": 16,
+     "fromV": 12,
+     "toCh": 16,
+     "toV": 17
+    },
+    {
+     "book": "Leviticus",
+     "fromCh": 16,
+     "fromV": 18,
+     "toCh": 16,
+     "toV": 24
+    },
+    {
+     "book": "Leviticus",
+     "fromCh": 16,
+     "fromV": 25,
+     "toCh": 16,
+     "toV": 30
+    },
+    {
+     "book": "Leviticus",
+     "fromCh": 16,
+     "fromV": 31,
+     "toCh": 16,
+     "toV": 34
+    }
+   ]
+  },
+  "maftir": {
+   "kind": "maftir",
+   "ref": {
+    "book": "Numbers",
+    "fromCh": 29,
+    "fromV": 7,
+    "toCh": 29,
+    "toV": 11
+   }
+  },
+  "afternoonTorah": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Leviticus",
+     "fromCh": 18,
+     "fromV": 1,
+     "toCh": 18,
+     "toV": 5
+    },
+    {
+     "book": "Leviticus",
+     "fromCh": 18,
+     "fromV": 6,
+     "toCh": 18,
+     "toV": 21
+    },
+    {
+     "book": "Leviticus",
+     "fromCh": 18,
+     "fromV": 22,
+     "toCh": 18,
+     "toV": 30
+    }
+   ]
+  }
+ },
+ "Succos": {
+  "korbanot": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Numbers",
+     "fromCh": 29,
+     "fromV": 12,
+     "toCh": 29,
+     "toV": 16
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 29,
+     "fromV": 17,
+     "toCh": 29,
+     "toV": 19
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 29,
+     "fromV": 20,
+     "toCh": 29,
+     "toV": 22
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 29,
+     "fromV": 23,
+     "toCh": 29,
+     "toV": 25
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 29,
+     "fromV": 26,
+     "toCh": 29,
+     "toV": 28
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 29,
+     "fromV": 29,
+     "toCh": 29,
+     "toV": 31
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 29,
+     "fromV": 32,
+     "toCh": 29,
+     "toV": 34
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 29,
+     "fromV": 35,
+     "toCh": 30,
+     "toV": 1
+    }
+   ]
+  }
+ },
+ "Succos1": {
+  "shabbosTorah": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Leviticus",
+     "fromCh": 22,
+     "fromV": 26,
+     "toCh": 22,
+     "toV": 33
+    },
+    {
+     "book": "Leviticus",
+     "fromCh": 23,
+     "fromV": 1,
+     "toCh": 23,
+     "toV": 3
+    },
+    {
+     "book": "Leviticus",
+     "fromCh": 23,
+     "fromV": 4,
+     "toCh": 23,
+     "toV": 8
+    },
+    {
+     "book": "Leviticus",
+     "fromCh": 23,
+     "fromV": 9,
+     "toCh": 23,
+     "toV": 14
+    },
+    {
+     "book": "Leviticus",
+     "fromCh": 23,
+     "fromV": 15,
+     "toCh": 23,
+     "toV": 22
+    },
+    {
+     "book": "Leviticus",
+     "fromCh": 23,
+     "fromV": 23,
+     "toCh": 23,
+     "toV": 32
+    },
+    {
+     "book": "Leviticus",
+     "fromCh": 23,
+     "fromV": 33,
+     "toCh": 23,
+     "toV": 44
+    }
+   ]
+  }
+ },
+ "SimchasTorah": {
+  "chassanBereishis": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Genesis",
+     "fromCh": 1,
+     "fromV": 1,
+     "toCh": 2,
+     "toV": 3
+    }
+   ]
+  }
+ },
+ "Chanukah": {
+  "day1Cohen": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Numbers",
+     "fromCh": 6,
+     "fromV": 22,
+     "toCh": 6,
+     "toV": 27
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 1,
+     "toCh": 7,
+     "toV": 11
+    }
+   ]
+  },
+  "korbanot": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 12,
+     "toCh": 7,
+     "toV": 14
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 15,
+     "toCh": 7,
+     "toV": 17
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 18,
+     "toCh": 7,
+     "toV": 20
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 21,
+     "toCh": 7,
+     "toV": 23
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 24,
+     "toCh": 7,
+     "toV": 26
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 27,
+     "toCh": 7,
+     "toV": 29
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 30,
+     "toCh": 7,
+     "toV": 32
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 33,
+     "toCh": 7,
+     "toV": 35
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 36,
+     "toCh": 7,
+     "toV": 38
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 39,
+     "toCh": 7,
+     "toV": 41
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 42,
+     "toCh": 7,
+     "toV": 44
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 45,
+     "toCh": 7,
+     "toV": 47
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 48,
+     "toCh": 7,
+     "toV": 50
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 51,
+     "toCh": 7,
+     "toV": 53
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 54,
+     "toCh": 7,
+     "toV": 56
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 57,
+     "toCh": 7,
+     "toV": 59
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 7,
+     "fromV": 60,
+     "toCh": 8,
+     "toV": 4
+    }
+   ]
+  }
+ },
+ "ParshasShekalim": {
+  "maftir": {
+   "kind": "maftir",
+   "ref": {
+    "book": "Exodus",
+    "fromCh": 30,
+    "fromV": 11,
+    "toCh": 30,
+    "toV": 16
+   }
+  }
+ },
+ "ParshasZachor": {
+  "maftir": {
+   "kind": "maftir",
+   "ref": {
+    "book": "Deuteronomy",
+    "fromCh": 25,
+    "fromV": 17,
+    "toCh": 25,
+    "toV": 19
+   }
+  }
+ },
+ "Purim": {
+  "torah": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Exodus",
+     "fromCh": 17,
+     "fromV": 8,
+     "toCh": 17,
+     "toV": 10
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 17,
+     "fromV": 11,
+     "toCh": 17,
+     "toV": 13
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 17,
+     "fromV": 14,
+     "toCh": 17,
+     "toV": 16
+    }
+   ]
+  }
+ },
+ "ParshasParah": {
+  "maftir": {
+   "kind": "maftir",
+   "ref": {
+    "book": "Numbers",
+    "fromCh": 19,
+    "fromV": 1,
+    "toCh": 19,
+    "toV": 22
+   }
+  }
+ },
+ "ParshasHachodesh": {
+  "maftir": {
+   "kind": "maftir",
+   "ref": {
+    "book": "Exodus",
+    "fromCh": 12,
+    "fromV": 1,
+    "toCh": 12,
+    "toV": 20
+   }
+  }
+ },
+ "PesachIntermediate": {
+  "torah3": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Exodus",
+     "fromCh": 13,
+     "fromV": 1,
+     "toCh": 13,
+     "toV": 4
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 13,
+     "fromV": 5,
+     "toCh": 13,
+     "toV": 10
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 13,
+     "fromV": 11,
+     "toCh": 13,
+     "toV": 16
+    }
+   ]
+  },
+  "torah4": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Exodus",
+     "fromCh": 22,
+     "fromV": 24,
+     "toCh": 22,
+     "toV": 26
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 22,
+     "fromV": 27,
+     "toCh": 23,
+     "toV": 5
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 23,
+     "fromV": 6,
+     "toCh": 23,
+     "toV": 19
+    }
+   ]
+  },
+  "torah6": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Numbers",
+     "fromCh": 9,
+     "fromV": 1,
+     "toCh": 9,
+     "toV": 6
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 9,
+     "fromV": 7,
+     "toCh": 9,
+     "toV": 8
+    },
+    {
+     "book": "Numbers",
+     "fromCh": 9,
+     "fromV": 9,
+     "toCh": 9,
+     "toV": 14
+    }
+   ]
+  },
+  "maftirEnd": {
+   "kind": "maftir",
+   "ref": {
+    "book": "Numbers",
+    "fromCh": 28,
+    "fromV": 19,
+    "toCh": 28,
+    "toV": 25
+   }
+  }
+ },
+ "Pesach1": {
+  "shabbosTorah": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Exodus",
+     "fromCh": 12,
+     "fromV": 21,
+     "toCh": 12,
+     "toV": 24
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 12,
+     "fromV": 25,
+     "toCh": 12,
+     "toV": 28
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 12,
+     "fromV": 29,
+     "toCh": 12,
+     "toV": 32
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 12,
+     "fromV": 33,
+     "toCh": 12,
+     "toV": 36
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 12,
+     "fromV": 37,
+     "toCh": 12,
+     "toV": 42
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 12,
+     "fromV": 43,
+     "toCh": 12,
+     "toV": 47
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 12,
+     "fromV": 48,
+     "toCh": 12,
+     "toV": 51
+    }
+   ]
+  },
+  "maftir": {
+   "kind": "maftir",
+   "ref": {
+    "book": "Numbers",
+    "fromCh": 28,
+    "fromV": 16,
+    "toCh": 28,
+    "toV": 25
+   }
+  }
+ },
+ "Pesach7": {
+  "shabbosTorah": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Exodus",
+     "fromCh": 13,
+     "fromV": 17,
+     "toCh": 13,
+     "toV": 19
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 13,
+     "fromV": 20,
+     "toCh": 13,
+     "toV": 22
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 14,
+     "fromV": 1,
+     "toCh": 14,
+     "toV": 4
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 14,
+     "fromV": 5,
+     "toCh": 14,
+     "toV": 8
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 14,
+     "fromV": 9,
+     "toCh": 14,
+     "toV": 14
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 14,
+     "fromV": 15,
+     "toCh": 14,
+     "toV": 25
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 14,
+     "fromV": 26,
+     "toCh": 15,
+     "toV": 26
+    }
+   ]
+  }
+ },
+ "Shavuos1": {
+  "torah": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Exodus",
+     "fromCh": 19,
+     "fromV": 1,
+     "toCh": 19,
+     "toV": 6
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 19,
+     "fromV": 7,
+     "toCh": 19,
+     "toV": 13
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 19,
+     "fromV": 14,
+     "toCh": 19,
+     "toV": 19
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 19,
+     "fromV": 20,
+     "toCh": 20,
+     "toV": 14
+    },
+    {
+     "book": "Exodus",
+     "fromCh": 20,
+     "fromV": 15,
+     "toCh": 20,
+     "toV": 22
+    }
+   ]
+  },
+  "maftir": {
+   "kind": "maftir",
+   "ref": {
+    "book": "Numbers",
+    "fromCh": 28,
+    "fromV": 26,
+    "toCh": 28,
+    "toV": 31
+   }
+  }
+ },
+ "Fast": {
+  "afternoonTorahPart1": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Exodus",
+     "fromCh": 32,
+     "fromV": 11,
+     "toCh": 32,
+     "toV": 14
+    }
+   ]
+  }
+ },
+ "TishaBeAv": {
+  "torah": {
+   "kind": "torah",
+   "fragments": [
+    {
+     "book": "Deuteronomy",
+     "fromCh": 4,
+     "fromV": 25,
+     "toCh": 4,
+     "toV": 29
+    },
+    {
+     "book": "Deuteronomy",
+     "fromCh": 4,
+     "fromV": 30,
+     "toCh": 4,
+     "toV": 35
+    },
+    {
+     "book": "Deuteronomy",
+     "fromCh": 4,
+     "fromV": 36,
+     "toCh": 4,
+     "toV": 40
+    }
+   ]
+  }
+ }
+}

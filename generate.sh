@@ -22,6 +22,7 @@ python3 codegen/parse_opentorah_sources.py
 python3 codegen/parse_opentorah_haftarot.py
 python3 tests/validate_haftarot.py
 python3 codegen/parse_opentorah_special_haftarot.py
+python3 codegen/parse_opentorah_special_torah.py
 python3 tests/validate_special_haftarot.py
 python3 tests/validate_opentorah_sync.py
 python3 codegen/to_dart.py

@@ -179,6 +179,58 @@ def emit_special_haftarot() -> str:
     return "\n".join(lines) + "\n"
 
 
+def emit_special_torah() -> str:
+    """SpecialTorah: the Torah readings of the special days, as aliyah fragments.
+
+    The fragments are what the divisions are built from -- Rosh Chodesh joins
+    them one way for most customs and another for Hagra, Chanukah indexes them
+    by day -- so this exposes the fragments and leaves the joining to the code
+    that knows the rules.
+    """
+    data = load("schedules/special_torah.json")
+    lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", "",
+             "import java.util.HashMap;",
+             "import java.util.List;",
+             "import java.util.Map;",
+             ""]
+    lines.append("/** Torah readings of the special days, from opentorah SpecialReadings.xml.")
+    lines.append(" *  Keyed by \"Occasion_readingName\", e.g. \"RoshChodesh_torah\". */")
+    lines.append("public final class SpecialTorah {")
+    lines.append("    private SpecialTorah() {}")
+    lines.append("")
+    lines.append("    /** A span of Chumash: one aliyah fragment, or a whole maftir. */")
+    lines.append("    public static final class Span {")
+    lines.append("        public final String book;")
+    lines.append("        public final int fromCh, fromV, toCh, toV;")
+    lines.append("        Span(String book, int fromCh, int fromV, int toCh, int toV) {")
+    lines.append("            this.book = book;")
+    lines.append("            this.fromCh = fromCh; this.fromV = fromV;")
+    lines.append("            this.toCh   = toCh;   this.toV   = toV;")
+    lines.append("        }")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    private static final Map<String, List<Span>> ALL;")
+    lines.append("    static {")
+    lines.append("        Map<String, List<Span>> all = new HashMap<>();")
+    for occ, readings in data.items():
+        for name, entry in readings.items():
+            key = f"{occ}_{name}"
+            refs = entry["fragments"] if entry["kind"] == "torah" else [entry["ref"]]
+            joined = ", ".join(
+                f"new Span({java_str(r['book'])}, {r['fromCh']}, {r['fromV']}, {r['toCh']}, {r['toV']})"
+                for r in refs)
+            lines.append(f"        all.put({java_str(key)}, List.of({joined}));")
+    lines.append("        ALL = java.util.Collections.unmodifiableMap(all);")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    /** The fragments of the named reading, or null if there is none. */")
+    lines.append("    public static List<Span> forReading(String occasionAndName) {")
+    lines.append("        return ALL.get(occasionAndName);")
+    lines.append("    }")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
 def emit_haftarot() -> str:
     data = load("schedules/haftarot.json")
     precedence = load("schedules/haftarah_precedence.json")
@@ -670,6 +722,7 @@ def main():
     (JAVA_DIR / "Custom.java").write_text(emit_custom(), encoding="utf-8")
     (JAVA_DIR / "Haftarot.java").write_text(emit_haftarot(), encoding="utf-8")
     (JAVA_DIR / "SpecialHaftarot.java").write_text(emit_special_haftarot(), encoding="utf-8")
+    (JAVA_DIR / "SpecialTorah.java").write_text(emit_special_torah(), encoding="utf-8")
     print(f"OK  java  → {JAVA_DIR.relative_to(ROOT)}")
 
 
