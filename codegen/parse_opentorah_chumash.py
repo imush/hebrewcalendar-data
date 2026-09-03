@@ -235,6 +235,9 @@ def main():
                 m_v = int(maftir.get("fromVerse"))
                 maftir_range = f"{m_ch}:{m_v}-{end_ch}:{end_v}"
             all_readings[pk] = {
+                "week": week, "book_num": book_num,
+                "from_ch": from_ch, "from_v": from_v,
+                "end_ch": end_ch, "end_v": end_v,
                 "book": book_num,
                 "aliyot":       aliyot_common_ranges,
                 "aliyotChabad": aliyot_chabad_ranges,
@@ -242,6 +245,43 @@ def main():
                 "maftir":       maftir_range,
             }
     return all_readings
+
+
+def combined_reading(first, second):
+    """The seven aliyot of a joined week.
+
+    Each parsha carries a second set of <day> starts marked combined="true",
+    for the years the two are read together: the first parsha's cover the early
+    aliyot and the second's the later, and the reading ends where the second
+    parsha does. Aliyah 1 begins where the first parsha begins.
+    """
+    out = {}
+    for custom in (None, "Chabad", "Ashkenaz"):
+        starts = {}
+        for part, entry in (("first", first), ("second", second)):
+            for d in entry["week"].findall("day"):
+                if d.get("combined") != "true":
+                    continue
+                n = int(d.get("n"))
+                c = d.get("custom")
+                this = (int(d.get("fromChapter")), int(d.get("fromVerse")))
+                if c is None:
+                    starts.setdefault(n, this)
+                elif c == custom:
+                    starts[n] = this
+        starts.setdefault(1, (first["from_ch"], first["from_v"]))
+        missing = [n for n in range(1, 8) if n not in starts]
+        if missing:
+            raise SystemExit(
+                f"combined week is missing aliyot {missing}; a parsha that can "
+                f"be joined must say where the joined aliyot begin")
+        ordered = [starts[n] for n in range(1, 8)]
+        # both parshiyos are in the same book, so the second's numbering carries
+        key = {None: "aliyot", "Chabad": "aliyotChabad", "Ashkenaz": "aliyotAshkenaz"}[custom]
+        out[key] = spans_from_starts(second["book_num"], ordered,
+                                     second["end_ch"], second["end_v"])
+    out["maftir"] = second["maftir"]
+    return out
 
 
 def merge_into_existing():
@@ -252,6 +292,19 @@ def merge_into_existing():
         # Combined readings (id has an underscore between two parsha keys) —
         # not handled here; the Chumash.java layer zips singles.
         if r["id"] not in per_parsha:
+            if len(r.get("parshiyot", [])) == 2:
+                a, b = r["parshiyot"]
+                if a in per_parsha and b in per_parsha:
+                    got = combined_reading(per_parsha[a], per_parsha[b])
+                    r["aliyot"] = got["aliyot"]
+                    for k in ("aliyotChabad", "aliyotAshkenaz"):
+                        if got[k] != got["aliyot"]:
+                            r[k] = got[k]
+                        else:
+                            r.pop(k, None)
+                    if got["maftir"]:
+                        r["maftir"] = got["maftir"]
+                    updated += 1
             continue
         p = per_parsha[r["id"]]
         # Preserve any other keys we already store (parshiyot, etc.).
