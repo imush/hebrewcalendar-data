@@ -192,24 +192,34 @@ def resolve_days(week, book_num, parsha_from_ch, parsha_from_v, custom,
     return result
 
 
-def resolve_aliyot(week, book_num, parsha_from_ch, parsha_from_v, days_default_starts):
-    """Common (Ashkenaz) 7 Shabbat aliyot:
-      1..3 from <aliyah> entries (aliyah 1 implied at parsha start),
-      4..7 from <day n=4..7> default starts.
-    Returns 7 (ch, v) tuples."""
-    aliyah_starts = {1: (parsha_from_ch, parsha_from_v)}
+def resolve_weekday(week, book_num, parsha_from_ch, parsha_from_v, day1_end):
+    """The three aliyot read on a Monday or a Thursday, as "ch:v-ch:v" ranges.
+
+    These are the <aliyah> elements -- opentorah's `Parsha.aliyot`, distinct
+    from the <day> elements that give the seven of the Shabbos. The first
+    begins where the parsha does, and the reading ends well short of the
+    parsha's own end: where the last <aliyah> says if it says, and otherwise
+    where the Shabbos's first aliyah ends, which is the usual case. The same
+    three are read at Shabbos Mincha of the week before.
+
+    An <aliyah> that names no chapter continues in the one before it.
+    """
+    starts = {1: (parsha_from_ch, parsha_from_v)}
+    end = None
     for a in week.findall("aliyah"):
         n = int(a.get("n"))
-        aliyah_starts[n] = (int(a.get("fromChapter")), int(a.get("fromVerse")))
-    result = []
-    for n in range(1, 8):
-        if n <= 3:
-            if n not in aliyah_starts:
-                raise SystemExit(f"aliyah {n} not defined in {week.get('n')}")
-            result.append(aliyah_starts[n])
-        else:
-            result.append(days_default_starts[n - 1])
-    return result
+        ch = _int(a.get("fromChapter"))
+        if ch is None:
+            ch = starts[n - 1][0] if (n - 1) in starts else parsha_from_ch
+        starts[n] = (ch, int(a.get("fromVerse")))
+        if a.get("toVerse") is not None:
+            end = (_int(a.get("toChapter")) or ch, int(a.get("toVerse")))
+    for n in (2, 3):
+        if n not in starts:
+            raise SystemExit(f"weekday aliyah {n} not defined in {week.get('n')}")
+    if end is None:
+        end = day1_end
+    return spans_from_starts(book_num, [starts[n] for n in (1, 2, 3)], end[0], end[1])
 
 
 def main():
@@ -242,6 +252,10 @@ def main():
                 "aliyot":       aliyot_common_ranges,
                 "aliyotChabad": aliyot_chabad_ranges,
                 "aliyotAshkenaz": spans_from_starts(book_num, days_ashkenaz, end_ch, end_v),
+                "aliyotWeekday": resolve_weekday(
+                    week, book_num, from_ch, from_v,
+                    # the end of the Shabbos's first aliyah
+                    tuple(int(x) for x in aliyot_common_ranges[0].split("-")[1].split(":"))),
                 "maftir":       maftir_range,
             }
     return all_readings
@@ -280,6 +294,9 @@ def combined_reading(first, second):
         key = {None: "aliyot", "Chabad": "aliyotChabad", "Ashkenaz": "aliyotAshkenaz"}[custom]
         out[key] = spans_from_starts(second["book_num"], ordered,
                                      second["end_ch"], second["end_v"])
+    # A Monday or Thursday of a joined week reads the first parsha's three
+    # aliyot, exactly as it would were the two read apart.
+    out["aliyotWeekday"] = first["aliyotWeekday"]
     out["maftir"] = second["maftir"]
     return out
 
@@ -302,6 +319,7 @@ def merge_into_existing():
                             r[k] = got[k]
                         else:
                             r.pop(k, None)
+                    r["aliyotWeekday"] = got["aliyotWeekday"]
                     if got["maftir"]:
                         r["maftir"] = got["maftir"]
                     updated += 1
@@ -309,6 +327,7 @@ def merge_into_existing():
         p = per_parsha[r["id"]]
         # Preserve any other keys we already store (parshiyot, etc.).
         r["aliyot"] = p["aliyot"]
+        r["aliyotWeekday"] = p["aliyotWeekday"]
         if r["aliyot"] != p["aliyotChabad"]:
             r["aliyotChabad"] = p["aliyotChabad"]; added_chabad += 1
         if r["aliyot"] != p["aliyotAshkenaz"]:

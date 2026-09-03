@@ -66,6 +66,16 @@
             "type": "string",
             "pattern": "^[0-9]+:[0-9]+-[0-9]+:[0-9]+$"
           },
+          "aliyotWeekday": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "string",
+              "pattern": "^\\d+:\\d+-\\d+:\\d+$"
+            },
+            "description": "The three aliyot of a Monday or a Thursday, and of the Shabbos Mincha before them. Every custom reads the same three, and they stop well short of the parsha's end."
+          },
           "aliyotAshkenaz": {
             "type": "array",
             "minItems": 7,

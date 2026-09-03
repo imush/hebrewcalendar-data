@@ -694,13 +694,20 @@ def emit_chumash_aliyot() -> str:
     lines.append("        /** The maftir: from where it begins to the end of the parsha.")
     lines.append("         *  Null for combined readings, which take the second parsha's. */")
     lines.append("        public final String maftir;")
+    lines.append("        /** The three aliyot of a Monday or a Thursday -- and of the")
+    lines.append("         *  Shabbos Mincha before them. They stop well short of the")
+    lines.append("         *  parsha's end, and every custom reads the same three. A joined")
+    lines.append("         *  week reads the first parsha's, as if the two were read apart. */")
+    lines.append("        public final String[] aliyotWeekday;")
     lines.append("        public Reading(String id, List<String> parshiyot, int book,")
     lines.append("                       String[] aliyot, String[] aliyotChabad,")
-    lines.append("                       String[] aliyotAshkenaz, String maftir) {")
+    lines.append("                       String[] aliyotAshkenaz, String maftir,")
+    lines.append("                       String[] aliyotWeekday) {")
     lines.append("            this.id = id; this.parshiyot = parshiyot;")
     lines.append("            this.book = book; this.aliyot = aliyot;")
     lines.append("            this.aliyotChabad = aliyotChabad;")
     lines.append("            this.aliyotAshkenaz = aliyotAshkenaz; this.maftir = maftir;")
+    lines.append("            this.aliyotWeekday = aliyotWeekday;")
     lines.append("        }")
     lines.append("        /** The division this custom reads: the nearest of its ancestors that")
     lines.append("         *  has one of its own, else the common division. opentorah gives")
@@ -729,11 +736,13 @@ def emit_chumash_aliyot() -> str:
             ashkenaz_expr = f"new String[]{{ {ashkenaz_str} }}"
         else:
             ashkenaz_expr = "null"
+        weekday_str = ", ".join(java_str(a) for a in r["aliyotWeekday"])
         lines.append(
             f"        m.put({java_str(r['id'])}, new Reading({java_str(r['id'])}, "
             f"{parshiyot_expr}, {r['book']}, "
             f"new String[]{{ {aliyot_str} }}, {chabad_expr}, {ashkenaz_expr}, "
-            f"{java_str(r['maftir']) if r.get('maftir') else 'null'}));"
+            f"{java_str(r['maftir']) if r.get('maftir') else 'null'}, "
+            f"new String[]{{ {weekday_str} }}));"
         )
     lines.append("        READINGS = java.util.Collections.unmodifiableMap(m);")
     lines.append("    }")
