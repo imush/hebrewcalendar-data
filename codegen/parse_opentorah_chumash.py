@@ -221,6 +221,7 @@ def main():
             from_v  = int(week.get("fromVerse"))
             days_default = resolve_days(week, book_num, from_ch, from_v, custom=None)
             days_chabad  = resolve_days(week, book_num, from_ch, from_v, custom="Chabad")
+            days_ashkenaz = resolve_days(week, book_num, from_ch, from_v, custom="Ashkenaz")
             aliyot_common_ranges = spans_from_starts(book_num, days_default, end_ch, end_v)
             aliyot_chabad_ranges = spans_from_starts(book_num, days_chabad,   end_ch, end_v)
             # The maftir sits at the parsha's tail: from where <maftir> says
@@ -237,6 +238,7 @@ def main():
                 "book": book_num,
                 "aliyot":       aliyot_common_ranges,
                 "aliyotChabad": aliyot_chabad_ranges,
+                "aliyotAshkenaz": spans_from_starts(book_num, days_ashkenaz, end_ch, end_v),
                 "maftir":       maftir_range,
             }
     return all_readings
@@ -256,6 +258,18 @@ def merge_into_existing():
         r["aliyot"] = p["aliyot"]
         if r["aliyot"] != p["aliyotChabad"]:
             r["aliyotChabad"] = p["aliyotChabad"]; added_chabad += 1
+        if r["aliyot"] != p["aliyotAshkenaz"]:
+            r["aliyotAshkenaz"] = p["aliyotAshkenaz"]
+        else:
+            r.pop("aliyotAshkenaz", None)
+        if False:
+            pass
+        elif r["aliyot"] == p["aliyotChabad"]:
+            # Chabad reads the same division here. Clearing it matters: the
+            # field used to be written and never removed, so a stale one
+            # survived a fix to the common aliyot and Chabad kept the old,
+            # wrong division.
+            r.pop("aliyotChabad", None)
         if p["maftir"]:
             r["maftir"] = p["maftir"]
         else:

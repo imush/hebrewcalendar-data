@@ -121,14 +121,49 @@ def emit_zman() -> str:
 
 
 def emit_custom() -> str:
-    return emit_translated_enum(
+    """Custom, with the inheritance tree.
+
+    The haftarah tables are resolved at data-gen time, so every entry covers
+    every custom and no consumer needs the tree for them. The Torah aliyot are
+    not: opentorah gives Masei a division for Ashkenaz and three parshiyos one
+    for Chabad, and which customs those cover is the tree's answer.
+    """
+    customs = load("names/customs.json")
+    src = emit_translated_enum(
         "Custom", "names/customs.json",
-        "The 18 minhagim the haftarah tables distinguish (opentorah's "
-        "Custom.xml minus the abstract 'Common' root). Fallback resolution "
-        "(Chabad → Sefard → Common, etc.) is done at data-gen time; every "
-        "entry in Haftarot.ALL covers all 18 customs. Aliyot expose only a "
-        "Chabad/Common split — see ChumashAliyot.aliyotFor."
+        "The minhagim the readings distinguish (opentorah's Custom.xml minus "
+        "the abstract 'Common' root). Haftarot are resolved per custom at "
+        "data-gen time; the Torah aliyot are not, and use the tree below."
     )
+    lines = src.rstrip("\n").split("\n")
+    assert lines[-1] == "}", "expected the enum to end with a brace"
+    body = lines[:-1]
+    body.append("")
+    body.append("    private static final Map<Custom, Custom> PARENTS;")
+    body.append("    static {")
+    body.append("        Map<Custom, Custom> p = new EnumMap<>(Custom.class);")
+    for key, entry in customs.items():
+        if entry.get("parent"):
+            body.append(f"        p.put({key}, {entry['parent']});")
+    body.append("        PARENTS = java.util.Collections.unmodifiableMap(p);")
+    body.append("    }")
+    body.append("")
+    body.append("    /** The custom this one falls back on, or null at the root. */")
+    body.append("    public Custom parent() { return PARENTS.get(this); }")
+    body.append("")
+    body.append("    /** Is this that custom, or one that inherits from it? */")
+    body.append("    public boolean isUnder(Custom ancestor) {")
+    body.append("        for (Custom c = this; c != null; c = c.parent())")
+    body.append("            if (c == ancestor) return true;")
+    body.append("        return false;")
+    body.append("    }")
+    body.append("}")
+    out = "\n".join(body) + "\n"
+    # the enum is emitted without imports; the tree needs two
+    out = out.replace("package net.hebrewcalendar.data;",
+                      "package net.hebrewcalendar.data;\n\n"
+                      "import java.util.EnumMap;\nimport java.util.Map;", 1)
+    return out
 
 
 def emit_special_haftarot() -> str:
@@ -654,18 +689,26 @@ def emit_chumash_aliyot() -> str:
     lines.append("        public final String[] aliyot;          // 7 Common (Ashkenaz) aliyot")
     lines.append("        /** Chabad aliyot; null when identical to `aliyot`. */")
     lines.append("        public final String[] aliyotChabad;")
+    lines.append("        /** Aliyot for the Ashkenaz branch; null when identical to `aliyot`. */")
+    lines.append("        public final String[] aliyotAshkenaz;")
     lines.append("        /** The maftir: from where it begins to the end of the parsha.")
     lines.append("         *  Null for combined readings, which take the second parsha's. */")
     lines.append("        public final String maftir;")
     lines.append("        public Reading(String id, List<String> parshiyot, int book,")
-    lines.append("                       String[] aliyot, String[] aliyotChabad, String maftir) {")
+    lines.append("                       String[] aliyot, String[] aliyotChabad,")
+    lines.append("                       String[] aliyotAshkenaz, String maftir) {")
     lines.append("            this.id = id; this.parshiyot = parshiyot;")
     lines.append("            this.book = book; this.aliyot = aliyot;")
-    lines.append("            this.aliyotChabad = aliyotChabad; this.maftir = maftir;")
+    lines.append("            this.aliyotChabad = aliyotChabad;")
+    lines.append("            this.aliyotAshkenaz = aliyotAshkenaz; this.maftir = maftir;")
     lines.append("        }")
-    lines.append("        /** Locale-aware aliyot picker: Chabad → chabad variant if present, else common. */")
+    lines.append("        /** The division this custom reads: the nearest of its ancestors that")
+    lines.append("         *  has one of its own, else the common division. opentorah gives")
+    lines.append("         *  Masei a division for Ashkenaz and three parshiyos one for Chabad. */")
     lines.append("        public String[] aliyotFor(Custom custom) {")
-    lines.append("            return (custom == Custom.CHABAD && aliyotChabad != null) ? aliyotChabad : aliyot;")
+    lines.append("            if (aliyotChabad != null && custom.isUnder(Custom.CHABAD)) return aliyotChabad;")
+    lines.append("            if (aliyotAshkenaz != null && custom.isUnder(Custom.ASHKENAZ)) return aliyotAshkenaz;")
+    lines.append("            return aliyot;")
     lines.append("        }")
     lines.append("    }")
     lines.append("")
@@ -681,10 +724,15 @@ def emit_chumash_aliyot() -> str:
             chabad_expr = f"new String[]{{ {chabad_str} }}"
         else:
             chabad_expr = "null"
+        if "aliyotAshkenaz" in r:
+            ashkenaz_str = ", ".join(java_str(a) for a in r["aliyotAshkenaz"])
+            ashkenaz_expr = f"new String[]{{ {ashkenaz_str} }}"
+        else:
+            ashkenaz_expr = "null"
         lines.append(
             f"        m.put({java_str(r['id'])}, new Reading({java_str(r['id'])}, "
             f"{parshiyot_expr}, {r['book']}, "
-            f"new String[]{{ {aliyot_str} }}, {chabad_expr}, "
+            f"new String[]{{ {aliyot_str} }}, {chabad_expr}, {ashkenaz_expr}, "
             f"{java_str(r['maftir']) if r.get('maftir') else 'null'}));"
         )
     lines.append("        READINGS = java.util.Collections.unmodifiableMap(m);")
