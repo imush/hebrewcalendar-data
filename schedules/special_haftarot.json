@@ -272,6 +272,14 @@
       "toV": 42
      }
     ]
+   },
+   "annotations": {
+    "CHABAD": {
+     "sources": [
+      "chabad-haftarot"
+     ],
+     "comment": "chabad.org states the rule directly: on a Shabbos that is Rosh Chodesh and also the eve of Rosh Chodesh, the first and last verse of Machar Chodesh follow the haftarah that was read. Fes reads the same two verses, on the older evidence these two customs were recorded together on."
+    }
    }
   }
  },
@@ -721,6 +729,11 @@
       "toV": 23
      }
     ]
+   },
+   "annotations": {
+    "CHABAD": {
+     "comment": "Read after whichever haftarah displaced the Rosh Chodesh one. chabad.org states the pattern for Parshas HaChodesh falling on Rosh Chodesh or its eve, so it is not in doubt as a practice; what is not settled is whether it reaches Rosh Chodesh Av, where that page gives Shim'u and says nothing of an addition. Recorded without a source rather than narrowed on a guess."
+    }
    }
   }
  },

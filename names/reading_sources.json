@@ -24,6 +24,24 @@
     "fr": "chabad.org",
     "url": "https://www.chabad.org"
   },
+  "chabad-rosh-chodesh-torah": {
+    "kind": "website",
+    "en": "chabad.org",
+    "he": "chabad.org",
+    "ru": "chabad.org",
+    "fr": "chabad.org",
+    "where": "What Do We Read From the Torah on Rosh Chodesh?",
+    "url": "https://www.chabad.org/parshah/article_cdo/aid/1235854/jewish/What-Do-We-Read-From-the-Torah-on-Rosh-Chodesh.htm"
+  },
+  "chabad-haftarot": {
+    "kind": "website",
+    "en": "chabad.org",
+    "he": "chabad.org",
+    "ru": "chabad.org",
+    "fr": "chabad.org",
+    "where": "List of Haftorah Readings where Customs Vary, drawn from the Rebbe's records; its own footnotes cite Shulchan Aruch, Orach Chayim 425",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4158333/jewish/List-of-Haftorah-Readings-where-Customs-Vary.htm"
+  },
   "finkelstein": {
     "kind": "study",
     "en": "Louis Finkelstein",
