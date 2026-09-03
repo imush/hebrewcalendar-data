@@ -65,6 +65,16 @@
             "description": "The maftir: from where it begins to the end of the parsha. Absent for combined readings, which take the second parsha's.",
             "type": "string",
             "pattern": "^[0-9]+:[0-9]+-[0-9]+:[0-9]+$"
+          },
+          "aliyotAshkenaz": {
+            "type": "array",
+            "minItems": 7,
+            "maxItems": 7,
+            "items": {
+              "type": "string",
+              "pattern": "^\\d+:\\d+-\\d+:\\d+$"
+            },
+            "description": "Aliyot for the Ashkenaz branch, where opentorah gives it a division of its own. Only Masei has one."
           }
         }
       }
