@@ -212,10 +212,21 @@ def main():
             aliyot_common = resolve_aliyot(week, book_num, from_ch, from_v, days_default)
             aliyot_common_ranges = spans_from_starts(book_num, aliyot_common, end_ch, end_v)
             aliyot_chabad_ranges = spans_from_starts(book_num, days_chabad,   end_ch, end_v)
+            # The maftir sits at the parsha's tail: from where <maftir> says
+            # to the end of the parsha, which is where aliyah 7 ends. It was
+            # never emitted, so nothing downstream could say what is read for
+            # maftir on an ordinary Shabbos.
+            maftir = week.find("maftir")
+            maftir_range = None
+            if maftir is not None:
+                m_ch = int(maftir.get("fromChapter", from_ch))
+                m_v = int(maftir.get("fromVerse"))
+                maftir_range = f"{m_ch}:{m_v}-{end_ch}:{end_v}"
             all_readings[pk] = {
                 "book": book_num,
                 "aliyot":       aliyot_common_ranges,
                 "aliyotChabad": aliyot_chabad_ranges,
+                "maftir":       maftir_range,
             }
     return all_readings
 
@@ -234,6 +245,8 @@ def merge_into_existing():
         r["aliyot"] = p["aliyot"]
         if r["aliyot"] != p["aliyotChabad"]:
             r["aliyotChabad"] = p["aliyotChabad"]; added_chabad += 1
+        if p["maftir"]:
+            r["maftir"] = p["maftir"]
         else:
             r.pop("aliyotChabad", None)
         updated += 1

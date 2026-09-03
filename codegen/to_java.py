@@ -654,11 +654,14 @@ def emit_chumash_aliyot() -> str:
     lines.append("        public final String[] aliyot;          // 7 Common (Ashkenaz) aliyot")
     lines.append("        /** Chabad aliyot; null when identical to `aliyot`. */")
     lines.append("        public final String[] aliyotChabad;")
+    lines.append("        /** The maftir: from where it begins to the end of the parsha.")
+    lines.append("         *  Null for combined readings, which take the second parsha's. */")
+    lines.append("        public final String maftir;")
     lines.append("        public Reading(String id, List<String> parshiyot, int book,")
-    lines.append("                       String[] aliyot, String[] aliyotChabad) {")
+    lines.append("                       String[] aliyot, String[] aliyotChabad, String maftir) {")
     lines.append("            this.id = id; this.parshiyot = parshiyot;")
     lines.append("            this.book = book; this.aliyot = aliyot;")
-    lines.append("            this.aliyotChabad = aliyotChabad;")
+    lines.append("            this.aliyotChabad = aliyotChabad; this.maftir = maftir;")
     lines.append("        }")
     lines.append("        /** Locale-aware aliyot picker: Chabad → chabad variant if present, else common. */")
     lines.append("        public String[] aliyotFor(Custom custom) {")
@@ -681,7 +684,8 @@ def emit_chumash_aliyot() -> str:
         lines.append(
             f"        m.put({java_str(r['id'])}, new Reading({java_str(r['id'])}, "
             f"{parshiyot_expr}, {r['book']}, "
-            f"new String[]{{ {aliyot_str} }}, {chabad_expr}));"
+            f"new String[]{{ {aliyot_str} }}, {chabad_expr}, "
+            f"{java_str(r['maftir']) if r.get('maftir') else 'null'}));"
         )
     lines.append("        READINGS = java.util.Collections.unmodifiableMap(m);")
     lines.append("    }")
