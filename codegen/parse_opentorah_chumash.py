@@ -150,13 +150,25 @@ def spans_from_starts(book_num, starts, end_ch, end_v):
     return out
 
 
-def resolve_days(week, book_num, parsha_from_ch, parsha_from_v, custom):
-    """Return the 7 (ch, v) day starts for the given custom.
-    custom is None (default) or 'Chabad' or 'Ashkenaz'."""
+def resolve_days(week, book_num, parsha_from_ch, parsha_from_v, custom,
+                 combined=False):
+    """Return the 7 (ch, v) Shabbos aliyah starts for the given custom.
+
+    These are opentorah's <day> elements -- its `Parsha.days`, the seven aliyot
+    of the Shabbos reading. The <aliyah> elements are a different thing: the
+    three of a Monday or Thursday.
+
+    A parsha that can be joined to the next carries a second set of <day>
+    starts marked combined="true", for the joined reading. They are not the
+    starts of the parsha read alone, and taking them was giving Balak aliyot
+    that ran backwards."""
     starts = {}  # n → (ch, v)
     for d in week.findall("day"):
         n = int(d.get("n"))
         c = d.get("custom")
+        is_combined = d.get("combined") == "true"
+        if is_combined != combined:
+            continue
         this = (int(d.get("fromChapter")), int(d.get("fromVerse")))
         if c is None:
             # Default — only takes effect if no custom-specific override wins.
@@ -209,8 +221,7 @@ def main():
             from_v  = int(week.get("fromVerse"))
             days_default = resolve_days(week, book_num, from_ch, from_v, custom=None)
             days_chabad  = resolve_days(week, book_num, from_ch, from_v, custom="Chabad")
-            aliyot_common = resolve_aliyot(week, book_num, from_ch, from_v, days_default)
-            aliyot_common_ranges = spans_from_starts(book_num, aliyot_common, end_ch, end_v)
+            aliyot_common_ranges = spans_from_starts(book_num, days_default, end_ch, end_v)
             aliyot_chabad_ranges = spans_from_starts(book_num, days_chabad,   end_ch, end_v)
             # The maftir sits at the parsha's tail: from where <maftir> says
             # to the end of the parsha, which is where aliyah 7 ends. It was
