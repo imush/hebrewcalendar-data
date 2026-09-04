@@ -214,7 +214,23 @@ def parse():
             names = [x.strip() for x in (a.get("n") or "Common").split(",") if x.strip()]
             internals = [_from_xml_name(x) for x in names]
             for internal in internals:
-                by_custom_note[internal] = (an, internals)
+                # An annotation adds to what the reading entry already records,
+                # it does not replace it -- opentorah's own Annotation.++ merges
+                # the two. The entry carries the sources, which attest the
+                # reading for every custom in it; the annotation carries the
+                # remark about this one. Overwriting lost Romania its michlol.
+                prev = by_custom_note.get(internal)
+                merged = dict(prev[0]) if prev else {}
+                srcs = list(merged.get("sources", []))
+                for x in an.get("sources", []):
+                    if x not in srcs:
+                        srcs.append(x)
+                if srcs:
+                    merged["sources"] = srcs
+                comments = [c for c in (merged.get("comment"), an.get("comment")) if c]
+                if comments:
+                    merged["comment"] = " ".join(comments)
+                by_custom_note[internal] = (merged, internals)
         per_parsha_customs[pkey] = by_custom
         notes[pkey] = by_custom_note
     return per_parsha_customs

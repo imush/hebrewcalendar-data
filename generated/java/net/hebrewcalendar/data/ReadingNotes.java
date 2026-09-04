@@ -68,22 +68,6 @@ public final class ReadingNotes {
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
             m.put(Custom.POZNAN, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.FRANKFURT, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.SEFARD, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.CHABAD, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.FRANKFURT, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.PURE_SEPHARDIM, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.FRANKFURT, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.PERSIA, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.FRANKFURT, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.LIBYA, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.FRANKFURT, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MAGREB, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.FRANKFURT, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.ALGERIA, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.FRANKFURT, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.ALGIERS, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.FRANKFURT, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MOROCCO, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.FRANKFURT, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.FES, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.FRANKFURT, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MARRAKESH, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.FRANKFURT, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.AGADIR, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.FRANKFURT, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.TOSHBIM, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.FRANKFURT, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.DJERBA, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.FRANKFURT, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.BAVLIM, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.FRANKFURT, Custom.POZNAN, Custom.SEFARD)));
             m.put(Custom.ROMANIA, new Note(List.of("michlol"), null, List.of()));
             w.put(Parsha.BEREISHIT, java.util.Collections.unmodifiableMap(m));
         }
@@ -95,21 +79,6 @@ public final class ReadingNotes {
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
             m.put(Custom.POZNAN, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.SEFARD, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.PURE_SEPHARDIM, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.PERSIA, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.LIBYA, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MAGREB, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MOROCCO, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.FES, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MARRAKESH, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.AGADIR, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.TOSHBIM, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.DJERBA, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.BAVLIM, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.TEIMAN, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.BALADI, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.SHAMI, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
             m.put(Custom.ROMANIA, new Note(List.of("michlol"), null, List.of()));
             w.put(Parsha.VAYERA, java.util.Collections.unmodifiableMap(m));
         }
@@ -124,22 +93,22 @@ public final class ReadingNotes {
         }
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
-            m.put(Custom.PURE_SEPHARDIM, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of()));
-            m.put(Custom.PERSIA, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of()));
-            m.put(Custom.LIBYA, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of()));
-            m.put(Custom.MAGREB, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of()));
-            m.put(Custom.ALGERIA, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.BAVLIM, Custom.LIBYA, Custom.MAGREB, Custom.PERSIA, Custom.PURE_SEPHARDIM, Custom.TEIMAN)));
-            m.put(Custom.ALGIERS, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.BAVLIM, Custom.LIBYA, Custom.MAGREB, Custom.PERSIA, Custom.PURE_SEPHARDIM, Custom.TEIMAN)));
-            m.put(Custom.MOROCCO, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.BAVLIM, Custom.LIBYA, Custom.MAGREB, Custom.PERSIA, Custom.PURE_SEPHARDIM, Custom.TEIMAN)));
-            m.put(Custom.FES, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.BAVLIM, Custom.LIBYA, Custom.MAGREB, Custom.PERSIA, Custom.PURE_SEPHARDIM, Custom.TEIMAN)));
-            m.put(Custom.MARRAKESH, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.BAVLIM, Custom.LIBYA, Custom.MAGREB, Custom.PERSIA, Custom.PURE_SEPHARDIM, Custom.TEIMAN)));
-            m.put(Custom.AGADIR, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.BAVLIM, Custom.LIBYA, Custom.MAGREB, Custom.PERSIA, Custom.PURE_SEPHARDIM, Custom.TEIMAN)));
-            m.put(Custom.TOSHBIM, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.BAVLIM, Custom.LIBYA, Custom.MAGREB, Custom.PERSIA, Custom.PURE_SEPHARDIM, Custom.TEIMAN)));
-            m.put(Custom.DJERBA, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.BAVLIM, Custom.LIBYA, Custom.MAGREB, Custom.PERSIA, Custom.PURE_SEPHARDIM, Custom.TEIMAN)));
-            m.put(Custom.BAVLIM, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of()));
-            m.put(Custom.TEIMAN, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of()));
-            m.put(Custom.BALADI, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.BAVLIM, Custom.LIBYA, Custom.MAGREB, Custom.PERSIA, Custom.PURE_SEPHARDIM, Custom.TEIMAN)));
-            m.put(Custom.SHAMI, new Note(List.of(), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.BAVLIM, Custom.LIBYA, Custom.MAGREB, Custom.PERSIA, Custom.PURE_SEPHARDIM, Custom.TEIMAN)));
+            m.put(Custom.PURE_SEPHARDIM, new Note(List.of("michlol"), null, List.of()));
+            m.put(Custom.PERSIA, new Note(List.of("michlol"), null, List.of()));
+            m.put(Custom.LIBYA, new Note(List.of("michlol"), null, List.of()));
+            m.put(Custom.MAGREB, new Note(List.of("michlol"), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of()));
+            m.put(Custom.ALGERIA, new Note(List.of("michlol"), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.MAGREB)));
+            m.put(Custom.ALGIERS, new Note(List.of("michlol"), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.MAGREB)));
+            m.put(Custom.MOROCCO, new Note(List.of("michlol"), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.MAGREB)));
+            m.put(Custom.FES, new Note(List.of("michlol"), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.MAGREB)));
+            m.put(Custom.MARRAKESH, new Note(List.of("michlol"), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.MAGREB)));
+            m.put(Custom.AGADIR, new Note(List.of("michlol"), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.MAGREB)));
+            m.put(Custom.TOSHBIM, new Note(List.of("michlol"), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.MAGREB)));
+            m.put(Custom.DJERBA, new Note(List.of("michlol"), "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.", List.of(Custom.MAGREB)));
+            m.put(Custom.BAVLIM, new Note(List.of("michlol"), null, List.of()));
+            m.put(Custom.TEIMAN, new Note(List.of("michlol"), null, List.of()));
+            m.put(Custom.BALADI, new Note(List.of("michlol"), null, List.of(Custom.BAVLIM, Custom.LIBYA, Custom.MAGREB, Custom.PERSIA, Custom.PURE_SEPHARDIM, Custom.TEIMAN)));
+            m.put(Custom.SHAMI, new Note(List.of("michlol"), null, List.of(Custom.BAVLIM, Custom.LIBYA, Custom.MAGREB, Custom.PERSIA, Custom.PURE_SEPHARDIM, Custom.TEIMAN)));
             m.put(Custom.ROMANIA, new Note(List.of("michlol"), null, List.of()));
             w.put(Parsha.SHEMOT, java.util.Collections.unmodifiableMap(m));
         }
@@ -156,41 +125,28 @@ public final class ReadingNotes {
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
             m.put(Custom.POZNAN, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.SEFARD, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.CHABAD, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.PURE_SEPHARDIM, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.PERSIA, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.LIBYA, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MAGREB, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MOROCCO, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.FES, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MARRAKESH, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.AGADIR, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.TOSHBIM, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.DJERBA, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.BAVLIM, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
             m.put(Custom.ROMANIA, new Note(List.of("michlol"), null, List.of()));
             w.put(Parsha.YITRO, java.util.Collections.unmodifiableMap(m));
         }
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
-            m.put(Custom.POZNAN, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.ITALKI, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.SEFARD, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.CHABAD, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.PURE_SEPHARDIM, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.PERSIA, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.LIBYA, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MAGREB, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.ALGERIA, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.ALGIERS, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MOROCCO, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.FES, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MARRAKESH, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.AGADIR, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.TOSHBIM, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.DJERBA, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.BAVLIM, new Note(List.of(), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.POZNAN, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
+            m.put(Custom.ITALKI, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
+            m.put(Custom.SEFARD, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
+            m.put(Custom.CHABAD, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
+            m.put(Custom.PURE_SEPHARDIM, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.PERSIA, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.LIBYA, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.MAGREB, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.ALGERIA, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.ALGIERS, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.MOROCCO, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.FES, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.MARRAKESH, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.AGADIR, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.TOSHBIM, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.DJERBA, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.BAVLIM, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
             m.put(Custom.ROMANIA, new Note(List.of("michlol"), null, List.of()));
             w.put(Parsha.KI_TISA, java.util.Collections.unmodifiableMap(m));
         }
@@ -208,21 +164,6 @@ public final class ReadingNotes {
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
             m.put(Custom.POZNAN, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.SEFARD, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.CHABAD, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.PURE_SEPHARDIM, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.PERSIA, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.LIBYA, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MAGREB, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.ALGERIA, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.ALGIERS, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MOROCCO, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.FES, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MARRAKESH, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.AGADIR, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.TOSHBIM, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.DJERBA, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.BAVLIM, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.POZNAN, Custom.SEFARD)));
             m.put(Custom.ROMANIA, new Note(List.of("michlol"), null, List.of()));
             w.put(Parsha.SHEMINI, java.util.Collections.unmodifiableMap(m));
         }
@@ -291,7 +232,6 @@ public final class ReadingNotes {
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
             m.put(Custom.POZNAN, new Note(List.of(), "Poznan per hamichlol, but unsettled: the Poznan minhagim book says they end at 'ne'um Hashem', which could be verse 15, 30 or 31, and the kuntres contradicts itself about whether they read this haftarah at all or the ordinary Ashkenaz one. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.ITALKI, new Note(List.of(), "Poznan per hamichlol, but unsettled: the Poznan minhagim book says they end at 'ne'um Hashem', which could be verse 15, 30 or 31, and the kuntres contradicts itself about whether they read this haftarah at all or the ordinary Ashkenaz one. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
             w.put(Parsha.BECHUKOTAI, java.util.Collections.unmodifiableMap(m));
         }
         {
@@ -301,53 +241,52 @@ public final class ReadingNotes {
         }
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
-            m.put(Custom.SEFARD, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of()));
-            m.put(Custom.CHABAD, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
-            m.put(Custom.PURE_SEPHARDIM, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
-            m.put(Custom.PERSIA, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
-            m.put(Custom.LIBYA, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
-            m.put(Custom.MAGREB, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
-            m.put(Custom.ALGERIA, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
-            m.put(Custom.ALGIERS, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
-            m.put(Custom.MOROCCO, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
-            m.put(Custom.FES, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
-            m.put(Custom.MARRAKESH, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
-            m.put(Custom.AGADIR, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
-            m.put(Custom.TOSHBIM, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
-            m.put(Custom.DJERBA, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
-            m.put(Custom.BAVLIM, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
-            m.put(Custom.SHAMI, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of()));
-            m.put(Custom.ROMANIA, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of()));
+            m.put(Custom.SEFARD, new Note(List.of("michlol"), null, List.of()));
+            m.put(Custom.CHABAD, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
+            m.put(Custom.PURE_SEPHARDIM, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
+            m.put(Custom.PERSIA, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
+            m.put(Custom.LIBYA, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
+            m.put(Custom.MAGREB, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
+            m.put(Custom.ALGERIA, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
+            m.put(Custom.ALGIERS, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
+            m.put(Custom.MOROCCO, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
+            m.put(Custom.FES, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
+            m.put(Custom.MARRAKESH, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
+            m.put(Custom.AGADIR, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
+            m.put(Custom.TOSHBIM, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
+            m.put(Custom.DJERBA, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
+            m.put(Custom.BAVLIM, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD, Custom.SHAMI)));
+            m.put(Custom.SHAMI, new Note(List.of("michlol"), null, List.of()));
+            m.put(Custom.ROMANIA, new Note(List.of("michlol"), "hamichlol gives Romania the same reading as Sefard here.", List.of()));
             w.put(Parsha.MASEI, java.util.Collections.unmodifiableMap(m));
         }
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
             m.put(Custom.ASHKENAZ, new Note(List.of("michlol", "torat-chaim", "steinsaltz"), "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.", List.of()));
             m.put(Custom.POZNAN, new Note(List.of(), "Poznan per the first practice in kuntres Poznan, which reads Dirshu on Shabbos Shuvah; its second practice reads Shuva like the rest of Ashkenaz. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.ITALKI, new Note(List.of(), "Poznan per the first practice in kuntres Poznan, which reads Dirshu on Shabbos Shuvah; its second practice reads Shuva like the rest of Ashkenaz. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
             m.put(Custom.FRANKFURT, new Note(List.of("michlol", "torat-chaim", "steinsaltz"), "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.", List.of(Custom.ASHKENAZ)));
             m.put(Custom.LITA, new Note(List.of("michlol", "torat-chaim", "steinsaltz"), "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.", List.of(Custom.ASHKENAZ)));
             m.put(Custom.CHAYEY_ODOM, new Note(List.of("michlol", "torat-chaim", "steinsaltz"), "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.", List.of(Custom.ASHKENAZ)));
             m.put(Custom.HAGRA, new Note(List.of("michlol", "torat-chaim", "steinsaltz"), "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.", List.of(Custom.ASHKENAZ)));
-            m.put(Custom.SEFARD, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of()));
-            m.put(Custom.CHABAD, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD)));
-            m.put(Custom.PURE_SEPHARDIM, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD)));
-            m.put(Custom.PERSIA, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD)));
-            m.put(Custom.LIBYA, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD)));
-            m.put(Custom.MAGREB, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD)));
-            m.put(Custom.ALGERIA, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD)));
-            m.put(Custom.ALGIERS, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD)));
-            m.put(Custom.MOROCCO, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD)));
-            m.put(Custom.FES, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD)));
-            m.put(Custom.MARRAKESH, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD)));
-            m.put(Custom.AGADIR, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD)));
-            m.put(Custom.TOSHBIM, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD)));
-            m.put(Custom.DJERBA, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD)));
-            m.put(Custom.BAVLIM, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of(Custom.ROMANIA, Custom.SEFARD)));
+            m.put(Custom.SEFARD, new Note(List.of("michlol"), null, List.of()));
+            m.put(Custom.CHABAD, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD)));
+            m.put(Custom.PURE_SEPHARDIM, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD)));
+            m.put(Custom.PERSIA, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD)));
+            m.put(Custom.LIBYA, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD)));
+            m.put(Custom.MAGREB, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD)));
+            m.put(Custom.ALGERIA, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD)));
+            m.put(Custom.ALGIERS, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD)));
+            m.put(Custom.MOROCCO, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD)));
+            m.put(Custom.FES, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD)));
+            m.put(Custom.MARRAKESH, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD)));
+            m.put(Custom.AGADIR, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD)));
+            m.put(Custom.TOSHBIM, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD)));
+            m.put(Custom.DJERBA, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD)));
+            m.put(Custom.BAVLIM, new Note(List.of("michlol"), null, List.of(Custom.ROMANIA, Custom.SEFARD)));
             m.put(Custom.TEIMAN, new Note(List.of("torat-chaim"), null, List.of()));
             m.put(Custom.BALADI, new Note(List.of("torat-chaim"), null, List.of(Custom.TEIMAN)));
             m.put(Custom.SHAMI, new Note(List.of("torat-chaim"), null, List.of(Custom.TEIMAN)));
-            m.put(Custom.ROMANIA, new Note(List.of(), "hamichlol gives Romania the same reading as Sefard here.", List.of()));
+            m.put(Custom.ROMANIA, new Note(List.of("michlol"), "hamichlol gives Romania the same reading as Sefard here.", List.of()));
             w.put(Parsha.VAYEILECH, java.util.Collections.unmodifiableMap(m));
         }
         {
