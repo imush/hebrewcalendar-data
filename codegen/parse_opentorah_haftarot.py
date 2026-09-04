@@ -130,6 +130,21 @@ def parse_custom_element(custom_el, week_attrs):
 
 
 precedence = {}   # parsha key -> customs whose reading comes from this parsha when combined
+notes = {}        # parsha key -> {internal custom -> {"sources": [...], "comment": str}}
+
+
+def _note_of(el):
+    """The sources and comment an element carries, or None if it carries none."""
+    srcs = [x.strip() for x in (el.get("sources") or "").split(",") if x.strip()]
+    comment = " ".join((el.get("comment") or "").split())
+    if not srcs and not comment:
+        return None
+    out = {}
+    if srcs:
+        out["sources"] = srcs
+    if comment:
+        out["comment"] = comment
+    return out
 
 
 def parse():
@@ -160,9 +175,13 @@ def parse():
         custom_els = [c for c in week.findall("custom") if c.get("variant") is None]
         variant_els = [c for c in week.findall("custom") if c.get("variant") is not None]
         by_custom = {}
+        by_custom_note = {}
         if not custom_els:
             # Universal — the <week> itself carries all the reference attrs.
             by_custom["Common"] = [_finalize(week_attrs)]
+            wn = _note_of(week)
+            if wn:
+                by_custom_note["Common"] = (wn, ["Common"])
         else:
             for c in custom_els:
                 n = c.get("n") or "Common"
@@ -171,19 +190,47 @@ def parse():
                 # turned each into two names that match nothing -- so they
                 # silently kept their parent's reading.
                 names = [x.strip() for x in n.split(",") if x.strip()]
-                for name in names:
-                    internal = _from_xml_name(name)
+                cn = _note_of(c)
+                internals = [_from_xml_name(x) for x in names]
+                for internal in internals:
                     by_custom[internal] = parse_custom_element(c, week_attrs)
+                    if cn:
+                        # the note travels with the customs the entry names, so
+                        # an heir can be told whose remark it is reading
+                        by_custom_note[internal] = (cn, internals)
+
+        # <annotation n="Custom"> hangs a note on one custom, whether or not it
+        # has a reading of its own. Upstream moved the remarks that were about
+        # a single custom out of shared entries and into these, so a parser
+        # that reads only <custom> now sees a note where the prose is not, and
+        # none where it is.
+        for a in week.findall("annotation"):
+            an = _note_of(a)
+            if not an:
+                continue
+            # `n` is a list, as it is on <custom>: one note, said of several
+            # customs, held once rather than copied per custom.
+            names = [x.strip() for x in (a.get("n") or "Common").split(",") if x.strip()]
+            internals = [_from_xml_name(x) for x in names]
+            for internal in internals:
+                by_custom_note[internal] = (an, internals)
         per_parsha_customs[pkey] = by_custom
+        notes[pkey] = by_custom_note
     return per_parsha_customs
 
 
 def resolve(by_custom, exposed_internal):
     """Walk the parent chain to find a defined haftarah for the exposed custom."""
+    found = resolve_from(by_custom, exposed_internal)
+    return None if found is None else found[0]
+
+
+def resolve_from(by_custom, exposed_internal):
+    """As resolve, but says which ancestor the reading came from."""
     cur = exposed_internal
     while cur is not None:
         if cur in by_custom:
-            return by_custom[cur]
+            return by_custom[cur], cur
         cur = PARENT.get(cur)
     return None
 
@@ -194,12 +241,29 @@ def main():
     unresolved = []
     for pkey, by_custom in per_parsha.items():
         entry = {}
+        annotations = {}
         for exposed in EXPOSED:
-            parts = resolve(by_custom, EXPOSED_INTERNAL[exposed])
-            if parts is None:
+            internal = EXPOSED_INTERNAL[exposed]
+            found = resolve_from(by_custom, internal)
+            if found is None:
                 unresolved.append((pkey, exposed))
                 continue
+            parts, came_from = found
             entry[exposed] = parts
+            # The note belongs to the entry the reading came from, so a custom
+            # that inherits the reading inherits the note. Where the entry does
+            # not name this custom, recordedFor says whose remark it is: taking
+            # it silently put a remark about Poznan under Chabad's reading, and
+            # one about Romania under Chabad's, as if it were about them.
+            carried = notes.get(pkey, {}).get(came_from)
+            if carried:
+                note, named = carried
+                out_note = dict(note)
+                if internal not in named:
+                    out_note["recordedFor"] = sorted({_key_of(x) for x in named} - {"COMMON"})
+                annotations[exposed] = out_note
+        if annotations:
+            entry["annotations"] = annotations
         out[pkey] = entry
     if unresolved:
         raise SystemExit(f"unresolved (parsha, custom) pairs: {unresolved}")

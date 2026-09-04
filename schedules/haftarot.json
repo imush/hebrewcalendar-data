@@ -233,7 +233,135 @@
         "toCh": 66,
         "toV": 11
       }
-    ]
+    ],
+    "annotations": {
+      "POZNAN": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "FRANKFURT": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "SEFARD": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "CHABAD": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "FRANKFURT",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "PURE_SEPHARDIM": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "FRANKFURT",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "PERSIA": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "FRANKFURT",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "LIBYA": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "FRANKFURT",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MAGREB": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "FRANKFURT",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "ALGERIA": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "FRANKFURT",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "ALGIERS": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "FRANKFURT",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MOROCCO": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "FRANKFURT",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "FES": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "FRANKFURT",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MARRAKESH": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "FRANKFURT",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "AGADIR": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "FRANKFURT",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "TOSHBIM": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "FRANKFURT",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "DJERBA": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "FRANKFURT",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "BAVLIM": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "FRANKFURT",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "NOACH": {
     "ASHKENAZ": [
@@ -469,7 +597,14 @@
         "toCh": 55,
         "toV": 12
       }
-    ]
+    ],
+    "annotations": {
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "LECH_LECHA": {
     "ASHKENAZ": [
@@ -941,7 +1076,118 @@
         "toCh": 34,
         "toV": 13
       }
-    ]
+    ],
+    "annotations": {
+      "POZNAN": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "SEFARD": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "PURE_SEPHARDIM": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "PERSIA": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "LIBYA": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MAGREB": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MOROCCO": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "FES": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MARRAKESH": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "AGADIR": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "TOSHBIM": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "DJERBA": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "BAVLIM": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "TEIMAN": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "BALADI": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "SHAMI": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "CHAYEI_SARAH": {
     "ASHKENAZ": [
@@ -1663,7 +1909,59 @@
         "toCh": 14,
         "toV": 3
       }
-    ]
+    ],
+    "annotations": {
+      "ASHKENAZ": {
+        "sources": [
+          "torah-temimah",
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah ends at Hosea 14:10. hamichlol gives Ashkenaz the same reading followed by Joel 2:26-27; Torat Chaim and Steinsaltz print those two verses only as יש מוסיפים, without saying which communities add them, so they are kept below under Lita rather than given to Ashkenaz."
+      },
+      "POZNAN": {
+        "sources": [
+          "torah-temimah",
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah ends at Hosea 14:10. hamichlol gives Ashkenaz the same reading followed by Joel 2:26-27; Torat Chaim and Steinsaltz print those two verses only as יש מוסיפים, without saying which communities add them, so they are kept below under Lita rather than given to Ashkenaz.",
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "FRANKFURT": {
+        "sources": [
+          "torah-temimah",
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah ends at Hosea 14:10. hamichlol gives Ashkenaz the same reading followed by Joel 2:26-27; Torat Chaim and Steinsaltz print those two verses only as יש מוסיפים, without saying which communities add them, so they are kept below under Lita rather than given to Ashkenaz.",
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "HAGRA": {
+        "sources": [
+          "torah-temimah",
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah ends at Hosea 14:10. hamichlol gives Ashkenaz the same reading followed by Joel 2:26-27; Torat Chaim and Steinsaltz print those two verses only as יש מוסיפים, without saying which communities add them, so they are kept below under Lita rather than given to Ashkenaz.",
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "VAYISHLACH": {
     "ASHKENAZ": [
@@ -3128,7 +3426,142 @@
         "toCh": 28,
         "toV": 13
       }
-    ]
+    ],
+    "annotations": {
+      "PURE_SEPHARDIM": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings."
+      },
+      "PERSIA": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings."
+      },
+      "LIBYA": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings."
+      },
+      "MAGREB": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings."
+      },
+      "ALGERIA": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "BAVLIM",
+          "LIBYA",
+          "MAGREB",
+          "PERSIA",
+          "PURE_SEPHARDIM",
+          "TEIMAN"
+        ]
+      },
+      "ALGIERS": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "BAVLIM",
+          "LIBYA",
+          "MAGREB",
+          "PERSIA",
+          "PURE_SEPHARDIM",
+          "TEIMAN"
+        ]
+      },
+      "MOROCCO": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "BAVLIM",
+          "LIBYA",
+          "MAGREB",
+          "PERSIA",
+          "PURE_SEPHARDIM",
+          "TEIMAN"
+        ]
+      },
+      "FES": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "BAVLIM",
+          "LIBYA",
+          "MAGREB",
+          "PERSIA",
+          "PURE_SEPHARDIM",
+          "TEIMAN"
+        ]
+      },
+      "MARRAKESH": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "BAVLIM",
+          "LIBYA",
+          "MAGREB",
+          "PERSIA",
+          "PURE_SEPHARDIM",
+          "TEIMAN"
+        ]
+      },
+      "AGADIR": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "BAVLIM",
+          "LIBYA",
+          "MAGREB",
+          "PERSIA",
+          "PURE_SEPHARDIM",
+          "TEIMAN"
+        ]
+      },
+      "TOSHBIM": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "BAVLIM",
+          "LIBYA",
+          "MAGREB",
+          "PERSIA",
+          "PURE_SEPHARDIM",
+          "TEIMAN"
+        ]
+      },
+      "DJERBA": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "BAVLIM",
+          "LIBYA",
+          "MAGREB",
+          "PERSIA",
+          "PURE_SEPHARDIM",
+          "TEIMAN"
+        ]
+      },
+      "BAVLIM": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings."
+      },
+      "TEIMAN": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings."
+      },
+      "BALADI": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "BAVLIM",
+          "LIBYA",
+          "MAGREB",
+          "PERSIA",
+          "PURE_SEPHARDIM",
+          "TEIMAN"
+        ]
+      },
+      "SHAMI": {
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "BAVLIM",
+          "LIBYA",
+          "MAGREB",
+          "PERSIA",
+          "PURE_SEPHARDIM",
+          "TEIMAN"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "VAERA": {
     "ASHKENAZ": [
@@ -3364,7 +3797,15 @@
         "toCh": 29,
         "toV": 21
       }
-    ]
+    ],
+    "annotations": {
+      "POZNAN": {
+        "sources": [
+          "michlol",
+          "poznan-pinkas"
+        ]
+      }
+    }
   },
   "BO": {
     "ASHKENAZ": [
@@ -3836,7 +4277,14 @@
         "toCh": 24,
         "toV": 26
       }
-    ]
+    ],
+    "annotations": {
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "YITRO": {
     "ASHKENAZ": [
@@ -4135,7 +4583,104 @@
         "toCh": 34,
         "toV": 10
       }
-    ]
+    ],
+    "annotations": {
+      "POZNAN": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "SEFARD": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "CHABAD": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "PURE_SEPHARDIM": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "PERSIA": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "LIBYA": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MAGREB": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MOROCCO": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "FES": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MARRAKESH": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "AGADIR": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "TOSHBIM": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "DJERBA": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "BAVLIM": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "MISHPATIM": {
     "ASHKENAZ": [
@@ -5233,7 +5778,143 @@
         "toCh": 44,
         "toV": 2
       }
-    ]
+    ],
+    "annotations": {
+      "POZNAN": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "ITALKI": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "SEFARD": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "CHABAD": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "PURE_SEPHARDIM": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "PERSIA": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "LIBYA": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MAGREB": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "ALGERIA": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "ALGIERS": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MOROCCO": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "FES": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MARRAKESH": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "AGADIR": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "TOSHBIM": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "DJERBA": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "BAVLIM": {
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "VAYAKHEL": {
     "ASHKENAZ": [
@@ -5469,7 +6150,14 @@
         "toCh": 8,
         "toV": 10
       }
-    ]
+    ],
+    "annotations": {
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "PEKUDEI": {
     "ASHKENAZ": [
@@ -5705,7 +6393,20 @@
         "toCh": 7,
         "toV": 47
       }
-    ]
+    ],
+    "annotations": {
+      "POZNAN": {
+        "sources": [
+          "michlol",
+          "poznan-pinkas"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "VAYIKRA": {
     "ASHKENAZ": [
@@ -6602,7 +7303,118 @@
         "toCh": 44,
         "toV": 21
       }
-    ]
+    ],
+    "annotations": {
+      "POZNAN": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "SEFARD": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "CHABAD": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "PURE_SEPHARDIM": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "PERSIA": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "LIBYA": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MAGREB": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "ALGERIA": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "ALGIERS": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MOROCCO": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "FES": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MARRAKESH": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "AGADIR": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "TOSHBIM": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "DJERBA": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "BAVLIM": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "TAZRIA": {
     "ASHKENAZ": [
@@ -7338,7 +8150,188 @@
         "toCh": 22,
         "toV": 16
       }
-    ]
+    ],
+    "annotations": {
+      "ASHKENAZ": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "POZNAN": {
+        "sources": [
+          "michlol",
+          "poznan-pinkas"
+        ]
+      },
+      "ITALKI": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "FRANKFURT": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "LITA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "CHAYEY_ODOM": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "HAGRA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "SEFARD": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "CHABAD": {
+        "sources": [
+          "chitas"
+        ]
+      },
+      "PURE_SEPHARDIM": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "PERSIA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "LIBYA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "MAGREB": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "ALGERIA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "ALGIERS": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "MOROCCO": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "FES": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "MARRAKESH": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "AGADIR": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "TOSHBIM": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "DJERBA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "BAVLIM": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "TEIMAN": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "BALADI": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "SHAMI": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "ROMANIA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      }
+    }
   },
   "KEDOSHIM": {
     "ASHKENAZ": [
@@ -7574,7 +8567,188 @@
         "toCh": 5,
         "toV": 17
       }
-    ]
+    ],
+    "annotations": {
+      "ASHKENAZ": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ]
+      },
+      "POZNAN": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "FRANKFURT": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "LITA": {
+        "comment": "Unverified. Torah Temimah does not distinguish the Ashkenazi sub-customs, so it cannot settle this one; hamichlol gives this reading to Frankfurt rather than to Lita. Kept as inherited pending a source that speaks to it."
+      },
+      "CHAYEY_ODOM": {
+        "comment": "Unverified. Torah Temimah does not distinguish the Ashkenazi sub-customs, so it cannot settle this one; hamichlol gives this reading to Frankfurt rather than to Lita. Kept as inherited pending a source that speaks to it.",
+        "recordedFor": [
+          "LITA"
+        ]
+      },
+      "HAGRA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "SEFARD": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ]
+      },
+      "CHABAD": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "PURE_SEPHARDIM": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "PERSIA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "LIBYA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "MAGREB": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "ALGERIA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "ALGIERS": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "MOROCCO": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "FES": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "MARRAKESH": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "AGADIR": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "TOSHBIM": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "DJERBA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "BAVLIM": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "EMOR": {
     "ASHKENAZ": [
@@ -8046,7 +9220,15 @@
         "toCh": 32,
         "toV": 27
       }
-    ]
+    ],
+    "annotations": {
+      "POZNAN": {
+        "comment": "hamichlol gives Poznan the same ending as Chabad; the two are unrelated, they simply stop at the same verse. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "CHABAD": {
+        "comment": "hamichlol gives Poznan the same ending as Chabad; the two are unrelated, they simply stop at the same verse. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      }
+    }
   },
   "BECHUKOTAI": {
     "ASHKENAZ": [
@@ -8282,7 +9464,15 @@
         "toCh": 17,
         "toV": 14
       }
-    ]
+    ],
+    "annotations": {
+      "POZNAN": {
+        "comment": "Poznan per hamichlol, but unsettled: the Poznan minhagim book says they end at 'ne'um Hashem', which could be verse 15, 30 or 31, and the kuntres contradicts itself about whether they read this haftarah at all or the ordinary Ashkenaz one. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "ITALKI": {
+        "comment": "Poznan per hamichlol, but unsettled: the Poznan minhagim book says they end at 'ne'um Hashem', which could be verse 15, 30 or 31, and the kuntres contradicts itself about whether they read this haftarah at all or the ordinary Ashkenaz one. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      }
+    }
   },
   "BAMIDBAR": {
     "ASHKENAZ": [
@@ -9698,7 +10888,15 @@
         "toCh": 11,
         "toV": 33
       }
-    ]
+    ],
+    "annotations": {
+      "POZNAN": {
+        "sources": [
+          "michlol",
+          "poznan-pinkas"
+        ]
+      }
+    }
   },
   "BALAK": {
     "ASHKENAZ": [
@@ -10803,7 +12001,130 @@
         "toCh": 4,
         "toV": 2
       }
-    ]
+    ],
+    "annotations": {
+      "SEFARD": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here."
+      },
+      "CHABAD": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "PURE_SEPHARDIM": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "PERSIA": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "LIBYA": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "MAGREB": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "ALGERIA": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "ALGIERS": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "MOROCCO": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "FES": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "MARRAKESH": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "AGADIR": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "TOSHBIM": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "DJERBA": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "BAVLIM": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "SHAMI": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here."
+      },
+      "ROMANIA": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here."
+      }
+    }
   },
   "DEVARIM": {
     "ASHKENAZ": [
@@ -13095,7 +14416,192 @@
         "toCh": 7,
         "toV": 20
       }
-    ]
+    ],
+    "annotations": {
+      "ASHKENAZ": {
+        "sources": [
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages."
+      },
+      "POZNAN": {
+        "comment": "Poznan per the first practice in kuntres Poznan, which reads Dirshu on Shabbos Shuvah; its second practice reads Shuva like the rest of Ashkenaz. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "ITALKI": {
+        "comment": "Poznan per the first practice in kuntres Poznan, which reads Dirshu on Shabbos Shuvah; its second practice reads Shuva like the rest of Ashkenaz. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "FRANKFURT": {
+        "sources": [
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.",
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "LITA": {
+        "sources": [
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.",
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "CHAYEY_ODOM": {
+        "sources": [
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.",
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "HAGRA": {
+        "sources": [
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.",
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "SEFARD": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here."
+      },
+      "CHABAD": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "PURE_SEPHARDIM": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "PERSIA": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "LIBYA": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "MAGREB": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "ALGERIA": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "ALGIERS": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "MOROCCO": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "FES": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "MARRAKESH": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "AGADIR": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "TOSHBIM": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "DJERBA": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "BAVLIM": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here.",
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "TEIMAN": {
+        "sources": [
+          "torat-chaim"
+        ]
+      },
+      "BALADI": {
+        "sources": [
+          "torat-chaim"
+        ],
+        "recordedFor": [
+          "TEIMAN"
+        ]
+      },
+      "SHAMI": {
+        "sources": [
+          "torat-chaim"
+        ],
+        "recordedFor": [
+          "TEIMAN"
+        ]
+      },
+      "ROMANIA": {
+        "comment": "hamichlol gives Romania the same reading as Sefard here."
+      }
+    }
   },
   "HAAZINU": {
     "ASHKENAZ": [
@@ -13338,7 +14844,16 @@
         "toCh": 22,
         "toV": 51
       }
-    ]
+    ],
+    "annotations": {
+      "POZNAN": {
+        "sources": [
+          "michlol",
+          "poznan-pinkas"
+        ],
+        "comment": "Poznan reads Shuva here, on the Shabbos between Yom Kippur and Succos, having read Dirshu on Shabbos Shuvah -- the first of the two practices in kuntres Poznan. Its second practice reads Vaydaber David like the rest of Ashkenaz."
+      }
+    }
   },
   "VEZOT_HABRACHA": {
     "ASHKENAZ": [
@@ -13595,6 +15110,13 @@
         "toCh": 8,
         "toV": 34
       }
-    ]
+    ],
+    "annotations": {
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   }
 }

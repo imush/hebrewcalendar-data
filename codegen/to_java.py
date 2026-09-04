@@ -297,6 +297,9 @@ def emit_haftarot() -> str:
     for pkey, by_custom in data.items():
         lines.append(f"        {{  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);")
         for cname, refs in by_custom.items():
+            # annotations sit beside the readings; ReadingNotes carries those
+            if cname == "annotations":
+                continue
             joined = ", ".join(
                 f"new Reference({java_str(r['book'])}, {r['fromCh']}, {r['fromV']}, {r['toCh']}, {r['toV']})"
                 for r in refs
@@ -765,6 +768,120 @@ def emit_year_cheshvan_kislev_type() -> str:
     return "\n".join(lines) + "\n"
 
 
+
+def emit_reading_notes() -> str:
+    """Why a reading is what it is: the works it is attested in, and the
+    remarks recorded beside it. Display material -- nothing computes from it."""
+    weekly  = load("schedules/haftarot.json")
+    special = load("schedules/special_haftarot.json")
+    sources = load("names/reading_sources.json")
+
+    lines = [BANNER, "package net.hebrewcalendar.data;", "",
+             "import java.util.HashMap;", "import java.util.List;", "import java.util.Map;", ""]
+    lines.append("/** Sources and comments recorded against the readings, for display. */")
+    lines.append("public final class ReadingNotes {")
+    lines.append("    private ReadingNotes() {}")
+    lines.append("")
+    lines.append("    /** A work a reading is attested in. */")
+    lines.append("    public static final class Source {")
+    lines.append("        public final String id, kind, en, he, ru, fr, where, url;")
+    lines.append("        Source(String id, String kind, String en, String he, String ru,")
+    lines.append("               String fr, String where, String url) {")
+    lines.append("            this.id = id; this.kind = kind; this.en = en; this.he = he;")
+    lines.append("            this.ru = ru; this.fr = fr; this.where = where; this.url = url;")
+    lines.append("        }")
+    lines.append("        public String name(String lang) {")
+    lines.append("            switch (lang) {")
+    lines.append("                case \"he\": return he;")
+    lines.append("                case \"ru\": return ru;")
+    lines.append("                case \"fr\": return fr;")
+    lines.append("                default:   return en;")
+    lines.append("            }")
+    lines.append("        }")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    /** What is recorded beside one custom's reading. */")
+    lines.append("    public static final class Note {")
+    lines.append("        public final List<String> sources;   // Source ids")
+    lines.append("        public final String comment;         // may be null")
+    lines.append("        /** The customs this note was recorded for, when they are not the")
+    lines.append("         *  one asking: it inherits the reading, and the note with it. */")
+    lines.append("        public final List<Custom> recordedFor;")
+    lines.append("        Note(List<String> sources, String comment, List<Custom> recordedFor) {")
+    lines.append("            this.sources = sources; this.comment = comment;")
+    lines.append("            this.recordedFor = recordedFor;")
+    lines.append("        }")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    private static final Map<String, Source> SOURCES;")
+    lines.append("    private static final Map<Parsha, Map<Custom, Note>> WEEKLY;")
+    lines.append("    private static final Map<String, Map<Custom, Note>> SPECIAL;")
+    lines.append("    static {")
+    lines.append("        Map<String, Source> s = new HashMap<>();")
+    for sid, r in sources.items():
+        lines.append("        s.put({}, new Source({}, {}, {}, {}, {}, {}, {}, {}));".format(
+            java_str(sid), java_str(sid), java_str(r.get("kind", "")),
+            java_str(r.get("en", "")), java_str(r.get("he", "")),
+            java_str(r.get("ru", "")), java_str(r.get("fr", "")),
+            java_str(r.get("where") or ""), java_str(r.get("url") or "")))
+    lines.append("        SOURCES = java.util.Collections.unmodifiableMap(s);")
+    lines.append("")
+
+    def note_expr(note):
+        srcs = note.get("sources", [])
+        src_expr = ("List.of(" + ", ".join(java_str(x) for x in srcs) + ")") if srcs else "List.of()"
+        rec = note.get("recordedFor") or []
+        rec_expr = ("List.of(" + ", ".join(f"Custom.{c}" for c in rec) + ")") if rec else "List.of()"
+        return "new Note({}, {}, {})".format(
+            src_expr, java_str(note["comment"]) if note.get("comment") else "null", rec_expr)
+
+    lines.append("        Map<Parsha, Map<Custom, Note>> w = new java.util.EnumMap<>(Parsha.class);")
+    for pkey, entry in weekly.items():
+        anns = entry.get("annotations") or {}
+        if not anns:
+            continue
+        lines.append("        {")
+        lines.append("            Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);")
+        for custom, note in anns.items():
+            lines.append(f"            m.put(Custom.{custom}, {note_expr(note)});")
+        lines.append(f"            w.put(Parsha.{pkey}, java.util.Collections.unmodifiableMap(m));")
+        lines.append("        }")
+    lines.append("        WEEKLY = java.util.Collections.unmodifiableMap(w);")
+    lines.append("")
+    lines.append("        Map<String, Map<Custom, Note>> p = new HashMap<>();")
+    for occ, readings in special.items():
+        if not isinstance(readings, dict):
+            continue
+        for name, e in readings.items():
+            anns = (e or {}).get("annotations") if isinstance(e, dict) else None
+            if not anns:
+                continue
+            lines.append("        {")
+            lines.append("            Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);")
+            for custom, note in anns.items():
+                lines.append(f"            m.put(Custom.{custom}, {note_expr(note)});")
+            lines.append(f"            p.put({java_str(occ + '_' + name)}, java.util.Collections.unmodifiableMap(m));")
+            lines.append("        }")
+    lines.append("        SPECIAL = java.util.Collections.unmodifiableMap(p);")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    public static Source source(String id) { return SOURCES.get(id); }")
+    lines.append("")
+    lines.append("    /** The note against this custom's weekly haftarah, or null. */")
+    lines.append("    public static Note weekly(Parsha parsha, Custom custom) {")
+    lines.append("        Map<Custom, Note> m = WEEKLY.get(parsha);")
+    lines.append("        return m == null ? null : m.get(custom);")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    /** The note against this custom's reading on a special day, or null. */")
+    lines.append("    public static Note special(String occasionAndName, Custom custom) {")
+    lines.append("        Map<Custom, Note> m = SPECIAL.get(occasionAndName);")
+    lines.append("        return m == null ? null : m.get(custom);")
+    lines.append("    }")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
 def main():
     JAVA_DIR.mkdir(parents=True, exist_ok=True)
     (JAVA_DIR / "Parsha.java").write_text(emit_parsha(), encoding="utf-8")
@@ -784,6 +901,7 @@ def main():
     (JAVA_DIR / "Haftarot.java").write_text(emit_haftarot(), encoding="utf-8")
     (JAVA_DIR / "SpecialHaftarot.java").write_text(emit_special_haftarot(), encoding="utf-8")
     (JAVA_DIR / "SpecialTorah.java").write_text(emit_special_torah(), encoding="utf-8")
+    (JAVA_DIR / "ReadingNotes.java").write_text(emit_reading_notes(), encoding="utf-8")
     print(f"OK  java  → {JAVA_DIR.relative_to(ROOT)}")
 
 

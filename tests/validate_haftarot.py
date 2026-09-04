@@ -44,6 +44,12 @@ NACH_BOOKS = {
 
 known_parshiyot = set(parshiyot)
 
+# Every cited source must be one reading_sources.json knows, or the footnote
+# would render a bare id.
+KNOWN_SOURCES = set(
+    json.loads((ROOT / "names" / "reading_sources.json").read_text(encoding="utf-8")).keys()
+)
+
 for pkey, by_custom in data.items():
     if pkey not in known_parshiyot:
         raise SystemExit(f"unknown parsha key: {pkey}")
@@ -51,6 +57,14 @@ for pkey, by_custom in data.items():
     if missing:
         raise SystemExit(f"{pkey} missing customs: {sorted(missing)}")
     for cname, refs in by_custom.items():
+        # annotations sit beside the readings and are not one
+        if cname == "annotations":
+            for custom, note in refs.items():
+                for src in note.get("sources", []):
+                    if src not in KNOWN_SOURCES:
+                        raise SystemExit(
+                            f"{pkey}/{custom}: cites a source nothing names: {src}")
+            continue
         for i, r in enumerate(refs):
             if r["book"] not in NACH_BOOKS:
                 raise SystemExit(f"{pkey}/{cname}[{i}]: unknown book {r['book']}")

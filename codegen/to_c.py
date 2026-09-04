@@ -232,6 +232,10 @@ def emit_haftarot_source() -> str:
     weekly_ref_arrays = {}  # (pkey, custom) → C symbol name
     for pkey, byc in haftarot.items():
         for cname, parts in byc.items():
+            # annotations sit beside the readings; they are display material
+            # and the C library carries none of it
+            if cname == "annotations":
+                continue
             sym = f"HC_HAFT_W_{pkey}_{cname}"
             weekly_ref_arrays[(pkey, cname)] = sym
             lines.append(f"static const hc_haftarah_ref {sym}[] = {{")
