@@ -130,23 +130,23 @@ public final class ReadingNotes {
         }
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
-            m.put(Custom.POZNAN, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.ITALKI, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.SEFARD, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.CHABAD, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.PURE_SEPHARDIM, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.PERSIA, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.LIBYA, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MAGREB, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.ALGERIA, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.ALGIERS, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MOROCCO, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.FES, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.MARRAKESH, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.AGADIR, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.TOSHBIM, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.DJERBA, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
-            m.put(Custom.BAVLIM, new Note(List.of("chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.POZNAN, new Note(List.of("michlol"), "hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
+            m.put(Custom.ITALKI, new Note(List.of("michlol"), null, List.of()));
+            m.put(Custom.SEFARD, new Note(List.of("michlol"), null, List.of()));
+            m.put(Custom.CHABAD, new Note(List.of("michlol", "chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad.", List.of()));
+            m.put(Custom.PURE_SEPHARDIM, new Note(List.of("michlol"), null, List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.PERSIA, new Note(List.of("michlol"), null, List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.LIBYA, new Note(List.of("michlol"), null, List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.MAGREB, new Note(List.of("michlol"), null, List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.ALGERIA, new Note(List.of("michlol"), null, List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.ALGIERS, new Note(List.of("michlol"), null, List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.MOROCCO, new Note(List.of("michlol"), null, List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.FES, new Note(List.of("michlol"), null, List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.MARRAKESH, new Note(List.of("michlol"), null, List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.AGADIR, new Note(List.of("michlol"), null, List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.TOSHBIM, new Note(List.of("michlol"), null, List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.DJERBA, new Note(List.of("michlol"), null, List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
+            m.put(Custom.BAVLIM, new Note(List.of("michlol"), null, List.of(Custom.CHABAD, Custom.ITALKI, Custom.POZNAN, Custom.SEFARD)));
             m.put(Custom.ROMANIA, new Note(List.of("michlol"), null, List.of()));
             w.put(Parsha.KI_TISA, java.util.Collections.unmodifiableMap(m));
         }

@@ -5477,38 +5477,32 @@
     "annotations": {
       "POZNAN": {
         "sources": [
-          "chabad-org",
-          "chitas"
+          "michlol"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+        "comment": "hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
       },
       "ITALKI": {
         "sources": [
-          "chabad-org",
-          "chitas"
-        ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+          "michlol"
+        ]
       },
       "SEFARD": {
         "sources": [
-          "chabad-org",
-          "chitas"
-        ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+          "michlol"
+        ]
       },
       "CHABAD": {
         "sources": [
+          "michlol",
           "chabad-org",
           "chitas"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+        "comment": "chabad.org and Chitas are cited for Chabad."
       },
       "PURE_SEPHARDIM": {
         "sources": [
-          "chabad-org",
-          "chitas"
+          "michlol"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
         "recordedFor": [
           "CHABAD",
           "ITALKI",
@@ -5518,10 +5512,8 @@
       },
       "PERSIA": {
         "sources": [
-          "chabad-org",
-          "chitas"
+          "michlol"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
         "recordedFor": [
           "CHABAD",
           "ITALKI",
@@ -5531,10 +5523,8 @@
       },
       "LIBYA": {
         "sources": [
-          "chabad-org",
-          "chitas"
+          "michlol"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
         "recordedFor": [
           "CHABAD",
           "ITALKI",
@@ -5544,10 +5534,8 @@
       },
       "MAGREB": {
         "sources": [
-          "chabad-org",
-          "chitas"
+          "michlol"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
         "recordedFor": [
           "CHABAD",
           "ITALKI",
@@ -5557,10 +5545,8 @@
       },
       "ALGERIA": {
         "sources": [
-          "chabad-org",
-          "chitas"
+          "michlol"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
         "recordedFor": [
           "CHABAD",
           "ITALKI",
@@ -5570,10 +5556,8 @@
       },
       "ALGIERS": {
         "sources": [
-          "chabad-org",
-          "chitas"
+          "michlol"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
         "recordedFor": [
           "CHABAD",
           "ITALKI",
@@ -5583,10 +5567,8 @@
       },
       "MOROCCO": {
         "sources": [
-          "chabad-org",
-          "chitas"
+          "michlol"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
         "recordedFor": [
           "CHABAD",
           "ITALKI",
@@ -5596,10 +5578,8 @@
       },
       "FES": {
         "sources": [
-          "chabad-org",
-          "chitas"
+          "michlol"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
         "recordedFor": [
           "CHABAD",
           "ITALKI",
@@ -5609,10 +5589,8 @@
       },
       "MARRAKESH": {
         "sources": [
-          "chabad-org",
-          "chitas"
+          "michlol"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
         "recordedFor": [
           "CHABAD",
           "ITALKI",
@@ -5622,10 +5600,8 @@
       },
       "AGADIR": {
         "sources": [
-          "chabad-org",
-          "chitas"
+          "michlol"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
         "recordedFor": [
           "CHABAD",
           "ITALKI",
@@ -5635,10 +5611,8 @@
       },
       "TOSHBIM": {
         "sources": [
-          "chabad-org",
-          "chitas"
+          "michlol"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
         "recordedFor": [
           "CHABAD",
           "ITALKI",
@@ -5648,10 +5622,8 @@
       },
       "DJERBA": {
         "sources": [
-          "chabad-org",
-          "chitas"
+          "michlol"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
         "recordedFor": [
           "CHABAD",
           "ITALKI",
@@ -5661,10 +5633,8 @@
       },
       "BAVLIM": {
         "sources": [
-          "chabad-org",
-          "chitas"
+          "michlol"
         ],
-        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
         "recordedFor": [
           "CHABAD",
           "ITALKI",

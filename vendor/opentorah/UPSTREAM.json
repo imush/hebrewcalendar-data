@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/opentorah/opentorah",
-  "commit": "0c5d3da92fb63848ed7a14ae289628036fcbd59d",
+  "commit": "41372eff83d888706816d8324e18fe313773a8a5",
   "vendored": "2026-09-04",
   "files": [
     "Custom.xml",
