@@ -9,6 +9,7 @@ Common, etc.) so every (parsha, exposed-custom) pair resolves.
 """
 import json
 from pathlib import Path
+from common import book_name
 from xml.etree import ElementTree as ET
 
 ROOT   = Path(__file__).resolve().parent.parent
@@ -113,7 +114,7 @@ def _finalize(attrs):
     from_v  = _int(attrs.get("fromVerse"))
     to_ch   = _int(attrs.get("toChapter", from_ch))
     to_v    = _int(attrs.get("toVerse", from_v))
-    return {"book": attrs["book"], "fromCh": from_ch, "fromV": from_v,
+    return {"book": book_name(attrs["book"]), "fromCh": from_ch, "fromV": from_v,
             "toCh": to_ch, "toV": to_v}
 
 

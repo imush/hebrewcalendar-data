@@ -20,6 +20,7 @@ and "variants" -- what the entry says about itself, keyed by custom.
 import json
 from collections import OrderedDict
 from pathlib import Path
+from common import book_name
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -97,7 +98,7 @@ def ref(got):
     # opentorah omits toVerse for a single verse -- it does not mean
     # "to the end of the chapter"
     toV = int(got.get("toVerse", fromV))
-    return OrderedDict(book=got["book"], fromCh=fromCh, fromV=fromV, toCh=toCh, toV=toV)
+    return OrderedDict(book=book_name(got["book"]), fromCh=fromCh, fromV=fromV, toCh=toCh, toV=toV)
 
 
 def read(el, inherited):

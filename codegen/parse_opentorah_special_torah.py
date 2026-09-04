@@ -18,6 +18,7 @@ A <maftir> is a single span.
 import json
 from collections import OrderedDict
 from pathlib import Path
+from common import book_name
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -68,7 +69,7 @@ def span_of(el, inherited):
 def ref(got):
     from_ch = _int(got["fromChapter"])
     return OrderedDict(
-        book=got["book"],
+        book=book_name(got["book"]),
         fromCh=from_ch,
         fromV=_int(got["fromVerse"]),
         toCh=_int(got.get("toChapter", from_ch)),
@@ -116,7 +117,7 @@ def fragments(torah):
                 to_ch, to_v = nch, nv - 1
         else:
             to_ch, to_v = end_ch, end_v
-        out.append(OrderedDict(book=whole["book"], fromCh=ch, fromV=v,
+        out.append(OrderedDict(book=book_name(whole["book"]), fromCh=ch, fromV=v,
                                toCh=to_ch, toV=to_v))
     return out
 

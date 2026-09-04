@@ -25,11 +25,11 @@ def _with_customs(node):
     return node
 
 jsonschema.validate(data, _with_customs(schema))
+# From names/tanach_books.json, the file consumers resolve a citation by --
+# not a second list, which is how the paired books drifted apart unnoticed.
 NACH_BOOKS = {
-    "Joshua","Judges","I Samuel","II Samuel","I Kings","II Kings",
-    "Isaiah","Jeremiah","Ezekiel","Hosea","Joel","Amos","Obadiah",
-    "Jonah","Micah","Nahum","Habakkuk","Zephaniah","Haggai",
-    "Zechariah","Malachi",
+    v["en"] for v in
+    json.loads((ROOT / "names" / "tanach_books.json").read_text(encoding="utf-8")).values()
 }
 
 n_variants = 0

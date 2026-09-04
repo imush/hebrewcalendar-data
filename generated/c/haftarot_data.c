@@ -278,160 +278,160 @@ static const hc_haftarah_ref HC_HAFT_W_LECH_LECHA_ROMANIA[] = {
     { HC_BOOK_ISAIAH, 40, 27, 41, 16 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_ASHKENAZ[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 37 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 37 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_POZNAN[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_ITALKI[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 37 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 37 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_FRANKFURT[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 37 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 37 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_LITA[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 37 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 37 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_CHAYEY_ODOM[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 37 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 37 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_HAGRA[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 37 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 37 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_SEFARD[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_CHABAD[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 37 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 37 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_PURE_SEPHARDIM[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_PERSIA[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_LIBYA[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_MAGREB[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_ALGERIA[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 37 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 37 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_ALGIERS[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 37 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 37 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_MOROCCO[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_FES[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_MARRAKESH[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_AGADIR[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_TOSHBIM[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_DJERBA[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_BAVLIM[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_TEIMAN[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_BALADI[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_SHAMI[] = {
-    { HC_BOOK_II_KINGS, 4, 1, 4, 23 },
+    { HC_BOOK_KINGS_II, 4, 1, 4, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYERA_ROMANIA[] = {
     { HC_BOOK_ISAIAH, 33, 17, 34, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_ASHKENAZ[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_POZNAN[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_ITALKI[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 34 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_FRANKFURT[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_LITA[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_HAGRA[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_SEFARD[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_CHABAD[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_PERSIA[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_LIBYA[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_MAGREB[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_ALGERIA[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_ALGIERS[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_MOROCCO[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_FES[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_MARRAKESH[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_AGADIR[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_TOSHBIM[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_DJERBA[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_BAVLIM[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_TEIMAN[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_BALADI[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_SHAMI[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHAYEI_SARAH_ROMANIA[] = {
-    { HC_BOOK_I_KINGS, 1, 1, 1, 31 },
+    { HC_BOOK_KINGS_I, 1, 1, 1, 31 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TOLDOT_ASHKENAZ[] = {
     { HC_BOOK_MALACHI, 1, 1, 2, 7 },
@@ -748,82 +748,82 @@ static const hc_haftarah_ref HC_HAFT_W_VAYESHEV_ROMANIA[] = {
     { HC_BOOK_AMOS, 2, 6, 3, 8 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_ASHKENAZ[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_POZNAN[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_ITALKI[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_FRANKFURT[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_LITA[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_HAGRA[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_SEFARD[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_CHABAD[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_PERSIA[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_LIBYA[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_MAGREB[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_ALGERIA[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_ALGIERS[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_MOROCCO[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_FES[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_MARRAKESH[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_AGADIR[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_TOSHBIM[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_DJERBA[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_BAVLIM[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_TEIMAN[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_BALADI[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_SHAMI[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MIKETZ_ROMANIA[] = {
-    { HC_BOOK_I_KINGS, 3, 15, 4, 1 },
+    { HC_BOOK_KINGS_I, 3, 15, 4, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYIGASH_ASHKENAZ[] = {
     { HC_BOOK_EZEKIEL, 37, 15, 37, 28 },
@@ -904,82 +904,82 @@ static const hc_haftarah_ref HC_HAFT_W_VAYIGASH_ROMANIA[] = {
     { HC_BOOK_EZEKIEL, 37, 15, 37, 28 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_ASHKENAZ[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_POZNAN[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_ITALKI[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_FRANKFURT[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_LITA[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_HAGRA[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_SEFARD[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_CHABAD[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_PERSIA[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_LIBYA[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_MAGREB[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_ALGERIA[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_ALGIERS[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_MOROCCO[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_FES[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_MARRAKESH[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_AGADIR[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_TOSHBIM[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_DJERBA[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_BAVLIM[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_TEIMAN[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_BALADI[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_SHAMI[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYECHI_ROMANIA[] = {
-    { HC_BOOK_I_KINGS, 2, 1, 2, 12 },
+    { HC_BOOK_KINGS_I, 2, 1, 2, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMOT_ASHKENAZ[] = {
     { HC_BOOK_ISAIAH, 27, 6, 28, 13 },
@@ -1488,82 +1488,82 @@ static const hc_haftarah_ref HC_HAFT_W_MISHPATIM_ROMANIA[] = {
     { HC_BOOK_JEREMIAH, 33, 25, 33, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_ASHKENAZ[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_POZNAN[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_ITALKI[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_FRANKFURT[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_LITA[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_HAGRA[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_SEFARD[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_CHABAD[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_PERSIA[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_LIBYA[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_MAGREB[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_ALGERIA[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_ALGIERS[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_MOROCCO[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_FES[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_MARRAKESH[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_AGADIR[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_TOSHBIM[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_DJERBA[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_BAVLIM[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_TEIMAN[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_BALADI[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_SHAMI[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TERUMAH_ROMANIA[] = {
-    { HC_BOOK_I_KINGS, 5, 26, 6, 13 },
+    { HC_BOOK_KINGS_I, 5, 26, 6, 13 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TETZAVEH_ASHKENAZ[] = {
     { HC_BOOK_EZEKIEL, 43, 10, 43, 27 },
@@ -1644,238 +1644,238 @@ static const hc_haftarah_ref HC_HAFT_W_TETZAVEH_ROMANIA[] = {
     { HC_BOOK_EZEKIEL, 43, 10, 43, 27 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_ASHKENAZ[] = {
-    { HC_BOOK_I_KINGS, 18, 1, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 1, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_POZNAN[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_ITALKI[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_FRANKFURT[] = {
-    { HC_BOOK_I_KINGS, 18, 1, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 1, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_LITA[] = {
-    { HC_BOOK_I_KINGS, 18, 1, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 1, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_KINGS, 18, 1, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 1, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_HAGRA[] = {
-    { HC_BOOK_I_KINGS, 18, 1, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 1, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_SEFARD[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_CHABAD[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_PERSIA[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_LIBYA[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_MAGREB[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_ALGERIA[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_ALGIERS[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_MOROCCO[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_FES[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_MARRAKESH[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_AGADIR[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_TOSHBIM[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_DJERBA[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_BAVLIM[] = {
-    { HC_BOOK_I_KINGS, 18, 20, 18, 39 },
+    { HC_BOOK_KINGS_I, 18, 20, 18, 39 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_TEIMAN[] = {
-    { HC_BOOK_I_KINGS, 18, 1, 18, 45 },
+    { HC_BOOK_KINGS_I, 18, 1, 18, 45 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_BALADI[] = {
-    { HC_BOOK_I_KINGS, 18, 1, 18, 45 },
+    { HC_BOOK_KINGS_I, 18, 1, 18, 45 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_SHAMI[] = {
-    { HC_BOOK_I_KINGS, 18, 1, 18, 45 },
+    { HC_BOOK_KINGS_I, 18, 1, 18, 45 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TISA_ROMANIA[] = {
     { HC_BOOK_ISAIAH, 43, 7, 44, 2 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_ASHKENAZ[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_POZNAN[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_ITALKI[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_FRANKFURT[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_LITA[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_HAGRA[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_SEFARD[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_CHABAD[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_PERSIA[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_LIBYA[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_MAGREB[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_ALGERIA[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_ALGIERS[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_MOROCCO[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_FES[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_MARRAKESH[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_AGADIR[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_TOSHBIM[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_DJERBA[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_BAVLIM[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 26 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 26 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_TEIMAN[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 22 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_BALADI[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 22 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_SHAMI[] = {
-    { HC_BOOK_I_KINGS, 7, 13, 7, 22 },
+    { HC_BOOK_KINGS_I, 7, 13, 7, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYAKHEL_ROMANIA[] = {
-    { HC_BOOK_I_KINGS, 8, 1, 8, 10 },
+    { HC_BOOK_KINGS_I, 8, 1, 8, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_ASHKENAZ[] = {
-    { HC_BOOK_I_KINGS, 7, 51, 8, 21 },
+    { HC_BOOK_KINGS_I, 7, 51, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_POZNAN[] = {
-    { HC_BOOK_I_KINGS, 8, 1, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 1, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_ITALKI[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 51 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_FRANKFURT[] = {
-    { HC_BOOK_I_KINGS, 7, 51, 8, 21 },
+    { HC_BOOK_KINGS_I, 7, 51, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_LITA[] = {
-    { HC_BOOK_I_KINGS, 7, 51, 8, 21 },
+    { HC_BOOK_KINGS_I, 7, 51, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_KINGS, 7, 51, 8, 21 },
+    { HC_BOOK_KINGS_I, 7, 51, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_HAGRA[] = {
-    { HC_BOOK_I_KINGS, 7, 51, 8, 21 },
+    { HC_BOOK_KINGS_I, 7, 51, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_SEFARD[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_CHABAD[] = {
-    { HC_BOOK_I_KINGS, 7, 51, 8, 21 },
+    { HC_BOOK_KINGS_I, 7, 51, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_PERSIA[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_LIBYA[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_MAGREB[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_ALGERIA[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_ALGIERS[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_MOROCCO[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_FES[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_MARRAKESH[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_AGADIR[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_TOSHBIM[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_DJERBA[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_BAVLIM[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_TEIMAN[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_BALADI[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_SHAMI[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PEKUDEI_ROMANIA[] = {
-    { HC_BOOK_I_KINGS, 7, 27, 7, 47 },
+    { HC_BOOK_KINGS_I, 7, 27, 7, 47 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VAYIKRA_ASHKENAZ[] = {
     { HC_BOOK_ISAIAH, 43, 21, 44, 23 },
@@ -2061,242 +2061,242 @@ static const hc_haftarah_ref HC_HAFT_W_TZAV_ROMANIA[] = {
     { HC_BOOK_JEREMIAH, 9, 22, 9, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_ASHKENAZ[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 7, 17 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 7, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_POZNAN[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_ITALKI[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 7, 3 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 7, 3 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_FRANKFURT[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 7, 17 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 7, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_LITA[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 7, 17 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 7, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_CHAYEY_ODOM[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 7, 17 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 7, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_HAGRA[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 7, 17 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 7, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_SEFARD[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_CHABAD[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_PURE_SEPHARDIM[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_PERSIA[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_LIBYA[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_MAGREB[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_ALGERIA[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_ALGIERS[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_MOROCCO[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_FES[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_MARRAKESH[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_AGADIR[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_TOSHBIM[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_DJERBA[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_BAVLIM[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 6, 19 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 6, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_TEIMAN[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 7, 3 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 7, 3 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_BALADI[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 7, 3 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 7, 3 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_SHAMI[] = {
-    { HC_BOOK_II_SAMUEL, 6, 1, 7, 3 },
+    { HC_BOOK_SAMUEL_II, 6, 1, 7, 3 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHEMINI_ROMANIA[] = {
     { HC_BOOK_EZEKIEL, 43, 27, 44, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_ASHKENAZ[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_POZNAN[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_ITALKI[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_FRANKFURT[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_LITA[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_CHAYEY_ODOM[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_HAGRA[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_SEFARD[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_CHABAD[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_PURE_SEPHARDIM[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_PERSIA[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_LIBYA[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_MAGREB[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_ALGERIA[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_ALGIERS[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_MOROCCO[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_FES[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_MARRAKESH[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_AGADIR[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_TOSHBIM[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_DJERBA[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_BAVLIM[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_TEIMAN[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_BALADI[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_SHAMI[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_TAZRIA_ROMANIA[] = {
-    { HC_BOOK_II_KINGS, 4, 42, 5, 19 },
+    { HC_BOOK_KINGS_II, 4, 42, 5, 19 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_ASHKENAZ[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_POZNAN[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_ITALKI[] = {
-    { HC_BOOK_II_KINGS, 7, 1, 7, 20 },
-    { HC_BOOK_II_KINGS, 13, 23, 13, 23 },
+    { HC_BOOK_KINGS_II, 7, 1, 7, 20 },
+    { HC_BOOK_KINGS_II, 13, 23, 13, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_FRANKFURT[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_LITA[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_CHAYEY_ODOM[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_HAGRA[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_SEFARD[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_CHABAD[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_PURE_SEPHARDIM[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_PERSIA[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_LIBYA[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_MAGREB[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_ALGERIA[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_ALGIERS[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_MOROCCO[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_FES[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_MARRAKESH[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_AGADIR[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_TOSHBIM[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_DJERBA[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_BAVLIM[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_TEIMAN[] = {
-    { HC_BOOK_II_KINGS, 7, 1, 7, 20 },
-    { HC_BOOK_II_KINGS, 13, 23, 13, 23 },
+    { HC_BOOK_KINGS_II, 7, 1, 7, 20 },
+    { HC_BOOK_KINGS_II, 13, 23, 13, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_BALADI[] = {
-    { HC_BOOK_II_KINGS, 7, 1, 7, 20 },
-    { HC_BOOK_II_KINGS, 13, 23, 13, 23 },
+    { HC_BOOK_KINGS_II, 7, 1, 7, 20 },
+    { HC_BOOK_KINGS_II, 13, 23, 13, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_SHAMI[] = {
-    { HC_BOOK_II_KINGS, 7, 1, 7, 20 },
-    { HC_BOOK_II_KINGS, 13, 23, 13, 23 },
+    { HC_BOOK_KINGS_II, 7, 1, 7, 20 },
+    { HC_BOOK_KINGS_II, 13, 23, 13, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_W_METZORA_ROMANIA[] = {
-    { HC_BOOK_II_KINGS, 7, 3, 7, 20 },
+    { HC_BOOK_KINGS_II, 7, 3, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_ACHAREI_MOT_ASHKENAZ[] = {
     { HC_BOOK_EZEKIEL, 22, 1, 22, 16 },
@@ -3001,82 +3001,82 @@ static const hc_haftarah_ref HC_HAFT_W_SHELACH_ROMANIA[] = {
     { HC_BOOK_JOSHUA, 2, 1, 2, 24 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_ASHKENAZ[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_POZNAN[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_ITALKI[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_FRANKFURT[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_LITA[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_HAGRA[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_SEFARD[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_CHABAD[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_PERSIA[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_LIBYA[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_MAGREB[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_ALGERIA[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_ALGIERS[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_MOROCCO[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_FES[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_MARRAKESH[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_AGADIR[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_TOSHBIM[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_DJERBA[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_BAVLIM[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_TEIMAN[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_BALADI[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_SHAMI[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KORACH_ROMANIA[] = {
-    { HC_BOOK_I_SAMUEL, 11, 14, 12, 22 },
+    { HC_BOOK_SAMUEL_I, 11, 14, 12, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_CHUKAT_ASHKENAZ[] = {
     { HC_BOOK_JUDGES, 11, 1, 11, 33 },
@@ -3235,82 +3235,82 @@ static const hc_haftarah_ref HC_HAFT_W_BALAK_ROMANIA[] = {
     { HC_BOOK_MICAH, 5, 6, 6, 8 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_ASHKENAZ[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_POZNAN[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_ITALKI[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_FRANKFURT[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_LITA[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_HAGRA[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_SEFARD[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_CHABAD[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_PERSIA[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_LIBYA[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_MAGREB[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_ALGERIA[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_ALGIERS[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_MOROCCO[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_FES[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_MARRAKESH[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_AGADIR[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_TOSHBIM[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_DJERBA[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_BAVLIM[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_TEIMAN[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_BALADI[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_SHAMI[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_PINCHAS_ROMANIA[] = {
-    { HC_BOOK_I_KINGS, 18, 46, 19, 21 },
+    { HC_BOOK_KINGS_I, 18, 46, 19, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_W_MATOT_ASHKENAZ[] = {
     { HC_BOOK_JEREMIAH, 1, 1, 2, 3 },
@@ -3813,7 +3813,7 @@ static const hc_haftarah_ref HC_HAFT_W_SHOFTIM_POZNAN[] = {
     { HC_BOOK_ISAIAH, 51, 12, 52, 12 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHOFTIM_ITALKI[] = {
-    { HC_BOOK_I_SAMUEL, 17, 1, 17, 37 },
+    { HC_BOOK_SAMUEL_I, 17, 1, 17, 37 },
 };
 static const hc_haftarah_ref HC_HAFT_W_SHOFTIM_FRANKFURT[] = {
     { HC_BOOK_ISAIAH, 51, 12, 52, 12 },
@@ -3891,7 +3891,7 @@ static const hc_haftarah_ref HC_HAFT_W_KI_TEITZEI_POZNAN[] = {
     { HC_BOOK_ISAIAH, 54, 1, 54, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TEITZEI_ITALKI[] = {
-    { HC_BOOK_I_SAMUEL, 8, 1, 8, 22 },
+    { HC_BOOK_SAMUEL_I, 8, 1, 8, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_W_KI_TEITZEI_FRANKFURT[] = {
     { HC_BOOK_ISAIAH, 54, 1, 54, 10 },
@@ -4218,7 +4218,7 @@ static const hc_haftarah_ref HC_HAFT_W_VAYEILECH_ROMANIA[] = {
     { HC_BOOK_MICAH, 7, 18, 7, 20 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_ASHKENAZ[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_POZNAN[] = {
     { HC_BOOK_HOSEA, 14, 2, 14, 10 },
@@ -4228,61 +4228,61 @@ static const hc_haftarah_ref HC_HAFT_W_HAAZINU_ITALKI[] = {
     { HC_BOOK_EZEKIEL, 17, 22, 18, 32 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_FRANKFURT[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_LITA[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_CHAYEY_ODOM[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_HAGRA[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_SEFARD[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_CHABAD[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_PURE_SEPHARDIM[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_PERSIA[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_LIBYA[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_MAGREB[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_ALGERIA[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_ALGIERS[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_MOROCCO[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_FES[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_MARRAKESH[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_AGADIR[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_TOSHBIM[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_DJERBA[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_BAVLIM[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_TEIMAN[] = {
     { HC_BOOK_EZEKIEL, 17, 22, 18, 32 },
@@ -4294,7 +4294,7 @@ static const hc_haftarah_ref HC_HAFT_W_HAAZINU_SHAMI[] = {
     { HC_BOOK_EZEKIEL, 17, 22, 18, 32 },
 };
 static const hc_haftarah_ref HC_HAFT_W_HAAZINU_ROMANIA[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VEZOT_HABRACHA_ASHKENAZ[] = {
     { HC_BOOK_JOSHUA, 1, 1, 1, 18 },
@@ -4375,7 +4375,7 @@ static const hc_haftarah_ref HC_HAFT_W_VEZOT_HABRACHA_SHAMI[] = {
     { HC_BOOK_JOSHUA, 6, 27, 6, 27 },
 };
 static const hc_haftarah_ref HC_HAFT_W_VEZOT_HABRACHA_ROMANIA[] = {
-    { HC_BOOK_I_KINGS, 8, 22, 8, 34 },
+    { HC_BOOK_KINGS_I, 8, 22, 8, 34 },
 };
 
 const hc_haftarah_spans HC_HAFTAROT_WEEKLY[HC_PARSHA_COUNT][HC_CUSTOM_COUNT] = {
@@ -4437,90 +4437,90 @@ const hc_haftarah_spans HC_HAFTAROT_WEEKLY[HC_PARSHA_COUNT][HC_CUSTOM_COUNT] = {
 
 /* ── Special-day haftarot ──────────────────────────────────── */
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_ASHKENAZ[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_POZNAN[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_ITALKI[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_FRANKFURT[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_LITA[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_HAGRA[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_SEFARD[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_CHABAD[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_PERSIA[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_LIBYA[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_MAGREB[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_ALGERIA[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_ALGIERS[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_MOROCCO[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_FES[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_MARRAKESH[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_AGADIR[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_TOSHBIM[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_DJERBA[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_BAVLIM[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_TEIMAN[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_BALADI[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_SHAMI[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_ROMANIA[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_ADDITION_CHABAD[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 18 },
-    { HC_BOOK_I_SAMUEL, 20, 42, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 18 },
+    { HC_BOOK_SAMUEL_I, 20, 42, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ErevRoshChodesh_SHABBAT_ADDITION_FES[] = {
-    { HC_BOOK_I_SAMUEL, 20, 18, 20, 18 },
-    { HC_BOOK_I_SAMUEL, 20, 42, 20, 42 },
+    { HC_BOOK_SAMUEL_I, 20, 18, 20, 18 },
+    { HC_BOOK_SAMUEL_I, 20, 42, 20, 42 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshChodesh_SHABBAT_ASHKENAZ[] = {
     { HC_BOOK_ISAIAH, 66, 1, 66, 24 },
@@ -4632,82 +4632,82 @@ static const hc_haftarah_ref HC_HAFT_S_RoshChodesh_SHABBAT_ADDITION_CHABAD[] = {
     { HC_BOOK_ISAIAH, 66, 23, 66, 23 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_ASHKENAZ[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_POZNAN[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_ITALKI[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_FRANKFURT[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_LITA[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_HAGRA[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_SEFARD[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_CHABAD[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_PERSIA[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_LIBYA[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_MAGREB[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_ALGERIA[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_ALGIERS[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_MOROCCO[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_FES[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_MARRAKESH[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_AGADIR[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_TOSHBIM[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_DJERBA[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_BAVLIM[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_TEIMAN[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_BALADI[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_SHAMI[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah1_MAIN_ROMANIA[] = {
-    { HC_BOOK_I_SAMUEL, 1, 1, 2, 10 },
+    { HC_BOOK_SAMUEL_I, 1, 1, 2, 10 },
 };
 static const hc_haftarah_ref HC_HAFT_S_RoshHashanah2_MAIN_ASHKENAZ[] = {
     { HC_BOOK_JEREMIAH, 31, 1, 31, 19 },
@@ -5053,82 +5053,82 @@ static const hc_haftarah_ref HC_HAFT_S_Succos1_MAIN_ROMANIA[] = {
     { HC_BOOK_ZECHARIAH, 14, 1, 14, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_ASHKENAZ[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_POZNAN[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_ITALKI[] = {
-    { HC_BOOK_I_KINGS, 7, 51, 8, 15 },
+    { HC_BOOK_KINGS_I, 7, 51, 8, 15 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_FRANKFURT[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_LITA[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_HAGRA[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_SEFARD[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_CHABAD[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_PERSIA[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_LIBYA[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_MAGREB[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_ALGERIA[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_ALGIERS[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_MOROCCO[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_FES[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_MARRAKESH[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_AGADIR[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_TOSHBIM[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_DJERBA[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_BAVLIM[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_TEIMAN[] = {
-    { HC_BOOK_I_KINGS, 7, 51, 8, 21 },
+    { HC_BOOK_KINGS_I, 7, 51, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_BALADI[] = {
-    { HC_BOOK_I_KINGS, 7, 51, 8, 21 },
+    { HC_BOOK_KINGS_I, 7, 51, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_SHAMI[] = {
-    { HC_BOOK_I_KINGS, 7, 51, 8, 21 },
+    { HC_BOOK_KINGS_I, 7, 51, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Succos2_MAIN_ROMANIA[] = {
-    { HC_BOOK_I_KINGS, 8, 2, 8, 21 },
+    { HC_BOOK_KINGS_I, 8, 2, 8, 21 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SuccosIntermediate_SHABBAT_ASHKENAZ[] = {
     { HC_BOOK_EZEKIEL, 38, 18, 39, 16 },
@@ -5209,82 +5209,82 @@ static const hc_haftarah_ref HC_HAFT_S_SuccosIntermediate_SHABBAT_ROMANIA[] = {
     { HC_BOOK_EZEKIEL, 38, 18, 39, 16 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_ASHKENAZ[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_POZNAN[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_ITALKI[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 9, 1 },
+    { HC_BOOK_KINGS_I, 8, 54, 9, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_FRANKFURT[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_LITA[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_HAGRA[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_SEFARD[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_CHABAD[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 9, 1 },
+    { HC_BOOK_KINGS_I, 8, 54, 9, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_PERSIA[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_LIBYA[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_MAGREB[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_ALGERIA[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_ALGIERS[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_MOROCCO[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_FES[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_MARRAKESH[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_AGADIR[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_TOSHBIM[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_DJERBA[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_BAVLIM[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_TEIMAN[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_BALADI[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_SHAMI[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_SheminiAtzeres_MAIN_ROMANIA[] = {
-    { HC_BOOK_I_KINGS, 8, 54, 8, 66 },
+    { HC_BOOK_KINGS_I, 8, 54, 8, 66 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_1_ASHKENAZ[] = {
     { HC_BOOK_ZECHARIAH, 2, 14, 4, 7 },
@@ -5365,238 +5365,238 @@ static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_1_ROMANIA[] = {
     { HC_BOOK_ZECHARIAH, 2, 14, 4, 7 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_ASHKENAZ[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_POZNAN[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_ITALKI[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 51 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_FRANKFURT[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_LITA[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_HAGRA[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_SEFARD[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_CHABAD[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_PERSIA[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_LIBYA[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_MAGREB[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_ALGERIA[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_ALGIERS[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_MOROCCO[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_FES[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_MARRAKESH[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_AGADIR[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_TOSHBIM[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_DJERBA[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_BAVLIM[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_TEIMAN[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_BALADI[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_SHAMI[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Chanukah_SHABBAT_2_ROMANIA[] = {
-    { HC_BOOK_I_KINGS, 7, 40, 7, 50 },
+    { HC_BOOK_KINGS_I, 7, 40, 7, 50 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_ASHKENAZ[] = {
-    { HC_BOOK_II_KINGS, 12, 1, 12, 17 },
+    { HC_BOOK_KINGS_II, 12, 1, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_POZNAN[] = {
-    { HC_BOOK_II_KINGS, 12, 1, 12, 17 },
+    { HC_BOOK_KINGS_II, 12, 1, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_ITALKI[] = {
-    { HC_BOOK_II_KINGS, 12, 1, 12, 17 },
+    { HC_BOOK_KINGS_II, 12, 1, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_FRANKFURT[] = {
-    { HC_BOOK_II_KINGS, 12, 1, 12, 17 },
+    { HC_BOOK_KINGS_II, 12, 1, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_LITA[] = {
-    { HC_BOOK_II_KINGS, 12, 1, 12, 17 },
+    { HC_BOOK_KINGS_II, 12, 1, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_CHAYEY_ODOM[] = {
-    { HC_BOOK_II_KINGS, 12, 1, 12, 17 },
+    { HC_BOOK_KINGS_II, 12, 1, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_HAGRA[] = {
-    { HC_BOOK_II_KINGS, 12, 1, 12, 17 },
+    { HC_BOOK_KINGS_II, 12, 1, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_SEFARD[] = {
-    { HC_BOOK_II_KINGS, 11, 17, 12, 17 },
+    { HC_BOOK_KINGS_II, 11, 17, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_CHABAD[] = {
-    { HC_BOOK_II_KINGS, 12, 1, 12, 17 },
+    { HC_BOOK_KINGS_II, 12, 1, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_PURE_SEPHARDIM[] = {
-    { HC_BOOK_II_KINGS, 11, 17, 12, 17 },
+    { HC_BOOK_KINGS_II, 11, 17, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_PERSIA[] = {
-    { HC_BOOK_II_KINGS, 11, 17, 12, 17 },
+    { HC_BOOK_KINGS_II, 11, 17, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_LIBYA[] = {
-    { HC_BOOK_II_KINGS, 11, 17, 12, 17 },
+    { HC_BOOK_KINGS_II, 11, 17, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_MAGREB[] = {
-    { HC_BOOK_II_KINGS, 11, 17, 12, 17 },
+    { HC_BOOK_KINGS_II, 11, 17, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_ALGERIA[] = {
-    { HC_BOOK_II_KINGS, 11, 17, 12, 17 },
+    { HC_BOOK_KINGS_II, 11, 17, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_ALGIERS[] = {
-    { HC_BOOK_II_KINGS, 11, 17, 12, 17 },
+    { HC_BOOK_KINGS_II, 11, 17, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_MOROCCO[] = {
-    { HC_BOOK_II_KINGS, 11, 17, 12, 17 },
+    { HC_BOOK_KINGS_II, 11, 17, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_FES[] = {
-    { HC_BOOK_II_KINGS, 11, 17, 12, 17 },
+    { HC_BOOK_KINGS_II, 11, 17, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_MARRAKESH[] = {
-    { HC_BOOK_II_KINGS, 11, 17, 12, 17 },
+    { HC_BOOK_KINGS_II, 11, 17, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_AGADIR[] = {
-    { HC_BOOK_II_KINGS, 11, 17, 12, 17 },
+    { HC_BOOK_KINGS_II, 11, 17, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_TOSHBIM[] = {
-    { HC_BOOK_II_KINGS, 11, 17, 12, 17 },
+    { HC_BOOK_KINGS_II, 11, 17, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_DJERBA[] = {
-    { HC_BOOK_II_KINGS, 11, 17, 12, 17 },
+    { HC_BOOK_KINGS_II, 11, 17, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_BAVLIM[] = {
-    { HC_BOOK_II_KINGS, 11, 17, 12, 17 },
+    { HC_BOOK_KINGS_II, 11, 17, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_TEIMAN[] = {
-    { HC_BOOK_II_KINGS, 12, 1, 12, 17 },
+    { HC_BOOK_KINGS_II, 12, 1, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_BALADI[] = {
-    { HC_BOOK_II_KINGS, 12, 1, 12, 17 },
+    { HC_BOOK_KINGS_II, 12, 1, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_SHAMI[] = {
-    { HC_BOOK_II_KINGS, 12, 1, 12, 17 },
+    { HC_BOOK_KINGS_II, 12, 1, 12, 17 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasShekalim_MAIN_ROMANIA[] = {
     { HC_BOOK_EZEKIEL, 45, 12, 46, 5 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_ASHKENAZ[] = {
-    { HC_BOOK_I_SAMUEL, 15, 2, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 2, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_POZNAN[] = {
-    { HC_BOOK_I_SAMUEL, 15, 2, 15, 33 },
+    { HC_BOOK_SAMUEL_I, 15, 2, 15, 33 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_ITALKI[] = {
-    { HC_BOOK_I_SAMUEL, 15, 2, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 2, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_FRANKFURT[] = {
-    { HC_BOOK_I_SAMUEL, 15, 2, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 2, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_LITA[] = {
-    { HC_BOOK_I_SAMUEL, 15, 2, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 2, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_CHAYEY_ODOM[] = {
-    { HC_BOOK_I_SAMUEL, 15, 2, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 2, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_HAGRA[] = {
-    { HC_BOOK_I_SAMUEL, 15, 2, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 2, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_SEFARD[] = {
-    { HC_BOOK_I_SAMUEL, 15, 1, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 1, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_CHABAD[] = {
-    { HC_BOOK_I_SAMUEL, 15, 2, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 2, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_PURE_SEPHARDIM[] = {
-    { HC_BOOK_I_SAMUEL, 15, 1, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 1, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_PERSIA[] = {
-    { HC_BOOK_I_SAMUEL, 15, 1, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 1, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_LIBYA[] = {
-    { HC_BOOK_I_SAMUEL, 15, 1, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 1, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_MAGREB[] = {
-    { HC_BOOK_I_SAMUEL, 15, 1, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 1, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_ALGERIA[] = {
-    { HC_BOOK_I_SAMUEL, 15, 1, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 1, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_ALGIERS[] = {
-    { HC_BOOK_I_SAMUEL, 15, 1, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 1, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_MOROCCO[] = {
-    { HC_BOOK_I_SAMUEL, 15, 1, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 1, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_FES[] = {
-    { HC_BOOK_I_SAMUEL, 15, 1, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 1, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_MARRAKESH[] = {
-    { HC_BOOK_I_SAMUEL, 15, 1, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 1, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_AGADIR[] = {
-    { HC_BOOK_I_SAMUEL, 15, 1, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 1, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_TOSHBIM[] = {
-    { HC_BOOK_I_SAMUEL, 15, 1, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 1, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_DJERBA[] = {
-    { HC_BOOK_I_SAMUEL, 15, 1, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 1, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_BAVLIM[] = {
-    { HC_BOOK_I_SAMUEL, 15, 1, 15, 34 },
+    { HC_BOOK_SAMUEL_I, 15, 1, 15, 34 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_TEIMAN[] = {
-    { HC_BOOK_I_SAMUEL, 14, 52, 15, 33 },
+    { HC_BOOK_SAMUEL_I, 14, 52, 15, 33 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_BALADI[] = {
-    { HC_BOOK_I_SAMUEL, 14, 52, 15, 33 },
+    { HC_BOOK_SAMUEL_I, 14, 52, 15, 33 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_SHAMI[] = {
-    { HC_BOOK_I_SAMUEL, 14, 52, 15, 33 },
+    { HC_BOOK_SAMUEL_I, 14, 52, 15, 33 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasZachor_MAIN_ROMANIA[] = {
-    { HC_BOOK_I_SAMUEL, 15, 2, 15, 22 },
+    { HC_BOOK_SAMUEL_I, 15, 2, 15, 22 },
 };
 static const hc_haftarah_ref HC_HAFT_S_ParshasParah_MAIN_ASHKENAZ[] = {
     { HC_BOOK_EZEKIEL, 36, 16, 36, 38 },
@@ -6018,185 +6018,185 @@ static const hc_haftarah_ref HC_HAFT_S_Pesach1_MAIN_ROMANIA[] = {
     { HC_BOOK_JOSHUA, 5, 2, 6, 1 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_ASHKENAZ[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_POZNAN[] = {
-    { HC_BOOK_II_KINGS, 23, 4, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 30 },
+    { HC_BOOK_KINGS_II, 23, 4, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 30 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_ITALKI[] = {
-    { HC_BOOK_II_KINGS, 23, 21, 23, 30 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 30 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_FRANKFURT[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_LITA[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_CHAYEY_ODOM[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_HAGRA[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_SEFARD[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_CHABAD[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_PURE_SEPHARDIM[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_PERSIA[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_LIBYA[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_MAGREB[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_ALGERIA[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_ALGIERS[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_MOROCCO[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_FES[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_MARRAKESH[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_AGADIR[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_TOSHBIM[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_DJERBA[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_BAVLIM[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_TEIMAN[] = {
-    { HC_BOOK_II_KINGS, 22, 1, 22, 7 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 22, 1, 22, 7 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_BALADI[] = {
-    { HC_BOOK_II_KINGS, 22, 1, 22, 7 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 22, 1, 22, 7 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_SHAMI[] = {
-    { HC_BOOK_II_KINGS, 22, 1, 22, 7 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 22, 1, 22, 7 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach2_MAIN_ROMANIA[] = {
-    { HC_BOOK_II_KINGS, 23, 1, 23, 9 },
-    { HC_BOOK_II_KINGS, 23, 21, 23, 25 },
+    { HC_BOOK_KINGS_II, 23, 1, 23, 9 },
+    { HC_BOOK_KINGS_II, 23, 21, 23, 25 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_ASHKENAZ[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_POZNAN[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_ITALKI[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_FRANKFURT[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_LITA[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_CHAYEY_ODOM[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_HAGRA[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_SEFARD[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_CHABAD[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_PURE_SEPHARDIM[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_PERSIA[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_LIBYA[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_MAGREB[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_ALGERIA[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_ALGIERS[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_MOROCCO[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_FES[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_MARRAKESH[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_AGADIR[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_TOSHBIM[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_DJERBA[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_BAVLIM[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_TEIMAN[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_BALADI[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_SHAMI[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach7_MAIN_ROMANIA[] = {
-    { HC_BOOK_II_SAMUEL, 22, 1, 22, 51 },
+    { HC_BOOK_SAMUEL_II, 22, 1, 22, 51 },
 };
 static const hc_haftarah_ref HC_HAFT_S_Pesach8_MAIN_ASHKENAZ[] = {
     { HC_BOOK_ISAIAH, 10, 32, 12, 6 },

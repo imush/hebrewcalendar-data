@@ -35,11 +35,13 @@ def _with_customs(node):
 
 schema = _with_customs(schema)
 jsonschema.validate(data, schema)
-NACH_BOOKS = {
-    "Joshua", "Judges", "I Samuel", "II Samuel", "I Kings", "II Kings",
-    "Isaiah", "Jeremiah", "Ezekiel", "Hosea", "Joel", "Amos", "Obadiah",
-    "Jonah", "Micah", "Nahum", "Habakkuk", "Zephaniah", "Haggai",
-    "Zechariah", "Malachi",
+# The names a citation is resolved by, taken from the same file the consumers
+# read rather than listed again here. A second list is how "I Kings" passed
+# validation for months while every Kings citation on the site quietly lost its
+# Hebrew and kept the wrong word order: nothing errored, the lookup just missed.
+TANACH_BOOKS = {
+    v["en"] for v in
+    json.loads((ROOT / "names" / "tanach_books.json").read_text(encoding="utf-8")).values()
 }
 
 known_parshiyot = set(parshiyot)
@@ -66,7 +68,7 @@ for pkey, by_custom in data.items():
                             f"{pkey}/{custom}: cites a source nothing names: {src}")
             continue
         for i, r in enumerate(refs):
-            if r["book"] not in NACH_BOOKS:
+            if r["book"] not in TANACH_BOOKS:
                 raise SystemExit(f"{pkey}/{cname}[{i}]: unknown book {r['book']}")
             if (r["fromCh"], r["fromV"]) > (r["toCh"], r["toV"]):
                 raise SystemExit(f"{pkey}/{cname}[{i}]: reversed range {r}")
