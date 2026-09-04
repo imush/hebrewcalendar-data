@@ -47,7 +47,7 @@ public final class ReadingNotes {
     private static final Map<String, Map<Custom, Note>> SPECIAL;
     static {
         Map<String, Source> s = new HashMap<>();
-        s.put("michlol", new Source("michlol", "website", "hamichlol", "המכלול", "ѓа-Michlol", "HaMichlol", "הפטרה", "https://www.hamichlol.org.il/הפטרה"));
+        s.put("michlol", new Source("michlol", "website", "hamichlol", "המכלול", "ѓа-Михлол", "HaMichlol", "הפטרה", "https://www.hamichlol.org.il/הפטרה"));
         s.put("torah-temimah", new Source("torah-temimah", "chumash", "Chumash Torah Temimah", "חומש תורה תמימה", "Хумаш Тора Тмима", "Houmach Torah Temima", "", ""));
         s.put("chabad-org", new Source("chabad-org", "website", "chabad.org", "chabad.org", "chabad.org", "chabad.org", "", "https://www.chabad.org"));
         s.put("chabad-rosh-chodesh-torah", new Source("chabad-rosh-chodesh-torah", "website", "chabad.org", "chabad.org", "chabad.org", "chabad.org", "What Do We Read From the Torah on Rosh Chodesh?", "https://www.chabad.org/parshah/article_cdo/aid/1235854/jewish/What-Do-We-Read-From-the-Torah-on-Rosh-Chodesh.htm"));
