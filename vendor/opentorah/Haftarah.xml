@@ -29,24 +29,30 @@
   When not specified explicitly, custom follows its parent custom as described in Custom.scala.
 -->
 <Haftarah>
-    <week n="Bereishis" book="Isaiah" fromChapter="42">
-        <custom n="Ashkenaz" fromVerse="5" toChapter="43" toVerse="10"/>
-        <custom n="Sefard, Frankfurt" fromVerse="5" toChapter="42" toVerse="21"/>
-        <custom n="Teiman" fromVerse="1" toChapter="42" toVerse="16"/>
-        <custom n="Italki" fromVerse="1" toChapter="42" toVerse="21"/>
+    <week n="Bereishis" book="Isaiah">
+        <custom n="Romania" fromChapter="65" fromVerse="16" toChapter="66" toVerse="11" sources="michlol"/>
+        <custom n="Ashkenaz" fromChapter="42" fromVerse="5" toChapter="43" toVerse="10"/>
+        <custom n="Sefard, Frankfurt, Poznan" fromChapter="42" fromVerse="5" toChapter="42" toVerse="21"/>
+        <custom n="Teiman" fromChapter="42" fromVerse="1" toChapter="42" toVerse="16"/>
+        <custom n="Italki" fromChapter="42" fromVerse="1" toChapter="42" toVerse="21"/>
+      <annotation n="Poznan" comment="Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."/>
     </week>
-    <week n="Noach" book="Isaiah" fromChapter="54" fromVerse="1">
-        <custom n="Ashkenaz, Magreb, Shami" toChapter="55" toVerse="5"/>
-        <custom n="Sefard, Frankfurt" toChapter="54" toVerse="10"/>
-        <custom n="Teiman" toChapter="55" toVerse="3"/>
+    <week n="Noach" book="Isaiah" fromChapter="54">
+        <custom n="Romania" fromVerse="9" toChapter="55" toVerse="12" sources="michlol"/>
+        <custom n="Ashkenaz, Magreb, Shami" fromVerse="1" toChapter="55" toVerse="5"/>
+        <custom n="Sefard, Frankfurt" fromVerse="1" toChapter="54" toVerse="10"/>
+        <custom n="Teiman" fromVerse="1" toChapter="55" toVerse="3"/>
     </week>
     <week n="Lech Lecha" book="Isaiah" fromChapter="40">
         <custom n="Common" fromVerse="27" toChapter="41" toVerse="16"/>
         <custom n="Teiman, Italki" fromVerse="25" toChapter="41" toVerse="17"/>
     </week>
-    <week n="Vayeira" book="II Kings" fromChapter="4" fromVerse="1">
-        <custom n="Ashkenaz, Chabad, Algeria" toVerse="37"/>
-        <custom n="Sefard" toVerse="23"/>
+    <week n="Vayeira">
+        <custom n="Romania" book="Isaiah" fromChapter="33" fromVerse="17"
+                toChapter="34" toVerse="13" sources="michlol"/>
+        <custom n="Ashkenaz, Chabad, Algeria" book="II Kings" fromChapter="4" fromVerse="1" toVerse="37"/>
+        <custom n="Sefard, Poznan" book="II Kings" fromChapter="4" fromVerse="1" toVerse="23"/>
+      <annotation n="Poznan" comment="Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."/>
     </week>
     <week n="Chayei Sarah" book="I Kings" fromChapter="1" fromVerse="1">
         <custom n="Common" toVerse="31"/>
@@ -57,8 +63,14 @@
         <custom n="Teiman" toChapter="3" toVerse="4"/>
     </week>
     <week n="Vayeitzei" >
+        <custom n="Romania" book="Hosea" fromChapter="12" fromVerse="13" toChapter="14" toVerse="3" sources="michlol"/>
         <custom n="Ashkenaz" book="Hosea" fromChapter="12" fromVerse="13"
-                toChapter="14" toVerse="10"/> <!-- includes Vayeilech -->
+                toChapter="14" toVerse="10" sources="torah-temimah, michlol, torat-chaim, steinsaltz"
+                comment="Torah Temimah ends at Hosea 14:10. hamichlol gives Ashkenaz
+                         the same reading followed by Joel 2:26-27; Torat Chaim and
+                         Steinsaltz print those two verses only as יש מוסיפים, without
+                         saying which communities add them, so they are kept below
+                         under Lita rather than given to Ashkenaz."/> <!-- includes Vayeilech -->
         <custom n="Lita">
           <part n="1" book="Hosea" fromChapter="12" fromVerse="13" toChapter="14" toVerse="10"/>
           <part n="2" book="Joel" fromChapter="2" fromVerse="26"
@@ -80,40 +92,47 @@
     <week n="Vayechi" book="I Kings" fromChapter="2" fromVerse="1" toVerse="12"/>
 
     <week n="Shemos">
+        <custom n="Romania" book="Isaiah" fromChapter="27" fromVerse="6" toChapter="28" toVerse="13" sources="michlol"/>
         <custom n="Ashkenaz, Chabad" book="Isaiah">
             <part n="1" fromChapter="27" fromVerse="6" toChapter="28" toVerse="13"/>
             <part n="2" fromChapter="29" fromVerse="22" toVerse="23"/>
         </custom>
         <custom n="Sefard" book="Jeremiah" fromChapter="1" fromVerse="1" toChapter="2" toVerse="3"/> <!-- Matos -->
         <custom n="Italki" book="Jeremiah" fromChapter="1" fromVerse="1" toVerse="19"/>
-        <custom n="Teiman, Bavlim, Magreb" book="Ezekiel" fromChapter="16" fromVerse="1" toVerse="14"/>
+        <custom n="Teiman, Bavlim, Magreb, Persia, Libya, Pure Sephardim"
+                book="Ezekiel" fromChapter="16" fromVerse="1" toVerse="14" sources="michlol"/>
+      <annotation n="Magreb" comment="hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings."/>
     </week>
-    <week n="Va'eira" book="Ezekiel" fromChapter="28">
-        <custom n="Common" fromVerse="25" toChapter="29" toVerse="21"/>
-        <custom n="Teiman" fromVerse="24" toChapter="29" toVerse="21"/>
+    <week n="Va'eira" book="Ezekiel">
+        <custom n="Common" fromChapter="28" fromVerse="25" toChapter="29" toVerse="21"/>
+        <custom n="Teiman" fromChapter="28" fromVerse="24" toChapter="29" toVerse="21"/>
+        <custom n="Poznan" fromChapter="29" fromVerse="1" toChapter="29" toVerse="21" sources="michlol, poznan-pinkas"/>
     </week>
     <week n="Bo">
         <custom n="Common" book="Jeremiah" fromChapter="46" fromVerse="13" toVerse="28"/>
         <custom n="Teiman, Magreb" book="Isaiah" fromChapter="19" fromVerse="1" toVerse="25"/>
         <custom n="Italki, Bavlim" book="Isaiah" fromChapter="18" fromVerse="7" toChapter="19" toVerse="25"/>
     </week>
-    <week n="Beshalach" book="Judges">
-        <custom n="Ashkenaz, Chabad" fromChapter="4" fromVerse="4" toChapter="5" toVerse="31"/>
-        <custom n="Italki" fromChapter="4" fromVerse="4" toChapter="5" toVerse="3"/>
-        <custom n="Sefard" fromChapter="5" fromVerse="1" toVerse="31"/>
-        <custom n="Teiman" fromChapter="4" fromVerse="23" toChapter="5" toVerse="31"/>
+    <week n="Beshalach">
+        <custom n="Romania" book="Joshua" fromChapter="24" fromVerse="7" toVerse="26" sources="michlol"/>
+        <custom n="Ashkenaz, Chabad" book="Judges" fromChapter="4" fromVerse="4" toChapter="5" toVerse="31"/>
+        <custom n="Italki" book="Judges" fromChapter="4" fromVerse="4" toChapter="5" toVerse="3"/>
+        <custom n="Sefard" book="Judges" fromChapter="5" fromVerse="1" toVerse="31"/>
+        <custom n="Teiman" book="Judges" fromChapter="4" fromVerse="23" toChapter="5" toVerse="31"/>
     </week>
     <week n="Yisro" book="Isaiah">
+        <custom n="Romania" fromChapter="33" fromVerse="13" toChapter="34" toVerse="10" sources="michlol"/>
         <custom n="Ashkenaz, Italki">
             <part n="1" fromChapter="6" fromVerse="1" toChapter="7" toVerse="6"/>
             <part n="2" fromChapter="9" fromVerse="5" toVerse="6"/>
         </custom>
         <custom n="Algeria" fromChapter="6" fromVerse="1" toChapter="7" toVerse="6"/>
-        <custom n="Sefard" fromChapter="6" fromVerse="1" toVerse="13"/>
+        <custom n="Sefard, Poznan" fromChapter="6" fromVerse="1" toVerse="13"/>
         <custom n="Teiman">
             <part n="1" fromChapter="6" fromVerse="1" toVerse="13"/>
             <part n="2" fromChapter="9" fromVerse="5" toVerse="6"/>
         </custom>
+      <annotation n="Poznan" comment="Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."/>
     </week>
     <week n="Mishpatim" book="Jeremiah">
         <custom n="Common">
@@ -125,20 +144,27 @@
     </week>
     <week n="Terumah" book="I Kings" fromChapter="5" fromVerse="26" toChapter="6" toVerse="13"/>
     <week n="Tetzaveh" book="Ezekiel" fromChapter="43" fromVerse="10" toVerse="27"/>
-    <week n="Ki Sisa" book="I Kings" fromChapter="18">
-        <custom n="Ashkenaz, Chabad" fromVerse="1" toVerse="39"/>
-        <custom n="Sefard, Italki" fromVerse="20" toVerse="39"/>
-        <custom n="Teiman" fromVerse="1" toVerse="45"/>
+    <week n="Ki Sisa">
+        <custom n="Romania" book="Isaiah" fromChapter="43" fromVerse="7"
+                toChapter="44" toVerse="2" sources="michlol"/>
+        <custom n="Ashkenaz" book="I Kings" fromChapter="18" fromVerse="1" toVerse="39"/>
+        <custom n="Sefard, Italki, Chabad, Poznan" sources="chabad-org, chitas"
+                book="I Kings" fromChapter="18" fromVerse="20" toVerse="39"/>
+        <custom n="Teiman" book="I Kings" fromChapter="18" fromVerse="1" toVerse="45"/>
+      <annotation n="Sefard, Italki, Chabad, Poznan" comment="chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."/>
     </week>
-    <week n="Vayakhel" book="I Kings" fromChapter="7">
-        <custom n="Ashkenaz" fromVerse="40" toVerse="50"/> <!-- = Chanukkah Shabbos 2 Common -->
-        <custom n="Sefard, Italki" fromVerse="13" toVerse="26"/>
-        <custom n="Teiman" fromVerse="13" toVerse="22"/>
+    <week n="Vayakhel" book="I Kings">
+        <custom n="Romania" fromChapter="8" fromVerse="1" toVerse="10" sources="michlol"/>
+        <custom n="Ashkenaz" fromChapter="7" fromVerse="40" toVerse="50"/> <!-- = Chanukkah Shabbos 2 Common -->
+        <custom n="Sefard, Italki" fromChapter="7" fromVerse="13" toVerse="26"/>
+        <custom n="Teiman" fromChapter="7" fromVerse="13" toVerse="22"/>
     </week>
-    <week n="Pekudei" book="I Kings" fromChapter="7">
-        <custom n="Ashkenaz, Chabad" fromVerse="51" toChapter="8" toVerse="21"/>  <!-- = Succos 2 Teiman -->
-        <custom n="Italki" fromVerse="40" toVerse="51"/> <!-- = Chanukkah Shabbos 2 Italki -->
-        <custom n="Sefard" fromVerse="40" toVerse="50"/> <!-- = Chanukkah Shabbos 2 Common -->
+    <week n="Pekudei" book="I Kings">
+        <custom n="Romania" fromChapter="7" fromVerse="27" toVerse="47" sources="michlol"/>
+        <custom n="Ashkenaz, Chabad" fromChapter="7" fromVerse="51" toChapter="8" toVerse="21"/>  <!-- = Succos 2 Teiman -->
+        <custom n="Italki" fromChapter="7" fromVerse="40" toVerse="51"/> <!-- = Chanukkah Shabbos 2 Italki -->
+        <custom n="Sefard" fromChapter="7" fromVerse="40" toVerse="50"/> <!-- = Chanukkah Shabbos 2 Common -->
+        <custom n="Poznan" fromChapter="8" fromVerse="1" toVerse="21" sources="michlol, poznan-pinkas"/>
     </week>
 
     <week n="Vayikra" book="Isaiah" >
@@ -163,10 +189,18 @@
             <part n="2" fromChapter="10" fromVerse="6" toVerse="7"/>
         </custom>
     </week>
-    <week n="Shemini" book="II Samuel" fromChapter="6" fromVerse="1">
-        <custom n="Ashkenaz" toChapter="7" toVerse="17"/>
-        <custom n="Sefard" toChapter="6" toVerse="19"/>
-        <custom n="Teiman, Italki" toChapter="7" toVerse="3"/>
+    <week n="Shemini">
+        <custom n="Romania" book="Ezekiel" fromChapter="43" fromVerse="27"
+                toChapter="44" toVerse="21" sources="michlol"/>
+        <custom n="Ashkenaz" book="II Samuel" fromChapter="6" fromVerse="1" toChapter="7" toVerse="17"/>
+        <custom n="Sefard, Poznan" book="II Samuel" fromChapter="6" fromVerse="1" toChapter="6" toVerse="19"/>
+        <custom n="Teiman, Italki" book="II Samuel" fromChapter="6" fromVerse="1" toChapter="7" toVerse="3"/>
+        <annotation n="Chabad" sources="chitas"
+                    comment="Chabad reads with Sefard here, verified in Chitas.
+                             hamichlol names no Chabad practice at this week, and its
+                             rite key nests Chabad under Ashkenaz, so it would imply
+                             the Ashkenaz reading above; Chitas is against that."/>
+      <annotation n="Poznan" comment="Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."/>
     </week>
     <week n="Tazria" book="II Kings" fromChapter="4" fromVerse="42" toChapter="5" toVerse="19"/>
     <week n="Metzora" book="II Kings">
@@ -176,28 +210,43 @@
             <part n="2" fromChapter="13" fromVerse="23"/>
         </custom>
     </week>
-    <week n="Acharei">
-        <custom n="Ashkenaz, Chabad" book="Amos" fromChapter="9" fromVerse="7" toVerse="15"/>
-        <custom n="Sefard, Italki" book="Ezekiel" fromChapter="22" fromVerse="1"
-                toVerse="16"/> <!-- = Kedoshim:Ashkenaz, Lita -->
+    <week n="Acharei" precedenceWhenCombined="Chabad" sources="steinsaltz"
+          comment="Chabad reads this parsha's haftarah when Acharei and Kedoshim
+                   combine, rather than Kedoshim's as the other customs do.">
+        <custom n="Common" book="Ezekiel" fromChapter="22" fromVerse="1"
+                toVerse="16" sources="torah-temimah, steinsaltz"/> <!-- = Kedoshim:Lita -->
+        <custom n="Chabad" book="Amos" fromChapter="9" fromVerse="7"
+                toVerse="15" sources="chitas"/> <!-- = Kedoshim:Ashkenaz -->
+        <custom n="Poznan" book="Ezekiel" fromChapter="22" fromVerse="2"
+                toVerse="16" sources="michlol, poznan-pinkas"/>
     </week>
-    <week n="Kedoshim" book="Ezekiel">
-        <custom n="Ashkenaz, Lita" fromChapter="22" fromVerse="1" toVerse="16"/> <!-- Lita: Ahkenaz when Acharei - rosh hodesh Iyar -->
-        <custom n="Sefard" fromChapter="20" fromVerse="2" toVerse="20"/>  <!-- this one when Acharei & Kedoshim combine -->
-        <custom n="Italki, Teiman" fromChapter="20" fromVerse="1" toVerse="20"/>
-        <custom n="Baladi" fromChapter="20" fromVerse="1" toVerse="15"/>
+    <week n="Kedoshim">
+        <custom n="Romania" book="Isaiah" fromChapter="3" fromVerse="4" toChapter="5" toVerse="17" sources="michlol"/>
+        <custom n="Ashkenaz" book="Amos" fromChapter="9" fromVerse="7"
+                toVerse="15" sources="torah-temimah, steinsaltz"/>
+        <custom n="Lita" book="Ezekiel" fromChapter="22" fromVerse="1" toVerse="16"
+                comment="Unverified. Torah Temimah does not distinguish the Ashkenazi
+                         sub-customs, so it cannot settle this one; hamichlol gives
+                         this reading to Frankfurt rather than to Lita. Kept as
+                         inherited pending a source that speaks to it."/>
+        <custom n="Sefard" book="Ezekiel" fromChapter="20" fromVerse="2"
+                toVerse="20" sources="torah-temimah, steinsaltz"/> <!-- and this one for everyone but Chabad when Acharei & Kedoshim combine -->
+        <custom n="Italki, Teiman" book="Ezekiel" fromChapter="20" fromVerse="1" toVerse="20"/>
+        <custom n="Baladi" book="Ezekiel" fromChapter="20" fromVerse="1" toVerse="15"/>
     </week>
     <week n="Emor" book="Ezekiel" fromChapter="44" fromVerse="15" toVerse="31"/>
     <week n="Behar" book="Jeremiah" >
         <custom n="Common" fromChapter="32" fromVerse="6" toVerse="27"/>
-        <custom n="Chabad" fromChapter="32" fromVerse="6" toVerse="22"/>
+        <custom n="Chabad, Poznan" fromChapter="32" fromVerse="6" toVerse="22"/>
         <custom n="Italki, Teiman" fromChapter="16" fromVerse="19" toChapter="17"
                 toVerse="14"/> <!-- = Bechukosai.Common -->
+      <annotation n="Chabad, Poznan" comment="hamichlol gives Poznan the same ending as Chabad; the two are unrelated, they simply stop at the same verse. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."/>
     </week>
     <week n="Bechukosai">
         <custom n="Common" book="Jeremiah" fromChapter="16" fromVerse="19" toChapter="17" toVerse="14"/>
         <custom n="Teiman" book="Ezekiel" fromChapter="34" fromVerse="1" toVerse="27"/>
-        <custom n="Italki" book="Ezekiel" fromChapter="34" fromVerse="1" toVerse="15"/>  
+        <custom n="Italki, Poznan" book="Ezekiel" fromChapter="34" fromVerse="1" toVerse="15"/>
+      <annotation n="Poznan" comment="Poznan per hamichlol, but unsettled: the Poznan minhagim book says they end at 'ne'um Hashem', which could be verse 15, 30 or 31, and the kuntres contradicts itself about whether they read this haftarah at all or the ordinary Ashkenaz one. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."/>
     </week>
     <week n="Bemidbar" book="Hosea" fromChapter="2" fromVerse="1" toVerse="22"/>
     <week n="Nasso" book="Judges" fromChapter="13" fromVerse="2">
@@ -214,6 +263,7 @@
     <week n="Chukas" book="Judges" fromChapter="11" fromVerse="1">
         <custom n="Teiman" toVerse="40"/>
         <custom n="Common" toVerse="33"/>
+        <custom n="Poznan" toVerse="24" sources="michlol, poznan-pinkas"/>
     </week>
     <week n="Balak" book="Micah" fromChapter="5" fromVerse="6" toChapter="6" toVerse="8"/>
     <week n="Pinchas" book="I Kings" fromChapter="18" fromVerse="46" toChapter="19" toVerse="21"/> <!-- In 3 weeks - Mattos -->
@@ -227,12 +277,18 @@
             <part n="1" fromChapter="2" fromVerse="4" toVerse="28"/>
             <part n="2" fromChapter="3" fromVerse="4" toVerse="4"/>
         </custom>
-        <custom n="Sefard, Shami" book="Jeremiah">
+        <custom n="Sefard, Shami, Romania" book="Jeremiah" sources="michlol">
             <part n="1" fromChapter="2" fromVerse="4" toVerse="28"/>
             <part n="2" fromChapter="4" fromVerse="1" toVerse="2"/>
         </custom>
         <custom n="Italki" book="Joshua" fromChapter="19" fromVerse="21" toChapter="21" toVerse="3"/>
         <custom n="Teiman" book="Isaiah" fromChapter="1" fromVerse="1" toChapter="1" toVerse="20"/>
+        <annotation n="Chabad" sources="chitas"
+                    comment="Chabad reads with Sefard here, verified in Chitas.
+                             hamichlol names no Chabad practice at this week, and its
+                             rite key nests Chabad under Ashkenaz, so it would imply
+                             the Ashkenaz reading above; Chitas is against that."/>
+      <annotation n="Romania" comment="hamichlol gives Romania the same reading as Sefard here."/>
     </week>
 
     <week n="Devarim" book="Isaiah" fromChapter="1">
@@ -262,33 +318,64 @@
           <custom n="Common" book="Isaiah" fromChapter="60" fromVerse="1" toVerse="22"/>
           <custom n="Italki" book="Joshua" fromChapter="8" fromVerse="30" toChapter="9" toVerse="27"/>
     </week>
-    <week n="Nitzavim">
+    <week n="Nitzavim" precedenceWhenCombined="Common"
+          comment="Nitzavim-Vayeilech is the one combined week where the first
+                   parsha's haftarah takes precedence for every custom.">
           <custom n="Common" book="Isaiah" fromChapter="61" fromVerse="10" toChapter="63" toVerse="9"/>
           <custom n="Italki" book="Joshua" fromChapter="24" fromVerse="1"  toVerse="18"/>
           <custom n="Teiman" book="Isaiah" fromChapter="61" fromVerse="9" toChapter="63" toVerse="9"/>
     </week>
     <week n="Vayeilech"> <!-- = Shabbos Shuvah -->
-        <custom n="Ashkenaz"> <!-- = Fast afternoon Algeria; Fast of Gedalia afternoon Morocco -->
+        <custom n="Ashkenaz" sources="michlol, torat-chaim, steinsaltz"
+                comment="Torah Temimah prints Hosea, Joel and Micah together without
+                         saying which custom reads which, so it does not settle this;
+                         hamichlol and Torat Chaim both give Ashkenaz Joel 2:15.
+                         Steinsaltz adds that some Ashkenazim read both the Joel and
+                         the Micah passages.">
           <part n="1" book="Hosea" fromChapter="14" fromVerse="2" toVerse="10"/> <!-- = Sefard part 1; Teiman -->
-          <part n="2" book="Joel" fromChapter="2" fromVerse="11" toVerse="27"/>
+          <part n="2" book="Joel" fromChapter="2" fromVerse="15" toVerse="27"/>
         </custom>
-        <custom n="Sefard">
+        <custom n="Ashkenaz" variant="2" sources="steinsaltz"
+                comment="Steinsaltz reports that some Ashkenazim begin at Joel 2:11
+                         and most at 2:15, without saying which communities add
+                         2:11-14, so this is recorded rather than assigned.">
+          <part n="1" book="Hosea" fromChapter="14" fromVerse="2" toVerse="10"/>
+          <part n="2" book="Joel" fromChapter="2" fromVerse="11"
+                toVerse="27"/> <!-- = Fast afternoon Algeria; Fast of Gedalia afternoon Morocco -->
+        </custom>
+        <custom n="Sefard, Romania" sources="michlol">
             <part n="1" book="Hosea" fromChapter="14" fromVerse="2" toVerse="10"/>
             <part n="2" book="Micah" fromChapter="7" fromVerse="18"
                   toVerse="20"/> <!-- Yom Kippur afternoon common part 2-->
         </custom>
-        <custom n="Italki" book="Isaiah" fromChapter="55" fromVerse="6" toChapter="56"
+        <custom n="Italki, Poznan" book="Isaiah" fromChapter="55" fromVerse="6" toChapter="56"
                 toVerse="8"/> <!-- Fast afternoon Ashkenaz, Chabad, Morocco -->
-        <custom n="Teiman" book="Hosea" fromChapter="14" fromVerse="2" toVerse="10"/>
+        <custom n="Teiman" book="Hosea" fromChapter="14" fromVerse="2" toVerse="10" sources="torat-chaim"/>
+        <annotation n="Chabad" sources="chitas"
+                    comment="Chabad reads with Sefard here, verified in Chitas.
+                             hamichlol names no Chabad practice at this week, and its
+                             rite key nests Chabad under Ashkenaz, so it would imply
+                             the Ashkenaz reading above; Chitas is against that."/>
+      <annotation n="Romania" comment="hamichlol gives Romania the same reading as Sefard here."/>
+      <annotation n="Poznan" comment="Poznan per the first practice in kuntres Poznan, which reads Dirshu on Shabbos Shuvah; its second practice reads Shuva like the rest of Ashkenaz. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."/>
     </week>
     <week n="Haazinu">
           <custom n="Common" book="II Samuel" fromChapter="22" fromVerse="1" toVerse="51"/>
           <custom n="Italki, Teiman" book="Ezekiel" fromChapter="17" fromVerse="22" toChapter="18" toVerse="32"/>
+          <custom n="Poznan" sources="michlol, poznan-pinkas"
+                  comment="Poznan reads Shuva here, on the Shabbos between Yom Kippur and
+                           Succos, having read Dirshu on Shabbos Shuvah -- the first of the
+                           two practices in kuntres Poznan. Its second practice reads
+                           Vaydaber David like the rest of Ashkenaz.">
+            <part n="1" book="Hosea" fromChapter="14" fromVerse="2" toVerse="10"/>
+            <part n="2" book="Joel" fromChapter="2" fromVerse="15" toVerse="27"/>
+          </custom>
     </week>
-    <week n="Vezos Haberachah" book="Joshua" > <!-- = Simchas Torah -->
-        <custom n="Ashkenaz, Chabad, Italki" fromChapter="1" fromVerse="1" toVerse="18"/>
-        <custom n="Sefard" fromChapter="1" fromVerse="1" toVerse="9"/>
-        <custom n="Teiman">
+    <week n="Vezos Haberachah"> <!-- = Simchas Torah -->
+        <custom n="Romania" book="I Kings" fromChapter="8" fromVerse="22" toVerse="34" sources="michlol"/>
+        <custom n="Ashkenaz, Chabad, Italki" book="Joshua" fromChapter="1" fromVerse="1" toVerse="18"/>
+        <custom n="Sefard" book="Joshua" fromChapter="1" fromVerse="1" toVerse="9"/>
+        <custom n="Teiman" book="Joshua">
             <part n="1" fromChapter="1" fromVerse="1" toVerse="9"/>
             <part n="2" fromChapter="6" fromVerse="27"/> <!-- reused in Pesach1 -->
         </custom>

@@ -5,7 +5,9 @@
   "description": "One reading per single parsha or doubled parsha (Vezot HaBracha included as a single parsha too — read on Simchat Torah, never on a normal Shabbat). Each carries the book (1=Genesis..5=Deuteronomy) and seven aliyah ranges in chapter:verse-chapter:verse format.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["readings"],
+  "required": [
+    "readings"
+  ],
   "properties": {
     "readings": {
       "type": "array",
@@ -13,19 +15,36 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "parshiyot", "book", "aliyot"],
+        "required": [
+          "id",
+          "parshiyot",
+          "book",
+          "aliyot"
+        ],
         "properties": {
-          "id":        { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$" },
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
+          },
           "parshiyot": {
             "type": "array",
-            "items": { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$" },
-            "minItems": 1, "maxItems": 2,
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]*$"
+            },
+            "minItems": 1,
+            "maxItems": 2,
             "description": "1 or 2 Parsha keys covered by this reading."
           },
-          "book":      { "type": "integer", "minimum": 1, "maximum": 5 },
+          "book": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
           "aliyot": {
             "type": "array",
-            "minItems": 7, "maxItems": 7,
+            "minItems": 7,
+            "maxItems": 7,
             "items": {
               "type": "string",
               "pattern": "^\\d+:\\d+-\\d+:\\d+$"
@@ -34,12 +53,38 @@
           },
           "aliyotChabad": {
             "type": "array",
-            "minItems": 7, "maxItems": 7,
+            "minItems": 7,
+            "maxItems": 7,
             "items": {
               "type": "string",
               "pattern": "^\\d+:\\d+-\\d+:\\d+$"
             },
             "description": "Chabad Shabbat 7 aliyot (= chumash-yomi day boundaries), from opentorah <day> tags with custom=\"Chabad\" overrides. Present only when different from `aliyot`."
+          },
+          "maftir": {
+            "description": "The maftir: from where it begins to the end of the parsha. Absent for combined readings, which take the second parsha's.",
+            "type": "string",
+            "pattern": "^[0-9]+:[0-9]+-[0-9]+:[0-9]+$"
+          },
+          "aliyotWeekday": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "string",
+              "pattern": "^\\d+:\\d+-\\d+:\\d+$"
+            },
+            "description": "The three aliyot of a Monday or a Thursday, and of the Shabbos Mincha before them. Every custom reads the same three, and they stop well short of the parsha's end."
+          },
+          "aliyotAshkenaz": {
+            "type": "array",
+            "minItems": 7,
+            "maxItems": 7,
+            "items": {
+              "type": "string",
+              "pattern": "^\\d+:\\d+-\\d+:\\d+$"
+            },
+            "description": "Aliyot for the Ashkenaz branch, where opentorah gives it a division of its own. Only Masei has one."
           }
         }
       }

@@ -19,19 +19,38 @@ schema = json.loads((ROOT / "schema"    / "haftarot.schema.json").read_text())
 data   = json.loads((ROOT / "schedules" / "haftarot.json").read_text())
 parshiyot = json.loads((ROOT / "names"  / "parshiyot.json").read_text())
 
-jsonschema.validate(data, schema)
-
 # Derived from names/customs.json so adding a custom cannot silently leave
-# this check behind.
+# this check behind -- including in the schema, whose custom pattern is built
+# here rather than written out, so the two cannot drift.
 EXPOSED = set(json.loads((ROOT / "names" / "customs.json").read_text()))
-NACH_BOOKS = {
-    "Joshua", "Judges", "I Samuel", "II Samuel", "I Kings", "II Kings",
-    "Isaiah", "Jeremiah", "Ezekiel", "Hosea", "Joel", "Amos", "Obadiah",
-    "Jonah", "Micah", "Nahum", "Habakkuk", "Zephaniah", "Haggai",
-    "Zechariah", "Malachi",
+
+def _with_customs(node):
+    """Replace the placeholder custom pattern with the customs we declare."""
+    if isinstance(node, dict):
+        return {("^(" + "|".join(sorted(EXPOSED)) + ")$" if k == "^(CUSTOMS)$" else k):
+                _with_customs(v) for k, v in node.items()}
+    if isinstance(node, list):
+        return [_with_customs(v) for v in node]
+    return node
+
+schema = _with_customs(schema)
+jsonschema.validate(data, schema)
+# The names a citation is resolved by, taken from the same file the consumers
+# read rather than listed again here. A second list is how "I Kings" passed
+# validation for months while every Kings citation on the site quietly lost its
+# Hebrew and kept the wrong word order: nothing errored, the lookup just missed.
+TANACH_BOOKS = {
+    v["en"] for v in
+    json.loads((ROOT / "names" / "tanach_books.json").read_text(encoding="utf-8")).values()
 }
 
 known_parshiyot = set(parshiyot)
+
+# Every cited source must be one reading_sources.json knows, or the footnote
+# would render a bare id.
+KNOWN_SOURCES = set(
+    json.loads((ROOT / "names" / "reading_sources.json").read_text(encoding="utf-8")).keys()
+)
 
 for pkey, by_custom in data.items():
     if pkey not in known_parshiyot:
@@ -40,8 +59,16 @@ for pkey, by_custom in data.items():
     if missing:
         raise SystemExit(f"{pkey} missing customs: {sorted(missing)}")
     for cname, refs in by_custom.items():
+        # annotations sit beside the readings and are not one
+        if cname == "annotations":
+            for custom, note in refs.items():
+                for src in note.get("sources", []):
+                    if src not in KNOWN_SOURCES:
+                        raise SystemExit(
+                            f"{pkey}/{custom}: cites a source nothing names: {src}")
+            continue
         for i, r in enumerate(refs):
-            if r["book"] not in NACH_BOOKS:
+            if r["book"] not in TANACH_BOOKS:
                 raise SystemExit(f"{pkey}/{cname}[{i}]: unknown book {r['book']}")
             if (r["fromCh"], r["fromV"]) > (r["toCh"], r["toV"]):
                 raise SystemExit(f"{pkey}/{cname}[{i}]: reversed range {r}")

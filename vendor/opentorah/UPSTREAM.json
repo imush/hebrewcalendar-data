@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/opentorah/opentorah",
+  "commit": "0c5d3da92fb63848ed7a14ae289628036fcbd59d",
+  "vendored": "2026-09-04",
+  "files": [
+    "Custom.xml",
+    "CustomTree.xml",
+    "Deuteronomy.xml",
+    "Exodus.xml",
+    "Genesis.xml",
+    "Haftarah.xml",
+    "Leviticus.xml",
+    "Numbers.xml",
+    "ReadingSources.xml",
+    "SpecialReadings.xml",
+    "Tanach.xml"
+  ]
+}

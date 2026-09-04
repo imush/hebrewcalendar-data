@@ -9,6 +9,15 @@
         "toV": 10
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 42,
+        "fromV": 5,
+        "toCh": 42,
+        "toV": 21
+      }
+    ],
     "ITALKI": [
       {
         "book": "Isaiah",
@@ -72,6 +81,33 @@
         "toV": 21
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 42,
+        "fromV": 5,
+        "toCh": 42,
+        "toV": 21
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 42,
+        "fromV": 5,
+        "toCh": 42,
+        "toV": 21
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 42,
+        "fromV": 5,
+        "toCh": 42,
+        "toV": 21
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -82,6 +118,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 42,
+        "fromV": 5,
+        "toCh": 42,
+        "toV": 21
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 42,
@@ -109,6 +154,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 42,
+        "fromV": 5,
+        "toCh": 42,
+        "toV": 21
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 42,
@@ -170,7 +224,26 @@
         "toCh": 42,
         "toV": 16
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 65,
+        "fromV": 16,
+        "toCh": 66,
+        "toV": 11
+      }
+    ],
+    "annotations": {
+      "POZNAN": {
+        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "NOACH": {
     "ASHKENAZ": [
@@ -182,6 +255,15 @@
         "toV": 5
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
     "ITALKI": [
       {
         "book": "Isaiah",
@@ -245,6 +327,33 @@
         "toV": 10
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -255,6 +364,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -282,6 +400,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -343,7 +470,23 @@
         "toCh": 55,
         "toV": 5
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 9,
+        "toCh": 55,
+        "toV": 12
+      }
+    ],
+    "annotations": {
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "LECH_LECHA": {
     "ASHKENAZ": [
@@ -355,6 +498,15 @@
         "toV": 16
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
+      }
+    ],
     "ITALKI": [
       {
         "book": "Isaiah",
@@ -418,6 +570,33 @@
         "toV": 16
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -428,6 +607,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 40,
@@ -455,6 +643,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 40,
@@ -515,22 +712,40 @@
         "fromV": 25,
         "toCh": 41,
         "toV": 17
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 27,
+        "toCh": 41,
+        "toV": 16
       }
     ]
   },
   "VAYERA": {
     "ASHKENAZ": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
         "toV": 37
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Kings II",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 23
+      }
+    ],
     "ITALKI": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -539,7 +754,7 @@
     ],
     "FRANKFURT": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -548,7 +763,7 @@
     ],
     "LITA": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -557,7 +772,7 @@
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -566,7 +781,7 @@
     ],
     "HAGRA": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -575,7 +790,7 @@
     ],
     "SEFARD": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -584,16 +799,43 @@
     ],
     "CHABAD": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
         "toV": 37
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Kings II",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 23
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Kings II",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 23
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Kings II",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 23
+      }
+    ],
     "MAGREB": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -602,7 +844,16 @@
     ],
     "ALGERIA": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 37
+      }
+    ],
+    "ALGIERS": [
+      {
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -611,7 +862,7 @@
     ],
     "MOROCCO": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -620,7 +871,7 @@
     ],
     "FES": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -629,7 +880,16 @@
     ],
     "MARRAKESH": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 23
+      }
+    ],
+    "AGADIR": [
+      {
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -638,7 +898,7 @@
     ],
     "TOSHBIM": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -647,7 +907,7 @@
     ],
     "DJERBA": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -656,7 +916,7 @@
     ],
     "BAVLIM": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -665,7 +925,7 @@
     ],
     "TEIMAN": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -674,7 +934,7 @@
     ],
     "BALADI": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
@@ -683,18 +943,46 @@
     ],
     "SHAMI": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 1,
         "toCh": 4,
         "toV": 23
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 33,
+        "fromV": 17,
+        "toCh": 34,
+        "toV": 13
+      }
+    ],
+    "annotations": {
+      "POZNAN": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "CHAYEI_SARAH": {
     "ASHKENAZ": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -703,7 +991,7 @@
     ],
     "ITALKI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -712,7 +1000,7 @@
     ],
     "FRANKFURT": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -721,7 +1009,7 @@
     ],
     "LITA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -730,7 +1018,7 @@
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -739,7 +1027,7 @@
     ],
     "HAGRA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -748,7 +1036,7 @@
     ],
     "SEFARD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -757,7 +1045,34 @@
     ],
     "CHABAD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Kings I",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Kings I",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -766,7 +1081,7 @@
     ],
     "MAGREB": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -775,7 +1090,16 @@
     ],
     "ALGERIA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
+    "ALGIERS": [
+      {
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -784,7 +1108,7 @@
     ],
     "MOROCCO": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -793,7 +1117,7 @@
     ],
     "FES": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -802,7 +1126,16 @@
     ],
     "MARRAKESH": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
+    "AGADIR": [
+      {
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -811,7 +1144,7 @@
     ],
     "TOSHBIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -820,7 +1153,7 @@
     ],
     "DJERBA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -829,7 +1162,7 @@
     ],
     "BAVLIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -838,7 +1171,7 @@
     ],
     "TEIMAN": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -847,7 +1180,7 @@
     ],
     "BALADI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -856,7 +1189,16 @@
     ],
     "SHAMI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 31
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Kings I",
         "fromCh": 1,
         "fromV": 1,
         "toCh": 1,
@@ -874,6 +1216,15 @@
         "toV": 7
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
+      }
+    ],
     "ITALKI": [
       {
         "book": "Malachi",
@@ -937,6 +1288,33 @@
         "toV": 7
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
+      }
+    ],
     "MAGREB": [
       {
         "book": "Malachi",
@@ -947,6 +1325,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Malachi",
         "fromCh": 1,
@@ -974,6 +1361,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Malachi",
         "fromCh": 1,
@@ -1034,6 +1430,15 @@
         "fromV": 1,
         "toCh": 3,
         "toV": 4
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Malachi",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 7
       }
     ]
   },
@@ -1047,6 +1452,15 @@
         "toV": 10
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Hosea",
+        "fromCh": 12,
+        "fromV": 13,
+        "toCh": 14,
+        "toV": 10
+      }
+    ],
     "ITALKI": [
       {
         "book": "Hosea",
@@ -1124,6 +1538,33 @@
         "toV": 14
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Hosea",
+        "fromCh": 11,
+        "fromV": 7,
+        "toCh": 12,
+        "toV": 12
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 11,
+        "fromV": 7,
+        "toCh": 12,
+        "toV": 12
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Hosea",
+        "fromCh": 11,
+        "fromV": 7,
+        "toCh": 12,
+        "toV": 12
+      }
+    ],
     "MAGREB": [
       {
         "book": "Hosea",
@@ -1134,6 +1575,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 11,
+        "fromV": 7,
+        "toCh": 13,
+        "toV": 5
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Hosea",
         "fromCh": 11,
@@ -1161,6 +1611,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Hosea",
+        "fromCh": 11,
+        "fromV": 7,
+        "toCh": 13,
+        "toV": 5
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Hosea",
         "fromCh": 11,
@@ -1222,7 +1681,68 @@
         "toCh": 12,
         "toV": 14
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 12,
+        "fromV": 13,
+        "toCh": 14,
+        "toV": 3
+      }
+    ],
+    "annotations": {
+      "ASHKENAZ": {
+        "sources": [
+          "torah-temimah",
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah ends at Hosea 14:10. hamichlol gives Ashkenaz the same reading followed by Joel 2:26-27; Torat Chaim and Steinsaltz print those two verses only as יש מוסיפים, without saying which communities add them, so they are kept below under Lita rather than given to Ashkenaz."
+      },
+      "POZNAN": {
+        "sources": [
+          "torah-temimah",
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah ends at Hosea 14:10. hamichlol gives Ashkenaz the same reading followed by Joel 2:26-27; Torat Chaim and Steinsaltz print those two verses only as יש מוסיפים, without saying which communities add them, so they are kept below under Lita rather than given to Ashkenaz.",
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "FRANKFURT": {
+        "sources": [
+          "torah-temimah",
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah ends at Hosea 14:10. hamichlol gives Ashkenaz the same reading followed by Joel 2:26-27; Torat Chaim and Steinsaltz print those two verses only as יש מוסיפים, without saying which communities add them, so they are kept below under Lita rather than given to Ashkenaz.",
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "HAGRA": {
+        "sources": [
+          "torah-temimah",
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah ends at Hosea 14:10. hamichlol gives Ashkenaz the same reading followed by Joel 2:26-27; Torat Chaim and Steinsaltz print those two verses only as יש מוסיפים, without saying which communities add them, so they are kept below under Lita rather than given to Ashkenaz.",
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "VAYISHLACH": {
     "ASHKENAZ": [
@@ -1234,6 +1754,15 @@
         "toV": 21
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
     "ITALKI": [
       {
         "book": "Obadiah",
@@ -1266,8 +1795,8 @@
         "book": "Hosea",
         "fromCh": 11,
         "fromV": 7,
-        "toCh": 12,
-        "toV": 12
+        "toCh": 13,
+        "toV": 4
       }
     ],
     "HAGRA": [
@@ -1297,6 +1826,33 @@
         "toV": 21
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
     "MAGREB": [
       {
         "book": "Obadiah",
@@ -1307,6 +1863,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Obadiah",
         "fromCh": 1,
@@ -1334,6 +1899,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Obadiah",
         "fromCh": 1,
@@ -1388,6 +1962,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Obadiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 21
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Obadiah",
         "fromCh": 1,
@@ -1407,6 +1990,15 @@
         "toV": 8
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
     "ITALKI": [
       {
         "book": "Amos",
@@ -1470,6 +2062,33 @@
         "toV": 8
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
     "MAGREB": [
       {
         "book": "Amos",
@@ -1480,6 +2099,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Amos",
         "fromCh": 2,
@@ -1507,6 +2135,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Amos",
         "fromCh": 2,
@@ -1561,6 +2198,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Amos",
+        "fromCh": 2,
+        "fromV": 6,
+        "toCh": 3,
+        "toV": 8
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Amos",
         "fromCh": 2,
@@ -1573,7 +2219,16 @@
   "MIKETZ": {
     "ASHKENAZ": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1582,7 +2237,7 @@
     ],
     "ITALKI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1591,7 +2246,7 @@
     ],
     "FRANKFURT": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1600,7 +2255,7 @@
     ],
     "LITA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1609,7 +2264,7 @@
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1618,7 +2273,7 @@
     ],
     "HAGRA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1627,7 +2282,7 @@
     ],
     "SEFARD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1636,7 +2291,34 @@
     ],
     "CHABAD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Kings I",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Kings I",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1645,7 +2327,7 @@
     ],
     "MAGREB": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1654,7 +2336,16 @@
     ],
     "ALGERIA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
+    "ALGIERS": [
+      {
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1663,7 +2354,7 @@
     ],
     "MOROCCO": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1672,7 +2363,7 @@
     ],
     "FES": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1681,7 +2372,16 @@
     ],
     "MARRAKESH": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
+    "AGADIR": [
+      {
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1690,7 +2390,7 @@
     ],
     "TOSHBIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1699,7 +2399,7 @@
     ],
     "DJERBA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1708,7 +2408,7 @@
     ],
     "BAVLIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1717,7 +2417,7 @@
     ],
     "TEIMAN": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1726,7 +2426,7 @@
     ],
     "BALADI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1735,7 +2435,16 @@
     ],
     "SHAMI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 3,
+        "fromV": 15,
+        "toCh": 4,
+        "toV": 1
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Kings I",
         "fromCh": 3,
         "fromV": 15,
         "toCh": 4,
@@ -1753,6 +2462,15 @@
         "toV": 28
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
     "ITALKI": [
       {
         "book": "Ezekiel",
@@ -1816,6 +2534,33 @@
         "toV": 28
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
     "MAGREB": [
       {
         "book": "Ezekiel",
@@ -1826,6 +2571,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Ezekiel",
         "fromCh": 37,
@@ -1853,6 +2607,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Ezekiel",
         "fromCh": 37,
@@ -1907,6 +2670,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 37,
+        "fromV": 15,
+        "toCh": 37,
+        "toV": 28
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Ezekiel",
         "fromCh": 37,
@@ -1919,7 +2691,16 @@
   "VAYECHI": {
     "ASHKENAZ": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -1928,7 +2709,7 @@
     ],
     "ITALKI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -1937,7 +2718,7 @@
     ],
     "FRANKFURT": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -1946,7 +2727,7 @@
     ],
     "LITA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -1955,7 +2736,7 @@
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -1964,7 +2745,7 @@
     ],
     "HAGRA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -1973,7 +2754,7 @@
     ],
     "SEFARD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -1982,7 +2763,34 @@
     ],
     "CHABAD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
+    ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Kings I",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Kings I",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -1991,7 +2799,7 @@
     ],
     "MAGREB": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -2000,7 +2808,16 @@
     ],
     "ALGERIA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
+    ],
+    "ALGIERS": [
+      {
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -2009,7 +2826,7 @@
     ],
     "MOROCCO": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -2018,7 +2835,7 @@
     ],
     "FES": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -2027,7 +2844,16 @@
     ],
     "MARRAKESH": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
+    ],
+    "AGADIR": [
+      {
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -2036,7 +2862,7 @@
     ],
     "TOSHBIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -2045,7 +2871,7 @@
     ],
     "DJERBA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -2054,7 +2880,7 @@
     ],
     "BAVLIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -2063,7 +2889,7 @@
     ],
     "TEIMAN": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -2072,7 +2898,7 @@
     ],
     "BALADI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -2081,7 +2907,16 @@
     ],
     "SHAMI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 12
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Kings I",
         "fromCh": 2,
         "fromV": 1,
         "toCh": 2,
@@ -2091,6 +2926,22 @@
   },
   "SHEMOT": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 27,
+        "fromV": 6,
+        "toCh": 28,
+        "toV": 13
+      },
+      {
+        "book": "Isaiah",
+        "fromCh": 29,
+        "fromV": 22,
+        "toCh": 29,
+        "toV": 23
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 27,
@@ -2204,6 +3055,33 @@
         "toV": 23
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 16,
+        "fromV": 1,
+        "toCh": 16,
+        "toV": 14
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 16,
+        "fromV": 1,
+        "toCh": 16,
+        "toV": 14
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 16,
+        "fromV": 1,
+        "toCh": 16,
+        "toV": 14
+      }
+    ],
     "MAGREB": [
       {
         "book": "Ezekiel",
@@ -2214,6 +3092,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 16,
+        "fromV": 1,
+        "toCh": 16,
+        "toV": 14
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Ezekiel",
         "fromCh": 16,
@@ -2241,6 +3128,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 16,
+        "fromV": 1,
+        "toCh": 16,
+        "toV": 14
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Ezekiel",
         "fromCh": 16,
@@ -2302,7 +3198,152 @@
         "toCh": 16,
         "toV": 14
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 27,
+        "fromV": 6,
+        "toCh": 28,
+        "toV": 13
+      }
+    ],
+    "annotations": {
+      "PURE_SEPHARDIM": {
+        "sources": [
+          "michlol"
+        ]
+      },
+      "PERSIA": {
+        "sources": [
+          "michlol"
+        ]
+      },
+      "LIBYA": {
+        "sources": [
+          "michlol"
+        ]
+      },
+      "MAGREB": {
+        "sources": [
+          "michlol"
+        ],
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings."
+      },
+      "ALGERIA": {
+        "sources": [
+          "michlol"
+        ],
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "MAGREB"
+        ]
+      },
+      "ALGIERS": {
+        "sources": [
+          "michlol"
+        ],
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "MAGREB"
+        ]
+      },
+      "MOROCCO": {
+        "sources": [
+          "michlol"
+        ],
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "MAGREB"
+        ]
+      },
+      "FES": {
+        "sources": [
+          "michlol"
+        ],
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "MAGREB"
+        ]
+      },
+      "MARRAKESH": {
+        "sources": [
+          "michlol"
+        ],
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "MAGREB"
+        ]
+      },
+      "AGADIR": {
+        "sources": [
+          "michlol"
+        ],
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "MAGREB"
+        ]
+      },
+      "TOSHBIM": {
+        "sources": [
+          "michlol"
+        ],
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "MAGREB"
+        ]
+      },
+      "DJERBA": {
+        "sources": [
+          "michlol"
+        ],
+        "comment": "hamichlol lists Algeria here too; it already reads this by way of Magreb, so it is not named again. Its rite code סאל is Algerian Jewry as a whole; the city of Algiers is named only in prose, and only for the fast Mincha readings.",
+        "recordedFor": [
+          "MAGREB"
+        ]
+      },
+      "BAVLIM": {
+        "sources": [
+          "michlol"
+        ]
+      },
+      "TEIMAN": {
+        "sources": [
+          "michlol"
+        ]
+      },
+      "BALADI": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "BAVLIM",
+          "LIBYA",
+          "MAGREB",
+          "PERSIA",
+          "PURE_SEPHARDIM",
+          "TEIMAN"
+        ]
+      },
+      "SHAMI": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "BAVLIM",
+          "LIBYA",
+          "MAGREB",
+          "PERSIA",
+          "PURE_SEPHARDIM",
+          "TEIMAN"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "VAERA": {
     "ASHKENAZ": [
@@ -2314,6 +3355,15 @@
         "toV": 21
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 29,
+        "fromV": 1,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
     "ITALKI": [
       {
         "book": "Ezekiel",
@@ -2377,6 +3427,33 @@
         "toV": 21
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 28,
+        "fromV": 25,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 28,
+        "fromV": 25,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 28,
+        "fromV": 25,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
     "MAGREB": [
       {
         "book": "Ezekiel",
@@ -2387,6 +3464,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 28,
+        "fromV": 25,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Ezekiel",
         "fromCh": 28,
@@ -2414,6 +3500,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 28,
+        "fromV": 25,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Ezekiel",
         "fromCh": 28,
@@ -2475,7 +3570,24 @@
         "toCh": 29,
         "toV": 21
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 28,
+        "fromV": 25,
+        "toCh": 29,
+        "toV": 21
+      }
+    ],
+    "annotations": {
+      "POZNAN": {
+        "sources": [
+          "michlol",
+          "poznan-pinkas"
+        ]
+      }
+    }
   },
   "BO": {
     "ASHKENAZ": [
@@ -2487,6 +3599,15 @@
         "toV": 28
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 46,
+        "fromV": 13,
+        "toCh": 46,
+        "toV": 28
+      }
+    ],
     "ITALKI": [
       {
         "book": "Isaiah",
@@ -2550,6 +3671,33 @@
         "toV": 28
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 46,
+        "fromV": 13,
+        "toCh": 46,
+        "toV": 28
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 46,
+        "fromV": 13,
+        "toCh": 46,
+        "toV": 28
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 46,
+        "fromV": 13,
+        "toCh": 46,
+        "toV": 28
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -2560,6 +3708,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 19,
+        "fromV": 1,
+        "toCh": 19,
+        "toV": 25
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 19,
@@ -2587,6 +3744,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 19,
+        "fromV": 1,
+        "toCh": 19,
+        "toV": 25
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 19,
@@ -2648,10 +3814,28 @@
         "toCh": 19,
         "toV": 25
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 46,
+        "fromV": 13,
+        "toCh": 46,
+        "toV": 28
+      }
     ]
   },
   "BESHALACH": {
     "ASHKENAZ": [
+      {
+        "book": "Judges",
+        "fromCh": 4,
+        "fromV": 4,
+        "toCh": 5,
+        "toV": 31
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Judges",
         "fromCh": 4,
@@ -2723,6 +3907,33 @@
         "toV": 31
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Judges",
+        "fromCh": 5,
+        "fromV": 1,
+        "toCh": 5,
+        "toV": 31
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Judges",
+        "fromCh": 5,
+        "fromV": 1,
+        "toCh": 5,
+        "toV": 31
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Judges",
+        "fromCh": 5,
+        "fromV": 1,
+        "toCh": 5,
+        "toV": 31
+      }
+    ],
     "MAGREB": [
       {
         "book": "Judges",
@@ -2733,6 +3944,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Judges",
+        "fromCh": 5,
+        "fromV": 1,
+        "toCh": 5,
+        "toV": 31
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Judges",
         "fromCh": 5,
@@ -2760,6 +3980,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Judges",
+        "fromCh": 5,
+        "fromV": 1,
+        "toCh": 5,
+        "toV": 31
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Judges",
         "fromCh": 5,
@@ -2821,7 +4050,23 @@
         "toCh": 5,
         "toV": 31
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Joshua",
+        "fromCh": 24,
+        "fromV": 7,
+        "toCh": 24,
+        "toV": 26
+      }
+    ],
+    "annotations": {
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "YITRO": {
     "ASHKENAZ": [
@@ -2838,6 +4083,15 @@
         "fromV": 5,
         "toCh": 9,
         "toV": 6
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 13
       }
     ],
     "ITALKI": [
@@ -2938,6 +4192,33 @@
         "toV": 13
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -2948,6 +4229,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 7,
+        "toV": 6
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 6,
@@ -2975,6 +4265,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 6,
@@ -3057,10 +4356,45 @@
         "toCh": 9,
         "toV": 6
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 33,
+        "fromV": 13,
+        "toCh": 34,
+        "toV": 10
+      }
+    ],
+    "annotations": {
+      "POZNAN": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "MISHPATIM": {
     "ASHKENAZ": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Jeremiah",
         "fromCh": 34,
@@ -3181,6 +4515,54 @@
         "toV": 26
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
+    ],
     "MAGREB": [
       {
         "book": "Jeremiah",
@@ -3198,6 +4580,22 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Jeremiah",
         "fromCh": 34,
@@ -3246,6 +4644,22 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Jeremiah",
         "fromCh": 34,
@@ -3335,12 +4749,37 @@
         "toCh": 35,
         "toV": 19
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 34,
+        "fromV": 8,
+        "toCh": 34,
+        "toV": 22
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 33,
+        "fromV": 25,
+        "toCh": 33,
+        "toV": 26
+      }
     ]
   },
   "TERUMAH": {
     "ASHKENAZ": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3349,7 +4788,7 @@
     ],
     "ITALKI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3358,7 +4797,7 @@
     ],
     "FRANKFURT": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3367,7 +4806,7 @@
     ],
     "LITA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3376,7 +4815,7 @@
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3385,7 +4824,7 @@
     ],
     "HAGRA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3394,7 +4833,7 @@
     ],
     "SEFARD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3403,7 +4842,34 @@
     ],
     "CHABAD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Kings I",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Kings I",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3412,7 +4878,7 @@
     ],
     "MAGREB": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3421,7 +4887,16 @@
     ],
     "ALGERIA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "ALGIERS": [
+      {
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3430,7 +4905,7 @@
     ],
     "MOROCCO": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3439,7 +4914,7 @@
     ],
     "FES": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3448,7 +4923,16 @@
     ],
     "MARRAKESH": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "AGADIR": [
+      {
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3457,7 +4941,7 @@
     ],
     "TOSHBIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3466,7 +4950,7 @@
     ],
     "DJERBA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3475,7 +4959,7 @@
     ],
     "BAVLIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3484,7 +4968,7 @@
     ],
     "TEIMAN": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3493,7 +4977,7 @@
     ],
     "BALADI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3502,7 +4986,16 @@
     ],
     "SHAMI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 5,
+        "fromV": 26,
+        "toCh": 6,
+        "toV": 13
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Kings I",
         "fromCh": 5,
         "fromV": 26,
         "toCh": 6,
@@ -3520,6 +5013,15 @@
         "toV": 27
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
     "ITALKI": [
       {
         "book": "Ezekiel",
@@ -3583,6 +5085,33 @@
         "toV": 27
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
     "MAGREB": [
       {
         "book": "Ezekiel",
@@ -3593,6 +5122,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Ezekiel",
         "fromCh": 43,
@@ -3620,6 +5158,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Ezekiel",
         "fromCh": 43,
@@ -3674,6 +5221,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 10,
+        "toCh": 43,
+        "toV": 27
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Ezekiel",
         "fromCh": 43,
@@ -3686,16 +5242,25 @@
   "KI_TISA": {
     "ASHKENAZ": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 1,
         "toCh": 18,
         "toV": 39
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Kings I",
+        "fromCh": 18,
+        "fromV": 20,
+        "toCh": 18,
+        "toV": 39
+      }
+    ],
     "ITALKI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 20,
         "toCh": 18,
@@ -3704,7 +5269,7 @@
     ],
     "FRANKFURT": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 1,
         "toCh": 18,
@@ -3713,7 +5278,7 @@
     ],
     "LITA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 1,
         "toCh": 18,
@@ -3722,7 +5287,7 @@
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 1,
         "toCh": 18,
@@ -3731,7 +5296,7 @@
     ],
     "HAGRA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 1,
         "toCh": 18,
@@ -3740,7 +5305,7 @@
     ],
     "SEFARD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 20,
         "toCh": 18,
@@ -3749,16 +5314,43 @@
     ],
     "CHABAD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
-        "fromV": 1,
+        "fromV": 20,
+        "toCh": 18,
+        "toV": 39
+      }
+    ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Kings I",
+        "fromCh": 18,
+        "fromV": 20,
+        "toCh": 18,
+        "toV": 39
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Kings I",
+        "fromCh": 18,
+        "fromV": 20,
+        "toCh": 18,
+        "toV": 39
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Kings I",
+        "fromCh": 18,
+        "fromV": 20,
         "toCh": 18,
         "toV": 39
       }
     ],
     "MAGREB": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 20,
         "toCh": 18,
@@ -3767,7 +5359,16 @@
     ],
     "ALGERIA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 18,
+        "fromV": 20,
+        "toCh": 18,
+        "toV": 39
+      }
+    ],
+    "ALGIERS": [
+      {
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 20,
         "toCh": 18,
@@ -3776,7 +5377,7 @@
     ],
     "MOROCCO": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 20,
         "toCh": 18,
@@ -3785,7 +5386,7 @@
     ],
     "FES": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 20,
         "toCh": 18,
@@ -3794,7 +5395,16 @@
     ],
     "MARRAKESH": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 18,
+        "fromV": 20,
+        "toCh": 18,
+        "toV": 39
+      }
+    ],
+    "AGADIR": [
+      {
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 20,
         "toCh": 18,
@@ -3803,7 +5413,7 @@
     ],
     "TOSHBIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 20,
         "toCh": 18,
@@ -3812,7 +5422,7 @@
     ],
     "DJERBA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 20,
         "toCh": 18,
@@ -3821,7 +5431,7 @@
     ],
     "BAVLIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 20,
         "toCh": 18,
@@ -3830,7 +5440,7 @@
     ],
     "TEIMAN": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 1,
         "toCh": 18,
@@ -3839,7 +5449,7 @@
     ],
     "BALADI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 1,
         "toCh": 18,
@@ -3848,18 +5458,240 @@
     ],
     "SHAMI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 1,
         "toCh": 18,
         "toV": 45
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 7,
+        "toCh": 44,
+        "toV": 2
+      }
+    ],
+    "annotations": {
+      "POZNAN": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "ITALKI": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "SEFARD": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "CHABAD": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "PURE_SEPHARDIM": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "PERSIA": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "LIBYA": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MAGREB": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "ALGERIA": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "ALGIERS": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MOROCCO": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "FES": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "MARRAKESH": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "AGADIR": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "TOSHBIM": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "DJERBA": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "BAVLIM": {
+        "sources": [
+          "chabad-org",
+          "chitas"
+        ],
+        "comment": "chabad.org and Chitas are cited for Chabad; hamichlol gives the same reading to Sefard, Italki and Poznan. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).",
+        "recordedFor": [
+          "CHABAD",
+          "ITALKI",
+          "POZNAN",
+          "SEFARD"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "VAYAKHEL": {
     "ASHKENAZ": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 7,
+        "fromV": 40,
+        "toCh": 7,
+        "toV": 50
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -3868,7 +5700,7 @@
     ],
     "ITALKI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 13,
         "toCh": 7,
@@ -3877,7 +5709,7 @@
     ],
     "FRANKFURT": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -3886,7 +5718,7 @@
     ],
     "LITA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -3895,7 +5727,7 @@
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -3904,7 +5736,7 @@
     ],
     "HAGRA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -3913,7 +5745,7 @@
     ],
     "SEFARD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 13,
         "toCh": 7,
@@ -3922,7 +5754,34 @@
     ],
     "CHABAD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 7,
+        "fromV": 13,
+        "toCh": 7,
+        "toV": 26
+      }
+    ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Kings I",
+        "fromCh": 7,
+        "fromV": 13,
+        "toCh": 7,
+        "toV": 26
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Kings I",
+        "fromCh": 7,
+        "fromV": 13,
+        "toCh": 7,
+        "toV": 26
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 13,
         "toCh": 7,
@@ -3931,7 +5790,7 @@
     ],
     "MAGREB": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 13,
         "toCh": 7,
@@ -3940,7 +5799,16 @@
     ],
     "ALGERIA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 7,
+        "fromV": 13,
+        "toCh": 7,
+        "toV": 26
+      }
+    ],
+    "ALGIERS": [
+      {
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 13,
         "toCh": 7,
@@ -3949,7 +5817,7 @@
     ],
     "MOROCCO": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 13,
         "toCh": 7,
@@ -3958,7 +5826,7 @@
     ],
     "FES": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 13,
         "toCh": 7,
@@ -3967,7 +5835,16 @@
     ],
     "MARRAKESH": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 7,
+        "fromV": 13,
+        "toCh": 7,
+        "toV": 26
+      }
+    ],
+    "AGADIR": [
+      {
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 13,
         "toCh": 7,
@@ -3976,7 +5853,7 @@
     ],
     "TOSHBIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 13,
         "toCh": 7,
@@ -3985,7 +5862,7 @@
     ],
     "DJERBA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 13,
         "toCh": 7,
@@ -3994,7 +5871,7 @@
     ],
     "BAVLIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 13,
         "toCh": 7,
@@ -4003,7 +5880,7 @@
     ],
     "TEIMAN": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 13,
         "toCh": 7,
@@ -4012,7 +5889,7 @@
     ],
     "BALADI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 13,
         "toCh": 7,
@@ -4021,27 +5898,52 @@
     ],
     "SHAMI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 13,
         "toCh": 7,
         "toV": 22
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Kings I",
+        "fromCh": 8,
+        "fromV": 1,
+        "toCh": 8,
+        "toV": 10
+      }
+    ],
+    "annotations": {
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "PEKUDEI": {
     "ASHKENAZ": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 51,
         "toCh": 8,
         "toV": 21
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Kings I",
+        "fromCh": 8,
+        "fromV": 1,
+        "toCh": 8,
+        "toV": 21
+      }
+    ],
     "ITALKI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -4050,7 +5952,7 @@
     ],
     "FRANKFURT": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 51,
         "toCh": 8,
@@ -4059,7 +5961,7 @@
     ],
     "LITA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 51,
         "toCh": 8,
@@ -4068,7 +5970,7 @@
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 51,
         "toCh": 8,
@@ -4077,7 +5979,7 @@
     ],
     "HAGRA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 51,
         "toCh": 8,
@@ -4086,7 +5988,7 @@
     ],
     "SEFARD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -4095,16 +5997,43 @@
     ],
     "CHABAD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 51,
         "toCh": 8,
         "toV": 21
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Kings I",
+        "fromCh": 7,
+        "fromV": 40,
+        "toCh": 7,
+        "toV": 50
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Kings I",
+        "fromCh": 7,
+        "fromV": 40,
+        "toCh": 7,
+        "toV": 50
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Kings I",
+        "fromCh": 7,
+        "fromV": 40,
+        "toCh": 7,
+        "toV": 50
+      }
+    ],
     "MAGREB": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -4113,7 +6042,16 @@
     ],
     "ALGERIA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 7,
+        "fromV": 40,
+        "toCh": 7,
+        "toV": 50
+      }
+    ],
+    "ALGIERS": [
+      {
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -4122,7 +6060,7 @@
     ],
     "MOROCCO": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -4131,7 +6069,7 @@
     ],
     "FES": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -4140,7 +6078,16 @@
     ],
     "MARRAKESH": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 7,
+        "fromV": 40,
+        "toCh": 7,
+        "toV": 50
+      }
+    ],
+    "AGADIR": [
+      {
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -4149,7 +6096,7 @@
     ],
     "TOSHBIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -4158,7 +6105,7 @@
     ],
     "DJERBA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -4167,7 +6114,7 @@
     ],
     "BAVLIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -4176,7 +6123,7 @@
     ],
     "TEIMAN": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -4185,7 +6132,7 @@
     ],
     "BALADI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
@@ -4194,13 +6141,35 @@
     ],
     "SHAMI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 7,
         "fromV": 40,
         "toCh": 7,
         "toV": 50
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Kings I",
+        "fromCh": 7,
+        "fromV": 27,
+        "toCh": 7,
+        "toV": 47
+      }
+    ],
+    "annotations": {
+      "POZNAN": {
+        "sources": [
+          "michlol",
+          "poznan-pinkas"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "VAYIKRA": {
     "ASHKENAZ": [
@@ -4212,6 +6181,15 @@
         "toV": 23
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 23
+      }
+    ],
     "ITALKI": [
       {
         "book": "Isaiah",
@@ -4275,6 +6253,33 @@
         "toV": 23
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 23
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 23
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 23
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -4285,6 +6290,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 6
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 43,
@@ -4312,6 +6326,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 6
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 43,
@@ -4380,10 +6403,35 @@
         "toCh": 44,
         "toV": 6
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 43,
+        "fromV": 21,
+        "toCh": 44,
+        "toV": 23
+      }
     ]
   },
   "TZAV": {
     "ASHKENAZ": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Jeremiah",
         "fromCh": 7,
@@ -4511,6 +6559,54 @@
         "toV": 23
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
     "MAGREB": [
       {
         "book": "Jeremiah",
@@ -4528,6 +6624,22 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Jeremiah",
         "fromCh": 7,
@@ -4576,6 +6688,22 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Jeremiah",
         "fromCh": 7,
@@ -4678,6 +6806,22 @@
         "fromV": 21,
         "toCh": 7,
         "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 9,
+        "fromV": 22,
+        "toCh": 9,
+        "toV": 23
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 7,
+        "fromV": 21,
+        "toCh": 8,
+        "toV": 3
       },
       {
         "book": "Jeremiah",
@@ -4691,16 +6835,25 @@
   "SHEMINI": {
     "ASHKENAZ": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 7,
         "toV": 17
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Samuel II",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 19
+      }
+    ],
     "ITALKI": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 7,
@@ -4709,7 +6862,7 @@
     ],
     "FRANKFURT": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 7,
@@ -4718,7 +6871,7 @@
     ],
     "LITA": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 7,
@@ -4727,7 +6880,7 @@
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 7,
@@ -4736,7 +6889,7 @@
     ],
     "HAGRA": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 7,
@@ -4745,7 +6898,7 @@
     ],
     "SEFARD": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 6,
@@ -4754,7 +6907,34 @@
     ],
     "CHABAD": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 19
+      }
+    ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Samuel II",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 19
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Samuel II",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 19
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 6,
@@ -4763,7 +6943,7 @@
     ],
     "MAGREB": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 6,
@@ -4772,7 +6952,16 @@
     ],
     "ALGERIA": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 19
+      }
+    ],
+    "ALGIERS": [
+      {
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 6,
@@ -4781,7 +6970,7 @@
     ],
     "MOROCCO": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 6,
@@ -4790,7 +6979,7 @@
     ],
     "FES": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 6,
@@ -4799,7 +6988,16 @@
     ],
     "MARRAKESH": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
+        "fromCh": 6,
+        "fromV": 1,
+        "toCh": 6,
+        "toV": 19
+      }
+    ],
+    "AGADIR": [
+      {
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 6,
@@ -4808,7 +7006,7 @@
     ],
     "TOSHBIM": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 6,
@@ -4817,7 +7015,7 @@
     ],
     "DJERBA": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 6,
@@ -4826,7 +7024,7 @@
     ],
     "BAVLIM": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 6,
@@ -4835,7 +7033,7 @@
     ],
     "TEIMAN": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 7,
@@ -4844,7 +7042,7 @@
     ],
     "BALADI": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 7,
@@ -4853,18 +7051,46 @@
     ],
     "SHAMI": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 6,
         "fromV": 1,
         "toCh": 7,
         "toV": 3
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 43,
+        "fromV": 27,
+        "toCh": 44,
+        "toV": 21
+      }
+    ],
+    "annotations": {
+      "POZNAN": {
+        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "TAZRIA": {
     "ASHKENAZ": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4873,7 +7099,7 @@
     ],
     "ITALKI": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4882,7 +7108,7 @@
     ],
     "FRANKFURT": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4891,7 +7117,7 @@
     ],
     "LITA": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4900,7 +7126,7 @@
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4909,7 +7135,7 @@
     ],
     "HAGRA": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4918,7 +7144,7 @@
     ],
     "SEFARD": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4927,7 +7153,34 @@
     ],
     "CHABAD": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Kings II",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Kings II",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4936,7 +7189,7 @@
     ],
     "MAGREB": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4945,7 +7198,16 @@
     ],
     "ALGERIA": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
+    "ALGIERS": [
+      {
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4954,7 +7216,7 @@
     ],
     "MOROCCO": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4963,7 +7225,7 @@
     ],
     "FES": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4972,7 +7234,16 @@
     ],
     "MARRAKESH": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
+    "AGADIR": [
+      {
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4981,7 +7252,7 @@
     ],
     "TOSHBIM": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4990,7 +7261,7 @@
     ],
     "DJERBA": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -4999,7 +7270,7 @@
     ],
     "BAVLIM": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -5008,7 +7279,7 @@
     ],
     "TEIMAN": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -5017,7 +7288,7 @@
     ],
     "BALADI": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -5026,7 +7297,16 @@
     ],
     "SHAMI": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
+        "fromCh": 4,
+        "fromV": 42,
+        "toCh": 5,
+        "toV": 19
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Kings II",
         "fromCh": 4,
         "fromV": 42,
         "toCh": 5,
@@ -5037,7 +7317,16 @@
   "METZORA": {
     "ASHKENAZ": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5046,23 +7335,23 @@
     ],
     "ITALKI": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 1,
         "toCh": 7,
         "toV": 20
       },
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 13,
         "fromV": 23,
         "toCh": 13,
-        "toV": 25
+        "toV": 23
       }
     ],
     "FRANKFURT": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5071,7 +7360,7 @@
     ],
     "LITA": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5080,7 +7369,7 @@
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5089,7 +7378,7 @@
     ],
     "HAGRA": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5098,7 +7387,7 @@
     ],
     "SEFARD": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5107,7 +7396,34 @@
     ],
     "CHABAD": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Kings II",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Kings II",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5116,7 +7432,7 @@
     ],
     "MAGREB": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5125,7 +7441,16 @@
     ],
     "ALGERIA": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "ALGIERS": [
+      {
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5134,7 +7459,7 @@
     ],
     "MOROCCO": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5143,7 +7468,7 @@
     ],
     "FES": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5152,7 +7477,16 @@
     ],
     "MARRAKESH": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "AGADIR": [
+      {
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5161,7 +7495,7 @@
     ],
     "TOSHBIM": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5170,7 +7504,7 @@
     ],
     "DJERBA": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5179,7 +7513,7 @@
     ],
     "BAVLIM": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 3,
         "toCh": 7,
@@ -5188,61 +7522,79 @@
     ],
     "TEIMAN": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 1,
         "toCh": 7,
         "toV": 20
       },
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 13,
         "fromV": 23,
         "toCh": 13,
-        "toV": 25
+        "toV": 23
       }
     ],
     "BALADI": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 1,
         "toCh": 7,
         "toV": 20
       },
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 13,
         "fromV": 23,
         "toCh": 13,
-        "toV": 25
+        "toV": 23
       }
     ],
     "SHAMI": [
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 7,
         "fromV": 1,
         "toCh": 7,
         "toV": 20
       },
       {
-        "book": "II Kings",
+        "book": "Kings II",
         "fromCh": 13,
         "fromV": 23,
         "toCh": 13,
-        "toV": 25
+        "toV": 23
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Kings II",
+        "fromCh": 7,
+        "fromV": 3,
+        "toCh": 7,
+        "toV": 20
       }
     ]
   },
   "ACHAREI_MOT": {
     "ASHKENAZ": [
       {
-        "book": "Amos",
-        "fromCh": 9,
-        "fromV": 7,
-        "toCh": 9,
-        "toV": 15
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 2,
+        "toCh": 22,
+        "toV": 16
       }
     ],
     "ITALKI": [
@@ -5256,38 +7608,38 @@
     ],
     "FRANKFURT": [
       {
-        "book": "Amos",
-        "fromCh": 9,
-        "fromV": 7,
-        "toCh": 9,
-        "toV": 15
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
       }
     ],
     "LITA": [
       {
-        "book": "Amos",
-        "fromCh": 9,
-        "fromV": 7,
-        "toCh": 9,
-        "toV": 15
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
       }
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "Amos",
-        "fromCh": 9,
-        "fromV": 7,
-        "toCh": 9,
-        "toV": 15
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
       }
     ],
     "HAGRA": [
       {
-        "book": "Amos",
-        "fromCh": 9,
-        "fromV": 7,
-        "toCh": 9,
-        "toV": 15
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
       }
     ],
     "SEFARD": [
@@ -5308,6 +7660,33 @@
         "toV": 15
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
     "MAGREB": [
       {
         "book": "Ezekiel",
@@ -5318,6 +7697,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Ezekiel",
         "fromCh": 22,
@@ -5345,6 +7733,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Ezekiel",
         "fromCh": 22,
@@ -5406,16 +7803,215 @@
         "toCh": 22,
         "toV": 16
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 16
+      }
+    ],
+    "annotations": {
+      "ASHKENAZ": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "POZNAN": {
+        "sources": [
+          "michlol",
+          "poznan-pinkas"
+        ]
+      },
+      "ITALKI": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "FRANKFURT": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "LITA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "CHAYEY_ODOM": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "HAGRA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "SEFARD": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "CHABAD": {
+        "sources": [
+          "chitas"
+        ]
+      },
+      "PURE_SEPHARDIM": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "PERSIA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "LIBYA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "MAGREB": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "ALGERIA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "ALGIERS": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "MOROCCO": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "FES": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "MARRAKESH": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "AGADIR": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "TOSHBIM": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "DJERBA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "BAVLIM": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "TEIMAN": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "BALADI": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "SHAMI": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      },
+      "ROMANIA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": []
+      }
+    }
   },
   "KEDOSHIM": {
     "ASHKENAZ": [
       {
-        "book": "Ezekiel",
-        "fromCh": 22,
-        "fromV": 1,
-        "toCh": 22,
-        "toV": 16
+        "book": "Amos",
+        "fromCh": 9,
+        "fromV": 7,
+        "toCh": 9,
+        "toV": 15
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Amos",
+        "fromCh": 9,
+        "fromV": 7,
+        "toCh": 9,
+        "toV": 15
       }
     ],
     "ITALKI": [
@@ -5429,11 +8025,11 @@
     ],
     "FRANKFURT": [
       {
-        "book": "Ezekiel",
-        "fromCh": 22,
-        "fromV": 1,
-        "toCh": 22,
-        "toV": 16
+        "book": "Amos",
+        "fromCh": 9,
+        "fromV": 7,
+        "toCh": 9,
+        "toV": 15
       }
     ],
     "LITA": [
@@ -5456,11 +8052,11 @@
     ],
     "HAGRA": [
       {
-        "book": "Ezekiel",
-        "fromCh": 22,
-        "fromV": 1,
-        "toCh": 22,
-        "toV": 16
+        "book": "Amos",
+        "fromCh": 9,
+        "fromV": 7,
+        "toCh": 9,
+        "toV": 15
       }
     ],
     "SEFARD": [
@@ -5481,6 +8077,33 @@
         "toV": 20
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 20,
+        "fromV": 2,
+        "toCh": 20,
+        "toV": 20
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 20,
+        "fromV": 2,
+        "toCh": 20,
+        "toV": 20
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 20,
+        "fromV": 2,
+        "toCh": 20,
+        "toV": 20
+      }
+    ],
     "MAGREB": [
       {
         "book": "Ezekiel",
@@ -5491,6 +8114,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 20,
+        "fromV": 2,
+        "toCh": 20,
+        "toV": 20
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Ezekiel",
         "fromCh": 20,
@@ -5518,6 +8150,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 20,
+        "fromV": 2,
+        "toCh": 20,
+        "toV": 20
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Ezekiel",
         "fromCh": 20,
@@ -5579,7 +8220,197 @@
         "toCh": 20,
         "toV": 20
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 3,
+        "fromV": 4,
+        "toCh": 5,
+        "toV": 17
+      }
+    ],
+    "annotations": {
+      "ASHKENAZ": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ]
+      },
+      "POZNAN": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "FRANKFURT": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "LITA": {
+        "comment": "Unverified. Torah Temimah does not distinguish the Ashkenazi sub-customs, so it cannot settle this one; hamichlol gives this reading to Frankfurt rather than to Lita. Kept as inherited pending a source that speaks to it."
+      },
+      "CHAYEY_ODOM": {
+        "comment": "Unverified. Torah Temimah does not distinguish the Ashkenazi sub-customs, so it cannot settle this one; hamichlol gives this reading to Frankfurt rather than to Lita. Kept as inherited pending a source that speaks to it.",
+        "recordedFor": [
+          "LITA"
+        ]
+      },
+      "HAGRA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "SEFARD": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ]
+      },
+      "CHABAD": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "PURE_SEPHARDIM": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "PERSIA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "LIBYA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "MAGREB": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "ALGERIA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "ALGIERS": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "MOROCCO": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "FES": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "MARRAKESH": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "AGADIR": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "TOSHBIM": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "DJERBA": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "BAVLIM": {
+        "sources": [
+          "torah-temimah",
+          "steinsaltz"
+        ],
+        "recordedFor": [
+          "SEFARD"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   },
   "EMOR": {
     "ASHKENAZ": [
@@ -5591,6 +8422,15 @@
         "toV": 31
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
     "ITALKI": [
       {
         "book": "Ezekiel",
@@ -5654,6 +8494,33 @@
         "toV": 31
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
     "MAGREB": [
       {
         "book": "Ezekiel",
@@ -5664,6 +8531,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Ezekiel",
         "fromCh": 44,
@@ -5691,6 +8567,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Ezekiel",
         "fromCh": 44,
@@ -5745,6 +8630,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 44,
+        "fromV": 15,
+        "toCh": 44,
+        "toV": 31
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Ezekiel",
         "fromCh": 44,
@@ -5764,6 +8658,15 @@
         "toV": 27
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 22
+      }
+    ],
     "ITALKI": [
       {
         "book": "Jeremiah",
@@ -5827,6 +8730,33 @@
         "toV": 22
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 27
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 27
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 27
+      }
+    ],
     "MAGREB": [
       {
         "book": "Jeremiah",
@@ -5837,6 +8767,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 27
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Jeremiah",
         "fromCh": 32,
@@ -5864,6 +8803,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 27
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Jeremiah",
         "fromCh": 32,
@@ -5925,7 +8873,24 @@
         "toCh": 17,
         "toV": 14
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 32,
+        "fromV": 6,
+        "toCh": 32,
+        "toV": 27
+      }
+    ],
+    "annotations": {
+      "POZNAN": {
+        "comment": "hamichlol gives Poznan the same ending as Chabad; the two are unrelated, they simply stop at the same verse. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "CHABAD": {
+        "comment": "hamichlol gives Poznan the same ending as Chabad; the two are unrelated, they simply stop at the same verse. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      }
+    }
   },
   "BECHUKOTAI": {
     "ASHKENAZ": [
@@ -5935,6 +8900,15 @@
         "fromV": 19,
         "toCh": 17,
         "toV": 14
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Ezekiel",
+        "fromCh": 34,
+        "fromV": 1,
+        "toCh": 34,
+        "toV": 15
       }
     ],
     "ITALKI": [
@@ -6000,6 +8974,33 @@
         "toV": 14
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 16,
+        "fromV": 19,
+        "toCh": 17,
+        "toV": 14
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 16,
+        "fromV": 19,
+        "toCh": 17,
+        "toV": 14
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 16,
+        "fromV": 19,
+        "toCh": 17,
+        "toV": 14
+      }
+    ],
     "MAGREB": [
       {
         "book": "Jeremiah",
@@ -6010,6 +9011,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 16,
+        "fromV": 19,
+        "toCh": 17,
+        "toV": 14
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Jeremiah",
         "fromCh": 16,
@@ -6037,6 +9047,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 16,
+        "fromV": 19,
+        "toCh": 17,
+        "toV": 14
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Jeremiah",
         "fromCh": 16,
@@ -6098,10 +9117,33 @@
         "toCh": 34,
         "toV": 27
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 16,
+        "fromV": 19,
+        "toCh": 17,
+        "toV": 14
+      }
+    ],
+    "annotations": {
+      "POZNAN": {
+        "comment": "Poznan per hamichlol, but unsettled: the Poznan minhagim book says they end at 'ne'um Hashem', which could be verse 15, 30 or 31, and the kuntres contradicts itself about whether they read this haftarah at all or the ordinary Ashkenaz one. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      }
+    }
   },
   "BAMIDBAR": {
     "ASHKENAZ": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Hosea",
         "fromCh": 2,
@@ -6173,6 +9215,33 @@
         "toV": 22
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
     "MAGREB": [
       {
         "book": "Hosea",
@@ -6183,6 +9252,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Hosea",
         "fromCh": 2,
@@ -6210,6 +9288,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Hosea",
         "fromCh": 2,
@@ -6264,6 +9351,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Hosea",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 22
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Hosea",
         "fromCh": 2,
@@ -6283,6 +9379,15 @@
         "toV": 25
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
+    ],
     "ITALKI": [
       {
         "book": "Judges",
@@ -6346,6 +9451,33 @@
         "toV": 25
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
+    ],
     "MAGREB": [
       {
         "book": "Judges",
@@ -6356,6 +9488,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Judges",
         "fromCh": 13,
@@ -6383,6 +9524,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Judges",
         "fromCh": 13,
@@ -6444,10 +9594,28 @@
         "toCh": 13,
         "toV": 24
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Judges",
+        "fromCh": 13,
+        "fromV": 2,
+        "toCh": 13,
+        "toV": 25
+      }
     ]
   },
   "BEHAALOTECHA": {
     "ASHKENAZ": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Zechariah",
         "fromCh": 2,
@@ -6519,6 +9687,33 @@
         "toV": 7
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
+    ],
     "MAGREB": [
       {
         "book": "Zechariah",
@@ -6529,6 +9724,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Zechariah",
         "fromCh": 2,
@@ -6556,6 +9760,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Zechariah",
         "fromCh": 2,
@@ -6617,6 +9830,15 @@
         "toCh": 4,
         "toV": 9
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Zechariah",
+        "fromCh": 2,
+        "fromV": 14,
+        "toCh": 4,
+        "toV": 7
+      }
     ]
   },
   "SHELACH": {
@@ -6629,6 +9851,15 @@
         "toV": 24
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
     "ITALKI": [
       {
         "book": "Joshua",
@@ -6692,6 +9923,33 @@
         "toV": 24
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
     "MAGREB": [
       {
         "book": "Joshua",
@@ -6702,6 +9960,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Joshua",
         "fromCh": 2,
@@ -6729,6 +9996,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Joshua",
         "fromCh": 2,
@@ -6783,6 +10059,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Joshua",
+        "fromCh": 2,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 24
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Joshua",
         "fromCh": 2,
@@ -6795,7 +10080,16 @@
   "KORACH": {
     "ASHKENAZ": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6804,7 +10098,7 @@
     ],
     "ITALKI": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6813,7 +10107,7 @@
     ],
     "FRANKFURT": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6822,7 +10116,7 @@
     ],
     "LITA": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6831,7 +10125,7 @@
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6840,7 +10134,7 @@
     ],
     "HAGRA": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6849,7 +10143,7 @@
     ],
     "SEFARD": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6858,7 +10152,34 @@
     ],
     "CHABAD": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Samuel I",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Samuel I",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6867,7 +10188,7 @@
     ],
     "MAGREB": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6876,7 +10197,16 @@
     ],
     "ALGERIA": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
+    "ALGIERS": [
+      {
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6885,7 +10215,7 @@
     ],
     "MOROCCO": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6894,7 +10224,7 @@
     ],
     "FES": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6903,7 +10233,16 @@
     ],
     "MARRAKESH": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
+    "AGADIR": [
+      {
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6912,7 +10251,7 @@
     ],
     "TOSHBIM": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6921,7 +10260,7 @@
     ],
     "DJERBA": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6930,7 +10269,7 @@
     ],
     "BAVLIM": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6939,7 +10278,7 @@
     ],
     "TEIMAN": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6948,7 +10287,7 @@
     ],
     "BALADI": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6957,7 +10296,16 @@
     ],
     "SHAMI": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
+        "fromCh": 11,
+        "fromV": 14,
+        "toCh": 12,
+        "toV": 22
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Samuel I",
         "fromCh": 11,
         "fromV": 14,
         "toCh": 12,
@@ -6975,6 +10323,15 @@
         "toV": 33
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 24
+      }
+    ],
     "ITALKI": [
       {
         "book": "Judges",
@@ -7038,6 +10395,33 @@
         "toV": 33
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 33
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 33
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 33
+      }
+    ],
     "MAGREB": [
       {
         "book": "Judges",
@@ -7048,6 +10432,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 33
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Judges",
         "fromCh": 11,
@@ -7075,6 +10468,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 33
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Judges",
         "fromCh": 11,
@@ -7136,7 +10538,24 @@
         "toCh": 11,
         "toV": 40
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Judges",
+        "fromCh": 11,
+        "fromV": 1,
+        "toCh": 11,
+        "toV": 33
+      }
+    ],
+    "annotations": {
+      "POZNAN": {
+        "sources": [
+          "michlol",
+          "poznan-pinkas"
+        ]
+      }
+    }
   },
   "BALAK": {
     "ASHKENAZ": [
@@ -7148,6 +10567,15 @@
         "toV": 8
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
     "ITALKI": [
       {
         "book": "Micah",
@@ -7211,6 +10639,33 @@
         "toV": 8
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
     "MAGREB": [
       {
         "book": "Micah",
@@ -7221,6 +10676,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Micah",
         "fromCh": 5,
@@ -7248,6 +10712,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Micah",
         "fromCh": 5,
@@ -7302,6 +10775,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Micah",
+        "fromCh": 5,
+        "fromV": 6,
+        "toCh": 6,
+        "toV": 8
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Micah",
         "fromCh": 5,
@@ -7314,7 +10796,16 @@
   "PINCHAS": {
     "ASHKENAZ": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7323,7 +10814,7 @@
     ],
     "ITALKI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7332,7 +10823,7 @@
     ],
     "FRANKFURT": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7341,7 +10832,7 @@
     ],
     "LITA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7350,7 +10841,7 @@
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7359,7 +10850,7 @@
     ],
     "HAGRA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7368,7 +10859,7 @@
     ],
     "SEFARD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7377,7 +10868,34 @@
     ],
     "CHABAD": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
+    ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Kings I",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Kings I",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7386,7 +10904,7 @@
     ],
     "MAGREB": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7395,7 +10913,16 @@
     ],
     "ALGERIA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
+    ],
+    "ALGIERS": [
+      {
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7404,7 +10931,7 @@
     ],
     "MOROCCO": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7413,7 +10940,7 @@
     ],
     "FES": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7422,7 +10949,16 @@
     ],
     "MARRAKESH": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
+    ],
+    "AGADIR": [
+      {
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7431,7 +10967,7 @@
     ],
     "TOSHBIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7440,7 +10976,7 @@
     ],
     "DJERBA": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7449,7 +10985,7 @@
     ],
     "BAVLIM": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7458,7 +10994,7 @@
     ],
     "TEIMAN": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7467,7 +11003,7 @@
     ],
     "BALADI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7476,7 +11012,16 @@
     ],
     "SHAMI": [
       {
-        "book": "I Kings",
+        "book": "Kings I",
+        "fromCh": 18,
+        "fromV": 46,
+        "toCh": 19,
+        "toV": 21
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Kings I",
         "fromCh": 18,
         "fromV": 46,
         "toCh": 19,
@@ -7486,6 +11031,15 @@
   },
   "MATOT": {
     "ASHKENAZ": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Jeremiah",
         "fromCh": 1,
@@ -7557,6 +11111,33 @@
         "toV": 3
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
+    ],
     "MAGREB": [
       {
         "book": "Jeremiah",
@@ -7567,6 +11148,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Jeremiah",
         "fromCh": 1,
@@ -7594,6 +11184,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Jeremiah",
         "fromCh": 1,
@@ -7655,10 +11254,35 @@
         "toCh": 1,
         "toV": 19
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 2,
+        "toV": 3
+      }
     ]
   },
   "MASEI": {
     "ASHKENAZ": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 3,
+        "fromV": 4,
+        "toCh": 3,
+        "toV": 4
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Jeremiah",
         "fromCh": 2,
@@ -7779,6 +11403,54 @@
         "toV": 2
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 2
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 2
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 2
+      }
+    ],
     "MAGREB": [
       {
         "book": "Jeremiah",
@@ -7796,6 +11468,22 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 2
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Jeremiah",
         "fromCh": 2,
@@ -7844,6 +11532,22 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 2
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Jeremiah",
         "fromCh": 2,
@@ -7940,10 +11644,193 @@
         "toCh": 4,
         "toV": 2
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Jeremiah",
+        "fromCh": 2,
+        "fromV": 4,
+        "toCh": 2,
+        "toV": 28
+      },
+      {
+        "book": "Jeremiah",
+        "fromCh": 4,
+        "fromV": 1,
+        "toCh": 4,
+        "toV": 2
+      }
+    ],
+    "annotations": {
+      "SEFARD": {
+        "sources": [
+          "michlol"
+        ]
+      },
+      "CHABAD": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "PURE_SEPHARDIM": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "PERSIA": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "LIBYA": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "MAGREB": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "ALGERIA": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "ALGIERS": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "MOROCCO": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "FES": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "MARRAKESH": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "AGADIR": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "TOSHBIM": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "DJERBA": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "BAVLIM": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD",
+          "SHAMI"
+        ]
+      },
+      "SHAMI": {
+        "sources": [
+          "michlol"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ],
+        "comment": "hamichlol gives Romania the same reading as Sefard here."
+      }
+    }
   },
   "DEVARIM": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 1,
@@ -8015,6 +11902,33 @@
         "toV": 27
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -8025,6 +11939,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 1,
@@ -8052,6 +11975,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 1,
@@ -8113,10 +12045,28 @@
         "toCh": 1,
         "toV": 31
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 27
+      }
     ]
   },
   "VAETCHANAN": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 40,
@@ -8188,6 +12138,33 @@
         "toV": 26
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -8198,6 +12175,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 40,
@@ -8225,6 +12211,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 40,
@@ -8273,7 +12268,7 @@
         "fromCh": 41,
         "fromV": 17,
         "toCh": 41,
-        "toV": 29
+        "toV": 17
       }
     ],
     "BALADI": [
@@ -8289,7 +12284,7 @@
         "fromCh": 41,
         "fromV": 17,
         "toCh": 41,
-        "toV": 29
+        "toV": 17
       }
     ],
     "SHAMI": [
@@ -8305,12 +12300,30 @@
         "fromCh": 41,
         "fromV": 17,
         "toCh": 41,
-        "toV": 29
+        "toV": 17
+      }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 40,
+        "fromV": 1,
+        "toCh": 40,
+        "toV": 26
       }
     ]
   },
   "EIKEV": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 49,
@@ -8382,6 +12395,33 @@
         "toV": 3
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -8392,6 +12432,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 49,
@@ -8419,6 +12468,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 49,
@@ -8473,6 +12531,15 @@
       }
     ],
     "SHAMI": [
+      {
+        "book": "Isaiah",
+        "fromCh": 49,
+        "fromV": 14,
+        "toCh": 51,
+        "toV": 3
+      }
+    ],
+    "ROMANIA": [
       {
         "book": "Isaiah",
         "fromCh": 49,
@@ -8492,6 +12559,15 @@
         "toV": 5
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
     "ITALKI": [
       {
         "book": "Isaiah",
@@ -8555,6 +12631,33 @@
         "toV": 5
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -8565,6 +12668,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -8592,6 +12704,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -8653,6 +12774,15 @@
         "toCh": 55,
         "toV": 5
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 11,
+        "toCh": 55,
+        "toV": 5
+      }
     ]
   },
   "SHOFTIM": {
@@ -8665,9 +12795,18 @@
         "toV": 12
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
+    ],
     "ITALKI": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 17,
         "fromV": 1,
         "toCh": 17,
@@ -8728,6 +12867,33 @@
         "toV": 12
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -8738,6 +12904,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 51,
@@ -8765,6 +12940,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 51,
@@ -8826,6 +13010,15 @@
         "toCh": 52,
         "toV": 12
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 51,
+        "fromV": 12,
+        "toCh": 52,
+        "toV": 12
+      }
     ]
   },
   "KI_TEITZEI": {
@@ -8838,9 +13031,18 @@
         "toV": 10
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
     "ITALKI": [
       {
-        "book": "I Samuel",
+        "book": "Samuel I",
         "fromCh": 8,
         "fromV": 1,
         "toCh": 8,
@@ -8901,6 +13103,33 @@
         "toV": 10
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -8911,6 +13140,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -8938,6 +13176,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 54,
@@ -8999,10 +13246,28 @@
         "toCh": 54,
         "toV": 10
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 54,
+        "fromV": 1,
+        "toCh": 54,
+        "toV": 10
+      }
     ]
   },
   "KI_TAVO": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 60,
@@ -9074,6 +13339,33 @@
         "toV": 22
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -9084,6 +13376,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 60,
@@ -9111,6 +13412,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 60,
@@ -9172,10 +13482,28 @@
         "toCh": 60,
         "toV": 22
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 60,
+        "fromV": 1,
+        "toCh": 60,
+        "toV": 22
+      }
     ]
   },
   "NITZAVIM": {
     "ASHKENAZ": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
+    ],
+    "POZNAN": [
       {
         "book": "Isaiah",
         "fromCh": 61,
@@ -9247,6 +13575,33 @@
         "toV": 9
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
+    ],
     "MAGREB": [
       {
         "book": "Isaiah",
@@ -9257,6 +13612,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Isaiah",
         "fromCh": 61,
@@ -9284,6 +13648,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Isaiah",
         "fromCh": 61,
@@ -9345,6 +13718,15 @@
         "toCh": 63,
         "toV": 9
       }
+    ],
+    "ROMANIA": [
+      {
+        "book": "Isaiah",
+        "fromCh": 61,
+        "fromV": 10,
+        "toCh": 63,
+        "toV": 9
+      }
     ]
   },
   "VAYEILECH": {
@@ -9359,9 +13741,18 @@
       {
         "book": "Joel",
         "fromCh": 2,
-        "fromV": 11,
+        "fromV": 15,
         "toCh": 2,
         "toV": 27
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Isaiah",
+        "fromCh": 55,
+        "fromV": 6,
+        "toCh": 56,
+        "toV": 8
       }
     ],
     "ITALKI": [
@@ -9384,7 +13775,7 @@
       {
         "book": "Joel",
         "fromCh": 2,
-        "fromV": 11,
+        "fromV": 15,
         "toCh": 2,
         "toV": 27
       }
@@ -9400,7 +13791,7 @@
       {
         "book": "Joel",
         "fromCh": 2,
-        "fromV": 11,
+        "fromV": 15,
         "toCh": 2,
         "toV": 27
       }
@@ -9416,7 +13807,7 @@
       {
         "book": "Joel",
         "fromCh": 2,
-        "fromV": 11,
+        "fromV": 15,
         "toCh": 2,
         "toV": 27
       }
@@ -9432,7 +13823,7 @@
       {
         "book": "Joel",
         "fromCh": 2,
-        "fromV": 11,
+        "fromV": 15,
         "toCh": 2,
         "toV": 27
       }
@@ -9469,6 +13860,54 @@
         "toV": 20
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Micah",
+        "fromCh": 7,
+        "fromV": 18,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Micah",
+        "fromCh": 7,
+        "fromV": 18,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Micah",
+        "fromCh": 7,
+        "fromV": 18,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
     "MAGREB": [
       {
         "book": "Hosea",
@@ -9486,6 +13925,22 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Micah",
+        "fromCh": 7,
+        "fromV": 18,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Hosea",
         "fromCh": 14,
@@ -9534,6 +13989,22 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Micah",
+        "fromCh": 7,
+        "fromV": 18,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Hosea",
         "fromCh": 14,
@@ -9623,16 +14094,263 @@
         "toCh": 14,
         "toV": 10
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Micah",
+        "fromCh": 7,
+        "fromV": 18,
+        "toCh": 7,
+        "toV": 20
+      }
+    ],
+    "annotations": {
+      "ASHKENAZ": {
+        "sources": [
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages."
+      },
+      "POZNAN": {
+        "comment": "Poznan per the first practice in kuntres Poznan, which reads Dirshu on Shabbos Shuvah; its second practice reads Shuva like the rest of Ashkenaz. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+      },
+      "FRANKFURT": {
+        "sources": [
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.",
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "LITA": {
+        "sources": [
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.",
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "CHAYEY_ODOM": {
+        "sources": [
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.",
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "HAGRA": {
+        "sources": [
+          "michlol",
+          "torat-chaim",
+          "steinsaltz"
+        ],
+        "comment": "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.",
+        "recordedFor": [
+          "ASHKENAZ"
+        ]
+      },
+      "SEFARD": {
+        "sources": [
+          "michlol"
+        ]
+      },
+      "CHABAD": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "PURE_SEPHARDIM": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "PERSIA": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "LIBYA": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "MAGREB": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "ALGERIA": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "ALGIERS": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "MOROCCO": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "FES": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "MARRAKESH": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "AGADIR": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "TOSHBIM": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "DJERBA": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "BAVLIM": {
+        "sources": [
+          "michlol"
+        ],
+        "recordedFor": [
+          "ROMANIA",
+          "SEFARD"
+        ]
+      },
+      "TEIMAN": {
+        "sources": [
+          "torat-chaim"
+        ]
+      },
+      "BALADI": {
+        "sources": [
+          "torat-chaim"
+        ],
+        "recordedFor": [
+          "TEIMAN"
+        ]
+      },
+      "SHAMI": {
+        "sources": [
+          "torat-chaim"
+        ],
+        "recordedFor": [
+          "TEIMAN"
+        ]
+      },
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ],
+        "comment": "hamichlol gives Romania the same reading as Sefard here."
+      }
+    }
   },
   "HAAZINU": {
     "ASHKENAZ": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
         "toV": 51
+      }
+    ],
+    "POZNAN": [
+      {
+        "book": "Hosea",
+        "fromCh": 14,
+        "fromV": 2,
+        "toCh": 14,
+        "toV": 10
+      },
+      {
+        "book": "Joel",
+        "fromCh": 2,
+        "fromV": 15,
+        "toCh": 2,
+        "toV": 27
       }
     ],
     "ITALKI": [
@@ -9646,7 +14364,7 @@
     ],
     "FRANKFURT": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
@@ -9655,7 +14373,7 @@
     ],
     "LITA": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
@@ -9664,7 +14382,7 @@
     ],
     "CHAYEY_ODOM": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
@@ -9673,7 +14391,7 @@
     ],
     "HAGRA": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
@@ -9682,7 +14400,7 @@
     ],
     "SEFARD": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
@@ -9691,7 +14409,34 @@
     ],
     "CHABAD": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 51
+      }
+    ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Samuel II",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 51
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Samuel II",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 51
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
@@ -9700,7 +14445,7 @@
     ],
     "MAGREB": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
@@ -9709,7 +14454,16 @@
     ],
     "ALGERIA": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 51
+      }
+    ],
+    "ALGIERS": [
+      {
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
@@ -9718,7 +14472,7 @@
     ],
     "MOROCCO": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
@@ -9727,7 +14481,7 @@
     ],
     "FES": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
@@ -9736,7 +14490,16 @@
     ],
     "MARRAKESH": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 51
+      }
+    ],
+    "AGADIR": [
+      {
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
@@ -9745,7 +14508,7 @@
     ],
     "TOSHBIM": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
@@ -9754,7 +14517,7 @@
     ],
     "DJERBA": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
@@ -9763,7 +14526,7 @@
     ],
     "BAVLIM": [
       {
-        "book": "II Samuel",
+        "book": "Samuel II",
         "fromCh": 22,
         "fromV": 1,
         "toCh": 22,
@@ -9796,7 +14559,25 @@
         "toCh": 18,
         "toV": 32
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Samuel II",
+        "fromCh": 22,
+        "fromV": 1,
+        "toCh": 22,
+        "toV": 51
+      }
+    ],
+    "annotations": {
+      "POZNAN": {
+        "sources": [
+          "michlol",
+          "poznan-pinkas"
+        ],
+        "comment": "Poznan reads Shuva here, on the Shabbos between Yom Kippur and Succos, having read Dirshu on Shabbos Shuvah -- the first of the two practices in kuntres Poznan. Its second practice reads Vaydaber David like the rest of Ashkenaz."
+      }
+    }
   },
   "VEZOT_HABRACHA": {
     "ASHKENAZ": [
@@ -9808,6 +14589,15 @@
         "toV": 18
       }
     ],
+    "POZNAN": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 18
+      }
+    ],
     "ITALKI": [
       {
         "book": "Joshua",
@@ -9871,6 +14661,33 @@
         "toV": 18
       }
     ],
+    "PURE_SEPHARDIM": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 9
+      }
+    ],
+    "PERSIA": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 9
+      }
+    ],
+    "LIBYA": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 9
+      }
+    ],
     "MAGREB": [
       {
         "book": "Joshua",
@@ -9881,6 +14698,15 @@
       }
     ],
     "ALGERIA": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 9
+      }
+    ],
+    "ALGIERS": [
       {
         "book": "Joshua",
         "fromCh": 1,
@@ -9908,6 +14734,15 @@
       }
     ],
     "MARRAKESH": [
+      {
+        "book": "Joshua",
+        "fromCh": 1,
+        "fromV": 1,
+        "toCh": 1,
+        "toV": 9
+      }
+    ],
+    "AGADIR": [
       {
         "book": "Joshua",
         "fromCh": 1,
@@ -9990,6 +14825,22 @@
         "toCh": 6,
         "toV": 27
       }
-    ]
+    ],
+    "ROMANIA": [
+      {
+        "book": "Kings I",
+        "fromCh": 8,
+        "fromV": 22,
+        "toCh": 8,
+        "toV": 34
+      }
+    ],
+    "annotations": {
+      "ROMANIA": {
+        "sources": [
+          "michlol"
+        ]
+      }
+    }
   }
 }

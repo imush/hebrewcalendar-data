@@ -6,6 +6,13 @@
     "ru": "Ашкеназский",
     "fr": "Ashkénaze"
   },
+  "POZNAN": {
+    "parent": "ASHKENAZ",
+    "en": "Poznan",
+    "he": "פוזנא",
+    "ru": "Познанский",
+    "fr": "Poznanien"
+  },
   "ITALKI": {
     "parent": "ASHKENAZ",
     "en": "Italki",
@@ -55,6 +62,27 @@
     "ru": "Хабад",
     "fr": "Habad"
   },
+  "PURE_SEPHARDIM": {
+    "parent": "SEFARD",
+    "en": "Pure Sephardim",
+    "he": "ספרדים טהורים",
+    "ru": "Чистые сефарды",
+    "fr": "Séfarades purs"
+  },
+  "PERSIA": {
+    "parent": "SEFARD",
+    "en": "Persia",
+    "he": "פרס ובוכרה",
+    "ru": "Персия и Бухара",
+    "fr": "Perse et Boukhara"
+  },
+  "LIBYA": {
+    "parent": "SEFARD",
+    "en": "Libya",
+    "he": "לוב",
+    "ru": "Ливийский",
+    "fr": "Libyen"
+  },
   "MAGREB": {
     "parent": "SEFARD",
     "en": "Magreb",
@@ -68,6 +96,13 @@
     "he": "אלגיר",
     "ru": "Алжирский",
     "fr": "Algérien"
+  },
+  "ALGIERS": {
+    "parent": "ALGERIA",
+    "en": "Algiers",
+    "he": "אלג׳יר",
+    "ru": "Алжир (город)",
+    "fr": "Alger (ville)"
   },
   "MOROCCO": {
     "parent": "MAGREB",
@@ -89,6 +124,13 @@
     "he": "מראכש",
     "ru": "Марракеш",
     "fr": "Marrakech"
+  },
+  "AGADIR": {
+    "parent": "MOROCCO",
+    "en": "Agadir",
+    "he": "אגדיר",
+    "ru": "Агадир",
+    "fr": "Agadir"
   },
   "TOSHBIM": {
     "parent": "MAGREB",
@@ -131,5 +173,12 @@
     "he": "שאמי",
     "ru": "Шами",
     "fr": "Chami"
+  },
+  "ROMANIA": {
+    "parent": null,
+    "en": "Romania",
+    "he": "רומניא",
+    "ru": "Румыния (нусах романия)",
+    "fr": "Romaniote"
   }
 }

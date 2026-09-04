@@ -1,50 +1,81 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Haftarot per parsha × custom",
-  "type": "object",
-  "patternProperties": {
-    "^[A-Z][A-Z_]+$": {
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Haftarot per parsha × custom",
+ "type": "object",
+ "patternProperties": {
+  "^[A-Z][A-Z_]+$": {
+   "type": "object",
+   "patternProperties": {
+    "^(CUSTOMS)$": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
       "type": "object",
-      "patternProperties": {
-        "^(ASHKENAZ|ITALKI|FRANKFURT|LITA|CHAYEY_ODOM|HAGRA|SEFARD|CHABAD|MAGREB|ALGERIA|MOROCCO|FES|MARRAKESH|TOSHBIM|DJERBA|BAVLIM|TEIMAN|BALADI|SHAMI)$": {
-          "type": "array",
-          "minItems": 1,
-          "items": {
-            "type": "object",
-            "additionalProperties": false,
-            "required": [
-              "book",
-              "fromCh",
-              "fromV",
-              "toCh",
-              "toV"
-            ],
-            "properties": {
-              "book": {
-                "type": "string"
-              },
-              "fromCh": {
-                "type": "integer",
-                "minimum": 1
-              },
-              "fromV": {
-                "type": "integer",
-                "minimum": 1
-              },
-              "toCh": {
-                "type": "integer",
-                "minimum": 1
-              },
-              "toV": {
-                "type": "integer",
-                "minimum": 1
-              }
-            }
-          }
-        }
-      },
-      "additionalProperties": false
+      "additionalProperties": false,
+      "required": [
+       "book",
+       "fromCh",
+       "fromV",
+       "toCh",
+       "toV"
+      ],
+      "properties": {
+       "book": {
+        "type": "string"
+       },
+       "fromCh": {
+        "type": "integer",
+        "minimum": 1
+       },
+       "fromV": {
+        "type": "integer",
+        "minimum": 1
+       },
+       "toCh": {
+        "type": "integer",
+        "minimum": 1
+       },
+       "toV": {
+        "type": "integer",
+        "minimum": 1
+       }
+      }
+     }
     }
-  },
-  "additionalProperties": false
+   },
+   "properties": {
+    "annotations": {
+     "type": "object",
+     "description": "Why this parsha's reading is what it is, per custom: the works it is attested in and any remark recorded beside it. A custom that inherits its reading inherits the note with it. Display material -- nothing computes from it.",
+     "patternProperties": {
+      "^(CUSTOMS)$": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "sources": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "comment": {
+         "type": "string"
+        },
+        "recordedFor": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         },
+         "description": "The customs the entry carrying this note names, present only when this custom is not among them -- it inherits the reading and the note with it, and the remark is about them rather than about it."
+        }
+       }
+      }
+     },
+     "additionalProperties": false
+    }
+   },
+   "additionalProperties": false
+  }
+ },
+ "additionalProperties": false
 }

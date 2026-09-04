@@ -121,14 +121,49 @@ def emit_zman() -> str:
 
 
 def emit_custom() -> str:
-    return emit_translated_enum(
+    """Custom, with the inheritance tree.
+
+    The haftarah tables are resolved at data-gen time, so every entry covers
+    every custom and no consumer needs the tree for them. The Torah aliyot are
+    not: opentorah gives Masei a division for Ashkenaz and three parshiyos one
+    for Chabad, and which customs those cover is the tree's answer.
+    """
+    customs = load("names/customs.json")
+    src = emit_translated_enum(
         "Custom", "names/customs.json",
-        "The 18 minhagim the haftarah tables distinguish (opentorah's "
-        "Custom.xml minus the abstract 'Common' root). Fallback resolution "
-        "(Chabad → Sefard → Common, etc.) is done at data-gen time; every "
-        "entry in Haftarot.ALL covers all 18 customs. Aliyot expose only a "
-        "Chabad/Common split — see ChumashAliyot.aliyotFor."
+        "The minhagim the readings distinguish (opentorah's Custom.xml minus "
+        "the abstract 'Common' root). Haftarot are resolved per custom at "
+        "data-gen time; the Torah aliyot are not, and use the tree below."
     )
+    lines = src.rstrip("\n").split("\n")
+    assert lines[-1] == "}", "expected the enum to end with a brace"
+    body = lines[:-1]
+    body.append("")
+    body.append("    private static final Map<Custom, Custom> PARENTS;")
+    body.append("    static {")
+    body.append("        Map<Custom, Custom> p = new EnumMap<>(Custom.class);")
+    for key, entry in customs.items():
+        if entry.get("parent"):
+            body.append(f"        p.put({key}, {entry['parent']});")
+    body.append("        PARENTS = java.util.Collections.unmodifiableMap(p);")
+    body.append("    }")
+    body.append("")
+    body.append("    /** The custom this one falls back on, or null at the root. */")
+    body.append("    public Custom parent() { return PARENTS.get(this); }")
+    body.append("")
+    body.append("    /** Is this that custom, or one that inherits from it? */")
+    body.append("    public boolean isUnder(Custom ancestor) {")
+    body.append("        for (Custom c = this; c != null; c = c.parent())")
+    body.append("            if (c == ancestor) return true;")
+    body.append("        return false;")
+    body.append("    }")
+    body.append("}")
+    out = "\n".join(body) + "\n"
+    # the enum is emitted without imports; the tree needs two
+    out = out.replace("package net.hebrewcalendar.data;",
+                      "package net.hebrewcalendar.data;\n\n"
+                      "import java.util.EnumMap;\nimport java.util.Map;", 1)
+    return out
 
 
 def emit_special_haftarot() -> str:
@@ -155,7 +190,8 @@ def emit_special_haftarot() -> str:
     lines.append("    static {")
     lines.append("        Map<String, Map<Custom, List<Haftarot.Reference>>> all = new HashMap<>();")
     for occ, variants in data.items():
-        for variant, by_custom in variants.items():
+        for variant, entry in variants.items():
+            by_custom = entry["readings"]
             key = f"{occ}_{variant}"
             lines.append(f"        {{  Map<Custom, List<Haftarot.Reference>> m = new EnumMap<>(Custom.class);")
             for cname, refs in by_custom.items():
@@ -178,8 +214,61 @@ def emit_special_haftarot() -> str:
     return "\n".join(lines) + "\n"
 
 
+def emit_special_torah() -> str:
+    """SpecialTorah: the Torah readings of the special days, as aliyah fragments.
+
+    The fragments are what the divisions are built from -- Rosh Chodesh joins
+    them one way for most customs and another for Hagra, Chanukah indexes them
+    by day -- so this exposes the fragments and leaves the joining to the code
+    that knows the rules.
+    """
+    data = load("schedules/special_torah.json")
+    lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", "",
+             "import java.util.HashMap;",
+             "import java.util.List;",
+             "import java.util.Map;",
+             ""]
+    lines.append("/** Torah readings of the special days, from opentorah SpecialReadings.xml.")
+    lines.append(" *  Keyed by \"Occasion_readingName\", e.g. \"RoshChodesh_torah\". */")
+    lines.append("public final class SpecialTorah {")
+    lines.append("    private SpecialTorah() {}")
+    lines.append("")
+    lines.append("    /** A span of Chumash: one aliyah fragment, or a whole maftir. */")
+    lines.append("    public static final class Span {")
+    lines.append("        public final String book;")
+    lines.append("        public final int fromCh, fromV, toCh, toV;")
+    lines.append("        Span(String book, int fromCh, int fromV, int toCh, int toV) {")
+    lines.append("            this.book = book;")
+    lines.append("            this.fromCh = fromCh; this.fromV = fromV;")
+    lines.append("            this.toCh   = toCh;   this.toV   = toV;")
+    lines.append("        }")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    private static final Map<String, List<Span>> ALL;")
+    lines.append("    static {")
+    lines.append("        Map<String, List<Span>> all = new HashMap<>();")
+    for occ, readings in data.items():
+        for name, entry in readings.items():
+            key = f"{occ}_{name}"
+            refs = entry["fragments"] if entry["kind"] == "torah" else [entry["ref"]]
+            joined = ", ".join(
+                f"new Span({java_str(r['book'])}, {r['fromCh']}, {r['fromV']}, {r['toCh']}, {r['toV']})"
+                for r in refs)
+            lines.append(f"        all.put({java_str(key)}, List.of({joined}));")
+    lines.append("        ALL = java.util.Collections.unmodifiableMap(all);")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    /** The fragments of the named reading, or null if there is none. */")
+    lines.append("    public static List<Span> forReading(String occasionAndName) {")
+    lines.append("        return ALL.get(occasionAndName);")
+    lines.append("    }")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
 def emit_haftarot() -> str:
     data = load("schedules/haftarot.json")
+    precedence = load("schedules/haftarah_precedence.json")
     lines = [JAVA_BANNER, "package net.hebrewcalendar.data;", "",
              "import java.util.EnumMap;",
              "import java.util.List;",
@@ -208,6 +297,9 @@ def emit_haftarot() -> str:
     for pkey, by_custom in data.items():
         lines.append(f"        {{  Map<Custom, List<Reference>> m = new EnumMap<>(Custom.class);")
         for cname, refs in by_custom.items():
+            # annotations sit beside the readings; ReadingNotes carries those
+            if cname == "annotations":
+                continue
             joined = ", ".join(
                 f"new Reference({java_str(r['book'])}, {r['fromCh']}, {r['fromV']}, {r['toCh']}, {r['toV']})"
                 for r in refs
@@ -221,6 +313,24 @@ def emit_haftarot() -> str:
     lines.append("    public static List<Reference> forParsha(Parsha p, Custom c) {")
     lines.append("        Map<Custom, List<Reference>> m = ALL.get(p);")
     lines.append("        return m == null ? null : m.get(c);")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    /** Customs for which this parsha's haftarah wins when it is the first of a")
+    lines.append("     *  combined week, instead of the second parsha's as combined weeks otherwise")
+    lines.append("     *  go. Nitzavim claims every custom; Acharei claims Chabad alone. */")
+    lines.append("    private static final Map<Parsha, java.util.Set<Custom>> PRECEDENCE_WHEN_COMBINED;")
+    lines.append("    static {")
+    lines.append("        Map<Parsha, java.util.Set<Custom>> p = new EnumMap<>(Parsha.class);")
+    for pkey, customs in sorted(precedence.items()):
+        joined = ", ".join(f"Custom.{c}" for c in customs)
+        lines.append(f"        p.put(Parsha.{pkey}, java.util.EnumSet.of({joined}));")
+    lines.append("        PRECEDENCE_WHEN_COMBINED = java.util.Collections.unmodifiableMap(p);")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    /** Does this parsha claim this custom's reading when it is combined with the next? */")
+    lines.append("    public static boolean takesPrecedenceWhenCombined(Parsha p, Custom c) {")
+    lines.append("        java.util.Set<Custom> claimed = PRECEDENCE_WHEN_COMBINED.get(p);")
+    lines.append("        return claimed != null && claimed.contains(c);")
     lines.append("    }")
     lines.append("}")
     return "\n".join(lines) + "\n"
@@ -582,15 +692,33 @@ def emit_chumash_aliyot() -> str:
     lines.append("        public final String[] aliyot;          // 7 Common (Ashkenaz) aliyot")
     lines.append("        /** Chabad aliyot; null when identical to `aliyot`. */")
     lines.append("        public final String[] aliyotChabad;")
+    lines.append("        /** Aliyot for the Ashkenaz branch; null when identical to `aliyot`. */")
+    lines.append("        public final String[] aliyotAshkenaz;")
+    lines.append("        /** The maftir: from where it begins to the end of the parsha.")
+    lines.append("         *  Null for combined readings, which take the second parsha's. */")
+    lines.append("        public final String maftir;")
+    lines.append("        /** The three aliyot of a Monday or a Thursday -- and of the")
+    lines.append("         *  Shabbos Mincha before them. They stop well short of the")
+    lines.append("         *  parsha's end, and every custom reads the same three. A joined")
+    lines.append("         *  week reads the first parsha's, as if the two were read apart. */")
+    lines.append("        public final String[] aliyotWeekday;")
     lines.append("        public Reading(String id, List<String> parshiyot, int book,")
-    lines.append("                       String[] aliyot, String[] aliyotChabad) {")
+    lines.append("                       String[] aliyot, String[] aliyotChabad,")
+    lines.append("                       String[] aliyotAshkenaz, String maftir,")
+    lines.append("                       String[] aliyotWeekday) {")
     lines.append("            this.id = id; this.parshiyot = parshiyot;")
     lines.append("            this.book = book; this.aliyot = aliyot;")
     lines.append("            this.aliyotChabad = aliyotChabad;")
+    lines.append("            this.aliyotAshkenaz = aliyotAshkenaz; this.maftir = maftir;")
+    lines.append("            this.aliyotWeekday = aliyotWeekday;")
     lines.append("        }")
-    lines.append("        /** Locale-aware aliyot picker: Chabad → chabad variant if present, else common. */")
+    lines.append("        /** The division this custom reads: the nearest of its ancestors that")
+    lines.append("         *  has one of its own, else the common division. opentorah gives")
+    lines.append("         *  Masei a division for Ashkenaz and three parshiyos one for Chabad. */")
     lines.append("        public String[] aliyotFor(Custom custom) {")
-    lines.append("            return (custom == Custom.CHABAD && aliyotChabad != null) ? aliyotChabad : aliyot;")
+    lines.append("            if (aliyotChabad != null && custom.isUnder(Custom.CHABAD)) return aliyotChabad;")
+    lines.append("            if (aliyotAshkenaz != null && custom.isUnder(Custom.ASHKENAZ)) return aliyotAshkenaz;")
+    lines.append("            return aliyot;")
     lines.append("        }")
     lines.append("    }")
     lines.append("")
@@ -606,10 +734,18 @@ def emit_chumash_aliyot() -> str:
             chabad_expr = f"new String[]{{ {chabad_str} }}"
         else:
             chabad_expr = "null"
+        if "aliyotAshkenaz" in r:
+            ashkenaz_str = ", ".join(java_str(a) for a in r["aliyotAshkenaz"])
+            ashkenaz_expr = f"new String[]{{ {ashkenaz_str} }}"
+        else:
+            ashkenaz_expr = "null"
+        weekday_str = ", ".join(java_str(a) for a in r["aliyotWeekday"])
         lines.append(
             f"        m.put({java_str(r['id'])}, new Reading({java_str(r['id'])}, "
             f"{parshiyot_expr}, {r['book']}, "
-            f"new String[]{{ {aliyot_str} }}, {chabad_expr}));"
+            f"new String[]{{ {aliyot_str} }}, {chabad_expr}, {ashkenaz_expr}, "
+            f"{java_str(r['maftir']) if r.get('maftir') else 'null'}, "
+            f"new String[]{{ {weekday_str} }}));"
         )
     lines.append("        READINGS = java.util.Collections.unmodifiableMap(m);")
     lines.append("    }")
@@ -632,6 +768,120 @@ def emit_year_cheshvan_kislev_type() -> str:
     return "\n".join(lines) + "\n"
 
 
+
+def emit_reading_notes() -> str:
+    """Why a reading is what it is: the works it is attested in, and the
+    remarks recorded beside it. Display material -- nothing computes from it."""
+    weekly  = load("schedules/haftarot.json")
+    special = load("schedules/special_haftarot.json")
+    sources = load("names/reading_sources.json")
+
+    lines = [BANNER, "package net.hebrewcalendar.data;", "",
+             "import java.util.HashMap;", "import java.util.List;", "import java.util.Map;", ""]
+    lines.append("/** Sources and comments recorded against the readings, for display. */")
+    lines.append("public final class ReadingNotes {")
+    lines.append("    private ReadingNotes() {}")
+    lines.append("")
+    lines.append("    /** A work a reading is attested in. */")
+    lines.append("    public static final class Source {")
+    lines.append("        public final String id, kind, en, he, ru, fr, where, url;")
+    lines.append("        Source(String id, String kind, String en, String he, String ru,")
+    lines.append("               String fr, String where, String url) {")
+    lines.append("            this.id = id; this.kind = kind; this.en = en; this.he = he;")
+    lines.append("            this.ru = ru; this.fr = fr; this.where = where; this.url = url;")
+    lines.append("        }")
+    lines.append("        public String name(String lang) {")
+    lines.append("            switch (lang) {")
+    lines.append("                case \"he\": return he;")
+    lines.append("                case \"ru\": return ru;")
+    lines.append("                case \"fr\": return fr;")
+    lines.append("                default:   return en;")
+    lines.append("            }")
+    lines.append("        }")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    /** What is recorded beside one custom's reading. */")
+    lines.append("    public static final class Note {")
+    lines.append("        public final List<String> sources;   // Source ids")
+    lines.append("        public final String comment;         // may be null")
+    lines.append("        /** The customs this note was recorded for, when they are not the")
+    lines.append("         *  one asking: it inherits the reading, and the note with it. */")
+    lines.append("        public final List<Custom> recordedFor;")
+    lines.append("        Note(List<String> sources, String comment, List<Custom> recordedFor) {")
+    lines.append("            this.sources = sources; this.comment = comment;")
+    lines.append("            this.recordedFor = recordedFor;")
+    lines.append("        }")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    private static final Map<String, Source> SOURCES;")
+    lines.append("    private static final Map<Parsha, Map<Custom, Note>> WEEKLY;")
+    lines.append("    private static final Map<String, Map<Custom, Note>> SPECIAL;")
+    lines.append("    static {")
+    lines.append("        Map<String, Source> s = new HashMap<>();")
+    for sid, r in sources.items():
+        lines.append("        s.put({}, new Source({}, {}, {}, {}, {}, {}, {}, {}));".format(
+            java_str(sid), java_str(sid), java_str(r.get("kind", "")),
+            java_str(r.get("en", "")), java_str(r.get("he", "")),
+            java_str(r.get("ru", "")), java_str(r.get("fr", "")),
+            java_str(r.get("where") or ""), java_str(r.get("url") or "")))
+    lines.append("        SOURCES = java.util.Collections.unmodifiableMap(s);")
+    lines.append("")
+
+    def note_expr(note):
+        srcs = note.get("sources", [])
+        src_expr = ("List.of(" + ", ".join(java_str(x) for x in srcs) + ")") if srcs else "List.of()"
+        rec = note.get("recordedFor") or []
+        rec_expr = ("List.of(" + ", ".join(f"Custom.{c}" for c in rec) + ")") if rec else "List.of()"
+        return "new Note({}, {}, {})".format(
+            src_expr, java_str(note["comment"]) if note.get("comment") else "null", rec_expr)
+
+    lines.append("        Map<Parsha, Map<Custom, Note>> w = new java.util.EnumMap<>(Parsha.class);")
+    for pkey, entry in weekly.items():
+        anns = entry.get("annotations") or {}
+        if not anns:
+            continue
+        lines.append("        {")
+        lines.append("            Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);")
+        for custom, note in anns.items():
+            lines.append(f"            m.put(Custom.{custom}, {note_expr(note)});")
+        lines.append(f"            w.put(Parsha.{pkey}, java.util.Collections.unmodifiableMap(m));")
+        lines.append("        }")
+    lines.append("        WEEKLY = java.util.Collections.unmodifiableMap(w);")
+    lines.append("")
+    lines.append("        Map<String, Map<Custom, Note>> p = new HashMap<>();")
+    for occ, readings in special.items():
+        if not isinstance(readings, dict):
+            continue
+        for name, e in readings.items():
+            anns = (e or {}).get("annotations") if isinstance(e, dict) else None
+            if not anns:
+                continue
+            lines.append("        {")
+            lines.append("            Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);")
+            for custom, note in anns.items():
+                lines.append(f"            m.put(Custom.{custom}, {note_expr(note)});")
+            lines.append(f"            p.put({java_str(occ + '_' + name)}, java.util.Collections.unmodifiableMap(m));")
+            lines.append("        }")
+    lines.append("        SPECIAL = java.util.Collections.unmodifiableMap(p);")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    public static Source source(String id) { return SOURCES.get(id); }")
+    lines.append("")
+    lines.append("    /** The note against this custom's weekly haftarah, or null. */")
+    lines.append("    public static Note weekly(Parsha parsha, Custom custom) {")
+    lines.append("        Map<Custom, Note> m = WEEKLY.get(parsha);")
+    lines.append("        return m == null ? null : m.get(custom);")
+    lines.append("    }")
+    lines.append("")
+    lines.append("    /** The note against this custom's reading on a special day, or null. */")
+    lines.append("    public static Note special(String occasionAndName, Custom custom) {")
+    lines.append("        Map<Custom, Note> m = SPECIAL.get(occasionAndName);")
+    lines.append("        return m == null ? null : m.get(custom);")
+    lines.append("    }")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
 def main():
     JAVA_DIR.mkdir(parents=True, exist_ok=True)
     (JAVA_DIR / "Parsha.java").write_text(emit_parsha(), encoding="utf-8")
@@ -650,6 +900,8 @@ def main():
     (JAVA_DIR / "Custom.java").write_text(emit_custom(), encoding="utf-8")
     (JAVA_DIR / "Haftarot.java").write_text(emit_haftarot(), encoding="utf-8")
     (JAVA_DIR / "SpecialHaftarot.java").write_text(emit_special_haftarot(), encoding="utf-8")
+    (JAVA_DIR / "SpecialTorah.java").write_text(emit_special_torah(), encoding="utf-8")
+    (JAVA_DIR / "ReadingNotes.java").write_text(emit_reading_notes(), encoding="utf-8")
     print(f"OK  java  → {JAVA_DIR.relative_to(ROOT)}")
 
 
