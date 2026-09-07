@@ -127,13 +127,12 @@ def emit_source() -> str:
 
 # ── Haftarot tables ────────────────────────────────────────────────
 
-# Custom order matches Java/Dart. Ashkenaz cluster, then Sefard, then Teiman.
-CUSTOMS = [
-    "ASHKENAZ", "ITALKI", "FRANKFURT", "LITA", "CHAYEY_ODOM", "HAGRA",
-    "SEFARD",   "CHABAD", "MAGREB",    "ALGERIA","MOROCCO",    "FES",
-    "MARRAKESH",
-    "TOSHBIM",  "DJERBA", "BAVLIM",    "TEIMAN", "BALADI",     "SHAMI",
-]
+# From names/customs.json, in its order, which is the tree walked down --
+# Ashkenaz and what hangs off it, then Sefard, then Romania. Listing them here
+# instead is how the C library came to be missing seven of them: the file grew
+# to 26 in the re-import and this copy stayed at 19, so Poznan, Romania,
+# Persia, Libya, Algiers, Agadir and Pure Sephardim had no data at all.
+CUSTOMS = list(load("names/customs.json"))
 
 def _book_enum(en_name: str) -> str:
     # "II Kings" → HC_BOOK_II_KINGS
@@ -306,12 +305,150 @@ def emit_haftarot_source() -> str:
     return "\n".join(lines)
 
 
+
+# ── Torah readings ─────────────────────────────────────────────────
+
+def _st_enum(occasion: str, name: str) -> str:
+    """"RoshChodesh", "torah" -> HC_ST_ROSH_CHODESH_TORAH."""
+    import re as _re
+    def snake(x):
+        return _re.sub(r"(?<=[a-z0-9])(?=[A-Z])", "_", x).upper()
+    return "HC_ST_" + snake(occasion) + "_" + snake(name)
+
+
+def _span_row(r) -> str:
+    return "{ %s, %d, %d, %d, %d }" % (
+        _book_enum(r["book"]), r["fromCh"], r["fromV"], r["toCh"], r["toV"])
+
+
+def _range_span(book: str, rng: str) -> str:
+    """"1:1-2:3" in a named book -> a span literal."""
+    a, b = rng.split("-")
+    fc, fv = (int(x) for x in a.split(":"))
+    tc, tv = (int(x) for x in b.split(":"))
+    return "{ %s, %d, %d, %d, %d }" % (_book_enum(book), fc, fv, tc, tv)
+
+
+CHUMASH_BOOKS = ["", "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy"]
+
+
+def emit_torah_header() -> str:
+    special = load("schedules/special_torah.json")
+    lines = [C_BANNER, "#ifndef HC_GENERATED_TORAH_DATA_H_", "#define HC_GENERATED_TORAH_DATA_H_", "",
+             '#include "parshiot.h"', '#include "haftarot_data.h"', "#include <stdint.h>", ""]
+    lines.append("/* One span of Chumash: an aliyah, a fragment of one, or a maftir. */")
+    lines.append("typedef hc_haftarah_ref hc_torah_span;")
+    lines.append("")
+    lines.append("/* The readings of one week: the seven aliyot of the Shabbat, the divisions")
+    lines.append(" * Chabad and Ashkenaz make where they differ (NULL where they do not), the")
+    lines.append(" * three of a Monday, a Thursday and Shabbat Mincha, and the maftir. */")
+    lines.append("typedef struct {")
+    lines.append("    uint8_t parsha1, parsha2;        /* hc_parsha; parsha2 is 0 unless joined */")
+    lines.append("    const hc_torah_span *aliyot;             /* 7 */")
+    lines.append("    const hc_torah_span *aliyot_chabad;      /* 7, or NULL */")
+    lines.append("    const hc_torah_span *aliyot_ashkenaz;    /* 7, or NULL */")
+    lines.append("    const hc_torah_span *weekday;            /* 3 */")
+    lines.append("    hc_torah_span maftir;                    /* book HC_BOOK_NONE if none */")
+    lines.append("} hc_chumash_reading;")
+    lines.append("")
+    lines.append("extern const hc_chumash_reading HC_CHUMASH[];")
+    lines.append("extern const int HC_CHUMASH_COUNT;")
+    lines.append("")
+    lines.append("/* The week read for these parshiyot, or NULL. parsha2 is HC_PARSHA_NONE")
+    lines.append(" * for a single week. */")
+    lines.append("const hc_chumash_reading *hc_chumash_lookup(hc_parsha p1, hc_parsha p2);")
+    lines.append("")
+    lines.append("/* The readings of the special days, by occasion and name. A torah entry is")
+    lines.append(" * a list of fragments the divisions are built from; a maftir is one span. */")
+    lines.append("typedef enum hc_special_torah {")
+    for occ, readings in special.items():
+        for name in readings:
+            lines.append(f"    {_st_enum(occ, name)},")
+    lines.append("    HC_ST_COUNT")
+    lines.append("} hc_special_torah;")
+    lines.append("")
+    lines.append("extern const hc_torah_span *const HC_SPECIAL_TORAH[HC_ST_COUNT];")
+    lines.append("extern const uint8_t HC_SPECIAL_TORAH_LEN[HC_ST_COUNT];")
+    lines.append("")
+    lines.append("#endif /* HC_GENERATED_TORAH_DATA_H_ */")
+    return "\n".join(lines) + "\n"
+
+
+def emit_torah_source() -> str:
+    chumash = load("schedules/chumash_aliyot.json")["readings"]
+    special = load("schedules/special_torah.json")
+    parshiyot = load("names/parshiyot.json")
+    key_of = {k: i for i, k in enumerate(parshiyot)} if isinstance(parshiyot, dict) \
+             else {k: i for i, k in enumerate(parshiyot)}
+
+    lines = [C_BANNER, '#include "torah_data.h"', "#include <string.h>", ""]
+
+    def arr(sym, book, ranges):
+        lines.append(f"static const hc_torah_span {sym}[] = {{")
+        for r in ranges:
+            lines.append("    " + _range_span(book, r) + ",")
+        lines.append("};")
+
+    for r in chumash:
+        book = CHUMASH_BOOKS[r["book"]]
+        arr(f"HC_CH_{r['id']}_A", book, r["aliyot"])
+        if "aliyotChabad" in r:   arr(f"HC_CH_{r['id']}_C", book, r["aliyotChabad"])
+        if "aliyotAshkenaz" in r: arr(f"HC_CH_{r['id']}_K", book, r["aliyotAshkenaz"])
+        arr(f"HC_CH_{r['id']}_W", book, r["aliyotWeekday"])
+    lines.append("")
+    lines.append("const hc_chumash_reading HC_CHUMASH[] = {")
+    for r in chumash:
+        book = CHUMASH_BOOKS[r["book"]]
+        ps = r["parshiyot"]
+        p1 = "HC_PARSHA_" + ps[0]
+        p2 = ("HC_PARSHA_" + ps[1]) if len(ps) > 1 else "HC_PARSHA_NONE"
+        ch = f"HC_CH_{r['id']}_C" if "aliyotChabad" in r else "NULL"
+        ak = f"HC_CH_{r['id']}_K" if "aliyotAshkenaz" in r else "NULL"
+        mf = _range_span(book, r["maftir"]) if r.get("maftir") else "{ HC_BOOK_NONE, 0, 0, 0, 0 }"
+        lines.append(f"    {{ {p1}, {p2}, HC_CH_{r['id']}_A, {ch}, {ak}, HC_CH_{r['id']}_W, {mf} }},")
+    lines.append("};")
+    lines.append("const int HC_CHUMASH_COUNT = (int)(sizeof(HC_CHUMASH)/sizeof(HC_CHUMASH[0]));")
+    lines.append("")
+    lines.append("const hc_chumash_reading *hc_chumash_lookup(hc_parsha p1, hc_parsha p2) {")
+    lines.append("    for (int i = 0; i < HC_CHUMASH_COUNT; i++)")
+    lines.append("        if (HC_CHUMASH[i].parsha1 == p1 && HC_CHUMASH[i].parsha2 == p2)")
+    lines.append("            return &HC_CHUMASH[i];")
+    lines.append("    return NULL;")
+    lines.append("}")
+    lines.append("")
+    for occ, readings in special.items():
+        for name, e in readings.items():
+            sym = "HC_STD_" + _st_enum(occ, name)[len("HC_ST_"):]
+            frags = e["fragments"] if e["kind"] == "torah" else [e["ref"]]
+            lines.append(f"static const hc_torah_span {sym}[] = {{")
+            for f in frags:
+                lines.append("    " + _span_row(f) + ",")
+            lines.append("};")
+    lines.append("")
+    lines.append("const hc_torah_span *const HC_SPECIAL_TORAH[HC_ST_COUNT] = {")
+    for occ, readings in special.items():
+        for name in readings:
+            e = _st_enum(occ, name)
+            lines.append(f"    [{e}] = HC_STD_{e[len('HC_ST_'):]},")
+    lines.append("};")
+    lines.append("const uint8_t HC_SPECIAL_TORAH_LEN[HC_ST_COUNT] = {")
+    for occ, readings in special.items():
+        for name, e0 in readings.items():
+            e = _st_enum(occ, name)
+            n = len(e0["fragments"]) if e0["kind"] == "torah" else 1
+            lines.append(f"    [{e}] = {n},")
+    lines.append("};")
+    return "\n".join(lines) + "\n"
+
+
 def main():
     C_DIR.mkdir(parents=True, exist_ok=True)
     (C_DIR / "parshiot_data.h").write_text(emit_header(), encoding="utf-8")
     (C_DIR / "parshiot_data.c").write_text(emit_source(), encoding="utf-8")
     (C_DIR / "haftarot_data.h").write_text(emit_haftarot_header(), encoding="utf-8")
     (C_DIR / "haftarot_data.c").write_text(emit_haftarot_source(), encoding="utf-8")
+    (C_DIR / "torah_data.h").write_text(emit_torah_header(), encoding="utf-8")
+    (C_DIR / "torah_data.c").write_text(emit_torah_source(), encoding="utf-8")
     print(f"OK  c     → {C_DIR.relative_to(ROOT)}")
 
 
