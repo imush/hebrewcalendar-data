@@ -25,6 +25,17 @@ typedef struct {
     hc_torah_span maftir;                    /* book HC_BOOK_NONE if none */
 } hc_chumash_reading;
 
+/* Each custom's parent, or HC_CUSTOM_COUNT for a root. The divisions of
+ * the parsha are recorded for a few customs only, and the rest read the
+ * nearest ancestor's, so resolving one means walking up. */
+extern const uint8_t HC_CUSTOM_PARENT[HC_CUSTOM_COUNT];
+
+/* The custom's key, as the data names it ("CHAYEY_ODOM"). NULL out of range. */
+const char *hc_custom_name(hc_custom c);
+
+/* Whether `c` is `ancestor` or hangs anywhere below it. */
+int hc_custom_is_under(hc_custom c, hc_custom ancestor);
+
 extern const hc_chumash_reading HC_CHUMASH[];
 extern const int HC_CHUMASH_COUNT;
 

@@ -134,9 +134,18 @@ def emit_source() -> str:
 # Persia, Libya, Algiers, Agadir and Pure Sephardim had no data at all.
 CUSTOMS = list(load("names/customs.json"))
 
+# The enum is named by the key in names/tanach_books.json, so a reference is
+# resolved through the same file the name comes from. Deriving the constant
+# from the display name instead broke the moment the paired books were renamed
+# "Kings II": the enum still said I_KINGS and nothing referred to it.
+_BOOK_KEY_BY_EN = {v["en"]: k for k, v in load("names/tanach_books.json").items()}
+
+
 def _book_enum(en_name: str) -> str:
-    # "II Kings" → HC_BOOK_II_KINGS
-    return "HC_BOOK_" + en_name.upper().replace(" ", "_")
+    key = _BOOK_KEY_BY_EN.get(en_name)
+    if key is None:
+        raise SystemExit(f"no Tanach book named {en_name!r} in names/tanach_books.json")
+    return "HC_BOOK_" + key
 
 
 def emit_haftarot_header() -> str:
@@ -351,6 +360,17 @@ def emit_torah_header() -> str:
     lines.append("    hc_torah_span maftir;                    /* book HC_BOOK_NONE if none */")
     lines.append("} hc_chumash_reading;")
     lines.append("")
+    lines.append("/* Each custom's parent, or HC_CUSTOM_COUNT for a root. The divisions of")
+    lines.append(" * the parsha are recorded for a few customs only, and the rest read the")
+    lines.append(" * nearest ancestor's, so resolving one means walking up. */")
+    lines.append("extern const uint8_t HC_CUSTOM_PARENT[HC_CUSTOM_COUNT];")
+    lines.append("")
+    lines.append("/* The custom's key, as the data names it (\"CHAYEY_ODOM\"). NULL out of range. */")
+    lines.append("const char *hc_custom_name(hc_custom c);")
+    lines.append("")
+    lines.append("/* Whether `c` is `ancestor` or hangs anywhere below it. */")
+    lines.append("int hc_custom_is_under(hc_custom c, hc_custom ancestor);")
+    lines.append("")
     lines.append("extern const hc_chumash_reading HC_CHUMASH[];")
     lines.append("extern const int HC_CHUMASH_COUNT;")
     lines.append("")
@@ -381,7 +401,33 @@ def emit_torah_source() -> str:
     key_of = {k: i for i, k in enumerate(parshiyot)} if isinstance(parshiyot, dict) \
              else {k: i for i, k in enumerate(parshiyot)}
 
+    customs = load("names/customs.json")
     lines = [C_BANNER, '#include "torah_data.h"', "#include <string.h>", ""]
+    lines.append("const uint8_t HC_CUSTOM_PARENT[HC_CUSTOM_COUNT] = {")
+    for key, v in customs.items():
+        par = v.get("parent")
+        lines.append(f"    [HC_CUSTOM_{key}] = " +
+                     (f"HC_CUSTOM_{par}," if par else "HC_CUSTOM_COUNT,"))
+    lines.append("};")
+    lines.append("")
+    lines.append("static const char *const HC_CUSTOM_NAMES[HC_CUSTOM_COUNT] = {")
+    for key in customs:
+        lines.append(f'    [HC_CUSTOM_{key}] = "{key}",')
+    lines.append("};")
+    lines.append("")
+    lines.append("const char *hc_custom_name(hc_custom c) {")
+    lines.append("    if (c < 0 || c >= HC_CUSTOM_COUNT) return NULL;")
+    lines.append("    return HC_CUSTOM_NAMES[c];")
+    lines.append("}")
+    lines.append("")
+    lines.append("int hc_custom_is_under(hc_custom c, hc_custom ancestor) {")
+    lines.append("    for (int i = c; i < HC_CUSTOM_COUNT; ) {")
+    lines.append("        if (i == (int)ancestor) return 1;")
+    lines.append("        i = HC_CUSTOM_PARENT[i];")
+    lines.append("    }")
+    lines.append("    return 0;")
+    lines.append("}")
+    lines.append("")
 
     def arr(sym, book, ranges):
         lines.append(f"static const hc_torah_span {sym}[] = {{")
@@ -400,8 +446,8 @@ def emit_torah_source() -> str:
     for r in chumash:
         book = CHUMASH_BOOKS[r["book"]]
         ps = r["parshiyot"]
-        p1 = "HC_PARSHA_" + ps[0]
-        p2 = ("HC_PARSHA_" + ps[1]) if len(ps) > 1 else "HC_PARSHA_NONE"
+        p1 = "HC_" + ps[0]
+        p2 = ("HC_" + ps[1]) if len(ps) > 1 else "HC_PARSHA_NONE"
         ch = f"HC_CH_{r['id']}_C" if "aliyotChabad" in r else "NULL"
         ak = f"HC_CH_{r['id']}_K" if "aliyotAshkenaz" in r else "NULL"
         mf = _range_span(book, r["maftir"]) if r.get("maftir") else "{ HC_BOOK_NONE, 0, 0, 0, 0 }"
