@@ -24,7 +24,7 @@
   "SIMCHAT_TORAH":       { "sd": ["SIMCHAT_TORAH_C", "SIMCHAT_TORAH_I"], "en": "Simchat Torah", "he": "שמחת תורה", "ru": "Симхат Тора",   "fr": "Sim'hat Torah" },
   "NINETEENTH_KISLEV":   { "sd": ["NINETEENTH_KISLEV"],   "en": "19 Kislev",        "he": "י״ט כסלו",          "ru": "19 кислева",        "fr": "19 Kislev" },
   "CHANUKAH":            { "sd": ["CHANUKAH_1", "CHANUKAH_2", "CHANUKAH_3", "CHANUKAH_4", "CHANUKAH_5", "CHANUKAH_6", "CHANUKAH_7", "CHANUKAH_8"], "en": "Chanukah", "he": "חנוכה", "ru": "Ханука", "fr": "Hanouccah" },
-  "TENTH_TEVET":         { "sd": ["TENTH_TEVET"],         "en": "10 Tevet",         "he": "עשרה בטבת",         "ru": "Пост 10 тевета",    "fr": "Acara Betevet" },
+  "TENTH_TEVET":         { "sd": ["TENTH_TEVET"],         "en": "Fast of 10 Tevet",         "he": "עשרה בטבת",         "ru": "Пост 10 тевета",    "fr": "Assara Bétévet" },
   "YUD_SHVAT":           { "sd": ["YUD_SHVAT"],           "en": "10 Shvat",         "he": "י׳ שבט",            "ru": "10 швата",          "fr": "10 Chevat" },
   "TU_BESHVAT":          { "sd": ["TU_BESHVAT"],          "en": "Tu Bishvat",       "he": "ט״ו בשבט",          "ru": "Ту би-Шват",        "fr": "Tou Bichevat" },
   "PURIM_KATAN":         { "sd": ["PURIM_KATAN"],         "en": "Purim Katan",      "he": "פורים קטן",         "ru": "Пурим Катан",       "fr": "Pourim Katan" },

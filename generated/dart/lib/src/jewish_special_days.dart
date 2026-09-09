@@ -32,7 +32,7 @@ enum JewishSpecialDayKey {
   simchatTorah('SIMCHAT_TORAH', 'Simchat Torah', 'שמחת תורה', 'Симхат Тора', 'Sim\'hat Torah'),
   nineteenthKislev('NINETEENTH_KISLEV', '19 Kislev', 'י״ט כסלו', '19 кислева', '19 Kislev'),
   chanukah('CHANUKAH', 'Chanukah', 'חנוכה', 'Ханука', 'Hanouccah'),
-  tenthTevet('TENTH_TEVET', '10 Tevet', 'עשרה בטבת', 'Пост 10 тевета', 'Acara Betevet'),
+  tenthTevet('TENTH_TEVET', 'Fast of 10 Tevet', 'עשרה בטבת', 'Пост 10 тевета', 'Assara Bétévet'),
   yudShvat('YUD_SHVAT', '10 Shvat', 'י׳ שבט', '10 швата', '10 Chevat'),
   tuBeshvat('TU_BESHVAT', 'Tu Bishvat', 'ט״ו בשבט', 'Ту би-Шват', 'Tou Bichevat'),
   purimKatan('PURIM_KATAN', 'Purim Katan', 'פורים קטן', 'Пурим Катан', 'Pourim Katan'),
