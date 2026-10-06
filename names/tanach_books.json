@@ -1,28 +1,158 @@
 {
-  "GENESIS":     { "en": "Genesis",      "he": "בראשית",   "ru": "Берешит",     "fr": "Béréchit" },
-  "EXODUS":      { "en": "Exodus",       "he": "שמות",     "ru": "Шмот",        "fr": "Chemot" },
-  "LEVITICUS":   { "en": "Leviticus",    "he": "ויקרא",    "ru": "Ваикра",      "fr": "Vayikra" },
-  "NUMBERS":     { "en": "Numbers",      "he": "במדבר",    "ru": "Бемидбар",    "fr": "Bemidbar" },
-  "DEUTERONOMY": { "en": "Deuteronomy",  "he": "דברים",    "ru": "Дварим",      "fr": "Devarim" },
-  "JOSHUA":      { "en": "Joshua",       "he": "יהושע",    "ru": "Йеѓошуа",     "fr": "Yehochoua" },
-  "JUDGES":      { "en": "Judges",       "he": "שופטים",   "ru": "Шофтим",      "fr": "Choftim" },
-  "I_SAMUEL":    { "en": "I Samuel",     "he": "שמואל א׳", "ru": "I Шмуэль",    "fr": "I Samuel" },
-  "II_SAMUEL":   { "en": "II Samuel",    "he": "שמואל ב׳", "ru": "II Шмуэль",   "fr": "II Samuel" },
-  "I_KINGS":     { "en": "I Kings",      "he": "מלכים א׳", "ru": "I Мелахим",   "fr": "I Melakhim" },
-  "II_KINGS":    { "en": "II Kings",     "he": "מלכים ב׳", "ru": "II Мелахим",  "fr": "II Melakhim" },
-  "ISAIAH":      { "en": "Isaiah",       "he": "ישעיהו",   "ru": "Йешаяѓу",     "fr": "Yechaya" },
-  "JEREMIAH":    { "en": "Jeremiah",     "he": "ירמיהו",   "ru": "Йирмияѓу",    "fr": "Yirmiya" },
-  "EZEKIEL":     { "en": "Ezekiel",      "he": "יחזקאל",   "ru": "Йехезкель",   "fr": "Ye'hezkel" },
-  "HOSEA":       { "en": "Hosea",        "he": "הושע",     "ru": "Ѓошеа",       "fr": "Hoché'a" },
-  "JOEL":        { "en": "Joel",         "he": "יואל",     "ru": "Йоэль",       "fr": "Yoël" },
-  "AMOS":        { "en": "Amos",         "he": "עמוס",     "ru": "Амос",        "fr": "Amos" },
-  "OBADIAH":     { "en": "Obadiah",      "he": "עובדיה",   "ru": "Овадья",      "fr": "Ovadia" },
-  "JONAH":       { "en": "Jonah",        "he": "יונה",     "ru": "Йона",        "fr": "Yona" },
-  "MICAH":       { "en": "Micah",        "he": "מיכה",     "ru": "Миха",        "fr": "Mikha" },
-  "NAHUM":       { "en": "Nahum",        "he": "נחום",     "ru": "Нахум",       "fr": "Nahoum" },
-  "HABAKKUK":    { "en": "Habakkuk",     "he": "חבקוק",    "ru": "Хавакук",     "fr": "'Havakouk" },
-  "ZEPHANIAH":   { "en": "Zephaniah",    "he": "צפניה",    "ru": "Цфанья",      "fr": "Tsefania" },
-  "HAGGAI":      { "en": "Haggai",       "he": "חגי",      "ru": "Хагай",       "fr": "'Haggaï" },
-  "ZECHARIAH":   { "en": "Zechariah",    "he": "זכריה",    "ru": "Захарья",     "fr": "Zekharia" },
-  "MALACHI":     { "en": "Malachi",      "he": "מלאכי",    "ru": "Малахи",      "fr": "Malakhi" }
+  "GENESIS": {
+    "en": "Genesis",
+    "he": "בראשית",
+    "ru": "Берешит",
+    "fr": "Béréchit"
+  },
+  "EXODUS": {
+    "en": "Exodus",
+    "he": "שמות",
+    "ru": "Шмот",
+    "fr": "Chemot"
+  },
+  "LEVITICUS": {
+    "en": "Leviticus",
+    "he": "ויקרא",
+    "ru": "Ваикра",
+    "fr": "Vayikra"
+  },
+  "NUMBERS": {
+    "en": "Numbers",
+    "he": "במדבר",
+    "ru": "Бемидбар",
+    "fr": "Bemidbar"
+  },
+  "DEUTERONOMY": {
+    "en": "Deuteronomy",
+    "he": "דברים",
+    "ru": "Дварим",
+    "fr": "Devarim"
+  },
+  "JOSHUA": {
+    "en": "Joshua",
+    "he": "יהושע",
+    "ru": "Йеѓошуа",
+    "fr": "Yehochoua"
+  },
+  "JUDGES": {
+    "en": "Judges",
+    "he": "שופטים",
+    "ru": "Шофтим",
+    "fr": "Choftim"
+  },
+  "I_SAMUEL": {
+    "en": "Samuel I",
+    "he": "שמואל א׳",
+    "ru": "Шмуэль I",
+    "fr": "Samuel I"
+  },
+  "II_SAMUEL": {
+    "en": "Samuel II",
+    "he": "שמואל ב׳",
+    "ru": "Шмуэль II",
+    "fr": "Samuel II"
+  },
+  "I_KINGS": {
+    "en": "Kings I",
+    "he": "מלכים א׳",
+    "ru": "Мелахим I",
+    "fr": "Melakhim I"
+  },
+  "II_KINGS": {
+    "en": "Kings II",
+    "he": "מלכים ב׳",
+    "ru": "Мелахим II",
+    "fr": "Melakhim II"
+  },
+  "ISAIAH": {
+    "en": "Isaiah",
+    "he": "ישעיהו",
+    "ru": "Йешаяѓу",
+    "fr": "Yechaya"
+  },
+  "JEREMIAH": {
+    "en": "Jeremiah",
+    "he": "ירמיהו",
+    "ru": "Йирмияѓу",
+    "fr": "Yirmiya"
+  },
+  "EZEKIEL": {
+    "en": "Ezekiel",
+    "he": "יחזקאל",
+    "ru": "Йехезкель",
+    "fr": "Ye'hezkel"
+  },
+  "HOSEA": {
+    "en": "Hosea",
+    "he": "הושע",
+    "ru": "Ѓошеа",
+    "fr": "Hoché'a"
+  },
+  "JOEL": {
+    "en": "Joel",
+    "he": "יואל",
+    "ru": "Йоэль",
+    "fr": "Yoël"
+  },
+  "AMOS": {
+    "en": "Amos",
+    "he": "עמוס",
+    "ru": "Амос",
+    "fr": "Amos"
+  },
+  "OBADIAH": {
+    "en": "Obadiah",
+    "he": "עובדיה",
+    "ru": "Овадья",
+    "fr": "Ovadia"
+  },
+  "JONAH": {
+    "en": "Jonah",
+    "he": "יונה",
+    "ru": "Йона",
+    "fr": "Yona"
+  },
+  "MICAH": {
+    "en": "Micah",
+    "he": "מיכה",
+    "ru": "Миха",
+    "fr": "Mikha"
+  },
+  "NAHUM": {
+    "en": "Nahum",
+    "he": "נחום",
+    "ru": "Нахум",
+    "fr": "Nahoum"
+  },
+  "HABAKKUK": {
+    "en": "Habakkuk",
+    "he": "חבקוק",
+    "ru": "Хавакук",
+    "fr": "'Havakouk"
+  },
+  "ZEPHANIAH": {
+    "en": "Zephaniah",
+    "he": "צפניה",
+    "ru": "Цфанья",
+    "fr": "Tsefania"
+  },
+  "HAGGAI": {
+    "en": "Haggai",
+    "he": "חגי",
+    "ru": "Хагай",
+    "fr": "'Haggaï"
+  },
+  "ZECHARIAH": {
+    "en": "Zechariah",
+    "he": "זכריה",
+    "ru": "Захарья",
+    "fr": "Zekharia"
+  },
+  "MALACHI": {
+    "en": "Malachi",
+    "he": "מלאכי",
+    "ru": "Малахи",
+    "fr": "Malakhi"
+  }
 }

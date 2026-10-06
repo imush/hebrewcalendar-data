@@ -1,58 +1,91 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Special-day haftarot per occasion × variant × custom",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "special_haftarot.json",
+  "description": "Haftarot for the days that are not ordinary Shabbosos, by occasion and variant. Generated from opentorah's SpecialReadings.xml; do not edit by hand.",
   "type": "object",
+  "additionalProperties": false,
   "patternProperties": {
     "^[A-Za-z][A-Za-z0-9]*$": {
-      "description": "Occasion (RoshChodesh, ParshasShekalim, YomKippur, ...)",
+      "description": "Occasion, as opentorah keys it: RoshHashanah1, Fast, Chanukah, ...",
       "type": "object",
+      "additionalProperties": false,
       "patternProperties": {
         "^[A-Z][A-Z0-9_]+$": {
           "description": "Variant: MAIN, SHABBAT, AFTERNOON, SHABBAT_1, SHABBAT_ADDITION, AFTERNOON_EXCEPTIONS, ...",
           "type": "object",
-          "patternProperties": {
-            "^(ASHKENAZ|ITALKI|FRANKFURT|LITA|CHAYEY_ODOM|HAGRA|SEFARD|CHABAD|MAGREB|ALGERIA|MOROCCO|FES|MARRAKESH|TOSHBIM|DJERBA|BAVLIM|TEIMAN|BALADI|SHAMI)$": {
-              "type": "array",
-              "minItems": 1,
-              "items": {
-                "type": "object",
-                "additionalProperties": false,
-                "required": [
-                  "book",
-                  "fromCh",
-                  "fromV",
-                  "toCh",
-                  "toV"
-                ],
-                "properties": {
-                  "book": {
-                    "type": "string"
-                  },
-                  "fromCh": {
-                    "type": "integer",
-                    "minimum": 1
-                  },
-                  "fromV": {
-                    "type": "integer",
-                    "minimum": 1
-                  },
-                  "toCh": {
-                    "type": "integer",
-                    "minimum": 1
-                  },
-                  "toV": {
-                    "type": "integer",
-                    "minimum": 1
+          "additionalProperties": false,
+          "required": ["readings"],
+          "properties": {
+            "readings": {
+              "description": "What each custom reads. A custom that reads nothing is absent: upstream says so with <none>, and the parser resolves it.",
+              "type": "object",
+              "additionalProperties": false,
+              "patternProperties": { "^(CUSTOMS)$": { "$ref": "#/definitions/refs" } }
+            },
+            "annotations": {
+              "description": "What the entry says about itself, by custom: where the reading is attested, and what the sources do not settle.",
+              "type": "object",
+              "additionalProperties": false,
+              "patternProperties": { "^(CUSTOMS)$": { "$ref": "#/definitions/annotation" } }
+            },
+            "variants": {
+              "description": "Readings recorded beside a custom's own, for practices the sources report without settling who follows them. Never resolved to.",
+              "type": "object",
+              "additionalProperties": false,
+              "patternProperties": {
+                "^(CUSTOMS)$": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["n", "refs"],
+                    "properties": {
+                      "n": { "type": "integer", "minimum": 2 },
+                      "refs": { "$ref": "#/definitions/refs" },
+                      "sources": { "$ref": "#/definitions/sources" },
+                      "comment": { "type": "string", "minLength": 1 }
+                    }
                   }
                 }
               }
             }
-          },
-          "additionalProperties": false
+          }
         }
-      },
-      "additionalProperties": false
+      }
     }
   },
-  "additionalProperties": false
+  "definitions": {
+    "refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["book", "fromCh", "fromV", "toCh", "toV"],
+        "properties": {
+          "book": { "type": "string", "minLength": 1 },
+          "fromCh": { "type": "integer", "minimum": 1 },
+          "fromV": { "type": "integer", "minimum": 1 },
+          "toCh": { "type": "integer", "minimum": 1 },
+          "toV": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "sources": {
+      "description": "Keys into names/reading_sources.json.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "annotation": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "sources": { "$ref": "#/definitions/sources" },
+        "comment": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
 }

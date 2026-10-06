@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Readings for days that are not ordinary Shabbosos, keyed by occasion.
+  Children of `day` are `torah`, `maftir` or `haftarah`. Distinguish extras
+  with `when` (shabbos, afternoon), `role` (korbanot, additional, …) and
+  `n` (Pesach intermediate 3/4/6, Chanukah shabbos 1/2). `partial="true"`:
+  the custom map need not cover everyone.
+
+  Torah `from`/`to` are chapter:verse; aliyah 1 may be omitted; `to` on an
+  aliyah is implied by the next start unless written. Haftarah grammar is
+  the same as Haftarah.xml (custom / span / reads / variant). Date logic
+  that chooses among these lives in SpecialReadings.scala.
+-->
+<specialReadings>
+  <day n="ErevRoshChodesh">
+    <haftarah when="shabbos" book="I Samuel">
+      <custom n="Common">
+        <span from="20:18" to="20:42"/>
+      </custom>
+    </haftarah>
+    <haftarah when="shabbos" role="additional" partial="true">
+      <custom n="Chabad" sources="chabad-haftarot" book="I Samuel">
+        <span from="20:18"/>
+        <span from="20:42"/>
+        <comment>chabad.org states the rule directly: on a Shabbos that is Rosh Chodesh and also the eve of Rosh Chodesh, the first and last verse of Machar Chodesh follow the haftarah that was read. Fes reads the same two verses, on the older evidence these two customs were recorded together on.</comment>
+      </custom>
+      <custom n="Fes" book="I Samuel">
+        <span from="20:18"/>
+        <span from="20:42"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="RoshChodesh">
+    <torah book="Numbers" from="28:1" to="28:15">
+      <aliyah n="2" from="28:3"/>
+      <aliyah n="3" from="28:4"/>
+      <aliyah n="4" from="28:6"/>
+      <aliyah n="5" from="28:9"/>
+      <aliyah n="6" from="28:11"/>
+    </torah>
+    <haftarah when="shabbos" book="Isaiah">
+      <custom n="Common">
+        <span from="66:1" to="66:24"/>
+        <span from="66:23"/>
+      </custom>
+    </haftarah>
+    <haftarah when="shabbos" role="additional" partial="true">
+      <custom n="Chabad" book="Isaiah">
+        <span from="66:1"/>
+        <span from="66:23" to="66:24"/>
+        <span from="66:23"/>
+        <comment>Read after whichever haftarah displaced the Rosh Chodesh one. chabad.org states the pattern for Parshas HaChodesh falling on Rosh Chodesh or its eve, so it is not in doubt as a practice; what is not settled is whether it reaches Rosh Chodesh Av, where that page gives Shim'u and says nothing of an addition. Recorded without a source rather than narrowed on a guess.</comment>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="FestivalEnd">
+    <torah when="shabbos" book="Deuteronomy" from="14:22" to="16:17">
+      <aliyah n="2" from="15:1"/>
+      <aliyah n="3" from="15:19"/>
+      <aliyah n="4" from="16:1"/>
+      <aliyah n="5" from="16:4"/>
+      <aliyah n="6" from="16:9"/>
+      <aliyah n="7" from="16:13"/>
+    </torah>
+  </day>
+  <day n="IntermediateShabbos">
+    <torah book="Exodus" from="33:12" to="34:26">
+      <aliyah n="2" from="33:17"/>
+      <aliyah n="3" from="33:20"/>
+      <aliyah n="4" from="34:1"/>
+      <aliyah n="5" from="34:4"/>
+      <aliyah n="6" from="34:11"/>
+      <aliyah n="7" from="34:18"/>
+    </torah>
+  </day>
+  <day n="RoshHashanah1">
+    <torah when="shabbos" book="Genesis" from="21:1" to="21:34">
+      <aliyah n="2" from="21:5"/>
+      <aliyah n="3" from="21:9"/>
+      <aliyah n="4" from="21:13"/>
+      <aliyah n="5" from="21:18"/>
+      <aliyah n="6" from="21:22"/>
+      <aliyah n="7" from="21:28"/>
+    </torah>
+    <maftir book="Numbers" from="29:1" to="29:6"/>
+    <haftarah book="I Samuel">
+      <custom n="Common">
+        <span from="1:1" to="2:10"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="RoshHashanah2">
+    <torah book="Genesis" from="22:1" to="22:24">
+      <aliyah n="2" from="22:4"/>
+      <aliyah n="3" from="22:9"/>
+      <aliyah n="4" from="22:15"/>
+      <aliyah n="5" from="22:20"/>
+    </torah>
+    <haftarah book="Jeremiah">
+      <custom n="Common">
+        <span from="31:1" to="31:19"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="YomKippur">
+    <torah when="shabbos" book="Leviticus" from="16:1" to="16:34">
+      <aliyah n="2" from="16:4"/>
+      <aliyah n="3" from="16:7"/>
+      <aliyah n="4" from="16:12"/>
+      <aliyah n="5" from="16:18"/>
+      <aliyah n="6" from="16:25"/>
+      <aliyah n="7" from="16:31"/>
+    </torah>
+    <haftarah book="Isaiah">
+      <custom n="Common">
+        <span from="57:14" to="58:14"/>
+      </custom>
+      <custom n="Italki, Teiman">
+        <span from="57:14" to="58:14"/>
+        <span from="59:20" to="59:21"/>
+      </custom>
+    </haftarah>
+    <maftir book="Numbers" from="29:7" to="29:11"/>
+    <torah when="afternoon" book="Leviticus" from="18:1" to="18:30">
+      <aliyah n="2" from="18:6"/>
+      <aliyah n="3" from="18:22"/>
+    </torah>
+    <haftarah when="afternoon">
+      <custom n="Common">
+        <span book="Jonah" from="1:1" to="4:11"/>
+        <span book="Micah" from="7:18" to="7:20"/>
+      </custom>
+      <custom n="Italki">
+        <span book="Obadiah" from="1:21"/>
+        <span book="Jonah" from="1:1" to="4:11"/>
+        <span book="Micah" from="7:18" to="7:20"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="Succos">
+    <torah role="korbanot" book="Numbers" from="29:12" to="30:1">
+      <aliyah n="2" from="29:17"/>
+      <aliyah n="3" from="29:20"/>
+      <aliyah n="4" from="29:23"/>
+      <aliyah n="5" from="29:26"/>
+      <aliyah n="6" from="29:29"/>
+      <aliyah n="7" from="29:32"/>
+      <aliyah n="8" from="29:35"/>
+    </torah>
+  </day>
+  <day n="Succos1">
+    <torah when="shabbos" book="Leviticus" from="22:26" to="23:44">
+      <aliyah n="2" from="23:1"/>
+      <aliyah n="3" from="23:4"/>
+      <aliyah n="4" from="23:9"/>
+      <aliyah n="5" from="23:15"/>
+      <aliyah n="6" from="23:23"/>
+      <aliyah n="7" from="23:33"/>
+    </torah>
+    <haftarah book="Zechariah">
+      <custom n="Common">
+        <span from="14:1" to="14:21"/>
+      </custom>
+      <custom n="Teiman">
+        <span from="13:9" to="14:21"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="Succos2">
+    <haftarah book="I Kings">
+      <custom n="Common">
+        <span from="8:2" to="8:21"/>
+      </custom>
+      <custom n="Italki">
+        <span from="7:51" to="8:15"/>
+      </custom>
+      <custom n="Teiman">
+        <span from="7:51" to="8:21"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="SuccosIntermediate">
+    <haftarah when="shabbos" book="Ezekiel">
+      <custom n="Common">
+        <span from="38:18" to="39:16"/>
+      </custom>
+      <custom n="Italki, Teiman">
+        <span from="38:1" to="38:23"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="SheminiAtzeres">
+    <haftarah book="I Kings">
+      <custom n="Common">
+        <span from="8:54" to="8:66"/>
+      </custom>
+      <custom n="Italki, Chabad">
+        <span from="8:54" to="9:1"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="SimchasTorah">
+    <torah role="chassanBereishis" book="Genesis" from="1:1" to="2:3">
+      <aliyah n="1" from="1:1"/>
+    </torah>
+    <maftir book="Numbers" from="29:35" to="30:1"/>
+  </day>
+  <day n="Chanukah">
+    <torah role="day1Cohen" book="Numbers" from="6:22" to="7:11">
+      <aliyah n="2" from="7:1"/>
+    </torah>
+    <torah role="korbanot" book="Numbers" from="7:12" to="8:4">
+      <aliyah n="1" from="7:12"/>
+      <aliyah n="2" from="7:15"/>
+      <aliyah n="3" from="7:18"/>
+      <aliyah n="4" from="7:21"/>
+      <aliyah n="5" from="7:24"/>
+      <aliyah n="6" from="7:27"/>
+      <aliyah n="7" from="7:30"/>
+      <aliyah n="8" from="7:33"/>
+      <aliyah n="9" from="7:36"/>
+      <aliyah n="10" from="7:39"/>
+      <aliyah n="11" from="7:42"/>
+      <aliyah n="12" from="7:45"/>
+      <aliyah n="13" from="7:48"/>
+      <aliyah n="14" from="7:51"/>
+      <aliyah n="15" from="7:54"/>
+      <aliyah n="16" from="7:57"/>
+      <aliyah n="17" from="7:60"/>
+    </torah>
+    <haftarah when="shabbos" n="1" book="Zechariah">
+      <custom n="Common">
+        <span from="2:14" to="4:7"/>
+      </custom>
+    </haftarah>
+    <haftarah when="shabbos" n="2" book="I Kings">
+      <custom n="Common">
+        <span from="7:40" to="7:50"/>
+      </custom>
+      <custom n="Italki">
+        <span from="7:40" to="7:51"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="ParshasShekalim">
+    <maftir book="Exodus" from="30:11" to="30:16"/>
+    <haftarah>
+      <custom n="Romania" sources="michlol" book="Ezekiel">
+        <span from="45:12" to="46:5"/>
+      </custom>
+      <custom n="Ashkenaz, Italki, Teiman, Chabad" book="II Kings">
+        <span from="12:1" to="12:17"/>
+      </custom>
+      <custom n="Sefard" book="II Kings">
+        <span from="11:17" to="12:17"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="ParshasZachor">
+    <maftir book="Deuteronomy" from="25:17" to="25:19"/>
+    <haftarah book="I Samuel">
+      <custom n="Ashkenaz, Chabad">
+        <span from="15:2" to="15:34"/>
+      </custom>
+      <custom n="Sefard">
+        <span from="15:1" to="15:34"/>
+      </custom>
+      <custom n="Teiman">
+        <span from="14:52" to="15:33"/>
+      </custom>
+      <custom n="Poznan" sources="michlol, poznan-pinkas">
+        <span from="15:2" to="15:33"/>
+      </custom>
+      <custom n="Romania" sources="michlol">
+        <span from="15:2" to="15:22"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="Purim">
+    <torah book="Exodus" from="17:8" to="17:16">
+      <aliyah n="2" from="17:11"/>
+      <aliyah n="3" from="17:14"/>
+    </torah>
+  </day>
+  <day n="ParshasParah">
+    <maftir book="Numbers" from="19:1" to="19:22"/>
+    <haftarah book="Ezekiel">
+      <custom n="Ashkenaz, Italki">
+        <span from="36:16" to="36:38"/>
+      </custom>
+      <custom n="Sefard">
+        <span from="36:16" to="36:36"/>
+      </custom>
+      <custom n="Romania" sources="michlol">
+        <span from="36:25" to="37:7"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="ParshasHachodesh">
+    <maftir book="Exodus" from="12:1" to="12:20"/>
+    <haftarah book="Ezekiel">
+      <custom n="Ashkenaz">
+        <span from="45:16" to="46:18"/>
+      </custom>
+      <custom n="Italki">
+        <span from="45:18" to="46:11"/>
+      </custom>
+      <custom n="Sefard, Poznan">
+        <span from="45:18" to="46:15"/>
+        <comment>Poznan reads with Sefard here, per hamichlol.</comment>
+      </custom>
+      <custom n="Teiman">
+        <span from="45:9" to="46:11"/>
+      </custom>
+      <custom n="Romania" sources="michlol">
+        <span from="45:21" to="46:13"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="ShabbosHagodol">
+    <haftarah book="Malachi">
+      <custom n="Common">
+        <span from="3:4" to="3:24"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="PesachIntermediate">
+    <torah n="3" book="Exodus" from="13:1" to="13:16">
+      <aliyah n="2" from="13:5"/>
+      <aliyah n="3" from="13:11"/>
+    </torah>
+    <torah n="4" book="Exodus" from="22:24" to="23:19">
+      <aliyah n="2" from="22:27"/>
+      <aliyah n="3" from="23:6"/>
+    </torah>
+    <torah n="6" book="Numbers" from="9:1" to="9:14">
+      <aliyah n="2" from="9:7"/>
+      <aliyah n="3" from="9:9"/>
+    </torah>
+    <maftir role="end" book="Numbers" from="28:19" to="28:25"/>
+    <haftarah when="shabbos" book="Ezekiel">
+      <custom n="Common">
+        <span from="37:1" to="37:14"/>
+      </custom>
+      <custom n="Teiman">
+        <span from="36:37" to="37:14"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="Pesach1">
+    <torah when="shabbos" book="Exodus" from="12:21" to="12:51">
+      <aliyah n="2" from="12:25"/>
+      <aliyah n="3" from="12:29"/>
+      <aliyah n="4" from="12:33"/>
+      <aliyah n="5" from="12:37"/>
+      <aliyah n="6" from="12:43"/>
+      <aliyah n="7" from="12:48"/>
+    </torah>
+    <maftir book="Numbers" from="28:16" to="28:25"/>
+    <haftarah book="Joshua">
+      <custom n="Ashkenaz, Chabad" sources="steinsaltz">
+        <span from="3:5" to="3:7"/>
+        <span from="5:2" to="6:1"/>
+        <span from="6:27"/>
+        <variant n="Ashkenaz" sources="michlol">
+          <span from="5:2" to="6:1"/>
+          <comment>hamichlol gives Ashkenaz the bare piece 1, without 3:5-7 or 6:27; it gives the same to Romania. Same text as the Frankfurt and Hagra reading below.</comment>
+        </variant>
+      </custom>
+      <custom n="Sefard">
+        <span from="5:2" to="6:1"/>
+        <span from="6:27"/>
+      </custom>
+      <custom n="Frankfurt, Hagra, Romania" sources="michlol">
+        <span from="5:2" to="6:1"/>
+        <comment>hamichlol gives Romania the bare piece 1, the same as Frankfurt and Hagra read.</comment>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="Pesach2">
+    <haftarah book="II Kings">
+      <custom n="Common">
+        <span from="23:1" to="23:9"/>
+        <span from="23:21" to="23:25"/>
+      </custom>
+      <custom n="Italki">
+        <span from="23:21" to="23:30"/>
+      </custom>
+      <custom n="Poznan" sources="michlol, poznan-pinkas">
+        <span from="23:4" to="23:9"/>
+        <span from="23:21" to="23:30"/>
+        <comment>kuntres Poznan says they finish at 'vayamlichu tachtav'; which verses are skipped in the middle, if any, is not stated.</comment>
+      </custom>
+      <custom n="Teiman">
+        <span from="22:1" to="22:7"/>
+        <span from="23:21" to="23:25"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="Pesach7">
+    <torah when="shabbos" book="Exodus" from="13:17" to="15:26">
+      <aliyah n="2" from="13:20"/>
+      <aliyah n="3" from="14:1"/>
+      <aliyah n="4" from="14:5"/>
+      <aliyah n="5" from="14:9"/>
+      <aliyah n="6" from="14:15"/>
+      <aliyah n="7" from="14:26"/>
+    </torah>
+    <haftarah book="II Samuel">
+      <custom n="Common">
+        <span from="22:1" to="22:51"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="Pesach8">
+    <haftarah book="Isaiah">
+      <custom n="Common">
+        <span from="10:32" to="12:6"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="Shavuos1">
+    <torah book="Exodus" from="19:1" to="20:22">
+      <aliyah n="2" from="19:7"/>
+      <aliyah n="3" from="19:14"/>
+      <aliyah n="4" from="19:20"/>
+      <aliyah n="5" from="20:15"/>
+    </torah>
+    <maftir book="Numbers" from="28:26" to="28:31"/>
+    <haftarah book="Ezekiel">
+      <custom n="Common">
+        <span from="1:1" to="1:28"/>
+        <span from="3:12"/>
+      </custom>
+      <custom n="Teiman">
+        <span from="1:1" to="2:2"/>
+        <span from="3:12"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="Shavuos2">
+    <haftarah book="Habakkuk">
+      <custom n="Ashkenaz, Romania" sources="michlol">
+        <span from="3:1" to="3:19"/>
+        <comment>hamichlol groups Romania with Ashkenaz here.</comment>
+      </custom>
+      <custom n="Sefard, Italki">
+        <span from="2:20" to="3:19"/>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="Fast">
+    <torah when="afternoon" role="part1" book="Exodus" from="32:11" to="32:14">
+      <aliyah n="1" from="32:11"/>
+    </torah>
+    <haftarah when="afternoon" role="default" partial="true">
+      <custom n="Ashkenaz, Chabad, Algiers, Romania" sources="michlol" book="Isaiah">
+        <span from="55:6" to="56:8"/>
+        <comment>On these fasts hamichlol keeps only the city of Algiers with Ashkenaz and Italki on Dirshu, against the rest of the Maghreb below: 'א, איט, קהילת העיר אלג'יר, רומ''. The Fast of Gedalia is the exception -- see there.</comment>
+      </custom>
+      <custom n="Algeria, Marrakesh" sources="michlol, asulin">
+        <span book="Hosea" from="14:2" to="14:10"/>
+        <span book="Micah" from="7:18" to="7:20"/>
+        <comment>Algeria apart from the city of Algiers, and Marrakesh with Bogmaz, on these fasts but not on the Fast of Gedalia. Morocco at large is not here: Asulin has Sefrou, Fes, Meknes and the rest of Morocco reading no haftarah on these fasts at all, so Morocco falls back to Magreb and Sefard, which read none.</comment>
+      </custom>
+      <custom n="Algiers" reads="inherit" sources="michlol, asulin">
+        <comment>The reading above is hamichlol's, which gives the city of Algiers Dirshu on these fasts. R. Avraham Asulin has it as 'Dirshu or Shuva with Micah', so the city may keep either. The two sources agree on the Fast of Gedalia and on Tisha BeAv.</comment>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="FastOfGedalia">
+    <haftarah when="afternoon" role="exceptions" partial="true">
+      <custom n="Marrakesh" sources="asulin" book="Hosea">
+        <span from="14:2" to="14:10"/>
+        <comment>Asulin, reporting R. Meir Asulin and R. D. Tzabach: Marrakesh and Bogmaz read Shuva on the Fast of Gedalia, where the rest of Morocco reads Dirshu.</comment>
+      </custom>
+      <custom n="Morocco, Algeria" sources="michlol, asulin" book="Isaiah">
+        <span from="55:6" to="56:8"/>
+        <comment>hamichlol gives the Fast of Gedalia its own entry, in which Morocco and Algeria read Dirshu with Ashkenaz and Italki -- 'א, איט, חלק מסמג (בעיקר מרוקו ואלג'יריה)' -- rather than the Hosea reading they have on the other public fasts.</comment>
+      </custom>
+      <custom n="Agadir" reads="none" sources="asulin">
+        <comment>Agadir and southern Morocco read no haftarah on the fasts, where the rest of Morocco reads Dirshu on this one.</comment>
+      </custom>
+    </haftarah>
+  </day>
+  <day n="TishaBeAv">
+    <torah book="Deuteronomy" from="4:25" to="4:40">
+      <aliyah n="2" from="4:30"/>
+      <aliyah n="3" from="4:36"/>
+    </torah>
+    <haftarah book="Jeremiah">
+      <custom n="Common">
+        <span from="8:13" to="9:23"/>
+      </custom>
+      <custom n="Teiman">
+        <span from="6:16" to="6:17"/>
+        <span from="8:13" to="9:23"/>
+      </custom>
+    </haftarah>
+    <!-- TODO should this be a comment visible to the consumers?
+      hamichlol gives Tisha BeAv Mincha its own section, not the one shared by
+      the other public fasts: there Teiman and most of Sefard read nothing at
+      all, here everyone reads. So this is a table of its own, not a set of
+      exceptions to that one.
+    -->
+    <haftarah when="afternoon" partial="true">
+      <custom n="Ashkenaz, Chabad, Romania" sources="michlol, chabad-org" book="Isaiah">
+        <span from="55:6" to="56:8"/>
+        <comment>hamichlol for Ashkenaz; chabad.org for Chabad, which reads Dirshu here rather than following Sefard. hamichlol names no Chabad practice at this occasion, but its rite key nests Chabad under Ashkenaz, so it implies the same. For Romania it says only 'קצת רומ'', some of Romania, on the strength of the Machzor of Romania (Venice 5283): 'יש קהלות שמפטירין דרשו, ורבינו האיי כת' שמפטירין' -- there are communities that read Dirshu, and Rabbeinu Hai wrote that they read. What the rest of Romania reads is not stated.</comment>
+      </custom>
+      <custom n="Sefard" sources="michlol">
+        <span book="Hosea" from="14:2" to="14:10"/>
+        <span book="Micah" from="7:18" to="7:20"/>
+      </custom>
+      <custom n="Italki, Teiman, Agadir" sources="michlol, asulin" book="Hosea">
+        <span from="14:2" to="14:10"/>
+        <comment>hamichlol cites its own sources for both. For Italki, Machzor Shadal vol. 1, 189b. For Teiman it notes that the old Yemenite siddurim record no Mincha haftarah here at all; the practice was taken up in most communities in recent centuries, the Dor Daim excepted, and R. Yosef Kapach held in Siach Yerushalayim that those who do read it should not say the brachos, which was not accepted in practice.</comment>
+      </custom>
+      <custom n="Agadir" reads="inherit" sources="asulin">
+        <comment>Agadir and southern Morocco read Shuva here without the Micah ending that the rest of Sefard adds.</comment>
+      </custom>
+    </haftarah>
+  </day>
+</specialReadings>
+

@@ -1,0 +1,39 @@
+{
+  "_comment": "Short notes for display beside a reading, written here in all four languages rather than translated from opentorah's comments. Those are documentation for whoever maintains the data -- they argue about sources and rite keys -- and are shown verbatim, in whatever language they are, if at all. These are the sentences a person reading the calendar should see. Keyed by id; a reading refers to one where the UI needs it.",
+  "SOME_READ_SHORTER": {
+    "en": "Some read a shorter passage.",
+    "he": "יש שקוראים קטע קצר יותר.",
+    "ru": "Некоторые читают более короткий отрывок.",
+    "fr": "Certains lisent un passage plus court."
+  },
+  "SOME_READ_LONGER": {
+    "en": "Some continue further.",
+    "he": "יש שממשיכים הלאה.",
+    "ru": "Некоторые продолжают дальше.",
+    "fr": "Certains poursuivent plus loin."
+  },
+  "SOME_BEGIN_EARLIER": {
+    "en": "Some begin a few verses earlier.",
+    "he": "יש שמתחילים כמה פסוקים קודם.",
+    "ru": "Некоторые начинают на несколько стихов раньше.",
+    "fr": "Certains commencent quelques versets plus tôt."
+  },
+  "COMMUNITIES_DIFFER": {
+    "en": "Communities differ here.",
+    "he": "המנהגים חלוקים כאן.",
+    "ru": "Здесь обычаи расходятся.",
+    "fr": "Les communautés diffèrent ici."
+  },
+  "NOT_ALL_READ": {
+    "en": "Not everyone reads a haftarah here.",
+    "he": "לא כל הקהילות מפטירות כאן.",
+    "ru": "Не везде здесь читают ѓафтару.",
+    "fr": "Toutes les communautés ne lisent pas de haftara ici."
+  },
+  "ASHKENAZ_ONLY": {
+    "en": "Read by Ashkenazim, and not by all of them.",
+    "he": "נוהגים בו אשכנזים, ולא כולם.",
+    "ru": "Читают ашкеназы, и не все.",
+    "fr": "Lu par les achkénazes, et pas par tous."
+  }
+}
