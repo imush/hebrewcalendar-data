@@ -24,8 +24,11 @@ customs = json.loads((ROOT / "names" / "customs.json").read_text(encoding="utf-8
 sources = json.loads((ROOT / "names" / "reading_sources.json").read_text(encoding="utf-8"))
 
 # 1. our custom tree is upstream's custom tree
-tree = {c.get("n"): c.get("parent")
-        for c in ET.parse(VENDOR / "CustomTree.xml").getroot().findall("custom")}
+# Upstream folded CustomTree.xml into Custom.xml: a custom's parent is the
+# custom it is nested in.
+sys.path.insert(0, str(ROOT / "codegen"))
+import opentorah_xml as ox  # noqa: E402
+tree = ox.custom_tree(VENDOR / "Custom.xml")
 
 
 def key(name):
@@ -36,7 +39,7 @@ for name, parent in tree.items():
     if name == "Common":
         continue
     k = key(name)
-    check(k in customs, f"customs.json is missing {k}, which CustomTree.xml has")
+    check(k in customs, f"customs.json is missing {k}, which Custom.xml has")
     if k in customs:
         want = None if parent in (None, "Common") else key(parent)
         check(customs[k]["parent"] == want,

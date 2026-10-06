@@ -236,7 +236,7 @@
     ],
     "annotations": {
       "POZNAN": {
-        "comment": "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+        "comment": "Poznan reads with Frankfurt here, per hamichlol."
       },
       "ROMANIA": {
         "sources": [
@@ -961,7 +961,7 @@
     ],
     "annotations": {
       "POZNAN": {
-        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+        "comment": "Poznan reads with Sefard here, per hamichlol."
       },
       "ROMANIA": {
         "sources": [
@@ -4368,7 +4368,7 @@
     ],
     "annotations": {
       "POZNAN": {
-        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+        "comment": "Poznan reads with Sefard here, per hamichlol."
       },
       "ROMANIA": {
         "sources": [
@@ -5478,8 +5478,7 @@
       "POZNAN": {
         "sources": [
           "michlol"
-        ],
-        "comment": "hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+        ]
       },
       "ITALKI": {
         "sources": [
@@ -7039,7 +7038,7 @@
     ],
     "annotations": {
       "POZNAN": {
-        "comment": "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+        "comment": "Poznan reads with Sefard here, per hamichlol."
       },
       "ROMANIA": {
         "sources": [
@@ -8855,10 +8854,10 @@
     ],
     "annotations": {
       "POZNAN": {
-        "comment": "hamichlol gives Poznan the same ending as Chabad; the two are unrelated, they simply stop at the same verse. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+        "comment": "hamichlol gives Poznan the same ending as Chabad; the two are unrelated, they simply stop at the same verse."
       },
       "CHABAD": {
-        "comment": "hamichlol gives Poznan the same ending as Chabad; the two are unrelated, they simply stop at the same verse. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+        "comment": "hamichlol gives Poznan the same ending as Chabad; the two are unrelated, they simply stop at the same verse."
       }
     }
   },
@@ -9099,7 +9098,7 @@
     ],
     "annotations": {
       "POZNAN": {
-        "comment": "Poznan per hamichlol, but unsettled: the Poznan minhagim book says they end at 'ne'um Hashem', which could be verse 15, 30 or 31, and the kuntres contradicts itself about whether they read this haftarah at all or the ordinary Ashkenaz one. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+        "comment": "Poznan per hamichlol, but unsettled: the Poznan minhagim book says they end at 'ne'um Hashem', which could be verse 15, 30 or 31, and the kuntres contradicts itself about whether they read this haftarah at all or the ordinary Ashkenaz one."
       }
     }
   },
@@ -14091,7 +14090,7 @@
         "comment": "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages."
       },
       "POZNAN": {
-        "comment": "Poznan per the first practice in kuntres Poznan, which reads Dirshu on Shabbos Shuvah; its second practice reads Shuva like the rest of Ashkenaz. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas)."
+        "comment": "Poznan per the first practice in kuntres Poznan, which reads Dirshu on Shabbos Shuvah; its second practice reads Shuva like the rest of Ashkenaz."
       },
       "FRANKFURT": {
         "sources": [

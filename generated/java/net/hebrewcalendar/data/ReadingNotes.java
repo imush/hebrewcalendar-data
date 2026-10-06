@@ -67,7 +67,7 @@ public final class ReadingNotes {
         Map<Parsha, Map<Custom, Note>> w = new java.util.EnumMap<>(Parsha.class);
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
-            m.put(Custom.POZNAN, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
+            m.put(Custom.POZNAN, new Note(List.of(), "Poznan reads with Frankfurt here, per hamichlol.", List.of()));
             m.put(Custom.ROMANIA, new Note(List.of("michlol"), null, List.of()));
             w.put(Parsha.BEREISHIT, java.util.Collections.unmodifiableMap(m));
         }
@@ -78,7 +78,7 @@ public final class ReadingNotes {
         }
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
-            m.put(Custom.POZNAN, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
+            m.put(Custom.POZNAN, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol.", List.of()));
             m.put(Custom.ROMANIA, new Note(List.of("michlol"), null, List.of()));
             w.put(Parsha.VAYERA, java.util.Collections.unmodifiableMap(m));
         }
@@ -124,13 +124,13 @@ public final class ReadingNotes {
         }
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
-            m.put(Custom.POZNAN, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
+            m.put(Custom.POZNAN, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol.", List.of()));
             m.put(Custom.ROMANIA, new Note(List.of("michlol"), null, List.of()));
             w.put(Parsha.YITRO, java.util.Collections.unmodifiableMap(m));
         }
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
-            m.put(Custom.POZNAN, new Note(List.of("michlol"), "hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
+            m.put(Custom.POZNAN, new Note(List.of("michlol"), null, List.of()));
             m.put(Custom.ITALKI, new Note(List.of("michlol"), null, List.of()));
             m.put(Custom.SEFARD, new Note(List.of("michlol"), null, List.of()));
             m.put(Custom.CHABAD, new Note(List.of("michlol", "chabad-org", "chitas"), "chabad.org and Chitas are cited for Chabad.", List.of()));
@@ -163,7 +163,7 @@ public final class ReadingNotes {
         }
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
-            m.put(Custom.POZNAN, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
+            m.put(Custom.POZNAN, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol.", List.of()));
             m.put(Custom.ROMANIA, new Note(List.of("michlol"), null, List.of()));
             w.put(Parsha.SHEMINI, java.util.Collections.unmodifiableMap(m));
         }
@@ -225,13 +225,13 @@ public final class ReadingNotes {
         }
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
-            m.put(Custom.POZNAN, new Note(List.of(), "hamichlol gives Poznan the same ending as Chabad; the two are unrelated, they simply stop at the same verse. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.CHABAD, new Note(List.of(), "hamichlol gives Poznan the same ending as Chabad; the two are unrelated, they simply stop at the same verse. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
+            m.put(Custom.POZNAN, new Note(List.of(), "hamichlol gives Poznan the same ending as Chabad; the two are unrelated, they simply stop at the same verse.", List.of()));
+            m.put(Custom.CHABAD, new Note(List.of(), "hamichlol gives Poznan the same ending as Chabad; the two are unrelated, they simply stop at the same verse.", List.of()));
             w.put(Parsha.BEHAR, java.util.Collections.unmodifiableMap(m));
         }
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
-            m.put(Custom.POZNAN, new Note(List.of(), "Poznan per hamichlol, but unsettled: the Poznan minhagim book says they end at 'ne'um Hashem', which could be verse 15, 30 or 31, and the kuntres contradicts itself about whether they read this haftarah at all or the ordinary Ashkenaz one. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
+            m.put(Custom.POZNAN, new Note(List.of(), "Poznan per hamichlol, but unsettled: the Poznan minhagim book says they end at 'ne'um Hashem', which could be verse 15, 30 or 31, and the kuntres contradicts itself about whether they read this haftarah at all or the ordinary Ashkenaz one.", List.of()));
             w.put(Parsha.BECHUKOTAI, java.util.Collections.unmodifiableMap(m));
         }
         {
@@ -263,7 +263,7 @@ public final class ReadingNotes {
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
             m.put(Custom.ASHKENAZ, new Note(List.of("michlol", "torat-chaim", "steinsaltz"), "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.", List.of()));
-            m.put(Custom.POZNAN, new Note(List.of(), "Poznan per the first practice in kuntres Poznan, which reads Dirshu on Shabbos Shuvah; its second practice reads Shuva like the rest of Ashkenaz. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
+            m.put(Custom.POZNAN, new Note(List.of(), "Poznan per the first practice in kuntres Poznan, which reads Dirshu on Shabbos Shuvah; its second practice reads Shuva like the rest of Ashkenaz.", List.of()));
             m.put(Custom.FRANKFURT, new Note(List.of("michlol", "torat-chaim", "steinsaltz"), "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.", List.of(Custom.ASHKENAZ)));
             m.put(Custom.LITA, new Note(List.of("michlol", "torat-chaim", "steinsaltz"), "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.", List.of(Custom.ASHKENAZ)));
             m.put(Custom.CHAYEY_ODOM, new Note(List.of("michlol", "torat-chaim", "steinsaltz"), "Torah Temimah prints Hosea, Joel and Micah together without saying which custom reads which, so it does not settle this; hamichlol and Torat Chaim both give Ashkenaz Joel 2:15. Steinsaltz adds that some Ashkenazim read both the Joel and the Micah passages.", List.of(Custom.ASHKENAZ)));
@@ -330,8 +330,8 @@ public final class ReadingNotes {
         }
         {
             Map<Custom, Note> m = new java.util.EnumMap<>(Custom.class);
-            m.put(Custom.SEFARD, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
-            m.put(Custom.POZNAN, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol. hamichlol documents the Poznan readings from the community pinkas (poznan-pinkas).", List.of()));
+            m.put(Custom.SEFARD, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol.", List.of()));
+            m.put(Custom.POZNAN, new Note(List.of(), "Poznan reads with Sefard here, per hamichlol.", List.of()));
             m.put(Custom.ROMANIA, new Note(List.of("michlol"), null, List.of()));
             p.put("ParshasHachodesh_MAIN", java.util.Collections.unmodifiableMap(m));
         }

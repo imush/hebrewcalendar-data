@@ -5,12 +5,12 @@ per-parsha, per-custom Shabbat-aliyot boundaries.
 opentorah's model (see texts/src/main/scala/.../Parsha.scala):
 
   <week>
-    <aliyah n="2" fromChapter="1" fromVerse="6"/>              (Ashkenaz's aliyah 2)
-    <aliyah n="3" fromChapter="1" fromVerse="9" toVerse="13"/> (Ashkenaz's aliyah 3)
-    <day n="1" fromChapter="1" fromVerse="1"/>                 (universal — Chabad's aliyah 1 too)
-    <day n="4" fromChapter="3" fromVerse="22" custom="Chabad"/> (per-custom override)
+    <aliyah n="2" from="1:6"/>                  (Ashkenaz's aliyah 2)
+    <aliyah n="3" from="1:9" to="1:13"/>        (Ashkenaz's aliyah 3)
+    <day n="1" from="1:1"/>                     (universal — Chabad's aliyah 1 too)
+    <day n="4" from="3:22" custom="Chabad"/>    (per-custom override)
     ...
-    <maftir fromChapter="6" fromVerse="5"/>
+    <maftir from="6:5"/>
   </week>
 
 The 7 Shabbat aliyot per custom:
@@ -36,6 +36,7 @@ one reading via the "_" joined-key convention).
 import json
 import re
 from pathlib import Path
+import opentorah_xml as ox
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -69,7 +70,7 @@ PARSHA_MAP = {
 }
 
 # Read chapter lengths (needed to compute end verses and to know where a
-# `<day n=N fromChapter=C fromVerse=V/>` runs to when day N+1 starts in a
+# `<day n=N from="C:V"/>` runs to when day N+1 starts in a
 # later chapter).
 def load_chapter_lengths():
     lengths = {}   # (book_num, chapter) → length
@@ -123,8 +124,7 @@ def parse_book(book_num, path):
         # book for the last parsha.
         if i + 1 < len(weeks):
             nxt = weeks[i + 1]
-            nxt_ch = int(nxt.get("fromChapter"))
-            nxt_v  = int(nxt.get("fromVerse"))
+            nxt_ch, nxt_v = ox.point(nxt.get("from"))
             end_ch, end_v = prev_verse(book_num, nxt_ch, nxt_v)
         else:
             end_ch = num_chapters(book_num)
@@ -169,7 +169,7 @@ def resolve_days(week, book_num, parsha_from_ch, parsha_from_v, custom,
         is_combined = d.get("combined") == "true"
         if is_combined != combined:
             continue
-        this = (int(d.get("fromChapter")), int(d.get("fromVerse")))
+        this = ox.point(d.get("from"))
         if c is None:
             # Default — only takes effect if no custom-specific override wins.
             starts.setdefault(n, ("_default", this))
@@ -208,12 +208,13 @@ def resolve_weekday(week, book_num, parsha_from_ch, parsha_from_v, day1_end):
     end = None
     for a in week.findall("aliyah"):
         n = int(a.get("n"))
-        ch = _int(a.get("fromChapter"))
+        start = ox.point(a.get("from"))
+        ch = start[0] if start else None
         if ch is None:
             ch = starts[n - 1][0] if (n - 1) in starts else parsha_from_ch
-        starts[n] = (ch, int(a.get("fromVerse")))
-        if a.get("toVerse") is not None:
-            end = (_int(a.get("toChapter")) or ch, int(a.get("toVerse")))
+        starts[n] = start
+        if a.get("to") is not None:
+            end = ox.point(a.get("to"), default_verse=start[1])
     for n in (2, 3):
         if n not in starts:
             raise SystemExit(f"weekday aliyah {n} not defined in {week.get('n')}")
@@ -227,8 +228,7 @@ def main():
     for book_num, fname in BOOKS:
         path = VENDOR / fname
         for pk, week, end_ch, end_v in parse_book(book_num, path):
-            from_ch = int(week.get("fromChapter"))
-            from_v  = int(week.get("fromVerse"))
+            from_ch, from_v = ox.point(week.get("from"))
             days_default = resolve_days(week, book_num, from_ch, from_v, custom=None)
             days_chabad  = resolve_days(week, book_num, from_ch, from_v, custom="Chabad")
             days_ashkenaz = resolve_days(week, book_num, from_ch, from_v, custom="Ashkenaz")
@@ -241,8 +241,7 @@ def main():
             maftir = week.find("maftir")
             maftir_range = None
             if maftir is not None:
-                m_ch = int(maftir.get("fromChapter", from_ch))
-                m_v = int(maftir.get("fromVerse"))
+                m_ch, m_v = ox.point(maftir.get("from"))
                 maftir_range = f"{m_ch}:{m_v}-{end_ch}:{end_v}"
             all_readings[pk] = {
                 "week": week, "book_num": book_num,
@@ -278,7 +277,7 @@ def combined_reading(first, second):
                     continue
                 n = int(d.get("n"))
                 c = d.get("custom")
-                this = (int(d.get("fromChapter")), int(d.get("fromVerse")))
+                this = ox.point(d.get("from"))
                 if c is None:
                     starts.setdefault(n, this)
                 elif c == custom:

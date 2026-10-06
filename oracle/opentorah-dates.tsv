@@ -1,7 +1,7 @@
 # Jewish months, exported from opentorah -- the oracle for date conversion.
 #
-# opentorah 41372eff83d888706816d8324e18fe313773a8a5  (Apache 2.0; see opentorah/LICENSE.md)
-# generated 2026-09-18 over Jewish years 5700-5900
+# opentorah 995085c697d1b4334f6bb42db6bf0f7e8130f578  (Apache 2.0; see opentorah/LICENSE.md)
+# generated 2026-10-05 over Jewish years 5700-5900
 #
 # M<TAB>jewish year<TAB>month<TAB>length in days<TAB>Gregorian date of its first day
 M	5700	Tishrei	30	1939-09-14

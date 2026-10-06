@@ -21,6 +21,7 @@ import json
 from collections import OrderedDict
 from pathlib import Path
 from common import book_name
+import opentorah_xml as ox
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -35,12 +36,9 @@ PARENT = {k: v["parent"] for k, v in _CUSTOMS.items()}
 # names, which are localised -- ours calls Hagra GR"A.
 def _keys_from_upstream():
     out = {"Common": "COMMON"}
-    root = ET.parse(ROOT / "vendor" / "opentorah" / "Custom.xml").getroot()
-    for names in root.findall("names"):
-        for n in names.findall("name"):
-            if n.get("lang", "en") != "en":
-                continue
-            name = n.get("n")
+    # Custom.xml nests customs now -- the nesting is the tree CustomTree.xml
+    # used to hold -- so the names come from the nested elements.
+    for name in ox.custom_tree(ROOT / "vendor" / "opentorah" / "Custom.xml"):
             key = name.upper().replace(" ", "_").replace("'", "")
             if key == "COMMON":
                 continue
@@ -82,90 +80,83 @@ def customs_of(attr):
     return out
 
 
-def span(el, inherited):
-    """A <custom> or <part>, with whatever the enclosing element already set."""
-    got = dict(inherited)
-    for a in ("book", "fromChapter", "fromVerse", "toChapter", "toVerse"):
-        if el.get(a) is not None:
-            got[a] = el.get(a)
-    return got
+def read(el, inherited_book):
+    """The refs of one <custom> or <variant>: its spans.
 
-
-def ref(got):
-    fromCh = int(got["fromChapter"])
-    toCh = int(got.get("toChapter", fromCh))
-    fromV = int(got["fromVerse"])
-    # opentorah omits toVerse for a single verse -- it does not mean
-    # "to the end of the chapter"
-    toV = int(got.get("toVerse", fromV))
-    return OrderedDict(book=book_name(got["book"]), fromCh=fromCh, fromV=fromV, toCh=toCh, toV=toV)
-
-
-def read(el, inherited):
-    """The refs of one <custom>: its parts, or its own span."""
-    got = span(el, inherited)
-    parts = el.findall("part")
-    if parts:
-        return [ref(span(p, got)) for p in parts]
-    return [ref(got)]
+    `book` comes from the span, else the element, else the enclosing
+    <haftarah>; `from`/`to` are the span's own. An omitted `to` is a single
+    verse, not "to the end of the chapter".
+    """
+    return [OrderedDict(book=book_name(r["book"]), fromCh=r["fromCh"],
+                        fromV=r["fromV"], toCh=r["toCh"], toV=r["toV"])
+            for r in ox.spans_of(el, inherited_book)]
 
 
 def annotation(el):
     a = OrderedDict()
-    if el.get("sources"):
-        a["sources"] = [s.strip() for s in el.get("sources").split(",") if s.strip()]
-    if el.get("comment"):
-        a["comment"] = " ".join(el.get("comment").split())
+    note = ox.note_of(el)
+    if note:
+        if note.get("sources"):
+            a["sources"] = note["sources"]
+        if note.get("comment"):
+            a["comment"] = note["comment"]
     return a
 
 
 def parse_haftarah(h):
-    """One <haftarah> → (readings by custom, explicit nones, annotations, variants)."""
-    inherited = {a: h.get(a) for a in
-                 ("book", "fromChapter", "fromVerse", "toChapter", "toVerse")
-                 if h.get(a) is not None}
+    """One <haftarah> → (readings by custom, explicit nones, annotations, variants).
+
+    Every reading is a <custom> now: a bare <haftarah> carrying the span is
+    written as <custom n="Common">. `reads="none"` is what <none> was, and
+    `reads="inherit"` is what <annotation> was -- a custom that reads what its
+    parent reads, with something recorded about why.
+    """
+    inherited_book = h.get("book")
     readings, nones, annotations, variants = {}, set(), OrderedDict(), OrderedDict()
 
-    parts = h.findall("part")
     customs = h.findall("custom")
-    if not customs:
-        # a bare <haftarah>, or one with parts: everyone reads it
-        readings["COMMON"] = ([ref(span(p, inherited)) for p in parts] if parts
-                              else [ref(inherited)])
-
     for c in customs:
         keys = customs_of(c.get("n"))
-        refs = read(c, inherited)
+        reads = ox.reads_of(c)
         a = annotation(c)
-        if c.get("variant"):
-            for k in keys:
+
+        # A <variant> sits inside the custom it qualifies, and its own `n`
+        # narrows it to a subset of that custom's names. It is recorded beside
+        # the reading, never resolved to.
+        for i, v in enumerate(ox.variants_of(c), start=1):
+            v_keys = customs_of(v.get("n")) if v.get("n") else keys
+            v_refs = read(v, ox.book_of(c, inherited_book))
+            v_a = annotation(v)
+            for k in v_keys:
                 variants.setdefault(k, []).append(
-                    OrderedDict([("n", int(c.get("variant"))), ("refs", refs)] + list(a.items())))
+                    OrderedDict([("n", i + 1), ("refs", v_refs)] + list(v_a.items())))
+
+        if reads == "none":
+            for k in keys:
+                nones.add(k)
+                if a:
+                    annotations[k] = a
             continue
+        if reads == "inherit":
+            for k in keys:
+                if not a:
+                    continue
+                if k in annotations:
+                    merged = OrderedDict(annotations[k])
+                    merged["sources"] = sorted(
+                        set(merged.get("sources", [])) | set(a.get("sources", [])))
+                    if a.get("comment"):
+                        merged["comment"] = (merged.get("comment", "") + " "
+                                             + a["comment"]).strip()
+                    annotations[k] = merged
+                else:
+                    annotations[k] = a
+            continue
+
+        refs = read(c, inherited_book)
         for k in keys:
             readings[k] = refs
             if a:
-                annotations[k] = a
-
-    for n in h.findall("none"):
-        for k in customs_of(n.get("n")):
-            nones.add(k)
-            a = annotation(n)
-            if a:
-                annotations[k] = a
-
-    for el in h.findall("annotation"):
-        for k in customs_of(el.get("n")):
-            a = annotation(el)
-            if not a:
-                continue
-            if k in annotations:
-                merged = OrderedDict(annotations[k])
-                merged["sources"] = sorted(set(merged.get("sources", [])) | set(a.get("sources", [])))
-                if a.get("comment"):
-                    merged["comment"] = (merged.get("comment", "") + " " + a["comment"]).strip()
-                annotations[k] = merged
-            else:
                 annotations[k] = a
 
     return readings, nones, annotations, variants
@@ -192,11 +183,10 @@ def main():
     out = OrderedDict()
     for day in root.findall("day"):
         occasion = day.get("n")
-        for r in day.findall("reading"):
-            h = r.find("haftarah")
-            if h is None:
-                continue
-            name = r.get("n")
+        # <haftarah> sits directly under <day> now; what the <reading n="...">
+        # wrapper used to say is spelled out in `when`, `role` and `n`.
+        for h in day.findall("haftarah"):
+            name = ox.legacy_reading_name(h)
             if name not in VARIANT:
                 raise SystemExit(f"unmapped reading name: {occasion}/{name}")
             readings, nones, annotations, variants = parse_haftarah(h)

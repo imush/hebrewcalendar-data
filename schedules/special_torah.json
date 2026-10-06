@@ -491,6 +491,16 @@
      "toV": 3
     }
    ]
+  },
+  "maftir": {
+   "kind": "maftir",
+   "ref": {
+    "book": "Numbers",
+    "fromCh": 29,
+    "fromV": 35,
+    "toCh": 30,
+    "toV": 1
+   }
   }
  },
  "Chanukah": {

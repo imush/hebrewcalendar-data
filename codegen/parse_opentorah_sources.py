@@ -6,6 +6,7 @@ special_haftarot.json name them by key under "sources"; this is what those
 keys mean.
 """
 import json
+import opentorah_xml as ox
 from collections import OrderedDict
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -46,6 +47,13 @@ def main():
         for attr in ("publication", "where", "url"):
             if s.get(attr):
                 entry[attr] = s.get(attr)
+        # Upstream moved provenance that used to be repeated in every reading's
+        # comment ("hamichlol documents the Poznan readings from the community
+        # pinkas") onto the work it is about. Carried here so the readings do
+        # not simply lose it.
+        note = ox.comment_of(s)
+        if note:
+            entry["comment"] = note
         if s.get("combines"):
             entry["combines"] = [c.strip() for c in s.get("combines").split(",") if c.strip()]
         out[key] = entry

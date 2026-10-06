@@ -10,6 +10,7 @@ Common, etc.) so every (parsha, exposed-custom) pair resolves.
 import json
 from pathlib import Path
 from common import book_name
+import opentorah_xml as ox
 from xml.etree import ElementTree as ET
 
 ROOT   = Path(__file__).resolve().parent.parent
@@ -87,47 +88,18 @@ PARSHA_MAP = {
 }
 
 
-def merged(parent_attrs, child_attrs):
-    """Overlay child on parent for the reference attributes."""
-    m = dict(parent_attrs)
-    for k in ("book", "fromChapter", "fromVerse", "toChapter", "toVerse"):
-        if k in child_attrs and child_attrs[k]:
-            m[k] = child_attrs[k]
-    return m
+def parse_custom_element(custom_el, week_book):
+    """The spans a <custom> reads, as references.
 
-
-def _int(v):
-    return None if v is None else int(v)
-
-
-def _finalize(attrs):
-    """attrs → single-part reference (book, fromCh, fromV, toCh, toV).
-
-    toChapter defaults to fromChapter, and a missing toVerse means a SINGLE
-    VERSE, not "read to the end of the chapter". This read it the second way
-    and resolved it through a table of chapter lengths, which made Baladi's
-    Metzora run to II Kings 13:25 instead of stopping at 13:23, and
-    Va'eschanan to Isaiah 41:29 instead of 41:17."""
-    if "book" not in attrs:
-        raise ValueError(f"missing book in {attrs}")
-    from_ch = _int(attrs.get("fromChapter"))
-    from_v  = _int(attrs.get("fromVerse"))
-    to_ch   = _int(attrs.get("toChapter", from_ch))
-    to_v    = _int(attrs.get("toVerse", from_v))
-    return {"book": book_name(attrs["book"]), "fromCh": from_ch, "fromV": from_v,
-            "toCh": to_ch, "toV": to_v}
-
-
-def parse_custom_element(custom_el, week_attrs):
-    """Return list of parts for a <custom> element."""
-    custom_attrs = merged(week_attrs, custom_el.attrib)
-    parts_els = list(custom_el.findall("part"))
-    if not parts_els:
-        return [_finalize(custom_attrs)]
-    result = []
-    for p in sorted(parts_els, key=lambda e: int(e.get("n", "1"))):
-        result.append(_finalize(merged(custom_attrs, p.attrib)))
-    return result
+    `book` comes from the span, else the custom, else the week; `from`/`to`
+    are the span's own and are never inherited. A missing `to` means a SINGLE
+    VERSE, not "read to the end of the chapter" -- read the second way, it
+    ran Baladi's Metzora to II Kings 13:25 instead of 13:23.
+    """
+    refs = ox.spans_of(custom_el, week_book)
+    if not refs:
+        raise ValueError(f"custom {custom_el.get('n')!r} has no spans")
+    return [dict(r, book=book_name(r["book"])) for r in refs]
 
 
 precedence = {}   # parsha key -> customs whose reading comes from this parsha when combined
@@ -136,8 +108,8 @@ notes = {}        # parsha key -> {internal custom -> {"sources": [...], "commen
 
 def _note_of(el):
     """The sources and comment an element carries, or None if it carries none."""
-    srcs = [x.strip() for x in (el.get("sources") or "").split(",") if x.strip()]
-    comment = " ".join((el.get("comment") or "").split())
+    srcs = ox.sources_of(el)
+    comment = ox.comment_of(el)
     if not srcs and not comment:
         return None
     out = {}
@@ -158,8 +130,7 @@ def parse():
         if wname not in PARSHA_MAP:
             continue
         pkey = PARSHA_MAP[wname]
-        week_attrs = {k: v for k, v in week.attrib.items()
-                      if k not in ("n", "sources", "comment", "precedenceWhenCombined")}
+        week_book = week.get("book")
         # Customs for which this parsha's haftarah wins when it is the first of
         # a combined week, instead of the second parsha's as combined weeks
         # otherwise go. Names a custom and everything under it.
@@ -170,48 +141,46 @@ def parse():
                 claimed.extend(_with_descendants(internal))
             # Common is opentorah's abstract root, not a custom anyone reads as
             precedence[pkey] = sorted({_key_of(c) for c in claimed} - {"COMMON"})
-        # A `variant` entry is a reading recorded beside a custom's own, never
+        # A <variant> is a reading recorded beside a custom's own, never
         # resolved to. Taking it would silently overwrite the reading it sits
-        # beside -- which it did, giving Ashkenaz the Vayeilech variant.
-        custom_els = [c for c in week.findall("custom") if c.get("variant") is None]
-        variant_els = [c for c in week.findall("custom") if c.get("variant") is not None]
+        # beside -- which it did, giving Ashkenaz the Vayeilech variant. It is
+        # a child element now, so a custom holding one is still a custom.
+        #
+        # reads="inherit" is what <annotation> used to be: the entry carries
+        # sources and a comment about a custom that reads what its parent does.
+        # reads="none" says this custom reads nothing at all.
+        all_customs = week.findall("custom")
+        custom_els  = [c for c in all_customs if ox.reads_of(c) is None]
+        note_only   = [c for c in all_customs if ox.reads_of(c) == "inherit"]
+        reads_none  = [c for c in all_customs if ox.reads_of(c) == "none"]
         by_custom = {}
         by_custom_note = {}
-        if not custom_els:
-            # Universal — the <week> itself carries all the reference attrs.
-            by_custom["Common"] = [_finalize(week_attrs)]
-            wn = _note_of(week)
-            if wn:
-                by_custom_note["Common"] = (wn, ["Common"])
-        else:
+        if True:
             for c in custom_els:
-                n = c.get("n") or "Common"
                 # Comma-separated only: two customs are spelled with a space,
                 # "Chayey Odom" and "Pure Sephardim", and splitting on spaces
                 # turned each into two names that match nothing -- so they
                 # silently kept their parent's reading.
-                names = [x.strip() for x in n.split(",") if x.strip()]
+                names = ox.custom_names(c)
                 cn = _note_of(c)
                 internals = [_from_xml_name(x) for x in names]
                 for internal in internals:
-                    by_custom[internal] = parse_custom_element(c, week_attrs)
+                    by_custom[internal] = parse_custom_element(c, week_book)
                     if cn:
                         # the note travels with the customs the entry names, so
                         # an heir can be told whose remark it is reading
                         by_custom_note[internal] = (cn, internals)
 
-        # <annotation n="Custom"> hangs a note on one custom, whether or not it
-        # has a reading of its own. Upstream moved the remarks that were about
-        # a single custom out of shared entries and into these, so a parser
-        # that reads only <custom> now sees a note where the prose is not, and
-        # none where it is.
-        for a in week.findall("annotation"):
+        # A reads="inherit" custom hangs a note on one custom without giving it
+        # a reading: it reads what its parent reads, and the entry says why.
+        # This is what <annotation> was before upstream folded it into custom.
+        for a in note_only:
             an = _note_of(a)
             if not an:
                 continue
             # `n` is a list, as it is on <custom>: one note, said of several
             # customs, held once rather than copied per custom.
-            names = [x.strip() for x in (a.get("n") or "Common").split(",") if x.strip()]
+            names = ox.custom_names(a)
             internals = [_from_xml_name(x) for x in names]
             for internal in internals:
                 # An annotation adds to what the reading entry already records,

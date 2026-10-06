@@ -19,6 +19,7 @@ import json
 from collections import OrderedDict
 from pathlib import Path
 from common import book_name
+import opentorah_xml as ox
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -59,23 +60,22 @@ LENGTHS = chapter_lengths()
 
 
 def span_of(el, inherited):
+    """What this element says about its span: `book` may come from above,
+    `from`/`to` are its own and are never inherited."""
     got = dict(inherited)
-    for a in ("book", "fromChapter", "fromVerse", "toChapter", "toVerse"):
+    if el.get("book") is not None:
+        got["book"] = el.get("book")
+    for a in ("from", "to"):
+        got.pop(a, None)
         if el.get(a) is not None:
             got[a] = el.get(a)
     return got
 
 
 def ref(got):
-    from_ch = _int(got["fromChapter"])
-    return OrderedDict(
-        book=book_name(got["book"]),
-        fromCh=from_ch,
-        fromV=_int(got["fromVerse"]),
-        toCh=_int(got.get("toChapter", from_ch)),
-        # an omitted toVerse is a single verse, not the rest of the chapter
-        toV=_int(got.get("toVerse", got["fromVerse"])),
-    )
+    r = ox.span_ref_from(got["from"], got.get("to"))
+    return OrderedDict(book=book_name(got["book"]), fromCh=r[0], fromV=r[1],
+                       toCh=r[2], toV=r[3])
 
 
 def fragments(torah):
@@ -85,20 +85,18 @@ def fragments(torah):
     one starts; the last runs to the end of the enclosing span. An aliyah that
     names no chapter continues in the one before it.
     """
-    whole = {a: torah.get(a) for a in
-             ("book", "fromChapter", "fromVerse", "toChapter", "toVerse")
+    whole = {a: torah.get(a) for a in ("book", "from", "to")
              if torah.get(a) is not None}
+    whole_from = ox.point(whole["from"])
     starts = []
     aliyot = sorted(torah.findall("aliyah"), key=lambda a: int(a.get("n", "1")))
     if not aliyot or int(aliyot[0].get("n", "1")) != 1:
-        starts.append((_int(whole["fromChapter"]), _int(whole["fromVerse"])))
+        starts.append(whole_from)
     for a in aliyot:
-        ch = _int(a.get("fromChapter")) or (starts[-1][0] if starts
-                                            else _int(whole["fromChapter"]))
-        starts.append((ch, _int(a.get("fromVerse"))))
+        starts.append(ox.point(a.get("from")))
 
-    end_ch = _int(whole.get("toChapter", whole["fromChapter"]))
-    end_v = _int(whole.get("toVerse", whole["fromVerse"]))
+    end_ch, end_v = (ox.point(whole["to"], default_verse=whole_from[1])
+                     if whole.get("to") else whole_from)
     out = []
     for i, (ch, v) in enumerate(starts):
         if i + 1 < len(starts):
@@ -126,18 +124,22 @@ def main():
     root = ET.parse(XML).getroot()
     out = OrderedDict()
     n_torah = n_maftir = 0
+    # The <reading n="..."> wrapper is gone: torah/maftir/haftarah now sit
+    # directly under <day>, and what the wrapper's name said is spelled out in
+    # `when`, `role` and `n`. The names themselves are unchanged, so everything
+    # keyed on them downstream is too.
     for day in root.findall("day"):
-        for reading in day.findall("reading"):
-            torah, maftir = reading.find("torah"), reading.find("maftir")
+        for el in day:
             entry = None
-            if torah is not None:
-                entry = OrderedDict(kind="torah", fragments=fragments(torah))
+            if el.tag == "torah":
+                entry = OrderedDict(kind="torah", fragments=fragments(el))
                 n_torah += 1
-            elif maftir is not None:
-                entry = OrderedDict(kind="maftir", ref=ref(span_of(maftir, {})))
+            elif el.tag == "maftir":
+                entry = OrderedDict(kind="maftir", ref=ref(span_of(el, {})))
                 n_maftir += 1
             if entry is not None:
-                out.setdefault(day.get("n"), OrderedDict())[reading.get("n")] = entry
+                name = ox.legacy_reading_name(el)
+                out.setdefault(day.get("n"), OrderedDict())[name] = entry
 
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n",
                    encoding="utf-8")
